@@ -7,6 +7,6 @@ const browser = await puppeteer.launch({
     defaultViewport: null,
 });
 //runs the imported function and inputs the browser and the hardcoded item name
-const iteminfo = await getItemByName("assault-rifle", browser)
+const iteminfo = await getItemByName("high-external-stone-gate", browser)
 console.log(JSON.stringify(iteminfo))
 browser.close()
