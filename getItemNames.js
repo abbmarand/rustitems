@@ -1,8 +1,9 @@
 function parseItemString (str) {
     const lowerstr = str.toLowerCase()
-    const replaced = lowerstr.replace(/\s/g, '-')
+    const replaced = lowerstr.replace(/\s+/g, '-')
     return replaced
 }
+
 
 async function ScrapeItems (page) {
     const itemarr = await page.$$('span.r-cell')
