@@ -2475,6 +2475,9 @@
         "iteminfo": {}
     },
     {
+        "itemname": "barbeque"
+    },
+    {
         "itemname": "bed",
         "iteminfo": {
             "yield": 1,
@@ -2513,6 +2516,9 @@
                 }
             ]
         }
+    },
+    {
+        "itemname": "camp-fire"
     },
     {
         "itemname": "carvable-pumpkin",
@@ -2795,6 +2801,9 @@
         }
     },
     {
+        "itemname": "furnace"
+    },
+    {
         "itemname": "hitch-&-trough",
         "iteminfo": {
             "yield": 1,
@@ -2813,6 +2822,9 @@
                 }
             ]
         }
+    },
+    {
+        "itemname": "hobo-barrel"
     },
     {
         "itemname": "huge-wooden-sign",
@@ -3775,6 +3787,9 @@
         }
     },
     {
+        "itemname": "skull-fire-pit"
+    },
+    {
         "itemname": "sleeping-bag",
         "iteminfo": {
             "yield": 1,
@@ -4037,6 +4052,9 @@
                 }
             ]
         }
+    },
+    {
+        "itemname": "stone-fireplace"
     },
     {
         "itemname": "survival-fish-trap",
@@ -5079,8 +5097,14 @@
         "iteminfo": {}
     },
     {
+        "itemname": "bandana-mask"
+    },
+    {
         "itemname": "bandit-guard-gear",
         "iteminfo": {}
+    },
+    {
+        "itemname": "baseball-cap"
     },
     {
         "itemname": "basic-horse-shoes",
@@ -5199,6 +5223,9 @@
         }
     },
     {
+        "itemname": "boonie-hat"
+    },
+    {
         "itemname": "boots",
         "iteminfo": {
             "yield": 1,
@@ -5245,6 +5272,9 @@
     {
         "itemname": "bunny-ears",
         "iteminfo": {}
+    },
+    {
+        "itemname": "bunny-hat"
     },
     {
         "itemname": "bunny-onesie",
@@ -5391,6 +5421,9 @@
         "iteminfo": {}
     },
     {
+        "itemname": "clatter-helmet"
+    },
+    {
         "itemname": "coffee-can-helmet",
         "iteminfo": {
             "yield": 1,
@@ -5431,6 +5464,9 @@
         "iteminfo": {}
     },
     {
+        "itemname": "dragon-mask"
+    },
+    {
         "itemname": "egg-suit",
         "iteminfo": {
             "yield": 1,
@@ -5449,6 +5485,9 @@
                 }
             ]
         }
+    },
+    {
+        "itemname": "frog-boots"
     },
     {
         "itemname": "gas-mask",
@@ -5485,6 +5524,9 @@
                 }
             ]
         }
+    },
+    {
+        "itemname": "headset"
     },
     {
         "itemname": "heavy-frankenstein-head",
@@ -5883,8 +5925,14 @@
         }
     },
     {
+        "itemname": "movember-moustache"
+    },
+    {
         "itemname": "mummy-suit",
         "iteminfo": {}
+    },
+    {
+        "itemname": "nest-hat"
     },
     {
         "itemname": "night-vision-goggles",
@@ -5927,6 +5975,9 @@
         }
     },
     {
+        "itemname": "ox-mask"
+    },
+    {
         "itemname": "pants",
         "iteminfo": {
             "yield": 1,
@@ -5965,6 +6016,12 @@
                 }
             ]
         }
+    },
+    {
+        "itemname": "rabbit-mask"
+    },
+    {
+        "itemname": "rat-mask"
     },
     {
         "itemname": "reindeer-antlers",
@@ -6083,6 +6140,9 @@
         }
     },
     {
+        "itemname": "santa-beard"
+    },
+    {
         "itemname": "santa-hat",
         "iteminfo": {}
     },
@@ -6171,6 +6231,9 @@
         }
     },
     {
+        "itemname": "snowman-helmet"
+    },
+    {
         "itemname": "sunglasses",
         "iteminfo": {
             "yield": 1,
@@ -6233,6 +6296,9 @@
                 }
             ]
         }
+    },
+    {
+        "itemname": "tiger-mask"
     },
     {
         "itemname": "wetsuit",
@@ -9598,6 +9664,9 @@
     {
         "itemname": "coffin",
         "iteminfo": {}
+    },
+    {
+        "itemname": "cursed-cauldron"
     },
     {
         "itemname": "decorative-baubels",

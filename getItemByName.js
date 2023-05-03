@@ -50,17 +50,22 @@ async function scrapeCraftCost(page) {
 //then it opens a new page corrosponding to the item and scrapes the cost for that item
 async function getItemByName(name, browser) {
     const page = await browser.newPage();
-    await page.goto(`https://rustlabs.com/item/${name}`, {
-        waitUntil: "domcontentloaded",
-    });
-    let cost
-    const scrapeble = await checkIfCrafteble(page)
-    if (scrapeble) {
-        cost = await scrapeCraftCost(page)
-    } else {
-        cost = {}
+    try {
+        await page.goto(`https://rustlabs.com/item/${name}`, {
+            waitUntil: "domcontentloaded",
+        });
+        let cost
+        const scrapeble = await checkIfCrafteble(page)
+        if (scrapeble) {
+            cost = await scrapeCraftCost(page)
+        } else {
+            cost = {}
+        }
+        page.close()
+        return cost
+    } catch (error) {
+        console.log(`failed to scrape data of ${name} (${error})`)
+        page.close()
     }
-    page.close()
-    return cost
 }
 export { getItemByName }
