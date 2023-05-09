@@ -87,322 +87,6 @@
                 {
                     "type": "Bone Fragments",
                     "amount": 20
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 10
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Cactus Flesh",
-                    "amount": 4
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Cactus Flesh",
-                    "amount": 4
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Cactus Flesh",
-                    "amount": 4
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 9
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 0
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 0
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 9
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 9
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 0
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 0
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 9
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 9
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 0
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 0
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 9
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 9
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 0
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 0
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 9
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 9
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 0
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 0
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 9
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 9
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 0
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 0
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 9
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 9
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 0
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 0
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 9
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 9
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 0
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 0
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 9
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 0
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 0
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 0
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 0
-                },
-                {
-                    "type": "Wood",
-                    "amount": 59
-                },
-                {
-                    "type": "Raw Chicken Breast",
-                    "amount": 1
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 6
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 20
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 5
-                },
-                {
-                    "type": "Raw Pork",
-                    "amount": 4
-                },
-                {
-                    "type": "Leather",
-                    "amount": 10
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 25
-                },
-                {
-                    "type": "Raw Horse Meat",
-                    "amount": 3
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 5
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 13
-                },
-                {
-                    "type": "Leather",
-                    "amount": 25
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 25
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 20
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 10
-                },
-                {
-                    "type": "Raw Fish",
-                    "amount": 9
-                },
-                {
-                    "type": "Leather",
-                    "amount": 20
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 25
-                },
-                {
-                    "type": "Raw Bear Meat",
-                    "amount": 11
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 60
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 25
-                },
-                {
-                    "type": "Leather",
-                    "amount": 63
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 85
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 5
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 13
-                },
-                {
-                    "type": "Leather",
-                    "amount": 25
-                },
-                {
-                    "type": "Raw Deer Meat",
-                    "amount": 2
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 25
-                },
-                {
-                    "type": "Raw Bear Meat",
-                    "amount": 10
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 50
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 25
-                },
-                {
-                    "type": "Leather",
-                    "amount": 50
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 75
-                },
-                {
-                    "type": "Wood",
-                    "amount": 118
                 }
             ]
         }
@@ -415,14 +99,6 @@
                 {
                     "type": "Bone Fragments",
                     "amount": 30
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 6
                 }
             ]
         }
@@ -474,14 +150,6 @@
             "recepie": [
                 {
                     "type": "Wood",
-                    "amount": 2
-                },
-                {
-                    "type": "Wooden Arrow",
-                    "amount": 15
-                },
-                {
-                    "type": "Wood",
                     "amount": 200
                 },
                 {
@@ -517,10 +185,6 @@
             "yield": 1,
             "recepie": [
                 {
-                    "type": "Scrap",
-                    "amount": 250
-                },
-                {
                     "type": "Metal Fragments",
                     "amount": 175
                 },
@@ -543,26 +207,6 @@
                 {
                     "type": "Metal Fragments",
                     "amount": 30
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Wood",
-                    "amount": 15
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 6
-                },
-                {
-                    "type": "Wood",
-                    "amount": 38
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 15
                 }
             ]
         }
@@ -584,10 +228,6 @@
         "iteminfo": {
             "yield": 1,
             "recepie": [
-                {
-                    "type": "Scrap",
-                    "amount": 8
-                },
                 {
                     "type": "Gun Powder",
                     "amount": 30
@@ -691,26 +331,6 @@
                 {
                     "type": "Cloth",
                     "amount": 50
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Wood",
-                    "amount": 40
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 10
-                },
-                {
-                    "type": "Wood",
-                    "amount": 100
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 25
                 }
             ]
         }
@@ -799,430 +419,6 @@
                 {
                     "type": "Metal Fragments",
                     "amount": 40
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Wood",
-                    "amount": 20
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 8
-                },
-                {
-                    "type": "Wood",
-                    "amount": 50
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 20
-                },
-                {
-                    "type": "Raw Chicken Breast",
-                    "amount": 1
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 6
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 12
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 5
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 30
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 34
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 17
-                },
-                {
-                    "type": "Raw Fish",
-                    "amount": 15
-                },
-                {
-                    "type": "Leather",
-                    "amount": 34
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 42
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 5
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 30
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 5
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 30
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 5
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 30
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 5
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 30
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 5
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 30
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 5
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 30
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 5
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 30
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 5
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 30
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 5
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 30
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 5
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 30
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 34
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 9
-                },
-                {
-                    "type": "Raw Pork",
-                    "amount": 7
-                },
-                {
-                    "type": "Leather",
-                    "amount": 17
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 43
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 5
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 30
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 5
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 30
-                },
-                {
-                    "type": "Raw Bear Meat",
-                    "amount": 19
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 101
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 42
-                },
-                {
-                    "type": "Leather",
-                    "amount": 106
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 143
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 9
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 30
-                },
-                {
-                    "type": "Raw Wolf Meat",
-                    "amount": 5
-                },
-                {
-                    "type": "Leather",
-                    "amount": 63
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 34
-                },
-                {
-                    "type": "Wolf Skull",
-                    "amount": 3
-                },
-                {
-                    "type": "Raw Horse Meat",
-                    "amount": 5
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 9
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 22
-                },
-                {
-                    "type": "Leather",
-                    "amount": 44
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 44
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 9
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 22
-                },
-                {
-                    "type": "Leather",
-                    "amount": 44
-                },
-                {
-                    "type": "Raw Deer Meat",
-                    "amount": 4
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 44
-                },
-                {
-                    "type": "Raw Bear Meat",
-                    "amount": 16
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 84
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 42
-                },
-                {
-                    "type": "Leather",
-                    "amount": 84
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 126
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 5
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 1
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 10
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 5
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 1
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 10
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 5
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 1
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 10
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 5
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 1
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 10
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 5
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 1
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 10
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 5
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 1
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 10
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 5
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 1
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 10
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 5
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 1
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 10
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 5
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 1
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 10
                 }
             ]
         }
@@ -1293,54 +489,6 @@
             "yield": 1,
             "recepie": [
                 {
-                    "type": "Scrap",
-                    "amount": 25
-                },
-                {
-                    "type": "Anchovy",
-                    "amount": 1
-                },
-                {
-                    "type": "Catfish",
-                    "amount": 1
-                },
-                {
-                    "type": "Herring",
-                    "amount": 1
-                },
-                {
-                    "type": "Minnows",
-                    "amount": 1
-                },
-                {
-                    "type": "Orange Roughy",
-                    "amount": 1
-                },
-                {
-                    "type": "Salmon",
-                    "amount": 1
-                },
-                {
-                    "type": "Sardine",
-                    "amount": 1
-                },
-                {
-                    "type": "Small Shark",
-                    "amount": 1
-                },
-                {
-                    "type": "Small Trout",
-                    "amount": 1
-                },
-                {
-                    "type": "Yellow Perch",
-                    "amount": 1
-                },
-                {
-                    "type": "Kayak",
-                    "amount": 1
-                },
-                {
                     "type": "Metal Fragments",
                     "amount": 15
                 },
@@ -1351,14 +499,6 @@
                 {
                     "type": "Wood",
                     "amount": 200
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 30
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
                 }
             ]
         }
@@ -1376,10 +516,6 @@
         "iteminfo": {
             "yield": 1,
             "recepie": [
-                {
-                    "type": "12 Gauge Buckshot",
-                    "amount": 12
-                },
                 {
                     "type": "High Quality Metal",
                     "amount": 15
@@ -1420,10 +556,6 @@
         "iteminfo": {
             "yield": 1,
             "recepie": [
-                {
-                    "type": "Scrap",
-                    "amount": 200
-                },
                 {
                     "type": "Metal Pipe",
                     "amount": 1
@@ -1595,22 +727,6 @@
                 {
                     "type": "Stones",
                     "amount": 20
-                },
-                {
-                    "type": "Wood",
-                    "amount": 300
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Wooden Spear",
-                    "amount": 1
-                },
-                {
-                    "type": "Stones",
-                    "amount": 4
                 }
             ]
         }
@@ -1715,14 +831,6 @@
                 {
                     "type": "Wood",
                     "amount": 300
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Wood",
-                    "amount": 60
                 }
             ]
         }
@@ -1783,14 +891,6 @@
                 {
                     "type": "Wood",
                     "amount": 20
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Wood",
-                    "amount": 10
                 }
             ]
         }
@@ -1827,14 +927,6 @@
                 {
                     "type": "Metal Fragments",
                     "amount": 100
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 50
                 }
             ]
         }
@@ -1963,14 +1055,6 @@
                 {
                     "type": "Wood",
                     "amount": 75
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Wood",
-                    "amount": 38
                 }
             ]
         }
@@ -2154,14 +1238,6 @@
                 {
                     "type": "Metal Fragments",
                     "amount": 150
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 75
                 }
             ]
         }
@@ -2222,30 +1298,6 @@
                 {
                     "type": "Stones",
                     "amount": 100
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
-                    "type": "Salvaged Hammer Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Hatchet Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Wooden Barricade Cover Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
-                    "type": "Stones",
-                    "amount": 50
                 }
             ]
         }
@@ -2270,14 +1322,6 @@
                 {
                     "type": "Wood",
                     "amount": 1
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Wood",
-                    "amount": 500
                 }
             ]
         }
@@ -2322,14 +1366,6 @@
                 {
                     "type": "Wood",
                     "amount": 350
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Wood",
-                    "amount": 175
                 }
             ]
         }
@@ -2342,42 +1378,6 @@
                 {
                     "type": "Wood",
                     "amount": 200
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
-                    "type": "Salvaged Hammer Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Hatchet Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Wooden Ladder Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Wooden Barricade Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Barbed Wooden Barricade Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Wooden Floor Spikes Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
-                    "type": "Wood",
-                    "amount": 100
                 }
             ]
         }
@@ -2402,26 +1402,6 @@
                 {
                     "type": "Wood",
                     "amount": 250
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
-                    "type": "Salvaged Hammer Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Hatchet Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
-                    "type": "Wood",
-                    "amount": 125
                 }
             ]
         }
@@ -2458,14 +1438,6 @@
                 {
                     "type": "Wood",
                     "amount": 50
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Wood",
-                    "amount": 25
                 }
             ]
         }
@@ -2475,7 +1447,20 @@
         "iteminfo": {}
     },
     {
-        "itemname": "barbeque"
+        "itemname": "barbeque",
+        "iteminfo": {
+            "yield": 1,
+            "recepie": [
+                {
+                    "type": "Metal Fragments",
+                    "amount": 40
+                },
+                {
+                    "type": "Wood",
+                    "amount": 100
+                }
+            ]
+        }
     },
     {
         "itemname": "bed",
@@ -2505,20 +1490,21 @@
                 {
                     "type": "Cloth",
                     "amount": 10
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 5
                 }
             ]
         }
     },
     {
-        "itemname": "camp-fire"
+        "itemname": "camp-fire",
+        "iteminfo": {
+            "yield": 1,
+            "recepie": [
+                {
+                    "type": "Wood",
+                    "amount": 100
+                }
+            ]
+        }
     },
     {
         "itemname": "carvable-pumpkin",
@@ -2560,14 +1546,6 @@
                 {
                     "type": "Low Grade Fuel",
                     "amount": 5
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 3
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 1
                 }
             ]
         }
@@ -2612,22 +1590,6 @@
                 {
                     "type": "Low Grade Fuel",
                     "amount": 20
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 3
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 1
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 13
-                },
-                {
-                    "type": "Low Grade Fuel",
-                    "amount": 10
                 }
             ]
         }
@@ -2642,36 +1604,12 @@
             "yield": 1,
             "recepie": [
                 {
-                    "type": "Scrap",
-                    "amount": 30
-                },
-                {
                     "type": "Tarp",
                     "amount": 2
                 },
                 {
                     "type": "Wood",
                     "amount": 200
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Tarp",
-                    "amount": 5
-                },
-                {
-                    "type": "Wood",
-                    "amount": 96
-                },
-                {
-                    "type": "Tarp",
-                    "amount": 5
-                },
-                {
-                    "type": "Wood",
-                    "amount": 96
                 }
             ]
         }
@@ -2725,10 +1663,6 @@
         "iteminfo": {
             "yield": 1,
             "recepie": [
-                {
-                    "type": "Scrap",
-                    "amount": 40
-                },
                 {
                     "type": "Metal Fragments",
                     "amount": 200
@@ -2801,7 +1735,24 @@
         }
     },
     {
-        "itemname": "furnace"
+        "itemname": "furnace",
+        "iteminfo": {
+            "yield": 1,
+            "recepie": [
+                {
+                    "type": "Stones",
+                    "amount": 200
+                },
+                {
+                    "type": "Wood",
+                    "amount": 100
+                },
+                {
+                    "type": "Low Grade Fuel",
+                    "amount": 50
+                }
+            ]
+        }
     },
     {
         "itemname": "hitch-&-trough",
@@ -2811,20 +1762,21 @@
                 {
                     "type": "Wood",
                     "amount": 200
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
+                }
+            ]
+        }
+    },
+    {
+        "itemname": "hobo-barrel",
+        "iteminfo": {
+            "yield": 1,
+            "recepie": [
                 {
                     "type": "Wood",
                     "amount": 100
                 }
             ]
         }
-    },
-    {
-        "itemname": "hobo-barrel"
     },
     {
         "itemname": "huge-wooden-sign",
@@ -2834,42 +1786,6 @@
                 {
                     "type": "Wood",
                     "amount": 250
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 75
-                },
-                {
-                    "type": "Salvaged Hammer Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Hatchet Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Tuna Can Lamp Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Rug Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Large Wooden Sign Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Rug Bear Skin Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 75
-                },
-                {
-                    "type": "Wood",
-                    "amount": 125
                 }
             ]
         }
@@ -2903,54 +1819,6 @@
         "iteminfo": {
             "yield": 1,
             "recepie": [
-                {
-                    "type": "Scrap",
-                    "amount": 50
-                },
-                {
-                    "type": "Anchovy",
-                    "amount": 1
-                },
-                {
-                    "type": "Catfish",
-                    "amount": 1
-                },
-                {
-                    "type": "Herring",
-                    "amount": 1
-                },
-                {
-                    "type": "Minnows",
-                    "amount": 1
-                },
-                {
-                    "type": "Orange Roughy",
-                    "amount": 1
-                },
-                {
-                    "type": "Salmon",
-                    "amount": 1
-                },
-                {
-                    "type": "Sardine",
-                    "amount": 1
-                },
-                {
-                    "type": "Small Shark",
-                    "amount": 1
-                },
-                {
-                    "type": "Small Trout",
-                    "amount": 1
-                },
-                {
-                    "type": "Yellow Perch",
-                    "amount": 1
-                },
-                {
-                    "type": "Paddle",
-                    "amount": 1
-                },
                 {
                     "type": "Metal Fragments",
                     "amount": 75
@@ -2990,30 +1858,6 @@
                 {
                     "type": "Cloth",
                     "amount": 10
-                },
-                {
-                    "type": "Wood",
-                    "amount": 49
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 6
-                },
-                {
-                    "type": "Wood",
-                    "amount": 49
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 6
-                },
-                {
-                    "type": "Wood",
-                    "amount": 50
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 5
                 }
             ]
         }
@@ -3030,42 +1874,6 @@
                 {
                     "type": "Low Grade Fuel",
                     "amount": 15
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 3
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 1
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 12
-                },
-                {
-                    "type": "Low Grade Fuel",
-                    "amount": 7
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 12
-                },
-                {
-                    "type": "Low Grade Fuel",
-                    "amount": 7
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 13
-                },
-                {
-                    "type": "Low Grade Fuel",
-                    "amount": 8
                 }
             ]
         }
@@ -3082,30 +1890,6 @@
                 {
                     "type": "Metal Fragments",
                     "amount": 100
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 11
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 49
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 11
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 49
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 10
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 50
                 }
             ]
         }
@@ -3126,42 +1910,6 @@
                 {
                     "type": "Cloth",
                     "amount": 20
-                },
-                {
-                    "type": "Wood",
-                    "amount": 47
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 26
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 10
-                },
-                {
-                    "type": "Wood",
-                    "amount": 47
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 26
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 10
-                },
-                {
-                    "type": "Wood",
-                    "amount": 50
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 25
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 10
                 }
             ]
         }
@@ -3171,10 +1919,6 @@
         "iteminfo": {
             "yield": 1,
             "recepie": [
-                {
-                    "type": "Scrap",
-                    "amount": 350
-                },
                 {
                     "type": "Stones",
                     "amount": 500
@@ -3208,56 +1952,12 @@
             "yield": 1,
             "recepie": [
                 {
-                    "type": "Scrap",
-                    "amount": 30
-                },
-                {
                     "type": "Wood",
                     "amount": 200
                 },
                 {
                     "type": "Tarp",
                     "amount": 2
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
-                    "type": "Water Bucket Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Water Barrel Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
-                    "type": "Wood",
-                    "amount": 98
-                },
-                {
-                    "type": "Tarp",
-                    "amount": 3
-                },
-                {
-                    "type": "Wood",
-                    "amount": 98
-                },
-                {
-                    "type": "Tarp",
-                    "amount": 3
-                },
-                {
-                    "type": "Wood",
-                    "amount": 100
-                },
-                {
-                    "type": "Tarp",
-                    "amount": 1
                 }
             ]
         }
@@ -3274,42 +1974,6 @@
                 {
                     "type": "Metal Fragments",
                     "amount": 50
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Wood",
-                    "amount": 122
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 28
-                },
-                {
-                    "type": "Wood",
-                    "amount": 122
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 28
-                },
-                {
-                    "type": "Wood",
-                    "amount": 50
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 10
-                },
-                {
-                    "type": "Wood",
-                    "amount": 125
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 25
                 }
             ]
         }
@@ -3322,34 +1986,6 @@
                 {
                     "type": "Wood",
                     "amount": 150
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 75
-                },
-                {
-                    "type": "Salvaged Hammer Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Hatchet Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Tuna Can Lamp Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Rug Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 75
-                },
-                {
-                    "type": "Wood",
-                    "amount": 75
                 }
             ]
         }
@@ -3359,10 +1995,6 @@
         "iteminfo": {
             "yield": 1,
             "recepie": [
-                {
-                    "type": "Scrap",
-                    "amount": 40
-                },
                 {
                     "type": "Metal Fragments",
                     "amount": 100
@@ -3386,46 +2018,6 @@
                 {
                     "type": "Metal Fragments",
                     "amount": 25
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
-                    "type": "Water Bucket Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Fridge Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
-                    "type": "Wood",
-                    "amount": 47
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 15
-                },
-                {
-                    "type": "Wood",
-                    "amount": 47
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 15
-                },
-                {
-                    "type": "Wood",
-                    "amount": 50
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 13
                 }
             ]
         }
@@ -3438,14 +2030,6 @@
                 {
                     "type": "Wood",
                     "amount": 100
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Wood",
-                    "amount": 50
                 }
             ]
         }
@@ -3455,10 +2039,6 @@
         "iteminfo": {
             "yield": 1,
             "recepie": [
-                {
-                    "type": "Scrap",
-                    "amount": 175
-                },
                 {
                     "type": "Metal Fragments",
                     "amount": 200
@@ -3514,30 +2094,6 @@
                 {
                     "type": "Cloth",
                     "amount": 10
-                },
-                {
-                    "type": "Wood",
-                    "amount": 49
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 6
-                },
-                {
-                    "type": "Wood",
-                    "amount": 49
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 6
-                },
-                {
-                    "type": "Wood",
-                    "amount": 50
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 5
                 }
             ]
         }
@@ -3578,30 +2134,6 @@
                 {
                     "type": "Cloth",
                     "amount": 25
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
-                    "type": "Salvaged Hammer Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Hatchet Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Tuna Can Lamp Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 12
                 }
             ]
         }
@@ -3614,38 +2146,6 @@
                 {
                     "type": "Leather",
                     "amount": 20
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
-                    "type": "Salvaged Hammer Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Hatchet Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Tuna Can Lamp Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Rug Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Large Wooden Sign Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
-                    "type": "Leather",
-                    "amount": 10
                 }
             ]
         }
@@ -3660,40 +2160,8 @@
             "yield": 1,
             "recepie": [
                 {
-                    "type": "Scrap",
-                    "amount": 25
-                },
-                {
                     "type": "Metal Fragments",
                     "amount": 50
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 75
-                },
-                {
-                    "type": "Water Bucket Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Fridge Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Mail Box Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Chair Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 75
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 25
                 }
             ]
         }
@@ -3710,38 +2178,6 @@
                 {
                     "type": "Cloth",
                     "amount": 10
-                },
-                {
-                    "type": "Wood",
-                    "amount": 96
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 9
-                },
-                {
-                    "type": "Wood",
-                    "amount": 96
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 9
-                },
-                {
-                    "type": "Wood",
-                    "amount": 40
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 2
-                },
-                {
-                    "type": "Wood",
-                    "amount": 100
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 5
                 }
             ]
         }
@@ -3787,7 +2223,20 @@
         }
     },
     {
-        "itemname": "skull-fire-pit"
+        "itemname": "skull-fire-pit",
+        "iteminfo": {
+            "yield": 1,
+            "recepie": [
+                {
+                    "type": "Wood",
+                    "amount": 100
+                },
+                {
+                    "type": "Human Skull",
+                    "amount": 1
+                }
+            ]
+        }
     },
     {
         "itemname": "sleeping-bag",
@@ -3797,14 +2246,6 @@
                 {
                     "type": "Cloth",
                     "amount": 30
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 15
                 }
             ]
         }
@@ -3814,10 +2255,6 @@
         "iteminfo": {
             "yield": 1,
             "recepie": [
-                {
-                    "type": "Scrap",
-                    "amount": 125
-                },
                 {
                     "type": "Wood",
                     "amount": 200
@@ -3845,10 +2282,6 @@
                 {
                     "type": "Tarp",
                     "amount": 1
-                },
-                {
-                    "type": "Wood",
-                    "amount": 50
                 }
             ]
         }
@@ -3877,14 +2310,6 @@
                 {
                     "type": "Wood",
                     "amount": 75
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Wood",
-                    "amount": 37
                 }
             ]
         }
@@ -3905,54 +2330,6 @@
                 {
                     "type": "Metal Fragments",
                     "amount": 20
-                },
-                {
-                    "type": "Charcoal",
-                    "amount": 24
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 10
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 10
-                },
-                {
-                    "type": "Charcoal",
-                    "amount": 24
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 10
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 10
-                },
-                {
-                    "type": "Charcoal",
-                    "amount": 10
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 4
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 4
-                },
-                {
-                    "type": "Charcoal",
-                    "amount": 25
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 10
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 10
                 }
             ]
         }
@@ -3969,30 +2346,6 @@
                 {
                     "type": "Cloth",
                     "amount": 30
-                },
-                {
-                    "type": "Wood",
-                    "amount": 50
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 15
-                },
-                {
-                    "type": "Wood",
-                    "amount": 50
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 15
-                },
-                {
-                    "type": "Wood",
-                    "amount": 50
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 15
                 }
             ]
         }
@@ -4009,52 +2362,25 @@
                 {
                     "type": "Metal Fragments",
                     "amount": 150
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
-                    "type": "Salvaged Hammer Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Hatchet Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Tuna Can Lamp Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Rug Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Large Wooden Sign Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Rug Bear Skin Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Huge Wooden Sign Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 75
                 }
             ]
         }
     },
     {
-        "itemname": "stone-fireplace"
+        "itemname": "stone-fireplace",
+        "iteminfo": {
+            "yield": 1,
+            "recepie": [
+                {
+                    "type": "Stones",
+                    "amount": 500
+                },
+                {
+                    "type": "Wood",
+                    "amount": 200
+                }
+            ]
+        }
     },
     {
         "itemname": "survival-fish-trap",
@@ -4068,34 +2394,6 @@
                 {
                     "type": "Cloth",
                     "amount": 5
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Wood",
-                    "amount": 99
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Wood",
-                    "amount": 99
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Wood",
-                    "amount": 100
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
                 }
             ]
         }
@@ -4108,34 +2406,6 @@
                 {
                     "type": "Wood",
                     "amount": 100
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
-                    "type": "Water Bucket Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Fridge Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Mail Box Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Chair Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
-                    "type": "Wood",
-                    "amount": 50
                 }
             ]
         }
@@ -4152,30 +2422,6 @@
                 {
                     "type": "Cloth",
                     "amount": 10
-                },
-                {
-                    "type": "Wood",
-                    "amount": 73
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 7
-                },
-                {
-                    "type": "Wood",
-                    "amount": 73
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 7
-                },
-                {
-                    "type": "Wood",
-                    "amount": 75
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 5
                 }
             ]
         }
@@ -4185,10 +2431,6 @@
         "iteminfo": {
             "yield": 1,
             "recepie": [
-                {
-                    "type": "Scrap",
-                    "amount": 5
-                },
                 {
                     "type": "Empty Tuna Can",
                     "amount": 1
@@ -4208,50 +2450,6 @@
                 {
                     "type": "Cloth",
                     "amount": 1
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
-                    "type": "Salvaged Hammer Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Hatchet Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
-                    "type": "Wood",
-                    "amount": 10
-                },
-                {
-                    "type": "Low Grade Fuel",
-                    "amount": 5
-                },
-                {
-                    "type": "Wood",
-                    "amount": 10
-                },
-                {
-                    "type": "Low Grade Fuel",
-                    "amount": 5
-                },
-                {
-                    "type": "Wood",
-                    "amount": 10
-                },
-                {
-                    "type": "Low Grade Fuel",
-                    "amount": 5
-                },
-                {
-                    "type": "Empty Tuna Can",
-                    "amount": 0
                 }
             ]
         }
@@ -4304,30 +2502,6 @@
                 {
                     "type": "Metal Fragments",
                     "amount": 50
-                },
-                {
-                    "type": "Wood",
-                    "amount": 50
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 25
-                },
-                {
-                    "type": "Wood",
-                    "amount": 50
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 25
-                },
-                {
-                    "type": "Wood",
-                    "amount": 50
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 25
                 }
             ]
         }
@@ -4354,32 +2528,12 @@
             "yield": 1,
             "recepie": [
                 {
-                    "type": "Scrap",
-                    "amount": 30
-                },
-                {
                     "type": "Wood",
                     "amount": 250
                 },
                 {
                     "type": "Tarp",
                     "amount": 1
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
-                    "type": "Water Bucket Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
-                    "type": "Wood",
-                    "amount": 125
                 }
             ]
         }
@@ -4400,14 +2554,6 @@
                 {
                     "type": "Cloth",
                     "amount": 10
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 100
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
                 }
             ]
         }
@@ -4420,14 +2566,6 @@
                 {
                     "type": "Wood",
                     "amount": 100
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Wood",
-                    "amount": 50
                 }
             ]
         }
@@ -4448,54 +2586,6 @@
                 {
                     "type": "Scrap",
                     "amount": 50
-                },
-                {
-                    "type": "Wood",
-                    "amount": 244
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 53
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 28
-                },
-                {
-                    "type": "Wood",
-                    "amount": 244
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 53
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 28
-                },
-                {
-                    "type": "Wood",
-                    "amount": 100
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 20
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Wood",
-                    "amount": 250
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 50
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 75
                 }
             ]
         }
@@ -4552,30 +2642,6 @@
                 {
                     "type": "Cloth",
                     "amount": 15
-                },
-                {
-                    "type": "Wood",
-                    "amount": 71
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 11
-                },
-                {
-                    "type": "Wood",
-                    "amount": 71
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 11
-                },
-                {
-                    "type": "Wood",
-                    "amount": 75
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 8
                 }
             ]
         }
@@ -4592,30 +2658,6 @@
                 {
                     "type": "Cloth",
                     "amount": 30
-                },
-                {
-                    "type": "Wood",
-                    "amount": 85
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 18
-                },
-                {
-                    "type": "Wood",
-                    "amount": 85
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 18
-                },
-                {
-                    "type": "Wood",
-                    "amount": 88
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 15
                 }
             ]
         }
@@ -4630,6 +2672,10 @@
     },
     {
         "itemname": "blue-dog-tags",
+        "iteminfo": {}
+    },
+    {
+        "itemname": "blue-id-tag",
         "iteminfo": {}
     },
     {
@@ -4701,19 +2747,18 @@
         "iteminfo": {}
     },
     {
+        "itemname": "gray-id-tag",
+        "iteminfo": {}
+    },
+    {
+        "itemname": "green-id-tag",
+        "iteminfo": {}
+    },
+    {
         "itemname": "gun-powder",
         "iteminfo": {
             "yield": 10,
-            "recepie": [
-                {
-                    "type": "Charcoal",
-                    "amount": 30
-                },
-                {
-                    "type": "Sulfur",
-                    "amount": 20
-                }
-            ]
+            "recepie": []
         }
     },
     {
@@ -4742,284 +2787,12 @@
             "yield": 4,
             "recepie": [
                 {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Diesel Fuel",
-                    "amount": 1
-                },
-                {
                     "type": "Animal Fat",
                     "amount": 3
                 },
                 {
                     "type": "Cloth",
                     "amount": 1
-                },
-                {
-                    "type": "Gun Powder",
-                    "amount": 50
-                },
-                {
-                    "type": "Sulfur",
-                    "amount": 10
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 10
-                },
-                {
-                    "type": "Sulfur",
-                    "amount": 110
-                },
-                {
-                    "type": "Charcoal",
-                    "amount": 100
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 0
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 2
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 10
-                },
-                {
-                    "type": "Mixing Table",
-                    "amount": 1
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 1
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 3
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 1
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 3
-                },
-                {
-                    "type": "Mixing Table",
-                    "amount": 1
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Diesel Fuel",
-                    "amount": 1
-                },
-                {
-                    "type": "Crude Oil",
-                    "amount": 1
-                },
-                {
-                    "type": "Wood",
-                    "amount": 2
-                },
-                {
-                    "type": "fuel",
-                    "amount": 8
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 3
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 25
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 30
-                },
-                {
-                    "type": "Gun Powder",
-                    "amount": 25
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 15
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 30
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 75
-                },
-                {
-                    "type": "Gun Powder",
-                    "amount": 25
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 25
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 50
-                },
-                {
-                    "type": "Gun Powder",
-                    "amount": 10
-                },
-                {
-                    "type": "Sulfur",
-                    "amount": 10
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 20
-                },
-                {
-                    "type": "Wood",
-                    "amount": 2
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 15
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 6
-                },
-                {
-                    "type": "Metal Pipe",
-                    "amount": 2
-                },
-                {
-                    "type": "Empty Propane Tank",
-                    "amount": 100
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 1
-                },
-                {
-                    "type": "Metal Pipe",
-                    "amount": 200
-                },
-                {
-                    "type": "Stones",
-                    "amount": 100
-                },
-                {
-                    "type": "Wood",
-                    "amount": 25
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 30
-                },
-                {
-                    "type": "Gun Powder",
-                    "amount": 25
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 2
-                },
-                {
-                    "type": "Metal Pipe",
-                    "amount": 250
-                },
-                {
-                    "type": "Gun Powder",
-                    "amount": 1
-                },
-                {
-                    "type": "Explosives",
-                    "amount": 25
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 500
-                },
-                {
-                    "type": "Stones",
-                    "amount": 600
-                },
-                {
-                    "type": "Wood",
-                    "amount": 2
-                },
-                {
-                    "type": "Medical Syringe",
-                    "amount": 15
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 10
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 15
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 50
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 10
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 25
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 30
-                },
-                {
-                    "type": "Gun Powder",
-                    "amount": 50
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 30
-                },
-                {
-                    "type": "Gun Powder",
-                    "amount": 25
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 30
-                },
-                {
-                    "type": "Gun Powder",
-                    "amount": 25
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 10
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 200
-                },
-                {
-                    "type": "Wood",
-                    "amount": 500
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 125
                 }
             ]
         }
@@ -5033,7 +2806,15 @@
         "iteminfo": {}
     },
     {
+        "itemname": "orange-id-tag",
+        "iteminfo": {}
+    },
+    {
         "itemname": "paper",
+        "iteminfo": {}
+    },
+    {
+        "itemname": "pink-id-tag",
         "iteminfo": {}
     },
     {
@@ -5041,7 +2822,15 @@
         "iteminfo": {}
     },
     {
+        "itemname": "purple-id-tag",
+        "iteminfo": {}
+    },
+    {
         "itemname": "red-dog-tags",
+        "iteminfo": {}
+    },
+    {
+        "itemname": "red-id-tag",
         "iteminfo": {}
     },
     {
@@ -5077,11 +2866,19 @@
         "iteminfo": {}
     },
     {
+        "itemname": "white-id-tag",
+        "iteminfo": {}
+    },
+    {
         "itemname": "wolf-skull",
         "iteminfo": {}
     },
     {
         "itemname": "wood",
+        "iteminfo": {}
+    },
+    {
+        "itemname": "yellow-id-tag",
         "iteminfo": {}
     },
     {
@@ -5097,14 +2894,32 @@
         "iteminfo": {}
     },
     {
-        "itemname": "bandana-mask"
+        "itemname": "bandana-mask",
+        "iteminfo": {
+            "yield": 1,
+            "recepie": [
+                {
+                    "type": "Cloth",
+                    "amount": 5
+                }
+            ]
+        }
     },
     {
         "itemname": "bandit-guard-gear",
         "iteminfo": {}
     },
     {
-        "itemname": "baseball-cap"
+        "itemname": "baseball-cap",
+        "iteminfo": {
+            "yield": 1,
+            "recepie": [
+                {
+                    "type": "Cloth",
+                    "amount": 5
+                }
+            ]
+        }
     },
     {
         "itemname": "basic-horse-shoes",
@@ -5126,22 +2941,6 @@
                 {
                     "type": "Cloth",
                     "amount": 15
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
-                    "type": "Tank Top Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 8
                 }
             ]
         }
@@ -5162,26 +2961,6 @@
                 {
                     "type": "Bone Fragments",
                     "amount": 70
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 14
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 8
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 35
                 }
             ]
         }
@@ -5198,42 +2977,27 @@
                 {
                     "type": "Bone Fragments",
                     "amount": 30
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 6
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 8
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 15
                 }
             ]
         }
     },
     {
-        "itemname": "boonie-hat"
+        "itemname": "boonie-hat",
+        "iteminfo": {
+            "yield": 1,
+            "recepie": [
+                {
+                    "type": "Cloth",
+                    "amount": 10
+                }
+            ]
+        }
     },
     {
         "itemname": "boots",
         "iteminfo": {
             "yield": 1,
             "recepie": [
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
                 {
                     "type": "Leather",
                     "amount": 20
@@ -5255,14 +3019,6 @@
             "yield": 1,
             "recepie": [
                 {
-                    "type": "Lumberjack Hoodie",
-                    "amount": 1
-                },
-                {
-                    "type": "Pants",
-                    "amount": 1
-                },
-                {
                     "type": "Metal Fragments",
                     "amount": 35
                 }
@@ -5274,7 +3030,16 @@
         "iteminfo": {}
     },
     {
-        "itemname": "bunny-hat"
+        "itemname": "bunny-hat",
+        "iteminfo": {
+            "yield": 1,
+            "recepie": [
+                {
+                    "type": "Cloth",
+                    "amount": 10
+                }
+            ]
+        }
     },
     {
         "itemname": "bunny-onesie",
@@ -5288,14 +3053,6 @@
                 {
                     "type": "Cloth",
                     "amount": 5
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
                 }
             ]
         }
@@ -5308,14 +3065,6 @@
                 {
                     "type": "Cloth",
                     "amount": 10
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 5
                 }
             ]
         }
@@ -5328,14 +3077,6 @@
                 {
                     "type": "Cloth",
                     "amount": 20
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 10
                 }
             ]
         }
@@ -5348,14 +3089,6 @@
                 {
                     "type": "Cloth",
                     "amount": 10
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 5
                 }
             ]
         }
@@ -5368,14 +3101,6 @@
                 {
                     "type": "Cloth",
                     "amount": 20
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 10
                 }
             ]
         }
@@ -5396,22 +3121,6 @@
                 {
                     "type": "Animal Fat",
                     "amount": 3
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 1
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 8
-                },
-                {
-                    "type": "Low Grade Fuel",
-                    "amount": 3
                 }
             ]
         }
@@ -5421,7 +3130,16 @@
         "iteminfo": {}
     },
     {
-        "itemname": "clatter-helmet"
+        "itemname": "clatter-helmet",
+        "iteminfo": {
+            "yield": 1,
+            "recepie": [
+                {
+                    "type": "Metal Fragments",
+                    "amount": 35
+                }
+            ]
+        }
     },
     {
         "itemname": "coffee-can-helmet",
@@ -5464,7 +3182,20 @@
         "iteminfo": {}
     },
     {
-        "itemname": "dragon-mask"
+        "itemname": "dragon-mask",
+        "iteminfo": {
+            "yield": 1,
+            "recepie": [
+                {
+                    "type": "Cloth",
+                    "amount": 10
+                },
+                {
+                    "type": "Wolf Skull",
+                    "amount": 1
+                }
+            ]
+        }
     },
     {
         "itemname": "egg-suit",
@@ -5478,16 +3209,21 @@
                 {
                     "type": "Sewing Kit",
                     "amount": 2
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 20
                 }
             ]
         }
     },
     {
-        "itemname": "frog-boots"
+        "itemname": "frog-boots",
+        "iteminfo": {
+            "yield": 1,
+            "recepie": [
+                {
+                    "type": "Tarp",
+                    "amount": 1
+                }
+            ]
+        }
     },
     {
         "itemname": "gas-mask",
@@ -5526,7 +3262,16 @@
         }
     },
     {
-        "itemname": "headset"
+        "itemname": "headset",
+        "iteminfo": {
+            "yield": 1,
+            "recepie": [
+                {
+                    "type": "Cloth",
+                    "amount": 10
+                }
+            ]
+        }
     },
     {
         "itemname": "heavy-frankenstein-head",
@@ -5600,14 +3345,6 @@
                 {
                     "type": "Leather",
                     "amount": 10
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Leather",
-                    "amount": 5
                 }
             ]
         }
@@ -5620,14 +3357,6 @@
                 {
                     "type": "Leather",
                     "amount": 10
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Leather",
-                    "amount": 5
                 }
             ]
         }
@@ -5640,14 +3369,6 @@
                 {
                     "type": "Leather",
                     "amount": 10
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Leather",
-                    "amount": 5
                 }
             ]
         }
@@ -5660,14 +3381,6 @@
                 {
                     "type": "Leather",
                     "amount": 15
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Leather",
-                    "amount": 3
                 }
             ]
         }
@@ -5680,14 +3393,6 @@
                 {
                     "type": "Leather",
                     "amount": 10
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Leather",
-                    "amount": 5
                 }
             ]
         }
@@ -5700,14 +3405,6 @@
                 {
                     "type": "Leather",
                     "amount": 10
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Leather",
-                    "amount": 5
                 }
             ]
         }
@@ -5717,10 +3414,6 @@
         "iteminfo": {
             "yield": 1,
             "recepie": [
-                {
-                    "type": "Scrap",
-                    "amount": 40
-                },
                 {
                     "type": "High Quality Metal",
                     "amount": 4
@@ -5756,26 +3449,6 @@
                 {
                     "type": "Cloth",
                     "amount": 15
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
-                    "type": "Tank Top Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Beenie Hat Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 8
                 }
             ]
         }
@@ -5837,10 +3510,6 @@
         "iteminfo": {
             "yield": 1,
             "recepie": [
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
                 {
                     "type": "Cloth",
                     "amount": 30
@@ -5925,24 +3594,46 @@
         }
     },
     {
-        "itemname": "movember-moustache"
+        "itemname": "movember-moustache",
+        "iteminfo": {
+            "yield": 1,
+            "recepie": [
+                {
+                    "type": "Cloth",
+                    "amount": 10
+                }
+            ]
+        }
     },
     {
         "itemname": "mummy-suit",
         "iteminfo": {}
     },
     {
-        "itemname": "nest-hat"
+        "itemname": "nvgm-scientist-suit",
+        "iteminfo": {}
+    },
+    {
+        "itemname": "nest-hat",
+        "iteminfo": {
+            "yield": 1,
+            "recepie": [
+                {
+                    "type": "Cloth",
+                    "amount": 10
+                },
+                {
+                    "type": "Wolf Skull",
+                    "amount": 1
+                }
+            ]
+        }
     },
     {
         "itemname": "night-vision-goggles",
         "iteminfo": {
             "yield": 1,
             "recepie": [
-                {
-                    "type": "Scrap",
-                    "amount": 250
-                },
                 {
                     "type": "High Quality Metal",
                     "amount": 10
@@ -5966,30 +3657,31 @@
                 {
                     "type": "Sewing Kit",
                     "amount": 2
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 20
                 }
             ]
         }
     },
     {
-        "itemname": "ox-mask"
+        "itemname": "ox-mask",
+        "iteminfo": {
+            "yield": 1,
+            "recepie": [
+                {
+                    "type": "Cloth",
+                    "amount": 10
+                },
+                {
+                    "type": "Wolf Skull",
+                    "amount": 1
+                }
+            ]
+        }
     },
     {
         "itemname": "pants",
         "iteminfo": {
             "yield": 1,
             "recepie": [
-                {
-                    "type": "Lumberjack Hoodie",
-                    "amount": 1
-                },
-                {
-                    "type": "Bucket Helmet",
-                    "amount": 1
-                },
                 {
                     "type": "Cloth",
                     "amount": 40
@@ -6018,10 +3710,36 @@
         }
     },
     {
-        "itemname": "rabbit-mask"
+        "itemname": "rabbit-mask",
+        "iteminfo": {
+            "yield": 1,
+            "recepie": [
+                {
+                    "type": "Cloth",
+                    "amount": 10
+                },
+                {
+                    "type": "Wolf Skull",
+                    "amount": 1
+                }
+            ]
+        }
     },
     {
-        "itemname": "rat-mask"
+        "itemname": "rat-mask",
+        "iteminfo": {
+            "yield": 1,
+            "recepie": [
+                {
+                    "type": "Cloth",
+                    "amount": 10
+                },
+                {
+                    "type": "Wolf Skull",
+                    "amount": 1
+                }
+            ]
+        }
     },
     {
         "itemname": "reindeer-antlers",
@@ -6089,10 +3807,6 @@
             "yield": 1,
             "recepie": [
                 {
-                    "type": "Scrap",
-                    "amount": 40
-                },
-                {
                     "type": "Leather",
                     "amount": 20
                 },
@@ -6112,10 +3826,6 @@
         "iteminfo": {
             "yield": 1,
             "recepie": [
-                {
-                    "type": "Scrap",
-                    "amount": 100
-                },
                 {
                     "type": "Road Signs",
                     "amount": 4
@@ -6140,7 +3850,16 @@
         }
     },
     {
-        "itemname": "santa-beard"
+        "itemname": "santa-beard",
+        "iteminfo": {
+            "yield": 1,
+            "recepie": [
+                {
+                    "type": "Cloth",
+                    "amount": 10
+                }
+            ]
+        }
     },
     {
         "itemname": "santa-hat",
@@ -6178,30 +3897,6 @@
                 {
                     "type": "Cloth",
                     "amount": 30
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
-                    "type": "Tank Top Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "T-Shirt Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Shirt Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 15
                 }
             ]
         }
@@ -6216,10 +3911,6 @@
             "yield": 1,
             "recepie": [
                 {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
                     "type": "Cloth",
                     "amount": 60
                 },
@@ -6231,7 +3922,16 @@
         }
     },
     {
-        "itemname": "snowman-helmet"
+        "itemname": "snowman-helmet",
+        "iteminfo": {
+            "yield": 1,
+            "recepie": [
+                {
+                    "type": "Cloth",
+                    "amount": 10
+                }
+            ]
+        }
     },
     {
         "itemname": "sunglasses",
@@ -6267,10 +3967,6 @@
             "yield": 1,
             "recepie": [
                 {
-                    "type": "Scrap",
-                    "amount": 5
-                },
-                {
                     "type": "Cloth",
                     "amount": 25
                 }
@@ -6289,16 +3985,25 @@
                 {
                     "type": "Cloth",
                     "amount": 20
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
                 }
             ]
         }
     },
     {
-        "itemname": "tiger-mask"
+        "itemname": "tiger-mask",
+        "iteminfo": {
+            "yield": 1,
+            "recepie": [
+                {
+                    "type": "Cloth",
+                    "amount": 10
+                },
+                {
+                    "type": "Wolf Skull",
+                    "amount": 1
+                }
+            ]
+        }
     },
     {
         "itemname": "wetsuit",
@@ -6316,18 +4021,6 @@
                 {
                     "type": "Wolf Skull",
                     "amount": 1
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 5
-                },
-                {
-                    "type": "Wolf Skull",
-                    "amount": 0
                 }
             ]
         }
@@ -6344,18 +4037,6 @@
                 {
                     "type": "Wood",
                     "amount": 200
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 8
-                },
-                {
-                    "type": "Wood",
-                    "amount": 100
                 }
             ]
         }
@@ -6393,14 +4074,6 @@
                 {
                     "type": "Gears",
                     "amount": 1
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 25
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 100
                 }
             ]
         }
@@ -6418,10 +4091,6 @@
         "iteminfo": {
             "yield": 1,
             "recepie": [
-                {
-                    "type": "Scrap",
-                    "amount": 125
-                },
                 {
                     "type": "High Quality Metal",
                     "amount": 5
@@ -6481,330 +4150,6 @@
                 {
                     "type": "Metal Fragments",
                     "amount": 20
-                },
-                {
-                    "type": "Wood",
-                    "amount": 140
-                },
-                {
-                    "type": "Stones",
-                    "amount": 210
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 140
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 18
-                },
-                {
-                    "type": "Wood",
-                    "amount": 100
-                },
-                {
-                    "type": "Stones",
-                    "amount": 150
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 100
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 13
-                },
-                {
-                    "type": "Wood",
-                    "amount": 100
-                },
-                {
-                    "type": "Stones",
-                    "amount": 150
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 100
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 13
-                },
-                {
-                    "type": "Wood",
-                    "amount": 50
-                },
-                {
-                    "type": "Stones",
-                    "amount": 75
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 50
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 7
-                },
-                {
-                    "type": "Wood",
-                    "amount": 50
-                },
-                {
-                    "type": "Stones",
-                    "amount": 75
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 50
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 7
-                },
-                {
-                    "type": "Wood",
-                    "amount": 200
-                },
-                {
-                    "type": "Stones",
-                    "amount": 300
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 200
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 25
-                },
-                {
-                    "type": "Wood",
-                    "amount": 200
-                },
-                {
-                    "type": "Stones",
-                    "amount": 300
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 200
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 25
-                },
-                {
-                    "type": "Wood",
-                    "amount": 100
-                },
-                {
-                    "type": "Stones",
-                    "amount": 150
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 100
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 13
-                },
-                {
-                    "type": "Wood",
-                    "amount": 100
-                },
-                {
-                    "type": "Stones",
-                    "amount": 150
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 100
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 13
-                },
-                {
-                    "type": "Wood",
-                    "amount": 100
-                },
-                {
-                    "type": "Stones",
-                    "amount": 150
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 100
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 13
-                },
-                {
-                    "type": "Wood",
-                    "amount": 100
-                },
-                {
-                    "type": "Stones",
-                    "amount": 150
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 100
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 13
-                },
-                {
-                    "type": "Wood",
-                    "amount": 200
-                },
-                {
-                    "type": "Stones",
-                    "amount": 300
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 200
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 25
-                },
-                {
-                    "type": "Wood",
-                    "amount": 200
-                },
-                {
-                    "type": "Stones",
-                    "amount": 300
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 200
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 25
-                },
-                {
-                    "type": "Wood",
-                    "amount": 200
-                },
-                {
-                    "type": "Stones",
-                    "amount": 300
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 200
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 25
-                },
-                {
-                    "type": "Wood",
-                    "amount": 100
-                },
-                {
-                    "type": "Stones",
-                    "amount": 150
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 100
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 13
-                },
-                {
-                    "type": "Wood",
-                    "amount": 100
-                },
-                {
-                    "type": "Stones",
-                    "amount": 150
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 100
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 13
-                },
-                {
-                    "type": "Wood",
-                    "amount": 200
-                },
-                {
-                    "type": "Stones",
-                    "amount": 300
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 200
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 25
-                },
-                {
-                    "type": "Wood",
-                    "amount": 200
-                },
-                {
-                    "type": "Stones",
-                    "amount": 300
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 200
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 25
-                },
-                {
-                    "type": "Wood",
-                    "amount": 100
-                },
-                {
-                    "type": "Stones",
-                    "amount": 150
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 100
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 13
-                },
-                {
-                    "type": "Wood",
-                    "amount": 140
-                },
-                {
-                    "type": "Stones",
-                    "amount": 210
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 140
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 18
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 50
                 }
             ]
         }
@@ -6821,334 +4166,6 @@
                 {
                     "type": "Wood",
                     "amount": 100
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Wood",
-                    "amount": 140
-                },
-                {
-                    "type": "Stones",
-                    "amount": 210
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 140
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 18
-                },
-                {
-                    "type": "Wood",
-                    "amount": 100
-                },
-                {
-                    "type": "Stones",
-                    "amount": 150
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 100
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 13
-                },
-                {
-                    "type": "Wood",
-                    "amount": 100
-                },
-                {
-                    "type": "Stones",
-                    "amount": 150
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 100
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 13
-                },
-                {
-                    "type": "Wood",
-                    "amount": 50
-                },
-                {
-                    "type": "Stones",
-                    "amount": 75
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 50
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 7
-                },
-                {
-                    "type": "Wood",
-                    "amount": 50
-                },
-                {
-                    "type": "Stones",
-                    "amount": 75
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 50
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 7
-                },
-                {
-                    "type": "Wood",
-                    "amount": 200
-                },
-                {
-                    "type": "Stones",
-                    "amount": 300
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 200
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 25
-                },
-                {
-                    "type": "Wood",
-                    "amount": 200
-                },
-                {
-                    "type": "Stones",
-                    "amount": 300
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 200
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 25
-                },
-                {
-                    "type": "Wood",
-                    "amount": 100
-                },
-                {
-                    "type": "Stones",
-                    "amount": 150
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 100
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 13
-                },
-                {
-                    "type": "Wood",
-                    "amount": 100
-                },
-                {
-                    "type": "Stones",
-                    "amount": 150
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 100
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 13
-                },
-                {
-                    "type": "Wood",
-                    "amount": 100
-                },
-                {
-                    "type": "Stones",
-                    "amount": 150
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 100
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 13
-                },
-                {
-                    "type": "Wood",
-                    "amount": 100
-                },
-                {
-                    "type": "Stones",
-                    "amount": 150
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 100
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 13
-                },
-                {
-                    "type": "Wood",
-                    "amount": 200
-                },
-                {
-                    "type": "Stones",
-                    "amount": 300
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 200
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 25
-                },
-                {
-                    "type": "Wood",
-                    "amount": 200
-                },
-                {
-                    "type": "Stones",
-                    "amount": 300
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 200
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 25
-                },
-                {
-                    "type": "Wood",
-                    "amount": 200
-                },
-                {
-                    "type": "Stones",
-                    "amount": 300
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 200
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 25
-                },
-                {
-                    "type": "Wood",
-                    "amount": 100
-                },
-                {
-                    "type": "Stones",
-                    "amount": 150
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 100
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 13
-                },
-                {
-                    "type": "Wood",
-                    "amount": 100
-                },
-                {
-                    "type": "Stones",
-                    "amount": 150
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 100
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 13
-                },
-                {
-                    "type": "Wood",
-                    "amount": 200
-                },
-                {
-                    "type": "Stones",
-                    "amount": 300
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 200
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 25
-                },
-                {
-                    "type": "Wood",
-                    "amount": 200
-                },
-                {
-                    "type": "Stones",
-                    "amount": 300
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 200
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 25
-                },
-                {
-                    "type": "Wood",
-                    "amount": 100
-                },
-                {
-                    "type": "Stones",
-                    "amount": 150
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 100
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 13
-                },
-                {
-                    "type": "Wood",
-                    "amount": 140
-                },
-                {
-                    "type": "Stones",
-                    "amount": 210
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 140
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 18
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 50
                 }
             ]
         }
@@ -7157,20 +4174,7 @@
         "itemname": "handmade-fishing-rod",
         "iteminfo": {
             "yield": 1,
-            "recepie": [
-                {
-                    "type": "Scrap",
-                    "amount": 80
-                },
-                {
-                    "type": "Fishing Tackle",
-                    "amount": 1
-                },
-                {
-                    "type": "Grub",
-                    "amount": 15
-                }
-            ]
+            "recepie": []
         }
     },
     {
@@ -7178,14 +4182,6 @@
         "iteminfo": {
             "yield": 1,
             "recepie": [
-                {
-                    "type": "Scrap",
-                    "amount": 40
-                },
-                {
-                    "type": "Vodka Bottle",
-                    "amount": 1
-                },
                 {
                     "type": "Wood",
                     "amount": 100
@@ -7223,10 +4219,6 @@
             "yield": 1,
             "recepie": [
                 {
-                    "type": "Scrap",
-                    "amount": 50
-                },
-                {
                     "type": "Wood",
                     "amount": 100
                 },
@@ -7242,10 +4234,6 @@
         "iteminfo": {
             "yield": 1,
             "recepie": [
-                {
-                    "type": "Scrap",
-                    "amount": 75
-                },
                 {
                     "type": "High Quality Metal",
                     "amount": 5
@@ -7265,458 +4253,6 @@
                 {
                     "type": "Stones",
                     "amount": 10
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Stones",
-                    "amount": 5
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 0
-                },
-                {
-                    "type": "Cactus Flesh",
-                    "amount": 0
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 0
-                },
-                {
-                    "type": "Cactus Flesh",
-                    "amount": 0
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 0
-                },
-                {
-                    "type": "Cactus Flesh",
-                    "amount": 0
-                },
-                {
-                    "type": "Wood",
-                    "amount": 50
-                },
-                {
-                    "type": "Raw Chicken Breast",
-                    "amount": 1
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 6
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 15
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 15
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 15
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 15
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 15
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 15
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 15
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 15
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 15
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 15
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 15
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 15
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 15
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 20
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 10
-                },
-                {
-                    "type": "Raw Fish",
-                    "amount": 9
-                },
-                {
-                    "type": "Leather",
-                    "amount": 20
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 25
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 5
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 13
-                },
-                {
-                    "type": "Leather",
-                    "amount": 25
-                },
-                {
-                    "type": "Raw Deer Meat",
-                    "amount": 2
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 25
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 20
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 5
-                },
-                {
-                    "type": "Raw Pork",
-                    "amount": 4
-                },
-                {
-                    "type": "Leather",
-                    "amount": 10
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 25
-                },
-                {
-                    "type": "Raw Horse Meat",
-                    "amount": 3
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 5
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 13
-                },
-                {
-                    "type": "Leather",
-                    "amount": 25
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 25
-                },
-                {
-                    "type": "Raw Bear Meat",
-                    "amount": 11
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 60
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 25
-                },
-                {
-                    "type": "Leather",
-                    "amount": 63
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 85
-                },
-                {
-                    "type": "Raw Bear Meat",
-                    "amount": 10
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 50
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 25
-                },
-                {
-                    "type": "Leather",
-                    "amount": 50
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 75
-                },
-                {
-                    "type": "Wood",
-                    "amount": 100
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 3
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 1
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 0
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 5
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 3
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 1
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 0
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 5
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 3
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 1
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 0
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 5
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 3
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 1
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 0
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 5
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 3
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 1
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 0
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 5
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 3
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 1
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 0
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 5
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 3
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 1
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 0
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 5
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 3
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 1
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 0
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 5
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 3
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 1
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 0
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 5
-                },
-                {
-                    "type": "Wood",
-                    "amount": 125
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 5
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 18
-                },
-                {
-                    "type": "Raw Wolf Meat",
-                    "amount": 3
-                },
-                {
-                    "type": "Leather",
-                    "amount": 38
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 20
-                },
-                {
-                    "type": "Wolf Skull",
-                    "amount": 0
-                },
-                {
-                    "type": "Wood",
-                    "amount": 125
                 }
             ]
         }
@@ -7791,10 +4327,6 @@
             "yield": 1,
             "recepie": [
                 {
-                    "type": "Scrap",
-                    "amount": 5
-                },
-                {
                     "type": "Gun Powder",
                     "amount": 35
                 },
@@ -7829,162 +4361,6 @@
                 {
                     "type": "Stones",
                     "amount": 100
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Wood",
-                    "amount": 40
-                },
-                {
-                    "type": "Stones",
-                    "amount": 20
-                },
-                {
-                    "type": "Wood",
-                    "amount": 100
-                },
-                {
-                    "type": "Stones",
-                    "amount": 50
-                },
-                {
-                    "type": "Wood",
-                    "amount": 82
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 5
-                },
-                {
-                    "type": "Cactus Flesh",
-                    "amount": 6
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 18
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 18
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 18
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 18
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 18
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 18
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 18
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 18
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 18
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 18
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 18
-                },
-                {
-                    "type": "Wood",
-                    "amount": 162
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 18
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 18
-                },
-                {
-                    "type": "Raw Chicken Breast",
-                    "amount": 1
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 4
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 8
-                },
-                {
-                    "type": "Wood",
-                    "amount": 272
                 }
             ]
         }
@@ -8001,478 +4377,6 @@
                 {
                     "type": "Stones",
                     "amount": 100
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Wood",
-                    "amount": 40
-                },
-                {
-                    "type": "Stones",
-                    "amount": 20
-                },
-                {
-                    "type": "Wood",
-                    "amount": 100
-                },
-                {
-                    "type": "Stones",
-                    "amount": 50
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 4
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 23
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 4
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 23
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 4
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 23
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 4
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 23
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 4
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 23
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 4
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 23
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 4
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 23
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 4
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 23
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 4
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 23
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 4
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 23
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 4
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 23
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 4
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 23
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 4
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 23
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 8
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 18
-                },
-                {
-                    "type": "Leather",
-                    "amount": 36
-                },
-                {
-                    "type": "Raw Deer Meat",
-                    "amount": 3
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 36
-                },
-                {
-                    "type": "Raw Chicken Breast",
-                    "amount": 1
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 6
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 12
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 29
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 15
-                },
-                {
-                    "type": "Raw Fish",
-                    "amount": 13
-                },
-                {
-                    "type": "Leather",
-                    "amount": 29
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 37
-                },
-                {
-                    "type": "Raw Bear Meat",
-                    "amount": 16
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 86
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 36
-                },
-                {
-                    "type": "Leather",
-                    "amount": 90
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 122
-                },
-                {
-                    "type": "Raw Bear Meat",
-                    "amount": 14
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 72
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 36
-                },
-                {
-                    "type": "Leather",
-                    "amount": 72
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 108
-                },
-                {
-                    "type": "Raw Horse Meat",
-                    "amount": 4
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 8
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 19
-                },
-                {
-                    "type": "Leather",
-                    "amount": 37
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 37
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 29
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 8
-                },
-                {
-                    "type": "Raw Pork",
-                    "amount": 6
-                },
-                {
-                    "type": "Leather",
-                    "amount": 15
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 36
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 8
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 26
-                },
-                {
-                    "type": "Raw Wolf Meat",
-                    "amount": 4
-                },
-                {
-                    "type": "Leather",
-                    "amount": 55
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 29
-                },
-                {
-                    "type": "Wolf Skull",
-                    "amount": 1
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 5
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 1
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 1
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 10
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 5
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 1
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 1
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 10
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 5
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 1
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 1
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 10
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 5
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 1
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 1
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 10
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 5
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 1
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 1
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 10
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 5
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 1
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 1
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 10
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 5
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 1
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 1
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 10
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 5
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 1
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 1
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 10
-                },
-                {
-                    "type": "Raw Human Meat",
-                    "amount": 4
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 1
-                },
-                {
-                    "type": "Human Skull",
-                    "amount": 1
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 8
-                },
-                {
-                    "type": "High Quality Metal Ore",
-                    "amount": 2
-                },
-                {
-                    "type": "Metal Ore",
-                    "amount": 485
-                },
-                {
-                    "type": "Stones",
-                    "amount": 794
-                },
-                {
-                    "type": "Sulfur Ore",
-                    "amount": 257
-                },
-                {
-                    "type": "Charcoal",
-                    "amount": 623
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 1
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 55
-                },
-                {
-                    "type": "Charcoal",
-                    "amount": 685
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 1
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 60
-                },
-                {
-                    "type": "Charcoal",
-                    "amount": 2
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 5
                 }
             ]
         }
@@ -8541,30 +4445,6 @@
                 {
                     "type": "Low Grade Fuel",
                     "amount": 1
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 3
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 1
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Wood",
-                    "amount": 15
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 0
-                },
-                {
-                    "type": "Low Grade Fuel",
-                    "amount": 0
                 }
             ]
         }
@@ -8576,10 +4456,6 @@
             "recepie": [
                 {
                     "type": "Metal Fragments",
-                    "amount": 20
-                },
-                {
-                    "type": "Scrap",
                     "amount": 20
                 }
             ]
@@ -8597,14 +4473,6 @@
                 {
                     "type": "Cloth",
                     "amount": 4
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 2
                 }
             ]
         }
@@ -8634,14 +4502,6 @@
         "iteminfo": {
             "yield": 1,
             "recepie": [
-                {
-                    "type": "Jackhammer",
-                    "amount": 1
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 25
-                },
                 {
                     "type": "Cloth",
                     "amount": 15
@@ -9030,6 +4890,10 @@
         "iteminfo": {}
     },
     {
+        "itemname": "super-tea",
+        "iteminfo": {}
+    },
+    {
         "itemname": "vodka-bottle",
         "iteminfo": {}
     },
@@ -9075,10 +4939,6 @@
             "yield": 2,
             "recepie": [
                 {
-                    "type": "Pump Shotgun",
-                    "amount": 1
-                },
-                {
                     "type": "Metal Fragments",
                     "amount": 5
                 },
@@ -9097,14 +4957,6 @@
                 {
                     "type": "Metal Fragments",
                     "amount": 5
-                },
-                {
-                    "type": "Gun Powder",
-                    "amount": 10
-                },
-                {
-                    "type": "Sulfur",
-                    "amount": 20
                 }
             ]
         }
@@ -9117,10 +4969,6 @@
                 {
                     "type": "Metal Fragments",
                     "amount": 5
-                },
-                {
-                    "type": "Gun Powder",
-                    "amount": 10
                 }
             ]
         }
@@ -9157,24 +5005,7 @@
         "itemname": "bone-arrow",
         "iteminfo": {
             "yield": 3,
-            "recepie": [
-                {
-                    "type": "Wood",
-                    "amount": 25
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 10
-                },
-                {
-                    "type": "Wood",
-                    "amount": 5
-                },
-                {
-                    "type": "Bone Fragments",
-                    "amount": 2
-                }
-            ]
+            "recepie": []
         }
     },
     {
@@ -9241,10 +5072,6 @@
                 {
                     "type": "Metal Fragments",
                     "amount": 10
-                },
-                {
-                    "type": "Gun Powder",
-                    "amount": 20
                 }
             ]
         }
@@ -9261,14 +5088,6 @@
                 {
                     "type": "Gun Powder",
                     "amount": 5
-                },
-                {
-                    "type": "Charcoal",
-                    "amount": 30
-                },
-                {
-                    "type": "Sulfur",
-                    "amount": 20
                 }
             ]
         }
@@ -9337,10 +5156,6 @@
                 {
                     "type": "Gun Powder",
                     "amount": 10
-                },
-                {
-                    "type": "Sulfur",
-                    "amount": 5
                 }
             ]
         }
@@ -9353,18 +5168,6 @@
                 {
                     "type": "Metal Pipe",
                     "amount": 2
-                },
-                {
-                    "type": "Gun Powder",
-                    "amount": 250
-                },
-                {
-                    "type": "Low Grade Fuel",
-                    "amount": 250
-                },
-                {
-                    "type": "Explosives",
-                    "amount": 1
                 }
             ]
         }
@@ -9381,14 +5184,6 @@
                 {
                     "type": "Metal Fragments",
                     "amount": 8
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 1
                 }
             ]
         }
@@ -9435,16 +5230,8 @@
             "yield": 6,
             "recepie": [
                 {
-                    "type": "Scrap",
-                    "amount": 75
-                },
-                {
                     "type": "Metal Pipe",
                     "amount": 1
-                },
-                {
-                    "type": "Gun Powder",
-                    "amount": 30
                 }
             ]
         }
@@ -9471,10 +5258,6 @@
             "yield": 3,
             "recepie": [
                 {
-                    "type": "Scrap",
-                    "amount": 75
-                },
-                {
                     "type": "Metal Pipe",
                     "amount": 1
                 },
@@ -9489,36 +5272,7 @@
         "itemname": "wooden-arrow",
         "iteminfo": {
             "yield": 2,
-            "recepie": [
-                {
-                    "type": "Wood",
-                    "amount": 2
-                },
-                {
-                    "type": "Crossbow",
-                    "amount": 1
-                },
-                {
-                    "type": "Wood",
-                    "amount": 25
-                },
-                {
-                    "type": "Stones",
-                    "amount": 10
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Wood",
-                    "amount": 7
-                },
-                {
-                    "type": "Stones",
-                    "amount": 3
-                }
-            ]
+            "recepie": []
         }
     },
     {
@@ -9526,10 +5280,6 @@
         "iteminfo": {
             "yield": 1,
             "recepie": [
-                {
-                    "type": "Scrap",
-                    "amount": 250
-                },
                 {
                     "type": "Metal Fragments",
                     "amount": 200
@@ -9571,10 +5321,6 @@
             "yield": 1,
             "recepie": [
                 {
-                    "type": "Scrap",
-                    "amount": 150
-                },
-                {
                     "type": "Wood",
                     "amount": 500
                 },
@@ -9613,38 +5359,6 @@
                 {
                     "type": "Wood",
                     "amount": 150
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
-                    "type": "Salvaged Hammer Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Hatchet Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Wooden Ladder Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Wooden Barricade Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Barbed Wooden Barricade Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
-                    "type": "Wood",
-                    "amount": 75
                 }
             ]
         }
@@ -9666,7 +5380,16 @@
         "iteminfo": {}
     },
     {
-        "itemname": "cursed-cauldron"
+        "itemname": "cursed-cauldron",
+        "iteminfo": {
+            "yield": 1,
+            "recepie": [
+                {
+                    "type": "Wood",
+                    "amount": 100
+                }
+            ]
+        }
     },
     {
         "itemname": "decorative-baubels",
@@ -9712,22 +5435,6 @@
                 {
                     "type": "Metal Pipe",
                     "amount": 1
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 3
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 1
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 2
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
                 }
             ]
         }
@@ -9788,22 +5495,6 @@
                 {
                     "type": "Cloth",
                     "amount": 10
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 4
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 2
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 10
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 5
                 }
             ]
         }
@@ -9832,14 +5523,6 @@
                 {
                     "type": "Wood",
                     "amount": 10
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 10
-                },
-                {
-                    "type": "Wood",
-                    "amount": 5
                 }
             ]
         }
@@ -9904,38 +5587,6 @@
                 {
                     "type": "Cloth",
                     "amount": 5
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 5
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 2
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 5
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 2
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 2
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 1
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 5
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
                 }
             ]
         }
@@ -9988,54 +5639,6 @@
                 {
                     "type": "Cloth",
                     "amount": 20
-                },
-                {
-                    "type": "Wood",
-                    "amount": 199
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 50
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 11
-                },
-                {
-                    "type": "Wood",
-                    "amount": 199
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 50
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 11
-                },
-                {
-                    "type": "Wood",
-                    "amount": 80
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 20
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 4
-                },
-                {
-                    "type": "Wood",
-                    "amount": 200
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 50
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 10
                 }
             ]
         }
@@ -10056,38 +5659,6 @@
                 {
                     "type": "High Quality Metal",
                     "amount": 2
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 50
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 1
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 50
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 1
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 20
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 1
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 50
-                },
-                {
-                    "type": "High Quality Metal",
-                    "amount": 1
                 }
             ]
         }
@@ -10270,10 +5841,6 @@
             "yield": 1,
             "recepie": [
                 {
-                    "type": "Scrap",
-                    "amount": 125
-                },
-                {
                     "type": "Metal Fragments",
                     "amount": 25
                 },
@@ -10434,10 +6001,6 @@
             "yield": 1,
             "recepie": [
                 {
-                    "type": "Scrap",
-                    "amount": 65
-                },
-                {
                     "type": "Metal Fragments",
                     "amount": 100
                 }
@@ -10449,10 +6012,6 @@
         "iteminfo": {
             "yield": 1,
             "recepie": [
-                {
-                    "type": "Scrap",
-                    "amount": 65
-                },
                 {
                     "type": "Metal Fragments",
                     "amount": 70
@@ -10466,10 +6025,6 @@
             "yield": 1,
             "recepie": [
                 {
-                    "type": "Scrap",
-                    "amount": 40
-                },
-                {
                     "type": "Metal Fragments",
                     "amount": 70
                 }
@@ -10481,10 +6036,6 @@
         "iteminfo": {
             "yield": 1,
             "recepie": [
-                {
-                    "type": "Scrap",
-                    "amount": 40
-                },
                 {
                     "type": "Metal Fragments",
                     "amount": 70
@@ -10498,10 +6049,6 @@
             "yield": 1,
             "recepie": [
                 {
-                    "type": "Scrap",
-                    "amount": 40
-                },
-                {
                     "type": "Metal Fragments",
                     "amount": 70
                 }
@@ -10513,10 +6060,6 @@
         "iteminfo": {
             "yield": 1,
             "recepie": [
-                {
-                    "type": "Scrap",
-                    "amount": 15
-                },
                 {
                     "type": "Metal Fragments",
                     "amount": 30
@@ -10534,10 +6077,6 @@
             "yield": 1,
             "recepie": [
                 {
-                    "type": "Scrap",
-                    "amount": 30
-                },
-                {
                     "type": "High Quality Metal",
                     "amount": 2
                 },
@@ -10553,10 +6092,6 @@
         "iteminfo": {
             "yield": 1,
             "recepie": [
-                {
-                    "type": "Scrap",
-                    "amount": 60
-                },
                 {
                     "type": "High Quality Metal",
                     "amount": 2
@@ -10636,12 +6171,7 @@
         "itemname": "sewing-kit",
         "iteminfo": {
             "yield": 1,
-            "recepie": [
-                {
-                    "type": "Cloth",
-                    "amount": 20
-                }
-            ]
+            "recepie": []
         }
     },
     {
@@ -10726,10 +6256,6 @@
             "yield": 1,
             "recepie": [
                 {
-                    "type": "Scrap",
-                    "amount": 400
-                },
-                {
                     "type": "Targeting Computer",
                     "amount": 1
                 },
@@ -10778,10 +6304,6 @@
             "yield": 1,
             "recepie": [
                 {
-                    "type": "Scrap",
-                    "amount": 30
-                },
-                {
                     "type": "Metal Fragments",
                     "amount": 50
                 }
@@ -10793,10 +6315,6 @@
         "iteminfo": {
             "yield": 1,
             "recepie": [
-                {
-                    "type": "Scrap",
-                    "amount": 300
-                },
                 {
                     "type": "High Quality Metal",
                     "amount": 5
@@ -10874,10 +6392,6 @@
             "yield": 1,
             "recepie": [
                 {
-                    "type": "Scrap",
-                    "amount": 75
-                },
-                {
                     "type": "Metal Fragments",
                     "amount": 200
                 }
@@ -10934,10 +6448,6 @@
             "yield": 1,
             "recepie": [
                 {
-                    "type": "Scrap",
-                    "amount": 30
-                },
-                {
                     "type": "Metal Fragments",
                     "amount": 75
                 }
@@ -10950,8 +6460,8 @@
             "yield": 1,
             "recepie": [
                 {
-                    "type": "Scrap",
-                    "amount": 30
+                    "type": "Metal Fragments",
+                    "amount": 75
                 }
             ]
         }
@@ -10962,8 +6472,8 @@
             "yield": 1,
             "recepie": [
                 {
-                    "type": "Scrap",
-                    "amount": 30
+                    "type": "Metal Fragments",
+                    "amount": 150
                 }
             ]
         }
@@ -11010,48 +6520,8 @@
             "yield": 1,
             "recepie": [
                 {
-                    "type": "Scrap",
-                    "amount": 50
-                },
-                {
                     "type": "Metal Fragments",
                     "amount": 75
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
-                    "type": "Switch Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Small Rechargeable Battery Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Large Solar Panel Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Ceiling Light Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Timer Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Door Controller Blueprint",
-                    "amount": 1
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 37
                 }
             ]
         }
@@ -11170,10 +6640,6 @@
             "yield": 1,
             "recepie": [
                 {
-                    "type": "Scrap",
-                    "amount": 75
-                },
-                {
                     "type": "High Quality Metal",
                     "amount": 5
                 },
@@ -11230,10 +6696,6 @@
             "yield": 1,
             "recepie": [
                 {
-                    "type": "Scrap",
-                    "amount": 75
-                },
-                {
                     "type": "High Quality Metal",
                     "amount": 5
                 },
@@ -11261,10 +6723,6 @@
         "iteminfo": {
             "yield": 1,
             "recepie": [
-                {
-                    "type": "Scrap",
-                    "amount": 150
-                },
                 {
                     "type": "Metal Fragments",
                     "amount": 200
@@ -11325,10 +6783,6 @@
         "iteminfo": {
             "yield": 1,
             "recepie": [
-                {
-                    "type": "Scrap",
-                    "amount": 150
-                },
                 {
                     "type": "Metal Fragments",
                     "amount": 300
@@ -11397,10 +6851,6 @@
         "iteminfo": {
             "yield": 1,
             "recepie": [
-                {
-                    "type": "Scrap",
-                    "amount": 75
-                },
                 {
                     "type": "Metal Fragments",
                     "amount": 50
@@ -11510,10 +6960,6 @@
             "yield": 1,
             "recepie": [
                 {
-                    "type": "Scrap",
-                    "amount": 125
-                },
-                {
                     "type": "High Quality Metal",
                     "amount": 5
                 },
@@ -11598,10 +7044,6 @@
             "yield": 1,
             "recepie": [
                 {
-                    "type": "Scrap",
-                    "amount": 15
-                },
-                {
                     "type": "Metal Fragments",
                     "amount": 75
                 }
@@ -11654,10 +7096,6 @@
             "yield": 1,
             "recepie": [
                 {
-                    "type": "Scrap",
-                    "amount": 75
-                },
-                {
                     "type": "High Quality Metal",
                     "amount": 3
                 },
@@ -11690,10 +7128,6 @@
             "yield": 1,
             "recepie": [
                 {
-                    "type": "Scrap",
-                    "amount": 200
-                },
-                {
                     "type": "Wood",
                     "amount": 250
                 },
@@ -11713,10 +7147,6 @@
         "iteminfo": {
             "yield": 1,
             "recepie": [
-                {
-                    "type": "Scrap",
-                    "amount": 500
-                },
                 {
                     "type": "Wood",
                     "amount": 500
@@ -11792,18 +7222,6 @@
                 {
                     "type": "Cloth",
                     "amount": 10
-                },
-                {
-                    "type": "Scrap",
-                    "amount": 20
-                },
-                {
-                    "type": "Wood",
-                    "amount": 50
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 5
                 }
             ]
         }
@@ -11836,30 +7254,6 @@
                 {
                     "type": "Metal Fragments",
                     "amount": 75
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 11
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 37
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 11
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 37
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 10
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 38
                 }
             ]
         }
@@ -11904,14 +7298,6 @@
                 {
                     "type": "Low Grade Fuel",
                     "amount": 15
-                },
-                {
-                    "type": "Charcoal",
-                    "amount": 30
-                },
-                {
-                    "type": "Sulfur",
-                    "amount": 20
                 }
             ]
         }
@@ -11928,22 +7314,6 @@
                 {
                     "type": "Low Grade Fuel",
                     "amount": 10
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 3
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 1
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 13
-                },
-                {
-                    "type": "Low Grade Fuel",
-                    "amount": 5
                 }
             ]
         }
@@ -12036,14 +7406,6 @@
                 {
                     "type": "Low Grade Fuel",
                     "amount": 30
-                },
-                {
-                    "type": "Charcoal",
-                    "amount": 30
-                },
-                {
-                    "type": "Sulfur",
-                    "amount": 20
                 }
             ]
         }
@@ -12116,14 +7478,6 @@
                 {
                     "type": "Low Grade Fuel",
                     "amount": 15
-                },
-                {
-                    "type": "Charcoal",
-                    "amount": 30
-                },
-                {
-                    "type": "Sulfur",
-                    "amount": 20
                 }
             ]
         }
@@ -12140,22 +7494,6 @@
                 {
                     "type": "Low Grade Fuel",
                     "amount": 10
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 3
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 1
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 13
-                },
-                {
-                    "type": "Low Grade Fuel",
-                    "amount": 5
                 }
             ]
         }
@@ -12188,14 +7526,6 @@
                 {
                     "type": "Metal Fragments",
                     "amount": 50
-                },
-                {
-                    "type": "Wood",
-                    "amount": 13
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 25
                 }
             ]
         }
@@ -12280,38 +7610,6 @@
                 {
                     "type": "Metal Fragments",
                     "amount": 50
-                },
-                {
-                    "type": "Wood",
-                    "amount": 50
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 25
-                },
-                {
-                    "type": "Wood",
-                    "amount": 50
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 25
-                },
-                {
-                    "type": "Wood",
-                    "amount": 20
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 10
-                },
-                {
-                    "type": "Wood",
-                    "amount": 50
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 25
                 }
             ]
         }
@@ -12332,14 +7630,6 @@
                 {
                     "type": "Low Grade Fuel",
                     "amount": 15
-                },
-                {
-                    "type": "Charcoal",
-                    "amount": 30
-                },
-                {
-                    "type": "Sulfur",
-                    "amount": 20
                 }
             ]
         }
@@ -12356,10 +7646,6 @@
                 {
                     "type": "Tarp",
                     "amount": 1
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 50
                 }
             ]
         }
@@ -12376,14 +7662,6 @@
                 {
                     "type": "Cloth",
                     "amount": 5
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 10
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 3
                 }
             ]
         }
@@ -12404,14 +7682,6 @@
                 {
                     "type": "Low Grade Fuel",
                     "amount": 15
-                },
-                {
-                    "type": "Charcoal",
-                    "amount": 30
-                },
-                {
-                    "type": "Sulfur",
-                    "amount": 20
                 }
             ]
         }
@@ -12456,14 +7726,6 @@
                 {
                     "type": "Low Grade Fuel",
                     "amount": 15
-                },
-                {
-                    "type": "Charcoal",
-                    "amount": 30
-                },
-                {
-                    "type": "Sulfur",
-                    "amount": 20
                 }
             ]
         }
@@ -12480,22 +7742,6 @@
                 {
                     "type": "Low Grade Fuel",
                     "amount": 10
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 3
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 1
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 13
-                },
-                {
-                    "type": "Low Grade Fuel",
-                    "amount": 5
                 }
             ]
         }
@@ -12512,14 +7758,6 @@
                 {
                     "type": "Gun Powder",
                     "amount": 15
-                },
-                {
-                    "type": "Charcoal",
-                    "amount": 30
-                },
-                {
-                    "type": "Sulfur",
-                    "amount": 20
                 }
             ]
         }
@@ -12536,14 +7774,6 @@
                 {
                     "type": "Metal Fragments",
                     "amount": 75
-                },
-                {
-                    "type": "Wood",
-                    "amount": 25
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 38
                 }
             ]
         }
@@ -12560,10 +7790,6 @@
                 {
                     "type": "Human Skull",
                     "amount": 1
-                },
-                {
-                    "type": "Wood",
-                    "amount": 75
                 }
             ]
         }
@@ -12580,38 +7806,6 @@
                 {
                     "type": "Metal Fragments",
                     "amount": 25
-                },
-                {
-                    "type": "Wood",
-                    "amount": 49
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 14
-                },
-                {
-                    "type": "Wood",
-                    "amount": 49
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 14
-                },
-                {
-                    "type": "Wood",
-                    "amount": 20
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 5
-                },
-                {
-                    "type": "Wood",
-                    "amount": 50
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 13
                 }
             ]
         }
@@ -12628,14 +7822,6 @@
                 {
                     "type": "Low Grade Fuel",
                     "amount": 5
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 3
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 1
                 }
             ]
         }
@@ -12704,14 +7890,6 @@
                 {
                     "type": "Low Grade Fuel",
                     "amount": 15
-                },
-                {
-                    "type": "Charcoal",
-                    "amount": 30
-                },
-                {
-                    "type": "Sulfur",
-                    "amount": 20
                 }
             ]
         }
@@ -12728,22 +7906,6 @@
                 {
                     "type": "Low Grade Fuel",
                     "amount": 10
-                },
-                {
-                    "type": "Animal Fat",
-                    "amount": 3
-                },
-                {
-                    "type": "Cloth",
-                    "amount": 1
-                },
-                {
-                    "type": "Metal Fragments",
-                    "amount": 13
-                },
-                {
-                    "type": "Low Grade Fuel",
-                    "amount": 5
                 }
             ]
         }
@@ -12760,14 +7922,6 @@
                 {
                     "type": "Gun Powder",
                     "amount": 15
-                },
-                {
-                    "type": "Charcoal",
-                    "amount": 30
-                },
-                {
-                    "type": "Sulfur",
-                    "amount": 20
                 }
             ]
         }
@@ -12800,14 +7954,6 @@
                 {
                     "type": "Gun Powder",
                     "amount": 15
-                },
-                {
-                    "type": "Charcoal",
-                    "amount": 30
-                },
-                {
-                    "type": "Sulfur",
-                    "amount": 20
                 }
             ]
         }

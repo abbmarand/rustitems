@@ -4,7 +4,7 @@ import { getItemNames } from './getItemNames.js'
 import * as fs from 'node:fs/promises'
 //opens a new browser
 const browser = await puppeteer.launch({
-    headless: "new",//"new"
+    headless: true,//"new"
     defaultViewport: null,
 })
 fs.writeFile('items.json', '', function () { console.log('cleared file') })
