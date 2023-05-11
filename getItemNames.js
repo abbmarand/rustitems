@@ -1,14 +1,14 @@
-function parseItemString(str) {
+function parseItemString (str) {
     const lowerstr = str.toLowerCase()//.normalize('NFC')
     let replaced = lowerstr.replace(/\s+/g, '-')
-    replaced = replaced.replace(/-+/g, '-'); // Replaces multiple hyphens with a single hyphen
-    replaced = replaced.replace(/é/g, 'e'); // Replaces é with e
+    replaced = replaced.replace(/-+/g, '-') // Replaces multiple hyphens with a single hyphen
+    replaced = replaced.replace(/é/g, 'e') // Replaces é with e
     console.log(replaced)
     return replaced
 }
 
 
-async function ScrapeItems(page) {
+async function ScrapeItems (page) {
     const itemarr = await page.$$('span.r-cell')
     let itemtext
     let itemtextarr = []
@@ -21,7 +21,7 @@ async function ScrapeItems(page) {
 }
 
 
-async function getItemNames(browser) {
+async function getItemNames (browser) {
     const page = await browser.newPage()
     await page.goto(`https://rustlabs.com/group=itemlist`, {
         waitUntil: "domcontentloaded",

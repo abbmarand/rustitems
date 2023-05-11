@@ -27,5 +27,4 @@ function askQuestion () {
         askQuestion() // ask the question again after handling the input
     })
 }
-
 askQuestion() // start the loop

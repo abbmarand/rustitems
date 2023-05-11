@@ -1,11 +1,16 @@
-export function parseXint (str) {
+function parseXint (str) {
     let int = 1
     if (str === '') {
         str = 'x1'
     }
-    str = str.substring(1)//remove the x so it can be parsed into a number
-    str = parseInt(str, 10)
-    int = str
+    if (str.endsWith('ft')) {
+        const match = str.match(/^[0-9]+/)
+        if (match) {
+            int = parseInt(match[0], 10)
+        }
+    } else {
+        int = parseInt(str.substring(1), 10)
+    }
     return int
 }
 
@@ -40,11 +45,8 @@ async function getYieldAmount (page) {
 
 async function getItemCost (page) {
     const craftItemBox = await page.$('div.tab-page.tab-table[data-name="craft"]')
-    const tdElement = await page.$('td.no-padding[data-value]')
+    const tdElement = await page.$('div[data-name="craft"] td.no-padding[data-value]')
     let totalCraftCost = await tdElement.evaluate(el => el.getAttribute('data-value'))
-    if (totalCraftCost < 5) {
-        totalCraftCost = 100000
-    }
     const typeElements = await craftItemBox.$$('a.item-box img')
     const amountElements = await craftItemBox.$$('a.item-box span.text-in-icon')
     const craftCost = []
@@ -71,7 +73,7 @@ async function getItemCost (page) {
         prevtypes.push(type)
         craftCost.push({ type, amount })
     }
-    return craftCost
+    return { craftCost, totalCraftCost }
 }
 
 

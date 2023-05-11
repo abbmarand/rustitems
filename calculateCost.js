@@ -1,6 +1,4 @@
-// file: main.js
 import { createMap } from './readData.js'
-import { parseXint } from './getItemByName.js'
 async function calculateCost (item, amount) {
     const map = await createMap()
     const itemData = map.get(item)
