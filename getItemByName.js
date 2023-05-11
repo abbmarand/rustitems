@@ -1,4 +1,4 @@
-function parseXint(str) {
+export function parseXint (str) {
     let int = 1
     if (str === '') {
         str = 'x1'
@@ -10,7 +10,7 @@ function parseXint(str) {
 }
 
 
-async function checkIfCrafteble(page) {
+async function checkIfCrafteble (page) {
     const tabholder = await page.$('[data-name="craft"]')
     if (tabholder === null) {
         return false
@@ -20,7 +20,7 @@ async function checkIfCrafteble(page) {
 }
 
 
-async function getYieldAmount(page) {
+async function getYieldAmount (page) {
     const yieldElement = await page.$('td.item-cell')
     if (yieldElement === undefined) {
         return 1
@@ -38,7 +38,7 @@ async function getYieldAmount(page) {
 }
 
 
-async function getItemCost(page) {
+async function getItemCost (page) {
     const craftItemBox = await page.$('div.tab-page.tab-table[data-name="craft"]')
     const tdElement = await page.$('td.no-padding[data-value]')
     let totalCraftCost = await tdElement.evaluate(el => el.getAttribute('data-value'))
@@ -75,7 +75,7 @@ async function getItemCost(page) {
 }
 
 
-async function scrapeItemInfo(page) {
+async function scrapeItemInfo (page) {
     const yieldAmount = await getYieldAmount(page)
     const craftCost = await getItemCost(page)
     return { "yield": yieldAmount, "recepie": craftCost }
@@ -84,7 +84,7 @@ async function scrapeItemInfo(page) {
 
 //takes the desired itemname and the browser as an input
 //then it opens a new page corrosponding to the item and scrapes the cost for that item
-async function getItemByName(name, browser) {
+async function getItemByName (name, browser) {
     const page = await browser.newPage()
     try {
         await page.goto(`https://rustlabs.com/item/${name}`, {
