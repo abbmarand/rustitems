@@ -6,7 +6,7 @@ async function calculateCost (item, amount) {
         console.log(`${item} not found`)
         return
     }
-    const recepie = itemData.recepie
+    const recepie = itemData.recepie.craftCost
     let craftstring = ""
     let firstrun = true
     for (const ingredient of recepie) {
