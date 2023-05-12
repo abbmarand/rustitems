@@ -1,12 +1,12 @@
 import { createMap } from './readData.js'
-async function calculateCost (item, amount) {
+async function calculateCost(item, amount) {
     const map = await createMap()
     const itemData = map.get(item)
     if (!itemData) {
         console.log(`${item} not found`)
         return
     }
-    const recepie = itemData.recepie.craftCost
+    const recepie = itemData.craftData.recepie.craftCost
     let craftstring = ""
     let firstrun = true
     for (const ingredient of recepie) {

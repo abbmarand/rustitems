@@ -1,5 +1,5 @@
 import puppeteer from 'puppeteer'
-import { getItemByName } from './getItemByName.js'
+import { getItemByName } from './getItemCraftData.js'
 import { getItemNames } from './getItemNames.js'
 import * as fs from 'node:fs/promises'
 

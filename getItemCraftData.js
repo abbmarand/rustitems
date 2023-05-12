@@ -1,4 +1,4 @@
-function parseXint (str) {
+function parseXint(str) {
     let int = 1
     if (str === '') {
         str = 'x1'
@@ -15,7 +15,7 @@ function parseXint (str) {
 }
 
 
-async function checkIfCrafteble (page) {
+async function checkIfCrafteble(page) {
     const tabholder = await page.$('[data-name="craft"]')
     if (tabholder === null) {
         return false
@@ -25,12 +25,12 @@ async function checkIfCrafteble (page) {
 }
 
 
-async function getYieldAmount (page) {
-    const yieldElement = await page.$('td.item-cell')
+async function getYieldAmount(page) {
+    const yieldElement = await page.$('div[data-name="craft"] td.item-cell')
     if (yieldElement === undefined) {
         return 1
     }
-    const yieldTextElement = await page.$('td.item-cell span.text-in-icon')
+    const yieldTextElement = await page.$('div[data-name="craft"] td.item-cell span.text-in-icon')
     if (yieldTextElement === null || yieldTextElement === undefined) {
         return 1
     }
@@ -42,8 +42,28 @@ async function getYieldAmount (page) {
     return yieldAmount
 }
 
+function isInt(value) {//stack overflow
+    return !isNaN(value) &&
+        parseInt(Number(value)) == value &&
+        !isNaN(parseInt(value, 10));
+}
 
-async function getItemCost (page) {
+async function getItemIdentifier(page) {
+    const cells = await page.$$('table.stats-table td:nth-child(2)');
+    for (const cell of cells) {
+        const value = await cell.evaluate((node) => Number(node.textContent.trim()));
+        if (isInt(value)) {
+            return value
+        }
+    }
+    return 0
+}
+
+async function getItemCraftTime(page) {
+
+}
+
+async function getItemCost(page) {
     const craftItemBox = await page.$('div.tab-page.tab-table[data-name="craft"]')
     const tdElement = await page.$('div[data-name="craft"] td.no-padding[data-value]')
     let totalCraftCost = await tdElement.evaluate(el => el.getAttribute('data-value'))
@@ -67,7 +87,7 @@ async function getItemCost (page) {
         }
         countedCost += amount
         if (totalCraftCost === countedCost || countedCost > totalCraftCost) {
-            console.log(`countedcost(${countedCost}) is larger or equal than totalcraftcost(${totalCraftCost})`)
+            //console.log(`countedcost(${countedCost}) is larger or equal than totalcraftcost(${totalCraftCost})`) //debug
             break
         }
         prevtypes.push(type)
@@ -77,7 +97,7 @@ async function getItemCost (page) {
 }
 
 
-async function scrapeItemInfo (page) {
+async function scrapeItemInfo(page) {
     const yieldAmount = await getYieldAmount(page)
     const craftCost = await getItemCost(page)
     return { "yield": yieldAmount, "recepie": craftCost }
@@ -86,21 +106,24 @@ async function scrapeItemInfo (page) {
 
 //takes the desired itemname and the browser as an input
 //then it opens a new page corrosponding to the item and scrapes the cost for that item
-async function getItemByName (name, browser) {
+async function getItemByName(name, browser) {
+    let identifier = 0
     const page = await browser.newPage()
     try {
         await page.goto(`https://rustlabs.com/item/${name}`, {
             waitUntil: "domcontentloaded",
         })
-        let cost
+        let craftData
         const scrapeble = await checkIfCrafteble(page)
         if (scrapeble) {
-            cost = await scrapeItemInfo(page)
+            craftData = await scrapeItemInfo(page)
+            identifier = await getItemIdentifier(page)//item identifier always exists but not craftrecipie
         } else {
-            cost = {}
+            craftData = {}
+            identifier = await getItemIdentifier(page)
         }
         page.close()
-        return cost
+        return { identifier, craftData }
     } catch (error) {
         console.log(`failed to scrape data of ${name} (${error})`)
         page.close()
