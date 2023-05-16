@@ -18,14 +18,17 @@ let allitemcosts = {}
 let scrapecount = 0
 const scrapelen = itemnames.length
 
-for (const itemname of itemnames) {
+for (const item of itemnames) {
     scrapecount += 1
     console.log(`scraping item ${scrapecount}/${scrapelen} ...`)
-    const iteminfo = await getItemByName(itemname, browser)
-    allitemcosts[itemname] = iteminfo
+    const { name, group } = item
+    const iteminfo = await getItemByName(name, browser)
+    const updatedIteminfo = { group, ...iteminfo }
+    allitemcosts[name] = updatedIteminfo
     fs.writeFile('items.json', JSON.stringify(allitemcosts), (err) => {
         if (err) throw err
     })
 }
+
 
 browser.close()

@@ -1,4 +1,4 @@
-function parseXint(str) {
+function parseXint (str) {
     let int = 1
     if (str === '') {
         str = 'x1'
@@ -15,7 +15,7 @@ function parseXint(str) {
 }
 
 
-async function checkIfCrafteble(page) {
+async function checkIfCrafteble (page) {
     const tabholder = await page.$('[data-name="craft"]')
     if (tabholder === null) {
         return false
@@ -25,7 +25,7 @@ async function checkIfCrafteble(page) {
 }
 
 
-async function getYieldAmount(page) {
+async function getYieldAmount (page) {
     const yieldElement = await page.$('div[data-name="craft"] td.item-cell')
     if (yieldElement === undefined) {
         return 1
@@ -42,16 +42,16 @@ async function getYieldAmount(page) {
     return yieldAmount
 }
 
-function isInt(value) {//stack overflow
+function isInt (value) {//stack overflow
     return !isNaN(value) &&
         parseInt(Number(value)) == value &&
-        !isNaN(parseInt(value, 10));
+        !isNaN(parseInt(value, 10))
 }
 
-async function getItemIdentifier(page) {
-    const cells = await page.$$('table.stats-table td:nth-child(2)');
+async function getItemIdentifier (page) {
+    const cells = await page.$$('table.stats-table td:nth-child(2)')
     for (const cell of cells) {
-        const value = await cell.evaluate((node) => Number(node.textContent.trim()));
+        const value = await cell.evaluate((node) => Number(node.textContent.trim()))
         if (isInt(value)) {
             return value
         }
@@ -59,11 +59,32 @@ async function getItemIdentifier(page) {
     return 0
 }
 
-async function getItemCraftTime(page) {
-
+async function getItemCraftTime (page) {
+    const tdElements = await page.$$('div[data-name="craft"] td[data-value]')
+    let craftTime
+    for (const tdElement of tdElements) {
+        const textContent = await page.evaluate((element) => element.innerText, tdElement)
+        if (textContent.includes('sec')) {
+            craftTime = textContent
+            return craftTime
+        }
+    }
 }
 
-async function getItemCost(page) {
+async function getWorkbenchTier (page) {
+    const tdElements = await page.$$('div[data-name="craft"] td[data-value]')
+    let workbench
+    for (const tdElement of tdElements) {
+        const textContent = await page.evaluate((element) => element.innerText, tdElement)
+        if (/^I+$/.test(textContent)) {
+            workbench = textContent
+            return workbench
+        }
+    }
+}
+
+
+async function getItemCost (page) {
     const craftItemBox = await page.$('div.tab-page.tab-table[data-name="craft"]')
     const tdElement = await page.$('div[data-name="craft"] td.no-padding[data-value]')
     let totalCraftCost = await tdElement.evaluate(el => el.getAttribute('data-value'))
@@ -93,20 +114,32 @@ async function getItemCost(page) {
         prevtypes.push(type)
         craftCost.push({ type, amount })
     }
-    return { craftCost, totalCraftCost }
+    return { totalCraftCost, craftCost }
 }
 
 
-async function scrapeItemInfo(page) {
+async function scrapeItemInfo (page) {
+    let workbench
+    const workbenchTier = await getWorkbenchTier(page)
+    if (workbenchTier === null || workbenchTier === null) {
+        workbench = 0
+    } else {
+        try {
+            workbench = (workbenchTier.match(/I/g) || []).length//counts the ammount of I in the string
+        } catch {
+            workbench = 0
+        }
+    }
+    const crafttime = await getItemCraftTime(page)
     const yieldAmount = await getYieldAmount(page)
     const craftCost = await getItemCost(page)
-    return { "yield": yieldAmount, "recepie": craftCost }
+    return { "yield": yieldAmount, "workbench": workbench, "craft": crafttime, "recepie": craftCost }
 }
 
 
 //takes the desired itemname and the browser as an input
 //then it opens a new page corrosponding to the item and scrapes the cost for that item
-async function getItemByName(name, browser) {
+async function getItemByName (name, browser) {
     let identifier = 0
     const page = await browser.newPage()
     try {
