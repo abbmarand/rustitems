@@ -1,29 +1,38 @@
 import { calculateCost } from "./calculateCost.js"
 import readline from 'readline'
-function craftItem (input) {
+async function craftItem(input) {
     const args = input.split(" ")
     const item = args[1]
     const quantity = parseInt(args[2])
 
     if (isNaN(quantity)) {
-        console.log("please enter in this format (!craft {name} {amount})")
-        return
+        return ("please enter in this format (!craft {name} {amount})")
     }
 
-    calculateCost(item, quantity)
-        .then(cost => console.log(`The cost to craft ${quantity} ${item}(s) is ${cost}.`))
-        .catch(error => console.log(error))
+    try {
+        const cost = await calculateCost(item, quantity);
+        if (quantity === 1) {
+            return `The cost to craft ${quantity} ${item} is ${cost}.`;
+        } else {
+            return `The cost to craft ${quantity} ${item}s is ${cost}.`;
+        }
+    } catch (error) {
+        console.log(error);
+    }
 }
 
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
 })
-let question = true
 
-function askQuestion () {
-    rl.question('', name => {
-        craftItem(name)
+
+function askQuestion() {
+    rl.question('', async name => {
+        const message = await craftItem(name)
+        if (message) {
+            console.log(message)
+        }
         askQuestion() // ask the question again after handling the input
     })
 }

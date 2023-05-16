@@ -91,7 +91,8 @@ async function getItemCost(page) {
             break
         }
         prevtypes.push(type)
-        craftCost.push({ type, amount })
+        const name = type
+        craftCost.push({ name, amount })
     }
     return { craftCost, totalCraftCost }
 }
@@ -100,7 +101,7 @@ async function getItemCost(page) {
 async function scrapeItemInfo(page) {
     const yieldAmount = await getYieldAmount(page)
     const craftCost = await getItemCost(page)
-    return { "yield": yieldAmount, "recepie": craftCost }
+    return { "yield": yieldAmount, "recipie": craftCost }
 }
 
 
