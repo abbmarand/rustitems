@@ -45,13 +45,13 @@ async function getYieldAmount(page) {
 function isInt(value) {//stack overflow
     return !isNaN(value) &&
         parseInt(Number(value)) == value &&
-        !isNaN(parseInt(value, 10));
+        !isNaN(parseInt(value, 10))
 }
 
 async function getItemIdentifier(page) {
-    const cells = await page.$$('table.stats-table td:nth-child(2)');
+    const cells = await page.$$('table.stats-table td:nth-child(2)')
     for (const cell of cells) {
-        const value = await cell.evaluate((node) => Number(node.textContent.trim()));
+        const value = await cell.evaluate((node) => Number(node.textContent.trim()))
         if (isInt(value)) {
             return value
         }
@@ -60,8 +60,29 @@ async function getItemIdentifier(page) {
 }
 
 async function getItemCraftTime(page) {
-
+    const tdElements = await page.$$('div[data-name="craft"] td[data-value]')
+    let craftTime
+    for (const tdElement of tdElements) {
+        const textContent = await page.evaluate((element) => element.innerText, tdElement)
+        if (textContent.includes('sec')) {
+            craftTime = textContent
+            return craftTime
+        }
+    }
 }
+
+async function getWorkbenchTier(page) {
+    const tdElements = await page.$$('div[data-name="craft"] td[data-value]')
+    let workbench
+    for (const tdElement of tdElements) {
+        const textContent = await page.evaluate((element) => element.innerText, tdElement)
+        if (/^I+$/.test(textContent)) {
+            workbench = textContent
+            return workbench
+        }
+    }
+}
+
 
 async function getItemCost(page) {
     const craftItemBox = await page.$('div.tab-page.tab-table[data-name="craft"]')
@@ -94,14 +115,26 @@ async function getItemCost(page) {
         const name = type
         craftCost.push({ name, amount })
     }
-    return { craftCost, totalCraftCost }
+    return { totalCraftCost, craftCost }
 }
 
 
 async function scrapeItemInfo(page) {
+    let workbench
+    const workbenchTier = await getWorkbenchTier(page)
+    if (workbenchTier === null || workbenchTier === null) {
+        workbench = 0
+    } else {
+        try {
+            workbench = (workbenchTier.match(/I/g) || []).length//counts the ammount of I in the string
+        } catch {
+            workbench = 0
+        }
+    }
+    const crafttime = await getItemCraftTime(page)
     const yieldAmount = await getYieldAmount(page)
     const craftCost = await getItemCost(page)
-    return { "yield": yieldAmount, "recipie": craftCost }
+    return { "yield": yieldAmount, "workbench": workbench, "craft": crafttime, "recipie": craftCost }
 }
 
 
