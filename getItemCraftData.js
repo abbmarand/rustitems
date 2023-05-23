@@ -1,19 +1,24 @@
-function parseXint(str) {
-    let int = 1
+function toDecimal(percent) {
+    return parseFloat(percent) / 100;
+}
+function parseNumber(str) {
+    let float = 1;
     if (str === '') {
-        str = 'x1'
+        str = 'x1';
     }
     if (str.endsWith('ft')) {
-        const match = str.match(/^[0-9]+/)
+        const match = str.match(/^[0-9]+/);
         if (match) {
-            int = parseInt(match[0], 10)
+            float = parseInt(match[0], 10);
         }
     } else {
-        int = parseInt(str.substring(1), 10)
+        float = parseInt(str.substring(1), 10);
     }
-    return int
+    if (str.endsWith("%")) {
+        float = toDecimal(str)
+    }
+    return float;
 }
-
 
 async function checkIfCrafteble(page) {
     const tabholder = await page.$('[data-name="craft"]')
@@ -43,7 +48,7 @@ async function getYieldAmount(page) {
         if (yieldAmount === undefined) {
             yieldAmount = 1
         }
-        yieldAmount = parseXint(yieldAmount)
+        yieldAmount = parseNumber(yieldAmount)
         return yieldAmount
     } else {
         return 1
@@ -107,7 +112,7 @@ async function getItemCost(page) {
 
         const type = await page.evaluate(typeElement => typeElement.getAttribute('alt'), typeElement)//the alt of the image is the ingame item name
         let amount = await page.evaluate(amountElement => amountElement.innerText, amountElement)
-        amount = parseXint(amount)
+        amount = parseNumber(amount)
         if (isNaN(amount)) {//on this website the workbench tier comes after the items requred to craft and the tier is displayed like this (III) which is not parseble into an int
             break//this means that breaking when that is true will return only the items that are requred to craft it
         }
@@ -145,6 +150,26 @@ async function scrapeItemInfo(page) {
     return { "yield": yieldAmount, "workbench": workbench, "craft": crafttime, "recipie": craftCost }
 }
 
+async function getRecycleYield(page) {
+    const recycleElement = await page.$('div.tab-page.tab-table[data-name="recycle"]');
+    if (!recycleElement) {
+        return {};
+    } else {
+        const itemBoxElements = await recycleElement.$$('a.item-box');
+        const recycleCost = [];
+        for (let i = 0; i < itemBoxElements.length; i++) {
+            const itemBoxElement = itemBoxElements[i];
+            const itemName = await itemBoxElement.$eval('img', (img) => img.getAttribute('alt'));
+            let itemAmount = await page.evaluate(itemBoxElement => itemBoxElement.innerText, itemBoxElement)
+            itemAmount = parseNumber(itemAmount)
+            recycleCost.push({ name: itemName, amount: itemAmount });
+        }
+
+        return { recycleYield: recycleCost };
+    }
+}
+
+
 
 //takes the desired itemname and the browser as an input
 //then it opens a new page corrosponding to the item and scrapes the cost for that item
@@ -164,8 +189,9 @@ async function getItemByName(name, browser) {
             craftData = {}
             identifier = await getItemIdentifier(page)
         }
+        const recycleData = await getRecycleYield(page)
         page.close()
-        return { identifier, craftData }
+        return { identifier, craftData, recycleData }
     } catch (error) {
         console.log(`failed to scrape data of ${name} (${error})`)
         page.close()
