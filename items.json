@@ -1272,7 +1272,7 @@
         "group": "Items",
         "identifier": -1916473915,
         "craftData": {
-            "yield": 4,
+            "yield": 1,
             "workbench": 0,
             "craft": "7–30 sec",
             "recipie": {
@@ -1334,7 +1334,7 @@
         "group": "Items",
         "identifier": 1058261682,
         "craftData": {
-            "yield": 4,
+            "yield": 1,
             "workbench": 0,
             "craft": "7–30 sec",
             "recipie": {
@@ -5036,7 +5036,7 @@
         "group": "Misc",
         "identifier": -1973785141,
         "craftData": {
-            "yield": 4,
+            "yield": 1,
             "workbench": 3,
             "craft": "3–15 sec",
             "recipie": {
@@ -5353,7 +5353,7 @@
         "group": "Misc",
         "identifier": 1358643074,
         "craftData": {
-            "yield": 4,
+            "yield": 1,
             "workbench": 1,
             "craft": "7–30 sec",
             "recipie": {
@@ -7732,7 +7732,7 @@
         "group": "Fun",
         "identifier": 1744298439,
         "craftData": {
-            "yield": 10,
+            "yield": 1,
             "workbench": 1,
             "craft": "2–10 sec",
             "recipie": {
@@ -7758,7 +7758,7 @@
         "group": "Fun",
         "identifier": -515830359,
         "craftData": {
-            "yield": 4,
+            "yield": 1,
             "workbench": 0,
             "craft": "15 sec – 1 min",
             "recipie": {
@@ -7918,7 +7918,7 @@
         "group": "Fun",
         "identifier": 1324203999,
         "craftData": {
-            "yield": 10,
+            "yield": 1,
             "workbench": 1,
             "craft": "2–10 sec",
             "recipie": {
@@ -8021,7 +8021,7 @@
         "group": "Fun",
         "identifier": -656349006,
         "craftData": {
-            "yield": 10,
+            "yield": 1,
             "workbench": 1,
             "craft": "2–10 sec",
             "recipie": {
@@ -8047,7 +8047,7 @@
         "group": "Fun",
         "identifier": -1306288356,
         "craftData": {
-            "yield": 4,
+            "yield": 1,
             "workbench": 0,
             "craft": "15 sec – 1 min",
             "recipie": {
@@ -8233,7 +8233,7 @@
         "group": "Fun",
         "identifier": -7270019,
         "craftData": {
-            "yield": 10,
+            "yield": 1,
             "workbench": 1,
             "craft": "2–10 sec",
             "recipie": {
@@ -8303,7 +8303,7 @@
         "group": "Fun",
         "identifier": -379734527,
         "craftData": {
-            "yield": 10,
+            "yield": 1,
             "workbench": 1,
             "craft": "2–10 sec",
             "recipie": {
@@ -8365,7 +8365,7 @@
         "group": "Fun",
         "identifier": -1553999294,
         "craftData": {
-            "yield": 10,
+            "yield": 1,
             "workbench": 1,
             "craft": "2–10 sec",
             "recipie": {
@@ -8391,7 +8391,7 @@
         "group": "Fun",
         "identifier": -1486461488,
         "craftData": {
-            "yield": 4,
+            "yield": 1,
             "workbench": 0,
             "craft": "15 sec – 1 min",
             "recipie": {
@@ -8413,7 +8413,7 @@
         "group": "Fun",
         "identifier": -454370658,
         "craftData": {
-            "yield": 10,
+            "yield": 1,
             "workbench": 1,
             "craft": "2–10 sec",
             "recipie": {
@@ -8501,7 +8501,7 @@
         "group": "Fun",
         "identifier": 1819863051,
         "craftData": {
-            "yield": 4,
+            "yield": 1,
             "workbench": 0,
             "craft": "0.5–2 sec",
             "recipie": {
@@ -8590,7 +8590,7 @@
         "group": "Fun",
         "identifier": -280223496,
         "craftData": {
-            "yield": 10,
+            "yield": 1,
             "workbench": 1,
             "craft": "2–10 sec",
             "recipie": {
@@ -8616,7 +8616,7 @@
         "group": "Fun",
         "identifier": -99886070,
         "craftData": {
-            "yield": 4,
+            "yield": 1,
             "workbench": 0,
             "craft": "15 sec – 1 min",
             "recipie": {
@@ -8638,7 +8638,7 @@
         "group": "Fun",
         "identifier": -1538109120,
         "craftData": {
-            "yield": 10,
+            "yield": 1,
             "workbench": 1,
             "craft": "2–10 sec",
             "recipie": {
@@ -8682,7 +8682,7 @@
         "group": "Fun",
         "identifier": 261913429,
         "craftData": {
-            "yield": 10,
+            "yield": 1,
             "workbench": 1,
             "craft": "2–10 sec",
             "recipie": {

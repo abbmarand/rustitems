@@ -30,16 +30,24 @@ async function getYieldAmount(page) {
     if (yieldElement === undefined) {
         return 1
     }
-    const yieldTextElement = await page.$('div[data-name="craft"] td.item-cell span.text-in-icon')
-    if (yieldTextElement === null || yieldTextElement === undefined) {
+    const hasSpanTag = await page.$eval('div[data-name="craft"] td.item-cell', (element) => {
+        return element.querySelector('span') !== null;
+    });
+
+    if (hasSpanTag) {
+        const yieldTextElement = await page.$('div[data-name="craft"] td.item-cell span.text-in-icon')
+        if (yieldTextElement === null || yieldTextElement === undefined) {
+            return 1
+        }
+        let yieldAmount = await page.evaluate((yieldTextElement) => yieldTextElement.innerText, yieldTextElement)
+        if (yieldAmount === undefined) {
+            yieldAmount = 1
+        }
+        yieldAmount = parseXint(yieldAmount)
+        return yieldAmount
+    } else {
         return 1
     }
-    let yieldAmount = await page.evaluate((yieldTextElement) => yieldTextElement.innerText, yieldTextElement)
-    if (yieldAmount === undefined) {
-        yieldAmount = 1
-    }
-    yieldAmount = parseXint(yieldAmount)
-    return yieldAmount
 }
 
 function isInt(value) {//stack overflow
@@ -148,8 +156,8 @@ async function getItemByName(name, browser) {
             waitUntil: "domcontentloaded",
         })
         let craftData
-        const scrapeble = await checkIfCrafteble(page)
-        if (scrapeble) {
+        const crafteble = await checkIfCrafteble(page)
+        if (crafteble) {
             craftData = await scrapeItemInfo(page)
             identifier = await getItemIdentifier(page)//item identifier always exists but not craftrecipie
         } else {
