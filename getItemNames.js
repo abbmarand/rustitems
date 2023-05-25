@@ -5,17 +5,31 @@ function parseItemString (str) {//https://regex-generator.olafneumann.org/
     replaced = replaced.replace(/é/g, 'e') // Replaces é with e
     return replaced
 }
+
+function getGroupNames (array) {
+    const groups = array.map(str => str.replace(/\/group=(\w+)/, '$1'))
+    const uniqueGroups = [...new Set(groups)]
+    return uniqueGroups
+}
+
+
 async function scrapeItemsWithGroup (page) {
     const itemGroups = []
-    const itemTypeslist = await page.$$('li [style="width: auto; white-space: nowrap;"]')
+    const itemTypeslist = await page.$$('li[style="width: auto; white-space: nowrap;"]')
+
     for (const item of itemTypeslist) {
-        const itemTypeText = await page.evaluate(item => item.innerText, item)
-        itemGroups.push(itemTypeText)
+        try {
+            //const itemTypeText = await page.evaluate(item => item.innerText, item)
+            const aElement = await item.$('a')
+            const hrefValue = await page.evaluate(aElement => aElement.getAttribute('href'), aElement)
+            itemGroups.push(hrefValue)
+        } catch {
+
+        }
     }
-    itemGroups.push("build")//had to hardcode as the construction button lead to the build tab
     return itemGroups
 }
-async function scrapeItems (page) {
+async function scrapeItemsNames (page) {
     const itemarr = await page.$$('span.r-cell')
     let itemtext
     let itemtextarr = []
@@ -33,23 +47,26 @@ async function getItemNames (browser) {
     await page.goto(`https://rustlabs.com/group=itemlist`, {
         waitUntil: "domcontentloaded",
     })
-
     const items = []
+    //onst itemswithoutgroup = await scrapeItemsNames(page)
     const itemGroups = await scrapeItemsWithGroup(page)
-    for (const itemGroup of itemGroups) {
+    const itemGroupNames = getGroupNames(itemGroups)
+    for (let i = 0; i < itemGroups.length; i++) {
         try {
-            await page.goto(`https://rustlabs.com/group=${itemGroup}`, {
+            console.log(itemGroups[i])
+            await page.goto(`https://rustlabs.com${itemGroups[i]}`, {
                 waitUntil: "domcontentloaded",
             })
-            const groupItems = await scrapeItems(page)
+            const groupItems = await scrapeItemsNames(page)
+            console.log(itemGroups[i])
             groupItems.forEach(item => {
                 items.push({
                     name: item,
-                    group: itemGroup
+                    group: itemGroupNames[i]
                 })
             })
         } catch (e) {
-            console.log(`failed to scrape items with group: ${itemGroup}`)
+            console.log(`failed to scrape items with group: ${itemGroups[i]}`)
         }
     }
     await page.close()
