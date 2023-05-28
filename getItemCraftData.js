@@ -79,7 +79,18 @@ async function getItemCraftTime(page) {
         const textContent = await page.evaluate((element) => element.innerText, tdElement)
         if (textContent.includes('sec')) {
             craftTime = textContent
-            return craftTime
+            craftTime = craftTime.replace(' sec', '')
+            craftTime = craftTime.split('–')//special character, not the one that exists on normal keyboards, took me 30 minutes to figure out why it didnt work
+            if (craftTime.length > 1) {
+                const shorterCraftTime = parseInt(craftTime[0])
+                const longerCraftTime = parseInt(craftTime[1])
+                craftTime = { short: shorterCraftTime, long: longerCraftTime }
+            } else {
+                const shorterCraftTime = parseInt(craftTime[0])
+                const longerCraftTime = parseInt(craftTime[0])
+                craftTime = { short: shorterCraftTime, long: longerCraftTime }
+            }
+            return { craftTime }
         }
     }
 }
@@ -144,10 +155,10 @@ async function scrapeItemInfo(page) {
             workbench = 0
         }
     }
-    const crafttime = await getItemCraftTime(page)
+    const craftTime = await getItemCraftTime(page)
     const yieldAmount = await getYieldAmount(page)
     const craftCost = await getItemCost(page)
-    return { "yield": yieldAmount, "workbench": workbench, "craft": crafttime, "recipie": craftCost }
+    return { "yield": yieldAmount, "workbench": workbench, "craftTime": craftTime, "recipie": craftCost }
 }
 
 async function getRecycleYield(page) {

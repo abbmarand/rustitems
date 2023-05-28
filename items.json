@@ -18,7 +18,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 3,
-            "craft": "30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 30,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "50",
                 "craftCost": [
@@ -44,7 +49,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 3,
-            "craft": "45 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 45,
+                    "long": 45
+                }
+            },
             "recipie": {
                 "totalCraftCost": "255",
                 "craftCost": [
@@ -94,7 +104,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "2–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 2,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "80",
                 "craftCost": [
@@ -128,7 +143,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 3,
-            "craft": "45 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 45,
+                    "long": 45
+                }
+            },
             "recipie": {
                 "totalCraftCost": "25",
                 "craftCost": [
@@ -178,7 +198,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "2–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 2,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "20",
                 "craftCost": [
@@ -204,7 +229,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "30",
                 "craftCost": [
@@ -249,7 +279,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "3–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "26",
                 "craftCost": [
@@ -283,7 +318,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "177",
                 "craftCost": [
@@ -325,7 +365,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "277",
                 "craftCost": [
@@ -367,7 +412,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "10",
                 "craftCost": [
@@ -409,7 +459,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "10–40 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 10,
+                    "long": 40
+                }
+            },
             "recipie": {
                 "totalCraftCost": "177",
                 "craftCost": [
@@ -443,7 +498,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "105",
                 "craftCost": [
@@ -477,7 +537,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "10",
                 "craftCost": [
@@ -503,7 +568,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "5–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "55",
                 "craftCost": [
@@ -537,7 +607,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "20–40 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 20,
+                    "long": 40
+                }
+            },
             "recipie": {
                 "totalCraftCost": "123",
                 "craftCost": [
@@ -587,7 +662,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "5–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -621,7 +701,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 3,
-            "craft": "30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 30,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "67",
                 "craftCost": [
@@ -671,7 +756,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "13",
                 "craftCost": [
@@ -705,7 +795,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "250",
                 "craftCost": [
@@ -789,7 +884,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "102",
                 "craftCost": [
@@ -819,28 +919,9 @@
     },
     "m249": {
         "group": "Weapons",
-        "identifier": -2069578888,
+        "identifier": 0,
         "craftData": {},
-        "recycleData": {
-            "recycleYield": [
-                {
-                    "name": "High Quality Metal",
-                    "amount": 20
-                },
-                {
-                    "name": "Metal Spring",
-                    "amount": 3
-                },
-                {
-                    "name": "Gears",
-                    "amount": 3
-                },
-                {
-                    "name": "Rifle Body",
-                    "amount": 0.5
-                }
-            ]
-        }
+        "recycleData": {}
     },
     "m39-rifle": {
         "group": "Weapons",
@@ -894,7 +975,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 3,
-            "craft": "30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 30,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "18",
                 "craftCost": [
@@ -936,7 +1022,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "150",
                 "craftCost": [
@@ -966,37 +1057,9 @@
     },
     "machete": {
         "group": "Weapons",
-        "identifier": -1137865085,
-        "craftData": {
-            "yield": 1,
-            "workbench": 0,
-            "craft": "7–30 sec",
-            "recipie": {
-                "totalCraftCost": "140",
-                "craftCost": [
-                    {
-                        "name": "Wood",
-                        "amount": 100
-                    },
-                    {
-                        "name": "Metal Fragments",
-                        "amount": 40
-                    }
-                ]
-            }
-        },
-        "recycleData": {
-            "recycleYield": [
-                {
-                    "name": "Wood",
-                    "amount": 50
-                },
-                {
-                    "name": "Metal Fragments",
-                    "amount": 20
-                }
-            ]
-        }
+        "identifier": 0,
+        "craftData": {},
+        "recycleData": {}
     },
     "molotov-cocktail": {
         "group": "Weapons",
@@ -1004,7 +1067,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "5–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "60",
                 "craftCost": [
@@ -1055,7 +1123,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "10",
                 "craftCost": [
@@ -1081,7 +1154,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "8",
                 "craftCost": [
@@ -1107,7 +1185,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "90",
                 "craftCost": [
@@ -1141,7 +1224,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "216",
                 "craftCost": [
@@ -1225,7 +1313,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "20–40 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 20,
+                    "long": 40
+                }
+            },
             "recipie": {
                 "totalCraftCost": "18",
                 "craftCost": [
@@ -1267,7 +1360,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "14",
                 "craftCost": [
@@ -1309,7 +1407,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "151",
                 "craftCost": [
@@ -1351,7 +1454,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "30 sec – 1 min ",
+            "craftTime": {
+                "craftTime": {
+                    "short": 30,
+                    "long": 1
+                }
+            },
             "recipie": {
                 "totalCraftCost": "44",
                 "craftCost": [
@@ -1385,7 +1493,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "51",
                 "craftCost": [
@@ -1419,7 +1532,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "16",
                 "craftCost": [
@@ -1453,7 +1571,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "6",
                 "craftCost": [
@@ -1495,7 +1618,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "456",
                 "craftCost": [
@@ -1545,7 +1673,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "5",
                 "craftCost": [
@@ -1571,7 +1704,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "6",
                 "craftCost": [
@@ -1641,7 +1779,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "76",
                 "craftCost": [
@@ -1675,7 +1818,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "2–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 2,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "21",
                 "craftCost": [
@@ -1709,7 +1857,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "112",
                 "craftCost": [
@@ -1759,7 +1912,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "125",
                 "craftCost": [
@@ -1785,7 +1943,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -1811,7 +1974,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "225",
                 "craftCost": [
@@ -1845,7 +2013,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 3,
-            "craft": "30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 30,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "4",
                 "craftCost": [
@@ -1879,7 +2052,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "3",
                 "craftCost": [
@@ -1905,7 +2083,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "300",
                 "craftCost": [
@@ -1948,7 +2131,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "140",
                 "craftCost": [
@@ -1982,7 +2170,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "162",
                 "craftCost": [
@@ -2024,7 +2217,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "3–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "10",
                 "craftCost": [
@@ -2050,7 +2248,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "100",
                 "craftCost": [
@@ -2076,7 +2279,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "0.25–1 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 0,
+                    "long": 1
+                }
+            },
             "recipie": {
                 "totalCraftCost": "1",
                 "craftCost": [
@@ -2102,7 +2310,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "125",
                 "craftCost": [
@@ -2136,7 +2349,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "30",
                 "craftCost": [
@@ -2170,7 +2388,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "12",
                 "craftCost": [
@@ -2204,7 +2427,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "20",
                 "craftCost": [
@@ -2230,7 +2458,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "45",
                 "craftCost": [
@@ -2281,7 +2514,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "202",
                 "craftCost": [
@@ -2315,7 +2553,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -2341,7 +2584,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "20",
                 "craftCost": [
@@ -2367,7 +2615,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "203",
                 "craftCost": [
@@ -2409,7 +2662,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "200",
                 "craftCost": [
@@ -2435,7 +2693,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "20",
                 "craftCost": [
@@ -2461,7 +2724,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "25",
                 "craftCost": [
@@ -2487,7 +2755,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "25",
                 "craftCost": [
@@ -2513,7 +2786,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "25",
                 "craftCost": [
@@ -2552,7 +2830,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -2578,7 +2861,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "350",
                 "craftCost": [
@@ -2620,7 +2908,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "200",
                 "craftCost": [
@@ -2646,7 +2939,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "100",
                 "craftCost": [
@@ -2672,7 +2970,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "250",
                 "craftCost": [
@@ -2698,7 +3001,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "5–20 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 20
+                }
+            },
             "recipie": {
                 "totalCraftCost": "2",
                 "craftCost": [
@@ -2724,7 +3032,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "5–20 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 20
+                }
+            },
             "recipie": {
                 "totalCraftCost": "2",
                 "craftCost": [
@@ -2750,7 +3063,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "325",
                 "craftCost": [
@@ -2792,7 +3110,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "100",
                 "craftCost": [
@@ -2818,7 +3141,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "110",
                 "craftCost": [
@@ -2852,7 +3180,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "5–20 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 20
+                }
+            },
             "recipie": {
                 "totalCraftCost": "40",
                 "craftCost": [
@@ -2886,7 +3219,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "120",
                 "craftCost": [
@@ -2920,7 +3258,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "170",
                 "craftCost": [
@@ -2962,7 +3305,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "20–40 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 20,
+                    "long": 40
+                }
+            },
             "recipie": {
                 "totalCraftCost": "1175",
                 "craftCost": [
@@ -3004,7 +3352,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "100",
                 "craftCost": [
@@ -3030,7 +3383,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "202",
                 "craftCost": [
@@ -3064,7 +3422,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "300",
                 "craftCost": [
@@ -3098,7 +3461,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "150",
                 "craftCost": [
@@ -3124,7 +3492,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "150",
                 "craftCost": [
@@ -3158,7 +3531,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "125",
                 "craftCost": [
@@ -3192,7 +3570,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "100",
                 "craftCost": [
@@ -3218,7 +3601,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "300",
                 "craftCost": [
@@ -3252,7 +3640,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "100",
                 "craftCost": [
@@ -3297,7 +3690,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "100",
                 "craftCost": [
@@ -3323,7 +3721,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "110",
                 "craftCost": [
@@ -3357,7 +3760,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "125",
                 "craftCost": [
@@ -3383,7 +3791,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "220",
                 "craftCost": [
@@ -3413,7 +3826,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "25",
                 "craftCost": [
@@ -3439,7 +3857,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "20",
                 "craftCost": [
@@ -3471,7 +3894,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "2–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 2,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "50",
                 "craftCost": [
@@ -3497,7 +3925,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "210",
                 "craftCost": [
@@ -3531,7 +3964,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "125",
                 "craftCost": [
@@ -3565,7 +4003,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -3591,7 +4034,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "20",
                 "craftCost": [
@@ -3617,7 +4065,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "101",
                 "craftCost": [
@@ -3651,7 +4104,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "30",
                 "craftCost": [
@@ -3677,7 +4135,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "950",
                 "craftCost": [
@@ -3719,7 +4182,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "101",
                 "craftCost": [
@@ -3753,7 +4221,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "3–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "10",
                 "craftCost": [
@@ -3785,7 +4258,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -3811,7 +4289,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "90",
                 "craftCost": [
@@ -3853,7 +4336,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "130",
                 "craftCost": [
@@ -3887,7 +4375,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "130",
                 "craftCost": [
@@ -3921,7 +4414,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "5–20 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 20
+                }
+            },
             "recipie": {
                 "totalCraftCost": "150",
                 "craftCost": [
@@ -3947,7 +4445,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "700",
                 "craftCost": [
@@ -3981,7 +4484,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "205",
                 "craftCost": [
@@ -4015,7 +4523,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "100",
                 "craftCost": [
@@ -4041,7 +4554,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "160",
                 "craftCost": [
@@ -4075,7 +4593,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "5–20 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 20
+                }
+            },
             "recipie": {
                 "totalCraftCost": "31",
                 "craftCost": [
@@ -4117,7 +4640,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "2–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 2,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "50",
                 "craftCost": [
@@ -4143,7 +4671,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "150",
                 "craftCost": [
@@ -4169,7 +4702,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "100",
                 "craftCost": [
@@ -4195,7 +4733,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "150",
                 "craftCost": [
@@ -4229,7 +4772,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "23",
                 "craftCost": [
@@ -4263,7 +4811,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "251",
                 "craftCost": [
@@ -4297,7 +4850,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "26",
                 "craftCost": [
@@ -4339,7 +4897,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "3–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "100",
                 "craftCost": [
@@ -4365,7 +4928,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "650",
                 "craftCost": [
@@ -4403,7 +4971,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "11–45 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 11,
+                    "long": 45
+                }
+            },
             "recipie": {
                 "totalCraftCost": "1020",
                 "craftCost": [
@@ -4441,7 +5014,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "30 sec – 1 min",
+            "craftTime": {
+                "craftTime": {
+                    "short": 30,
+                    "long": 1
+                }
+            },
             "recipie": {
                 "totalCraftCost": "2350",
                 "craftCost": [
@@ -4479,7 +5057,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "165",
                 "craftCost": [
@@ -4513,7 +5096,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "205",
                 "craftCost": [
@@ -4667,7 +5255,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 3,
-            "craft": "5 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 5
+                }
+            },
             "recipie": {
                 "totalCraftCost": "73",
                 "craftCost": [
@@ -4735,7 +5328,12 @@
         "craftData": {
             "yield": 10,
             "workbench": 1,
-            "craft": "0.5–2 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 0,
+                    "long": 2
+                }
+            },
             "recipie": {
                 "totalCraftCost": "50",
                 "craftCost": [
@@ -4799,7 +5397,12 @@
         "craftData": {
             "yield": 4,
             "workbench": 0,
-            "craft": "1–5 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 1,
+                    "long": 5
+                }
+            },
             "recipie": {
                 "totalCraftCost": "4",
                 "craftCost": [
@@ -4981,7 +5584,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 3,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "41",
                 "craftCost": [
@@ -5027,7 +5635,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "13",
                 "craftCost": [
@@ -5075,7 +5688,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "0.25–1 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 0,
+                    "long": 1
+                }
+            },
             "recipie": {
                 "totalCraftCost": "20",
                 "craftCost": [
@@ -5109,7 +5727,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "30",
                 "craftCost": [
@@ -5135,7 +5758,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "3–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "120",
                 "craftCost": [
@@ -5182,7 +5810,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "3–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "100",
                 "craftCost": [
@@ -5208,7 +5841,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "2–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 2,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "202",
                 "craftCost": [
@@ -5242,7 +5880,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "175",
                 "craftCost": [
@@ -5276,7 +5919,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 3,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "76",
                 "craftCost": [
@@ -5331,7 +5979,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "225",
                 "craftCost": [
@@ -5365,7 +6018,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "6",
                 "craftCost": [
@@ -5399,7 +6057,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "1–5 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 1,
+                    "long": 5
+                }
+            },
             "recipie": {
                 "totalCraftCost": "10",
                 "craftCost": [
@@ -5425,7 +6088,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "6",
                 "craftCost": [
@@ -5459,7 +6127,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "51",
                 "craftCost": [
@@ -5493,7 +6166,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "6",
                 "craftCost": [
@@ -5527,7 +6205,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "1–5 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 1,
+                    "long": 5
+                }
+            },
             "recipie": {
                 "totalCraftCost": "6",
                 "craftCost": [
@@ -5569,7 +6252,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "5–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "85",
                 "craftCost": [
@@ -5603,7 +6291,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "3–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "100",
                 "craftCost": [
@@ -5629,7 +6322,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "3–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "300",
                 "craftCost": [
@@ -5663,7 +6361,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "3–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "300",
                 "craftCost": [
@@ -5703,7 +6406,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "7–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "65",
                 "craftCost": [
@@ -5753,7 +6461,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 3,
-            "craft": "30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 30,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "27",
                 "craftCost": [
@@ -5795,7 +6508,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "32",
                 "craftCost": [
@@ -5837,7 +6555,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "20",
                 "craftCost": [
@@ -5869,7 +6592,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "1–5 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 1,
+                    "long": 5
+                }
+            },
             "recipie": {
                 "totalCraftCost": "4",
                 "craftCost": [
@@ -5901,7 +6629,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "7–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "12",
                 "craftCost": [
@@ -5935,7 +6668,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "5–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "35",
                 "craftCost": [
@@ -6608,7 +7346,12 @@
         "craftData": {
             "yield": 2,
             "workbench": 2,
-            "craft": "1–3 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 1,
+                    "long": 3
+                }
+            },
             "recipie": {
                 "totalCraftCost": "15",
                 "craftCost": [
@@ -6642,7 +7385,12 @@
         "craftData": {
             "yield": 2,
             "workbench": 2,
-            "craft": "1–3 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 1,
+                    "long": 3
+                }
+            },
             "recipie": {
                 "totalCraftCost": "35",
                 "craftCost": [
@@ -6684,7 +7432,12 @@
         "craftData": {
             "yield": 2,
             "workbench": 2,
-            "craft": "1–3 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 1,
+                    "long": 3
+                }
+            },
             "recipie": {
                 "totalCraftCost": "15",
                 "craftCost": [
@@ -6773,7 +7526,12 @@
         "craftData": {
             "yield": 3,
             "workbench": 2,
-            "craft": "1–3 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 1,
+                    "long": 3
+                }
+            },
             "recipie": {
                 "totalCraftCost": "15",
                 "craftCost": [
@@ -6807,7 +7565,12 @@
         "craftData": {
             "yield": 3,
             "workbench": 0,
-            "craft": "0.75–3 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 0,
+                    "long": 3
+                }
+            },
             "recipie": {
                 "totalCraftCost": "35",
                 "craftCost": [
@@ -6841,7 +7604,12 @@
         "craftData": {
             "yield": 2,
             "workbench": 3,
-            "craft": "3 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 3
+                }
+            },
             "recipie": {
                 "totalCraftCost": "40",
                 "craftCost": [
@@ -6883,7 +7651,12 @@
         "craftData": {
             "yield": 2,
             "workbench": 1,
-            "craft": "0.75–3 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 0,
+                    "long": 3
+                }
+            },
             "recipie": {
                 "totalCraftCost": "32",
                 "craftCost": [
@@ -6925,7 +7698,12 @@
         "craftData": {
             "yield": 2,
             "workbench": 3,
-            "craft": "3 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 3
+                }
+            },
             "recipie": {
                 "totalCraftCost": "30",
                 "craftCost": [
@@ -6959,7 +7737,12 @@
         "craftData": {
             "yield": 3,
             "workbench": 2,
-            "craft": "1–3 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 1,
+                    "long": 3
+                }
+            },
             "recipie": {
                 "totalCraftCost": "30",
                 "craftCost": [
@@ -6993,7 +7776,12 @@
         "craftData": {
             "yield": 2,
             "workbench": 1,
-            "craft": "0.75–3 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 0,
+                    "long": 3
+                }
+            },
             "recipie": {
                 "totalCraftCost": "10",
                 "craftCost": [
@@ -7027,7 +7815,12 @@
         "craftData": {
             "yield": 2,
             "workbench": 1,
-            "craft": "0.75–3 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 0,
+                    "long": 3
+                }
+            },
             "recipie": {
                 "totalCraftCost": "25",
                 "craftCost": [
@@ -7061,7 +7854,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "5–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "101",
                 "craftCost": [
@@ -7095,7 +7893,12 @@
         "craftData": {
             "yield": 2,
             "workbench": 3,
-            "craft": "3 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 3
+                }
+            },
             "recipie": {
                 "totalCraftCost": "25",
                 "craftCost": [
@@ -7137,7 +7940,12 @@
         "craftData": {
             "yield": 3,
             "workbench": 2,
-            "craft": "1–3 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 1,
+                    "long": 3
+                }
+            },
             "recipie": {
                 "totalCraftCost": "25",
                 "craftCost": [
@@ -7179,7 +7987,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "5–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "503",
                 "craftCost": [
@@ -7246,7 +8059,12 @@
         "craftData": {
             "yield": 5,
             "workbench": 0,
-            "craft": "0.5–2 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 0,
+                    "long": 2
+                }
+            },
             "recipie": {
                 "totalCraftCost": "8",
                 "craftCost": [
@@ -7272,7 +8090,12 @@
         "craftData": {
             "yield": 4,
             "workbench": 1,
-            "craft": "0.75–3 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 0,
+                    "long": 3
+                }
+            },
             "recipie": {
                 "totalCraftCost": "15",
                 "craftCost": [
@@ -7306,7 +8129,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 3,
-            "craft": "10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 10,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "162",
                 "craftCost": [
@@ -7348,7 +8176,12 @@
         "craftData": {
             "yield": 6,
             "workbench": 2,
-            "craft": "5–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "31",
                 "craftCost": [
@@ -7403,7 +8236,12 @@
         "craftData": {
             "yield": 3,
             "workbench": 1,
-            "craft": "0.75–3 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 0,
+                    "long": 3
+                }
+            },
             "recipie": {
                 "totalCraftCost": "50",
                 "craftCost": [
@@ -7429,7 +8267,12 @@
         "craftData": {
             "yield": 3,
             "workbench": 2,
-            "craft": "5–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "31",
                 "craftCost": [
@@ -7463,7 +8306,12 @@
         "craftData": {
             "yield": 2,
             "workbench": 0,
-            "craft": "0.75–3 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 0,
+                    "long": 3
+                }
+            },
             "recipie": {
                 "totalCraftCost": "35",
                 "craftCost": [
@@ -7497,7 +8345,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "203",
                 "craftCost": [
@@ -7539,7 +8392,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "10–20 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 10,
+                    "long": 20
+                }
+            },
             "recipie": {
                 "totalCraftCost": "80",
                 "craftCost": [
@@ -7586,7 +8444,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "754",
                 "craftCost": [
@@ -7636,7 +8499,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "51",
                 "craftCost": [
@@ -7670,7 +8538,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "150",
                 "craftCost": [
@@ -7727,7 +8600,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "6–25 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 6,
+                    "long": 25
+                }
+            },
             "recipie": {
                 "totalCraftCost": "100",
                 "craftCost": [
@@ -7856,7 +8734,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 3,
-            "craft": "3–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "131",
                 "craftCost": [
@@ -7898,7 +8781,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "30",
                 "craftCost": [
@@ -7924,7 +8812,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "20",
                 "craftCost": [
@@ -7998,7 +8891,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "3–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "30",
                 "craftCost": [
@@ -8056,7 +8954,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "1–5 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 1,
+                    "long": 5
+                }
+            },
             "recipie": {
                 "totalCraftCost": "10",
                 "craftCost": [
@@ -8117,7 +9020,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "2",
                 "craftCost": [
@@ -8143,7 +9051,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "2",
                 "craftCost": [
@@ -8169,7 +9082,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "2",
                 "craftCost": [
@@ -8195,7 +9113,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "2",
                 "craftCost": [
@@ -8221,7 +9144,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "2",
                 "craftCost": [
@@ -8247,7 +9175,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "2",
                 "craftCost": [
@@ -8292,7 +9225,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "3–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "15",
                 "craftCost": [
@@ -8338,7 +9276,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "156",
                 "craftCost": [
@@ -8386,7 +9329,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "520",
                 "craftCost": [
@@ -8445,7 +9393,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "3–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "102",
                 "craftCost": [
@@ -8509,7 +9462,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 3,
-            "craft": "30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 30,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "155",
                 "craftCost": [
@@ -8551,7 +9509,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 3,
-            "craft": "30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 30,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "155",
                 "craftCost": [
@@ -8612,7 +9575,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "300",
                 "craftCost": [
@@ -8654,7 +9622,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "250",
                 "craftCost": [
@@ -8696,7 +9669,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "255",
                 "craftCost": [
@@ -8780,7 +9758,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "0.5–1 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 0,
+                    "long": 1
+                }
+            },
             "recipie": {
                 "totalCraftCost": "110",
                 "craftCost": [
@@ -8814,7 +9797,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "103",
                 "craftCost": [
@@ -8856,7 +9844,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "200",
                 "craftCost": [
@@ -8898,7 +9891,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "275",
                 "craftCost": [
@@ -8940,7 +9938,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 3,
-            "craft": "1 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 1,
+                    "long": 1
+                }
+            },
             "recipie": {
                 "totalCraftCost": "125",
                 "craftCost": [
@@ -8980,7 +9983,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 3,
-            "craft": "10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 10,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "170",
                 "craftCost": [
@@ -9006,7 +10014,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 3,
-            "craft": "10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 10,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "120",
                 "craftCost": [
@@ -9032,7 +10045,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 3,
-            "craft": "10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 10,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "120",
                 "craftCost": [
@@ -9058,7 +10076,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 3,
-            "craft": "10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 10,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "120",
                 "craftCost": [
@@ -9084,7 +10107,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 3,
-            "craft": "10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 10,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "120",
                 "craftCost": [
@@ -9110,7 +10138,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "300",
                 "craftCost": [
@@ -9152,7 +10185,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "2–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 2,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "40",
                 "craftCost": [
@@ -9178,7 +10216,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "2–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 2,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "25",
                 "craftCost": [
@@ -9204,7 +10247,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "2–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 2,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "25",
                 "craftCost": [
@@ -9230,7 +10278,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "2–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 2,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "25",
                 "craftCost": [
@@ -9256,7 +10309,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "2–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 2,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "25",
                 "craftCost": [
@@ -9299,7 +10357,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "5–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "100",
                 "craftCost": [
@@ -9325,7 +10388,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "5–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "70",
                 "craftCost": [
@@ -9351,7 +10419,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "5–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "70",
                 "craftCost": [
@@ -9377,7 +10450,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "5–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "70",
                 "craftCost": [
@@ -9403,7 +10481,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "5–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "70",
                 "craftCost": [
@@ -9429,7 +10512,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "0.5–1 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 0,
+                    "long": 1
+                }
+            },
             "recipie": {
                 "totalCraftCost": "40",
                 "craftCost": [
@@ -9463,7 +10551,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 3,
-            "craft": "1 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 1,
+                    "long": 1
+                }
+            },
             "recipie": {
                 "totalCraftCost": "22",
                 "craftCost": [
@@ -9497,7 +10590,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 3,
-            "craft": "1 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 1,
+                    "long": 1
+                }
+            },
             "recipie": {
                 "totalCraftCost": "52",
                 "craftCost": [
@@ -9531,7 +10629,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "300",
                 "craftCost": [
@@ -9573,7 +10676,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "250",
                 "craftCost": [
@@ -9632,7 +10740,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 3,
-            "craft": "1 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 1,
+                    "long": 1
+                }
+            },
             "recipie": {
                 "totalCraftCost": "22",
                 "craftCost": [
@@ -9717,7 +10830,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 3,
-            "craft": "1 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 1,
+                    "long": 1
+                }
+            },
             "recipie": {
                 "totalCraftCost": "23",
                 "craftCost": [
@@ -9785,7 +10903,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "175",
                 "craftCost": [
@@ -9840,7 +10963,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "305",
                 "craftCost": [
@@ -9911,7 +11039,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "100",
                 "craftCost": [
@@ -9937,7 +11070,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -9963,7 +11101,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "22–45 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 22,
+                    "long": 45
+                }
+            },
             "recipie": {
                 "totalCraftCost": "12",
                 "craftCost": [
@@ -10005,7 +11148,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -10031,7 +11179,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -10070,7 +11223,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "50",
                 "craftCost": [
@@ -10096,7 +11254,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "8",
                 "craftCost": [
@@ -10146,7 +11309,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -10172,7 +11340,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "2–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 2,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "50",
                 "craftCost": [
@@ -10198,7 +11371,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -10224,7 +11402,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "205",
                 "craftCost": [
@@ -10258,7 +11441,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "200",
                 "craftCost": [
@@ -10284,7 +11472,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -10310,7 +11503,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "204",
                 "craftCost": [
@@ -10352,7 +11550,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "120",
                 "craftCost": [
@@ -10378,7 +11581,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -10404,7 +11612,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -10430,7 +11643,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "150",
                 "craftCost": [
@@ -10456,7 +11674,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "30",
                 "craftCost": [
@@ -10482,7 +11705,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -10508,7 +11736,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "0.25–1 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 0,
+                    "long": 1
+                }
+            },
             "recipie": {
                 "totalCraftCost": "2",
                 "craftCost": [
@@ -10534,7 +11767,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -10560,7 +11798,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -10586,7 +11829,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -10612,7 +11860,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "5",
                 "craftCost": [
@@ -10646,7 +11899,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -10672,7 +11930,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "30",
                 "craftCost": [
@@ -10698,7 +11961,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "7–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "355",
                 "craftCost": [
@@ -10732,7 +12000,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "3–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "250",
                 "craftCost": [
@@ -10758,7 +12031,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "12",
                 "craftCost": [
@@ -10792,7 +12070,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "6",
                 "craftCost": [
@@ -10826,7 +12109,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -10852,7 +12140,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "7–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "302",
                 "craftCost": [
@@ -10886,7 +12179,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "3–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "200",
                 "craftCost": [
@@ -10912,7 +12210,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "6",
                 "craftCost": [
@@ -10946,7 +12249,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -10972,7 +12280,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "206",
                 "craftCost": [
@@ -11014,7 +12327,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "100",
                 "craftCost": [
@@ -11040,7 +12358,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "0.5–1 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 0,
+                    "long": 1
+                }
+            },
             "recipie": {
                 "totalCraftCost": "151",
                 "craftCost": [
@@ -11074,7 +12397,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "0.25–1 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 0,
+                    "long": 1
+                }
+            },
             "recipie": {
                 "totalCraftCost": "2",
                 "craftCost": [
@@ -11100,7 +12428,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "420",
                 "craftCost": [
@@ -11142,7 +12475,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "152",
                 "craftCost": [
@@ -11184,7 +12522,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -11210,7 +12553,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "101",
                 "craftCost": [
@@ -11244,7 +12592,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "10–20 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 10,
+                    "long": 20
+                }
+            },
             "recipie": {
                 "totalCraftCost": "51",
                 "craftCost": [
@@ -11282,7 +12635,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "101",
                 "craftCost": [
@@ -11316,7 +12674,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "251",
                 "craftCost": [
@@ -11358,7 +12721,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "30",
                 "craftCost": [
@@ -11384,7 +12752,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -11410,7 +12783,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "700",
                 "craftCost": [
@@ -11461,7 +12839,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "120",
                 "craftCost": [
@@ -11487,7 +12870,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "7",
                 "craftCost": [
@@ -11521,7 +12909,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "3–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "150",
                 "craftCost": [
@@ -11547,7 +12940,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "5",
                 "craftCost": [
@@ -11573,7 +12971,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "4",
                 "craftCost": [
@@ -11607,7 +13010,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "4",
                 "craftCost": [
@@ -11641,7 +13049,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "100",
                 "craftCost": [
@@ -11667,7 +13080,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -11693,7 +13111,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "100",
                 "craftCost": [
@@ -11719,7 +13142,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "4",
                 "craftCost": [
@@ -11753,7 +13181,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "100",
                 "craftCost": [
@@ -11779,7 +13212,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "4",
                 "craftCost": [
@@ -11838,7 +13276,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -11864,7 +13307,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "451",
                 "craftCost": [
@@ -11906,7 +13354,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "516",
                 "craftCost": [
@@ -11956,7 +13409,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "0.25–1 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 0,
+                    "long": 1
+                }
+            },
             "recipie": {
                 "totalCraftCost": "2",
                 "craftCost": [
@@ -11982,7 +13440,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "100",
                 "craftCost": [
@@ -12008,7 +13471,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "15 sec – 1 min",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 1
+                }
+            },
             "recipie": {
                 "totalCraftCost": "703",
                 "craftCost": [
@@ -12050,7 +13518,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "5–20 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 20
+                }
+            },
             "recipie": {
                 "totalCraftCost": "110",
                 "craftCost": [
@@ -12084,7 +13557,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "125",
                 "craftCost": [
@@ -12118,7 +13596,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "95",
                 "craftCost": [
@@ -12152,7 +13635,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "100",
                 "craftCost": [
@@ -12178,7 +13666,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "30",
                 "craftCost": [
@@ -12204,7 +13697,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "2–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 2,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "70",
                 "craftCost": [
@@ -12246,7 +13744,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "15 sec – 1 min",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 1
+                }
+            },
             "recipie": {
                 "totalCraftCost": "35",
                 "craftCost": [
@@ -12280,7 +13783,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "76",
                 "craftCost": [
@@ -12314,7 +13822,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "3–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "320",
                 "craftCost": [
@@ -12356,7 +13869,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "5–20 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 20
+                }
+            },
             "recipie": {
                 "totalCraftCost": "25",
                 "craftCost": [
@@ -12382,7 +13900,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "1–5 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 1,
+                    "long": 5
+                }
+            },
             "recipie": {
                 "totalCraftCost": "100",
                 "craftCost": [
@@ -12408,7 +13931,12 @@
         "craftData": {
             "yield": 3,
             "workbench": 0,
-            "craft": "1–5 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 1,
+                    "long": 5
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -12434,7 +13962,12 @@
         "craftData": {
             "yield": 5,
             "workbench": 0,
-            "craft": "1–5 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 1,
+                    "long": 5
+                }
+            },
             "recipie": {
                 "totalCraftCost": "50",
                 "craftCost": [
@@ -12460,7 +13993,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "3–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -12486,7 +14024,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "2–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 2,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "135",
                 "craftCost": [
@@ -12528,7 +14071,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "3–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -12554,7 +14102,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "5–20 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 20
+                }
+            },
             "recipie": {
                 "totalCraftCost": "35",
                 "craftCost": [
@@ -12580,7 +14133,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "3–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "50",
                 "craftCost": [
@@ -12606,7 +14164,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "3–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -12649,7 +14212,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "2–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 2,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "70",
                 "craftCost": [
@@ -12691,7 +14259,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "15 sec – 1 min",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 1
+                }
+            },
             "recipie": {
                 "totalCraftCost": "35",
                 "craftCost": [
@@ -12725,7 +14298,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "76",
                 "craftCost": [
@@ -12759,7 +14337,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "5–20 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 20
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -12793,7 +14376,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "300",
                 "craftCost": [
@@ -12827,7 +14415,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "3–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "100",
                 "craftCost": [
@@ -12853,7 +14446,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "3–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "125",
                 "craftCost": [
@@ -12887,7 +14485,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "3–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -12913,7 +14516,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "3–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "125",
                 "craftCost": [
@@ -12939,7 +14547,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "3–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "150",
                 "craftCost": [
@@ -12973,7 +14586,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "2–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 2,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "70",
                 "craftCost": [
@@ -13015,7 +14633,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "101",
                 "craftCost": [
@@ -13049,7 +14672,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "5–20 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 20
+                }
+            },
             "recipie": {
                 "totalCraftCost": "25",
                 "craftCost": [
@@ -13083,7 +14711,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "2–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 2,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "95",
                 "craftCost": [
@@ -13125,7 +14758,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "5–20 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 20
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -13151,7 +14789,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "3–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "120",
                 "craftCost": [
@@ -13177,7 +14820,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "2–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 2,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "70",
                 "craftCost": [
@@ -13219,7 +14867,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "15 sec – 1 min",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 1
+                }
+            },
             "recipie": {
                 "totalCraftCost": "35",
                 "craftCost": [
@@ -13253,7 +14906,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "2–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 2,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "35",
                 "craftCost": [
@@ -13287,7 +14945,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "5–20 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 20
+                }
+            },
             "recipie": {
                 "totalCraftCost": "125",
                 "craftCost": [
@@ -13321,7 +14984,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "3–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "151",
                 "craftCost": [
@@ -13355,7 +15023,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "3–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "125",
                 "craftCost": [
@@ -13389,7 +15062,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "0.5–2 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 0,
+                    "long": 2
+                }
+            },
             "recipie": {
                 "totalCraftCost": "15",
                 "craftCost": [
@@ -13440,7 +15118,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "3–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "100",
                 "craftCost": [
@@ -13466,7 +15149,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "5–20 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 20
+                }
+            },
             "recipie": {
                 "totalCraftCost": "100",
                 "craftCost": [
@@ -13492,7 +15180,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "151",
                 "craftCost": [
@@ -13534,7 +15227,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "2–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 2,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "70",
                 "craftCost": [
@@ -13576,7 +15274,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "15 sec – 1 min",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 1
+                }
+            },
             "recipie": {
                 "totalCraftCost": "35",
                 "craftCost": [
@@ -13610,7 +15313,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "2–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 2,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "35",
                 "craftCost": [
@@ -13644,7 +15352,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "300",
                 "craftCost": [
@@ -13678,7 +15391,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "2–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 2,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "35",
                 "craftCost": [
@@ -13724,7 +15442,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "50",
                 "craftCost": [
@@ -13750,7 +15473,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 3,
-            "craft": "30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 30,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "25",
                 "craftCost": [
@@ -13784,7 +15512,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 3,
-            "craft": "30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 30,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "30",
                 "craftCost": [
@@ -13818,7 +15551,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "351",
                 "craftCost": [
@@ -13860,7 +15598,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "3–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "20",
                 "craftCost": [
@@ -13886,7 +15629,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -13912,7 +15660,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -13938,7 +15691,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "100",
                 "craftCost": [
@@ -13964,7 +15722,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "200",
                 "craftCost": [
@@ -14007,7 +15770,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -14033,7 +15801,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -14059,7 +15832,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "302",
                 "craftCost": [
@@ -14093,7 +15871,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "17–35 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 17,
+                    "long": 35
+                }
+            },
             "recipie": {
                 "totalCraftCost": "3005",
                 "craftCost": [
@@ -14127,7 +15910,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "1500",
                 "craftCost": [
@@ -14153,7 +15941,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "8–35 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 8,
+                    "long": 35
+                }
+            },
             "recipie": {
                 "totalCraftCost": "3002",
                 "craftCost": [
@@ -14187,7 +15980,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "1500",
                 "craftCost": [
@@ -14226,7 +16024,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "3–15 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
             "recipie": {
                 "totalCraftCost": "75",
                 "craftCost": [
@@ -14252,7 +16055,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "304",
                 "craftCost": [
@@ -14294,7 +16102,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "702",
                 "craftCost": [
@@ -14336,7 +16149,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "202",
                 "craftCost": [
@@ -14370,7 +16188,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "250",
                 "craftCost": [
@@ -14396,7 +16219,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "5–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "100",
                 "craftCost": [
@@ -14422,7 +16250,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "25",
                 "craftCost": [
@@ -14448,7 +16281,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "5–10 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 10
+                }
+            },
             "recipie": {
                 "totalCraftCost": "100",
                 "craftCost": [
@@ -14480,7 +16318,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "1",
                 "craftCost": [
@@ -14506,7 +16349,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "150",
                 "craftCost": [
@@ -14532,7 +16380,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "150",
                 "craftCost": [
@@ -14564,7 +16417,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 3,
-            "craft": "30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 30,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "4",
                 "craftCost": [
@@ -14590,7 +16448,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "110",
                 "craftCost": [
@@ -14624,7 +16487,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "150",
                 "craftCost": [
@@ -14650,7 +16518,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "200",
                 "craftCost": [
@@ -14676,7 +16549,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "150",
                 "craftCost": [
@@ -14715,7 +16593,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "151",
                 "craftCost": [
@@ -14757,7 +16640,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "100",
                 "craftCost": [
@@ -14783,7 +16671,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "50",
                 "craftCost": [
@@ -14809,7 +16702,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "1000",
                 "craftCost": [
@@ -14835,7 +16733,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 2,
-            "craft": "15–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "304",
                 "craftCost": [
@@ -14877,7 +16780,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "250",
                 "craftCost": [
@@ -14903,7 +16811,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "350",
                 "craftCost": [
@@ -14929,7 +16842,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "200",
                 "craftCost": [
@@ -14955,7 +16873,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "301",
                 "craftCost": [
@@ -14989,7 +16912,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "6–25 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 6,
+                    "long": 25
+                }
+            },
             "recipie": {
                 "totalCraftCost": "250",
                 "craftCost": [
@@ -15015,7 +16943,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "300",
                 "craftCost": [
@@ -15041,7 +16974,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 1,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "303",
                 "craftCost": [
@@ -15075,7 +17013,12 @@
         "craftData": {
             "yield": 1,
             "workbench": 0,
-            "craft": "7–30 sec",
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
             "recipie": {
                 "totalCraftCost": "50",
                 "craftCost": [

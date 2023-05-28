@@ -5,7 +5,7 @@ import * as fs from 'node:fs/promises'
 
 //opens a new browser
 const browser = await puppeteer.launch({
-    headless: true,
+    headless: "new",
     defaultViewport: null,
 })
 
