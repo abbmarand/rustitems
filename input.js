@@ -1,7 +1,7 @@
 import { calculateCost } from "./calculateCost.js"
 import { calculateRecycle } from "./calculateRecycle.js"
 import readline from 'readline'
-async function craftItem(input) {
+async function craftItem (input) {
     const args = input.split(" ")
     const item = args[1]
     const quantity = parseInt(args[2])
@@ -11,18 +11,18 @@ async function craftItem(input) {
     }
 
     try {
-        const cost = await calculateCost(item, quantity);
+        const cost = await calculateCost(item, quantity)
         if (quantity === 1) {
-            return `the cost to craft ${quantity} ${item} is ${cost}`;
+            return `the cost to craft ${quantity} ${item} is ${cost}`
         } else {
-            return `the cost to craft ${quantity} ${item}s is ${cost}`;
+            return `the cost to craft ${quantity} ${item}s is ${cost}`
         }
     } catch (error) {
-        console.log(error);
+        console.log(error)
     }
 }
 
-async function recycleItem(input) {
+async function recycleItem (input) {
     const args = input.split(" ")
     const item = args[1]
     const quantity = parseInt(args[2])
@@ -32,14 +32,14 @@ async function recycleItem(input) {
     }
 
     try {
-        const cost = await calculateRecycle(item, quantity);
+        const cost = await calculateRecycle(item, quantity)
         if (quantity === 1) {
-            return `you will most likely get ${cost} from recycling ${quantity} ${item}`;
+            return `you will most likely get ${cost} from recycling ${quantity} ${item}`
         } else {
-            return `you will most likely ${cost} from recycling ${quantity} ${item}s`;
+            return `you will most likely ${cost} from recycling ${quantity} ${item}s`
         }
     } catch (error) {
-        console.log(error);
+        console.log(error)
     }
 }
 
@@ -49,7 +49,7 @@ const rl = readline.createInterface({
 })
 
 
-function askQuestion() {
+function askQuestion () {
     rl.question('', async name => {
         let message
         if (name.startsWith("!craft")) {

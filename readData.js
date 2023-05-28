@@ -1,4 +1,3 @@
-// file: read-file.js
 import { readFile } from 'fs/promises'
 
 export async function read () {
@@ -10,7 +9,6 @@ export async function read () {
         return null
     }
 }
-
 export async function createMap () {
     const allData = await read()
     const jsonData = JSON.parse(allData)
