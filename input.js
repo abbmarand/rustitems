@@ -1,5 +1,5 @@
-import { calculateCost } from "./calculateCost.js"
-import { calculateRecycle } from "./calculateRecycle.js"
+import { calculateCost } from "./src/calculateCost.js"
+import { calculateRecycle } from "./src/calculateRecycle.js"
 import readline from 'readline'
 async function craftItem (input) {
     const args = input.split(" ")
