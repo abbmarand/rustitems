@@ -1,16 +1,25 @@
-# web-scraping-med-puppeteer-abbmarand
-## intro
-    this project scrapes and has a simple visualisation/usage of the data
-    the intended way to use this data is trough another project of mine where the commands are the same but you can use it in the game of rust
-    https://github.com/abbmarand/better_rustplus.git
-    
-    my focus with this project has been to get as accurate data as possible as I will use it for future projects
-    you may notice that the visualisation doesnt't utalize everything of which is scraped as the focus has been on the data
-## usage
-    clone the repository https://github.com/abbindustrigymnasium/web-scraping-med-puppeteer-abbmarand.git
-    run the scrape.js file to get all the data saved to your machine or just use the data which exists in the repository now
+# Web Scraping with Puppeteer
 
-    once you have the data, run the input.js file and try the commands
-        !craft assault-rifle 2
-        !recycle assault-rifle 4
-    
+## Introduction
+This project is designed for web scraping and includes a simple data visualization feature. The primary purpose of this project is to collect accurate data for future projects. The scraped data can be used in conjunction with another project of mine, which utilizes the same commands in the game Rust. You can find the other project at [https://github.com/abbmarand/better_rustplus.git](https://github.com/abbmarand/better_rustplus.git).
+
+Please note that the visualization component of this project does not utilize all the scraped data, as the main focus has been on data collection.
+
+## Usage
+To get started, follow these steps:
+
+1. Clone the repository from [https://github.com/abbindustrigymnasium/web-scraping-med-puppeteer-abbmarand.git](https://github.com/abbindustrigymnasium/web-scraping-med-puppeteer-abbmarand.git).
+
+```bash
+git clone https://github.com/abbindustrigymnasium/web-scraping-med-puppeteer-abbmarand.git
+```
+Run `scrape.js` to scrape new data.
+
+To use the scraped data, run `input.js`.
+
+Alternatively, if you want to use the data specifically for the game Rust, follow the instructions provided in [https://github.com/abbmarand/better_rustplus.git](https://github.com/abbmarand/better_rustplus.git).
+
+Once you have the data, execute the `input.js` file and try the following commands:
+
+- `!craft assault-rifle 2`
+- `!recycle assault-rifle 4`
