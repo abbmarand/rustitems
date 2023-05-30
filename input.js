@@ -1,6 +1,7 @@
 import { calculateCost } from "./src/calculateCost.js"
 import { calculateRecycle } from "./src/calculateRecycle.js"
 import readline from 'readline'
+//takes an input string with three arguments (command, item, ammount) and calculates the cost
 async function craftItem (input) {
     const args = input.split(" ")
     const item = args[1]
@@ -21,7 +22,7 @@ async function craftItem (input) {
         console.log(error)
     }
 }
-
+//takes an input string with three arguments (command, item, ammount) and calculates the yield
 async function recycleItem (input) {
     const args = input.split(" ")
     const item = args[1]
@@ -48,7 +49,7 @@ const rl = readline.createInterface({
     output: process.stdout
 })
 
-
+//runs different functions depending on the first argument/command
 function askQuestion () {
     rl.question('', async name => {
         let message

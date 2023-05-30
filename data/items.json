@@ -1509,7 +1509,7 @@
             "craftTime": {
                 "craftTime": {
                     "short": 30,
-                    "long": 1
+                    "long": 60
                 }
             },
             "recipie": {
@@ -6640,7 +6640,7 @@
             "craftTime": {
                 "craftTime": {
                     "short": 30,
-                    "long": 1
+                    "long": 60
                 }
             },
             "recipie": {
@@ -18272,7 +18272,7 @@
             "craftTime": {
                 "craftTime": {
                     "short": 15,
-                    "long": 1
+                    "long": 60
                 }
             },
             "recipie": {
@@ -18545,7 +18545,7 @@
             "craftTime": {
                 "craftTime": {
                     "short": 15,
-                    "long": 1
+                    "long": 60
                 }
             },
             "recipie": {
@@ -19060,7 +19060,7 @@
             "craftTime": {
                 "craftTime": {
                     "short": 15,
-                    "long": 1
+                    "long": 60
                 }
             },
             "recipie": {
@@ -19668,7 +19668,7 @@
             "craftTime": {
                 "craftTime": {
                     "short": 15,
-                    "long": 1
+                    "long": 60
                 }
             },
             "recipie": {
@@ -20075,7 +20075,7 @@
             "craftTime": {
                 "craftTime": {
                     "short": 15,
-                    "long": 1
+                    "long": 60
                 }
             },
             "recipie": {

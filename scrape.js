@@ -9,15 +9,16 @@ const browser = await puppeteer.launch({
     headless: "new",
     defaultViewport: null,
 })
+//if the datafolder doesn't exist, crate it
 if (!existsSync('data')) {
     fs.mkdir('data')
 }
+//clear the file
 fs.writeFile('./data/items.json', '', function () { console.log('cleared file') })
 
+//get all the itemnames and run the craft and recycle data for every item
 const itemnames = await getItemNames(browser)
-
 let allitemcosts = {}
-
 let scrapecount = 0
 const scrapelen = itemnames.length
 let totaltime = 0
@@ -32,6 +33,7 @@ for (const item of itemnames) {
     console.log(`scraped item ${scrapecount}/${scrapelen} (took ${endTime / 1000} seconds)`)
     totaltime += endTime
 }
+//when done, write the data to a file
 fs.writeFile('./data/items.json', JSON.stringify(allitemcosts), (err) => {
     if (err) throw err
 })
