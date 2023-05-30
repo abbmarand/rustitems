@@ -13,10 +13,19 @@ To get started, follow these steps:
 ```bash
 git clone https://github.com/abbindustrigymnasium/web-scraping-med-puppeteer-abbmarand.git
 ```
-Run `scrape.js` to scrape new data.
+run to install all dependacies 
+```bash
+npm install
+``` 
+to scrape new data.(takes around 10 minutes)
+```bash
+node scrape.js
+``` 
 
-To use the scraped data, run `input.js`.
-
+To use the scraped data, run.
+```bash
+node input.js
+``` 
 Alternatively, if you want to use the data specifically for the game Rust, follow the instructions provided in [https://github.com/abbmarand/better_rustplus.git](https://github.com/abbmarand/better_rustplus.git).
 
 Once you have the data, execute the `input.js` file and try the following commands:
