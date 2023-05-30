@@ -1,4 +1,4 @@
-# Web Scraping with Puppeteer
+# web scraping med puppeteer abbmarand
 
 ## Introduction
 This project is designed for web scraping and includes a simple data visualization feature. The primary purpose of this project is to collect accurate data for future projects. The scraped data can be used in conjunction with another project of mine, which utilizes the same commands in the game Rust. You can find the other project at [https://github.com/abbmarand/better_rustplus.git](https://github.com/abbmarand/better_rustplus.git).
