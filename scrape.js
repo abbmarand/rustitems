@@ -37,6 +37,6 @@ for (const item of itemnames) {
 fs.writeFile('./data/items.json', JSON.stringify(allitemcosts), (err) => {
     if (err) throw err
 })
-console.log(`finished scraping in ${totaltime / 60000} seconds`)
+console.log(`finished scraping in ${totaltime / 60000} minutes`)
 
 browser.close()

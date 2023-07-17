@@ -3,11 +3,11 @@ import axios from "axios"
 import * as fs from "fs"
 import path from "path"
 //helper function
-function toDecimal (percent) {
+function toDecimal(percent) {
     return parseFloat(percent) / 100
 }
 //helper function
-function parseNumber (str) {
+function parseNumber(str) {
     let float = 1
     if (str === '') {
         str = 'x1'
@@ -26,7 +26,7 @@ function parseNumber (str) {
     return float
 }
 //check if the page contains a "craft" tab to determine if you can craft the item or not
-async function checkIfCrafteble (page) {
+async function checkIfCrafteble(page) {
     const tabholder = await page.$('[data-name="craft"]')
     if (tabholder === null) {
         return false
@@ -36,7 +36,7 @@ async function checkIfCrafteble (page) {
 }
 
 //finds the element which tells you how many you get from crafting the minimum ammount of the item
-async function getYieldAmount (page) {
+async function getYieldAmount(page) {
     const yieldElement = await page.$('div[data-name="craft"] td.item-cell')
     if (yieldElement === undefined) {
         return 1
@@ -63,14 +63,14 @@ async function getYieldAmount (page) {
 }
 
 //stack overflow function to check if a number is an int
-function isInt (value) {
+function isInt(value) {
     return !isNaN(value) &&
         parseInt(Number(value)) == value &&
         !isNaN(parseInt(value, 10))
 }
 
 //gets the integer identifier for an item which will later be useful as the data recived from rustplus only has item ids and not names
-async function getItemIdentifier (page) {
+async function getItemIdentifier(page) {
     const cells = await page.$$('table.stats-table td:nth-child(2)')
     for (const cell of cells) {
         const value = await cell.evaluate((node) => Number(node.textContent.trim()))
@@ -82,7 +82,7 @@ async function getItemIdentifier (page) {
 }
 
 //finds the time to craft the item
-async function getItemCraftTime (page) {
+async function getItemCraftTime(page) {
     const tdElements = await page.$$('div[data-name="craft"] td[data-value]')
     let craftTime
     for (const tdElement of tdElements) {
@@ -109,7 +109,7 @@ async function getItemCraftTime (page) {
     }
 }
 
-async function getWorkbenchTier (page) {
+async function getWorkbenchTier(page) {
     const tdElements = await page.$$('div[data-name="craft"] td[data-value]')
     let workbench
     for (const tdElement of tdElements) {
@@ -124,7 +124,7 @@ async function getWorkbenchTier (page) {
 }
 
 //gets the cost for an item
-async function getItemCost (page) {
+async function getItemCost(page) {
     const craftItemBox = await page.$('div.tab-page.tab-table[data-name="craft"]')
     const tdElement = await page.$('div[data-name="craft"] td.no-padding[data-value]')
     let totalCraftCost = await tdElement.evaluate(el => el.getAttribute('data-value'))
@@ -133,7 +133,6 @@ async function getItemCost (page) {
     const craftCost = []
     let prevtypes = []
     let countedCost = 0
-    //many checks to 
     for (let i = 0; i < typeElements.length; i++) {
         const typeElement = typeElements[i]
         const amountElement = amountElements[i]
@@ -155,11 +154,12 @@ async function getItemCost (page) {
         const name = type
         craftCost.push({ name, amount })
     }
+    totalCraftCost = parseInt(totalCraftCost)
     return { totalCraftCost, craftCost }
 }
 
 //uses all the functions above and returns an object with all the data recived
-async function scrapeItemInfo (page) {
+async function scrapeItemInfo(page) {
     let workbench
     const workbenchTier = await getWorkbenchTier(page)
     if (workbenchTier === null || workbenchTier === null) {
@@ -179,7 +179,7 @@ async function scrapeItemInfo (page) {
 
 //finds the yield from recyling an item
 //does the same as finding the ammount for crafting an item but checks in the recyle tab instead of the crafting tab
-async function getRecycleYield (page) {
+async function getRecycleYield(page) {
     const recycleElement = await page.$('div.tab-page.tab-table[data-name="recycle"]')
     if (!recycleElement) {
         return {}
@@ -199,7 +199,7 @@ async function getRecycleYield (page) {
 
 //saves the for an item which might be usefule later
 //as said I am focusing to get as much and accurate data as possible as it will be used in future projects
-async function downloadImage (imageDownloadLink, imageName, folderPath) {
+async function downloadImage(imageDownloadLink, imageName, folderPath) {
     try {
         const response = await axios.get(imageDownloadLink, { responseType: 'arraybuffer' })
         const imagePath = path.join(folderPath, imageName)
@@ -209,7 +209,7 @@ async function downloadImage (imageDownloadLink, imageName, folderPath) {
     }
 }
 
-async function getItemImage (page) {
+async function getItemImage(page) {
     const imageDownloadLink = await page.$eval('img.main-icon', (img) => img.getAttribute('src'))
     let imageName = await page.$eval('img.main-icon', (img) => img.getAttribute('alt'))
 
@@ -222,9 +222,24 @@ async function getItemImage (page) {
     imageName = parseItemString(imageName)
     await downloadImage(imageDownloadLink, imageName, folderPath)
 }
+async function getItemDescription(page) {
+    const descriptionObject = await page.$('p.description')
+    const descriptionText = await page.evaluate(element => element.innerText, descriptionObject)
+    return descriptionText
+}
+
+async function getItemShortname(page) {
+    let imageDownloadLink = await page.$eval('img.main-icon', (img) => img.getAttribute('src'))
+    // Extract the filename from thke URL by splitting and getting the last part
+    const filename = imageDownloadLink.split('/').pop();
+    // Extract the part you need by removing the '.png' extension
+    const shortname = filename.substring(0, filename.lastIndexOf('.'));
+    return shortname
+}
+
 //takes the desired itemname and the browser as an input
 //then it opens a new page corrosponding to the item and scrapes the cost for that item
-async function getItemByName (name, browser) {
+async function getItemByName(name, browser) {
     let identifier = 0
     //it does open and close a new page for every item which is bad
     const page = await browser.newPage()
@@ -233,7 +248,9 @@ async function getItemByName (name, browser) {
             waitUntil: "domcontentloaded",
         })
         let craftData
+        const shortname = await getItemShortname(page)
         const crafteble = await checkIfCrafteble(page)
+        const description = await getItemDescription(page)
         if (crafteble) {
             craftData = await scrapeItemInfo(page)
             identifier = await getItemIdentifier(page)//item identifier always exists but not craftrecipie
@@ -244,7 +261,7 @@ async function getItemByName (name, browser) {
         const recycleData = await getRecycleYield(page)
         const a = await getItemImage(page)
         page.close()
-        return { identifier, craftData, recycleData }
+        return { identifier, shortname, description, craftData, recycleData }
     } catch (error) {
         console.log(`failed to scrape data of ${name} (${error})`)
         page.close()

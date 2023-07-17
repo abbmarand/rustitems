@@ -1,4 +1,4 @@
-export function parseItemString (str) {
+export function parseItemString(str) {
     const lowerstr = str.toLowerCase() // Convert the string to lowercase
     let replaced = lowerstr.replace(/\s+/g, '-') // Replace whitespace with hyphens
     replaced = replaced.replace(/-+/g, '-') // Replace multiple hyphens with a single hyphen
@@ -7,13 +7,13 @@ export function parseItemString (str) {
 }
 
 // Function to retrieve unique group names from an array of strings
-function getGroupNames (array) {
+function getGroupNames(array) {
     const groups = array.map(str => str.replace(/\/group=(\w+)/, '$1')) // Extract group names from strings
     const uniqueGroups = [...new Set(groups)] // Get unique group names
     return uniqueGroups
 }
 
-async function scrapeItemsWithGroup (page) {
+async function scrapeItemsWithGroup(page) {
     const itemGroups = []
     const itemTypeslist = await page.$$('li[style="width: auto; white-space: nowrap;"]') // Get list items
 
@@ -29,7 +29,7 @@ async function scrapeItemsWithGroup (page) {
     return itemGroups
 }
 
-async function scrapeItemsNames (page) {
+async function scrapeItemsNames(page) {
     const itemarr = await page.$$('span.r-cell') // Get list of elements with class 'r-cell'
     let itemtext
     let itemtextarr = []
@@ -41,7 +41,7 @@ async function scrapeItemsNames (page) {
     return itemtextarr
 }
 
-async function getItemNames (browser) {
+async function getItemNames(browser) {
     const page = await browser.newPage()
     await page.goto(`https://rustlabs.com/group=itemlist`, {
         waitUntil: "domcontentloaded",
