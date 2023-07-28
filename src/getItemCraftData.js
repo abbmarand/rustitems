@@ -151,7 +151,7 @@ async function getItemCost(page) {
             break
         }
         prevtypes.push(type)
-        const name = type
+        const name = parseItemString(type)
         craftCost.push({ name, amount })
     }
     totalCraftCost = parseInt(totalCraftCost)
@@ -188,7 +188,8 @@ async function getRecycleYield(page) {
         const recycleCost = []
         for (let i = 0; i < itemBoxElements.length; i++) {
             const itemBoxElement = itemBoxElements[i]
-            const itemName = await itemBoxElement.$eval('img', (img) => img.getAttribute('alt'))
+            let itemName = await itemBoxElement.$eval('img', (img) => img.getAttribute('alt'))
+            itemName = parseItemString(itemName)
             let itemAmount = await page.evaluate(itemBoxElement => itemBoxElement.innerText, itemBoxElement)
             itemAmount = parseNumber(itemAmount)
             recycleCost.push({ name: itemName, amount: itemAmount })
