@@ -30,13 +30,13 @@ for (const item of itemnames) {
     const updatedIteminfo = { group, ...iteminfo }
     allitemcosts[name] = updatedIteminfo
     const endTime = performance.now() - startTime
-    console.log(`scraped item ${scrapecount}/${scrapelen} (took ${endTime / 1000} seconds)`)
+    console.log(`scraped item ${scrapecount}/${scrapelen} in ${(endTime / 1000).toFixed(3)} seconds`)
     totaltime += endTime
 }
 //when done, write the data to a file
 fs.writeFile('./data/items.json', JSON.stringify(allitemcosts), (err) => {
     if (err) throw err
 })
-console.log(`finished scraping in ${totaltime / 60000} minutes`)
+console.log(`finished scraping in ${(totaltime / 60000).toFixed(2)} minutes`)
 
 browser.close()

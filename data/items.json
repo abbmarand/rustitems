@@ -2138,7 +2138,7 @@
         "group": "weapons",
         "identifier": -1367281941,
         "shortname": "shotgun.waterpipe",
-        "description": "The Waterpipe Shotgun is a low-tier gun that deals a decent amount of damage from close range. Can be loaded with the 12 Gauge Slug to deal less damage but shoot further. It is an early game weapon choice for many and is often paired with a bow.",
+        "description": "The Waterpipe Shotgun is a low-tier gun that deals a decent amount of damage from close range. Can be loaded with the 12 Gauge Slug to deal less damage but shoot further. It is an early game weapon of choice for many and is often paired with a bow.",
         "craftData": {
             "yield": 1,
             "workbench": 1,
@@ -4371,6 +4371,25 @@
                 {
                     "name": "cloth",
                     "amount": 10
+                }
+            ]
+        }
+    },
+    "clan-table": {
+        "group": "items",
+        "identifier": 486661382,
+        "shortname": "clantable",
+        "description": "A table for managing clans.",
+        "craftData": {},
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": "wood",
+                    "amount": 200
+                },
+                {
+                    "name": "metal-fragments",
+                    "amount": 200
                 }
             ]
         }
