@@ -336,7 +336,7 @@
         "group": "weapons",
         "identifier": 884424049,
         "shortname": "bow.compound",
-        "description": "The Compound Bow is the most powerful bow. It can one shot someone with full gear. Pulling the bow while keeping still and stationary will increase the velocity and damage of the arrow.\nAs of December 2021, the Compound Bow received a nerf. You can no longer find it in default blueprints. You also can't pull the string on the Compound Bow for too long, otherwise it loses durability overtime.",
+        "description": "The Compound Bow is the most powerful bow. It can one shot someone with full gear. Pulling the bow while keeping stationary will increase the velocity and damage of the arrow.\nAs of December 2021, the Compound Bow received a nerf. You can no longer find it in default blueprints. You also can't pull the string on the Compound Bow for too long, otherwise it loses durability overtime.",
         "craftData": {
             "yield": 1,
             "workbench": 1,
@@ -826,6 +826,63 @@
                 },
                 {
                     "name": "tech-trash",
+                    "amount": 0.5
+                }
+            ]
+        }
+    },
+    "homing-missile-launcher": {
+        "group": "weapons",
+        "identifier": -218009552,
+        "shortname": "homingmissile.launcher",
+        "description": "An active-guidance homing missile launcher. Once launched, the target must be tracked by the launcher until impact. Can be distracted by flares.",
+        "craftData": {
+            "yield": 1,
+            "workbench": 2,
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 25,
+                "craftCost": [
+                    {
+                        "name": "high-quality-metal",
+                        "amount": 20
+                    },
+                    {
+                        "name": "metal-pipe",
+                        "amount": 3
+                    },
+                    {
+                        "name": "tech-trash",
+                        "amount": 1
+                    },
+                    {
+                        "name": "cctv-camera",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": "high-quality-metal",
+                    "amount": 10
+                },
+                {
+                    "name": "metal-pipe",
+                    "amount": 2
+                },
+                {
+                    "name": "tech-trash",
+                    "amount": 0.5
+                },
+                {
+                    "name": "cctv-camera",
                     "amount": 0.5
                 }
             ]
@@ -3249,7 +3306,7 @@
         "group": "build",
         "identifier": -1429456799,
         "shortname": "wall.frame.cell",
-        "description": "A prison cell wall.",
+        "description": "A prison cell wall. Cannot be picked up after placed.",
         "craftData": {
             "yield": 1,
             "workbench": 2,
@@ -4874,6 +4931,47 @@
                 {
                     "name": "wood",
                     "amount": 50
+                }
+            ]
+        }
+    },
+    "horizontal-weapon-rack": {
+        "group": "items",
+        "identifier": -246672609,
+        "shortname": "gunrack.horizontal",
+        "description": "Artfully display your arsenal with a handcrafted wall-mounted weapon rack.",
+        "craftData": {
+            "yield": 1,
+            "workbench": 1,
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 220,
+                "craftCost": [
+                    {
+                        "name": "wood",
+                        "amount": 100
+                    },
+                    {
+                        "name": "metal-fragments",
+                        "amount": 120
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": "wood",
+                    "amount": 50
+                },
+                {
+                    "name": "metal-fragments",
+                    "amount": 60
                 }
             ]
         }
@@ -6597,6 +6695,47 @@
             ]
         }
     },
+    "tall-weapon-rack": {
+        "group": "items",
+        "identifier": 240752557,
+        "shortname": "gunrack_tall.horizontal",
+        "description": "Artfully display your arsenal with a handcrafted wall-mounted weapon rack.",
+        "craftData": {
+            "yield": 1,
+            "workbench": 1,
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 275,
+                "craftCost": [
+                    {
+                        "name": "wood",
+                        "amount": 100
+                    },
+                    {
+                        "name": "metal-fragments",
+                        "amount": 175
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": "wood",
+                    "amount": 50
+                },
+                {
+                    "name": "metal-fragments",
+                    "amount": 88
+                }
+            ]
+        }
+    },
     "tuna-can-lamp": {
         "group": "items",
         "identifier": -1478445584,
@@ -6913,6 +7052,88 @@
                 {
                     "name": "empty-propane-tank",
                     "amount": 0.5
+                }
+            ]
+        }
+    },
+    "weapon-rack-stand": {
+        "group": "items",
+        "identifier": 1132603396,
+        "shortname": "gunrack_stand",
+        "description": "Holds weaponry haphazardly, a charmingly chaotic addition to your virtual armory.",
+        "craftData": {
+            "yield": 1,
+            "workbench": 0,
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 275,
+                "craftCost": [
+                    {
+                        "name": "wood",
+                        "amount": 200
+                    },
+                    {
+                        "name": "metal-fragments",
+                        "amount": 75
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": "wood",
+                    "amount": 100
+                },
+                {
+                    "name": "metal-fragments",
+                    "amount": 38
+                }
+            ]
+        }
+    },
+    "wide-weapon-rack": {
+        "group": "items",
+        "identifier": -96256997,
+        "shortname": "gunrack_wide.horizontal",
+        "description": "Artfully display your arsenal with a handcrafted wall-mounted weapon rack.",
+        "craftData": {
+            "yield": 1,
+            "workbench": 1,
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 275,
+                "craftCost": [
+                    {
+                        "name": "wood",
+                        "amount": 100
+                    },
+                    {
+                        "name": "metal-fragments",
+                        "amount": 175
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": "wood",
+                    "amount": 50
+                },
+                {
+                    "name": "metal-fragments",
+                    "amount": 88
                 }
             ]
         }
@@ -9209,6 +9430,39 @@
             ]
         }
     },
+    "hot-air-balloon-armor": {
+        "group": "clothing",
+        "identifier": -1989600732,
+        "shortname": "hab.armor",
+        "description": "Armor for the Hot Air Balloon",
+        "craftData": {
+            "yield": 1,
+            "workbench": 1,
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 200,
+                "craftCost": [
+                    {
+                        "name": "metal-fragments",
+                        "amount": 200
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": "metal-fragments",
+                    "amount": 100
+                }
+            ]
+        }
+    },
     "improvised-balaclava": {
         "group": "clothing",
         "identifier": -2012470695,
@@ -9941,6 +10195,55 @@
                 {
                     "name": "sewing-kit",
                     "amount": 0.5
+                }
+            ]
+        }
+    },
+    "parachute": {
+        "group": "clothing",
+        "identifier": 602628465,
+        "shortname": "parachute",
+        "description": "Once equipped, press [+jump] while in mid-air to pull the cord. Must be repacked after use. Must be at least 15m above the ground in order to deploy.",
+        "craftData": {
+            "yield": 1,
+            "workbench": 2,
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 15
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 54,
+                "craftCost": [
+                    {
+                        "name": "tarp",
+                        "amount": 2
+                    },
+                    {
+                        "name": "sewing-kit",
+                        "amount": 2
+                    },
+                    {
+                        "name": "cloth",
+                        "amount": 50
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": "tarp",
+                    "amount": 1
+                },
+                {
+                    "name": "sewing-kit",
+                    "amount": 1
+                },
+                {
+                    "name": "cloth",
+                    "amount": 25
                 }
             ]
         }
@@ -13628,6 +13931,55 @@
             ]
         }
     },
+    "homing-missile": {
+        "group": "ammo",
+        "identifier": 1296788329,
+        "shortname": "ammo.rocket.seeker",
+        "description": "Fast moving rocket ammunition. Uses a type of radar for active target guidance from a Homing Launcher",
+        "craftData": {
+            "yield": 2,
+            "workbench": 2,
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 10
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 204,
+                "craftCost": [
+                    {
+                        "name": "metal-pipe",
+                        "amount": 3
+                    },
+                    {
+                        "name": "gun-powder",
+                        "amount": 200
+                    },
+                    {
+                        "name": "tech-trash",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": "metal-pipe",
+                    "amount": 1
+                },
+                {
+                    "name": "gun-powder",
+                    "amount": 50
+                },
+                {
+                    "name": "tech-trash",
+                    "amount": 0.25
+                }
+            ]
+        }
+    },
     "incendiary-5.56-rifle-ammo": {
         "group": "ammo",
         "identifier": 605467368,
@@ -13970,7 +14322,7 @@
         "group": "ammo",
         "identifier": -17123659,
         "shortname": "ammo.rocket.smoke",
-        "description": "Currently, smoke rockets in Rust are labeled as WIP (Work In Progress). They do minor poison damage to players or to structures, and provide minimal amounts of smoke that doesn't last long. Though, they are currently not craftable or able to be found, admins are able to spawn them in via the console.",
+        "description": "Currently, smoke rockets in Rust are labeled as WIP (Work In Progress). They do minor poison damage to players or to structures, and provide minimal amounts of quickly disappearing smoke. Though they are cannot currently be crafted or found, admins are able to spawn them in via the console.",
         "craftData": {},
         "recycleData": {
             "recycleYield": [
@@ -14344,7 +14696,7 @@
         "group": "misc",
         "identifier": -484206264,
         "shortname": "keycard_blue",
-        "description": "The Blue Keycard is a required object used to open doors with a glowing blue keycard lock. Military crates will start to spawn more often in blue puzzle rooms. You will also find red keycards in all the blue keycard puzzles.\nIt can be found in the Satellite Dish, Harbors and the Sewer Branch. They spawn on desks which you can find in the green puzzle rooms.\nIt can then be used on the:\n- Power Plant (requires an electric fuse and a green keycard to reach the blue puzzle room, for the blue keycard lock, you'll just need another electric fuse and a blue keycard)\n- Airfield (requires an electric fuse and a green keycard to reach the blue puzzle room, for the blue keycard lock, you'll just need another electric fuse and a blue keycard)\n- Trainyard (you'll just need an electric fuse and a blue keycard to open the blue keycard lock)\n- Water Treatment Plant (you'll just need an electric fuse and a blue keycard to open the blue keycard lock)\n- Small / Large Oil Rig (you'll just need a blue keycard to open the blue keycard lock)\n",
+        "description": "The Blue Keycard is a game object required in order to access quite a lot of monument puzzles.\nIt can be obtained by fishing and gutting high tier fish or by completing green monument puzzles on Harbors, Satellite Dish or Sewer Branch.\nList of monuments that require Blue Keycard to finish monument puzzle:\nAirfield, Arctic Research Base, Military Tunnels, Missile Silo, Oil Rig, Power Plant, Trainyard, Water Treatment\nLarge Oil Rig does not require Blue Keycard to access Locked Crate but it grants access to 4 military crates.",
         "craftData": {},
         "recycleData": {}
     },
