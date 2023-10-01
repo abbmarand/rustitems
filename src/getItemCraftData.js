@@ -200,10 +200,10 @@ async function getRecycleYield(page) {
 
 //saves the for an item which might be usefule later
 //as said I am focusing to get as much and accurate data as possible as it will be used in future projects
-async function downloadImage(imageDownloadLink, imageName, folderPath) {
+async function downloadImage(imageDownloadLink, folderPath, shortname) {
     try {
         const response = await axios.get(imageDownloadLink, { responseType: 'arraybuffer' })
-        const imagePath = path.join(folderPath, imageName)
+        const imagePath = path.join(folderPath, shortname)
         fs.writeFileSync(`${imagePath}.png`, response.data)
     } catch (error) {
         console.error('Error downloading image:', error)
@@ -213,7 +213,9 @@ async function downloadImage(imageDownloadLink, imageName, folderPath) {
 async function getItemImage(page) {
     const imageDownloadLink = await page.$eval('img.main-icon', (img) => img.getAttribute('src'))
     let imageName = await page.$eval('img.main-icon', (img) => img.getAttribute('alt'))
-
+    const filename = imageDownloadLink.split('/').pop();
+    // Extract the part you need by removing the '.png' extension
+    const shortname = filename.substring(0, filename.lastIndexOf('.'));
     const folderPath = './data/images' // Specify the folder where you want to save the images
 
     // Create the folder if it doesn't exist
@@ -221,7 +223,7 @@ async function getItemImage(page) {
         fs.mkdirSync(folderPath)
     }
     imageName = parseItemString(imageName)
-    await downloadImage(imageDownloadLink, imageName, folderPath)
+    await downloadImage(imageDownloadLink, folderPath, shortname)
 }
 async function getItemDescription(page) {
     const descriptionObject = await page.$('p.description')
