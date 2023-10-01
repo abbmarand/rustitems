@@ -13,8 +13,20 @@ imgElements.each(async (index, imgElement) => {
         try {
             const response = await axios.get(imgSrc, { responseType: 'arraybuffer' });
             imgAlt = imgAlt.substring(4);
-            writeFileSync(`../data/emoji/${imgAlt}.jpg`, response.data);
-            console.log(`Downloaded ${imgAlt}.jpg`);
+            if (imgAlt === "torch") {
+                imgAlt = "light"
+            }
+            if (imgAlt === "dance~1") {
+                imgAlt = "dance"
+            }
+            if (imgAlt === "rock") {
+                imgAlt = "heartrock"
+            }
+            if (imgAlt === "sunglasses") {
+                imgAlt = "cool"
+            }
+            writeFileSync(`../data/images/${imgAlt}.png`, response.data);
+            console.log(`Downloaded ${imgAlt}.png`);
         } catch (error) {
             console.error(`Error downloading ${imgSrc}: ${error.message}`);
         }
