@@ -25,6 +25,9 @@ imgElements.each(async (index, imgElement) => {
             if (imgAlt === "sunglasses") {
                 imgAlt = "cool"
             }
+            if (imgAlt === "beancan") {
+                imgAlt = "coffecan"
+            }
             writeFileSync(`../data/images/${imgAlt}.png`, response.data);
             console.log(`Downloaded ${imgAlt}.png`);
         } catch (error) {
