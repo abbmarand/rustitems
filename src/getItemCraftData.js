@@ -264,7 +264,7 @@ async function getItemByName(name, browser) {
         const recycleData = await getRecycleYield(page)
         const a = await getItemImage(page)
         page.close()
-        return { identifier, shortname, description, craftData, recycleData }
+        return { identifier, name, shortname, description, craftData, recycleData }
     } catch (error) {
         console.log(`failed to scrape data of ${name} (${error})`)
         page.close()
