@@ -3,13 +3,14 @@ import { getItemByName } from './src/getItemCraftData.js'
 import { getItemNames } from './src/getItemNames.js'
 import * as fs from 'node:fs/promises'
 import { existsSync } from 'node:fs'
-
+import { updateData } from './postscrape.js'
 //opens a new browser
 const browser = await puppeteer.launch({
     headless: "new",
     defaultViewport: null,
 })
 //if the datafolder doesn't exist, crate it
+
 if (!existsSync('data')) {
     fs.mkdir('data')
 }
@@ -39,7 +40,7 @@ for (const item of itemnames) {
     console.log(`scraped item: ${name} (${scrapecount}/${scrapelen}) in ${(endTime / 1000).toFixed(3)} seconds`)
     totaltime += endTime
 }
-
+console.log(`finished scraping in ${(totaltime / 60000).toFixed(2)} minutes, post proccessing data`)
 //when done, write the data to a file
 fs.writeFile('./data/itemsbyname.json', JSON.stringify(byname), (err) => {
     if (err) throw err
@@ -50,6 +51,6 @@ fs.writeFile('./data/itemsbyid.json', JSON.stringify(byid), (err) => {
 fs.writeFile('./data/itemsbyshortname.json', JSON.stringify(byshortname), (err) => {
     if (err) throw err
 })
-console.log(`finished scraping in ${(totaltime / 60000).toFixed(2)} minutes`)
-
+await updateData()
+console.log(`done🙂`)
 browser.close()
