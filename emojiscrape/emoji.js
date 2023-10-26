@@ -32,6 +32,7 @@ imgElements.each(async (index, imgElement) => {
                 imgAlt = "yellowpin"
             }
             writeFileSync(`../data/images/${imgAlt}.png`, response.data);
+            writeFileSync(`../data/emoji/${imgAlt}.png`, response.data);
             console.log(`Downloaded ${imgAlt}.png`);
         } catch (error) {
             console.error(`Error downloading ${imgSrc}: ${error.message}`);
