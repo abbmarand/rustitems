@@ -1986,6 +1986,40 @@
             ]
         }
     },
+    "skinning-knife": {
+        "group": "weapons",
+        "identifier": -2073432256,
+        "name": "skinning-knife",
+        "shortname": "knife.skinning",
+        "description": "A sharp skinning knife. Extremely good at harvesting flesh and can produce trophies that can be mounted on Hunting Trophies.",
+        "craftData": {
+            "yield": 1,
+            "workbench": 1,
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 75,
+                "craftCost": [
+                    {
+                        "name": "metal-fragments",
+                        "amount": 75
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": "metal-fragments",
+                    "amount": 38
+                }
+            ]
+        }
+    },
     "snowball": {
         "group": "weapons",
         "identifier": -363689972,
@@ -4059,6 +4093,40 @@
             ]
         }
     },
+    "wooden-frontier-bar-doors": {
+        "group": "build",
+        "identifier": -1151332840,
+        "name": "wooden-frontier-bar-doors",
+        "shortname": "door.double.hinged.bardoors",
+        "description": "Hand-carved, rugged bar doors embody the spirit of the frontier. A must-have for any survivor.",
+        "craftData": {
+            "yield": 1,
+            "workbench": 0,
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 200,
+                "craftCost": [
+                    {
+                        "name": "wood",
+                        "amount": 200
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": "wood",
+                    "amount": 100
+                }
+            ]
+        }
+    },
     "wooden-ladder": {
         "group": "build",
         "identifier": -316250604,
@@ -4192,6 +4260,40 @@
                 },
                 {
                     "name": "wood",
+                    "amount": 50
+                }
+            ]
+        }
+    },
+    "bath-tub-planter": {
+        "group": "items",
+        "identifier": -1274093662,
+        "name": "bath-tub-planter",
+        "shortname": "bathtub.planter",
+        "description": "A small planter with enough room to plant 3 seeds.",
+        "craftData": {
+            "yield": 1,
+            "workbench": 0,
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 100,
+                "craftCost": [
+                    {
+                        "name": "metal-fragments",
+                        "amount": 100
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": "metal-fragments",
                     "amount": 50
                 }
             ]
@@ -4921,31 +5023,47 @@
             ]
         }
     },
+    "fish-trophy": {
+        "group": "items",
+        "identifier": -1913996738,
+        "name": "fish-trophy",
+        "shortname": "fishtrophy",
+        "description": "A wall mountable item to show off your greatest catches. Fish not included.",
+        "craftData": {
+            "yield": 1,
+            "workbench": 0,
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 20
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 75,
+                "craftCost": [
+                    {
+                        "name": "wood",
+                        "amount": 75
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": "wood",
+                    "amount": 38
+                }
+            ]
+        }
+    },
     "frankenstein-table": {
         "group": "items",
         "identifier": 1575635062,
         "name": "frankenstein-table",
         "shortname": "frankensteintable",
         "description": "The Frankenstein Table is a halloween exclusive item released in 2021's Halloween Event. By placing in a Frankenstein Head, Frankenstein Torso and Frankenstein Legs, you will create your own pet. Flipping the switch of the Frankenstein Table awakens the pet, you can then order it to assist, attack, follow, stand and more actions.",
-        "craftData": {
-            "yield": 1,
-            "workbench": 1,
-            "craftTime": {
-                "craftTime": {
-                    "short": 3,
-                    "long": 15
-                }
-            },
-            "recipie": {
-                "totalCraftCost": 200,
-                "craftCost": [
-                    {
-                        "name": "metal-fragments",
-                        "amount": 200
-                    }
-                ]
-            }
-        },
+        "craftData": {},
         "recycleData": {
             "recycleYield": [
                 {
@@ -4961,6 +5079,116 @@
         "name": "fridge",
         "shortname": "fridge",
         "description": "Item used for storing various types of food and drink. Currently serves no use however it is speculated food will eventually spoil if left out in chests, furnaces, or boxes in the updates to come.",
+        "craftData": {
+            "yield": 1,
+            "workbench": 1,
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 75,
+                "craftCost": [
+                    {
+                        "name": "metal-fragments",
+                        "amount": 75
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": "metal-fragments",
+                    "amount": 38
+                }
+            ]
+        }
+    },
+    "frontier-bolts-single-item-rack": {
+        "group": "items",
+        "identifier": 1973949960,
+        "name": "frontier-bolts-single-item-rack",
+        "shortname": "gunrack.single.1.horizontal",
+        "description": "Artfully display your weapon with a handcrafted wall-mounted single weapon rack.",
+        "craftData": {
+            "yield": 1,
+            "workbench": 1,
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 70,
+                "craftCost": [
+                    {
+                        "name": "wood",
+                        "amount": 50
+                    },
+                    {
+                        "name": "metal-fragments",
+                        "amount": 20
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": "wood",
+                    "amount": 25
+                },
+                {
+                    "name": "metal-fragments",
+                    "amount": 10
+                }
+            ]
+        }
+    },
+    "frontier-horns-single-item-rack": {
+        "group": "items",
+        "identifier": -52398594,
+        "name": "frontier-horns-single-item-rack",
+        "shortname": "gunrack.single.3.horizontal",
+        "description": "Artfully display your weapon with a handcrafted wall-mounted single weapon rack.",
+        "craftData": {
+            "yield": 1,
+            "workbench": 1,
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 30,
+                "craftCost": [
+                    {
+                        "name": "bone-fragments",
+                        "amount": 30
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": "bone-fragments",
+                    "amount": 15
+                }
+            ]
+        }
+    },
+    "frontier-horseshoe-single-item-rack": {
+        "group": "items",
+        "identifier": -849373693,
+        "name": "frontier-horseshoe-single-item-rack",
+        "shortname": "gunrack.single.2.horizontal",
+        "description": "Artfully display your weapon with a handcrafted wall-mounted single weapon rack.",
         "craftData": {
             "yield": 1,
             "workbench": 1,
@@ -5561,6 +5789,40 @@
             ]
         }
     },
+    "large-hunting-trophy": {
+        "group": "items",
+        "identifier": 960673498,
+        "name": "large-hunting-trophy",
+        "shortname": "huntingtrophylarge",
+        "description": "A large trophy stand to mount the head of killed animals or enemies.",
+        "craftData": {
+            "yield": 1,
+            "workbench": 0,
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 20
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 150,
+                "craftCost": [
+                    {
+                        "name": "wood",
+                        "amount": 150
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": "wood",
+                    "amount": 75
+                }
+            ]
+        }
+    },
     "large-photo-frame": {
         "group": "items",
         "identifier": 1205084994,
@@ -5831,6 +6093,40 @@
             ]
         }
     },
+    "minecart-planter": {
+        "group": "items",
+        "identifier": 1361520181,
+        "name": "minecart-planter",
+        "shortname": "minecart.planter",
+        "description": "A small planter with enough room to plant 2 seeds.",
+        "craftData": {
+            "yield": 1,
+            "workbench": 0,
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 100,
+                "craftCost": [
+                    {
+                        "name": "metal-fragments",
+                        "amount": 100
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": "metal-fragments",
+                    "amount": 50
+                }
+            ]
+        }
+    },
     "mixing-table": {
         "group": "items",
         "identifier": 1259919256,
@@ -6008,6 +6304,48 @@
             ]
         }
     },
+    "rail-road-planter": {
+        "group": "items",
+        "identifier": 615112838,
+        "name": "rail-road-planter",
+        "shortname": "rail.road.planter",
+        "description": "A large planter with enough room to plant 9 seeds.",
+        "craftData": {
+            "yield": 1,
+            "workbench": 0,
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 202,
+                "craftCost": [
+                    {
+                        "name": "wood",
+                        "amount": 200
+                    },
+                    {
+                        "name": "tarp",
+                        "amount": 2
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": "wood",
+                    "amount": 100
+                },
+                {
+                    "name": "tarp",
+                    "amount": 1
+                }
+            ]
+        }
+    },
     "repair-bench": {
         "group": "items",
         "identifier": 803222026,
@@ -6076,6 +6414,40 @@
                 {
                     "name": "metal-fragments",
                     "amount": 100
+                }
+            ]
+        }
+    },
+    "rocking-chair": {
+        "group": "items",
+        "identifier": -1863063690,
+        "name": "rocking-chair",
+        "shortname": "rockingchair",
+        "description": "A rocking chair that responds to your input. Don't fire whilst seated.",
+        "craftData": {
+            "yield": 1,
+            "workbench": 1,
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 130,
+                "craftCost": [
+                    {
+                        "name": "wood",
+                        "amount": 130
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": "wood",
+                    "amount": 65
                 }
             ]
         }
@@ -6415,6 +6787,40 @@
                 {
                     "name": "cloth",
                     "amount": 15
+                }
+            ]
+        }
+    },
+    "small-hunting-trophy": {
+        "group": "items",
+        "identifier": -869598982,
+        "name": "small-hunting-trophy",
+        "shortname": "huntingtrophysmall",
+        "description": "A trophy stand to mount the head of killed animals or enemies.",
+        "craftData": {
+            "yield": 1,
+            "workbench": 0,
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 20
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 100,
+                "craftCost": [
+                    {
+                        "name": "wood",
+                        "amount": 100
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": "wood",
+                    "amount": 50
                 }
             ]
         }
@@ -6798,6 +7204,90 @@
             ]
         }
     },
+    "storage-barrel-horizontal": {
+        "group": "items",
+        "identifier": -1421257350,
+        "name": "storage-barrel-horizontal",
+        "shortname": "storage_barrel_c",
+        "description": "Keep your things in this wooden barrel. Stores up to 48 items. Cannot be locked.",
+        "craftData": {
+            "yield": 1,
+            "workbench": 0,
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 375,
+                "craftCost": [
+                    {
+                        "name": "wood",
+                        "amount": 300
+                    },
+                    {
+                        "name": "metal-fragments",
+                        "amount": 75
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": "wood",
+                    "amount": 150
+                },
+                {
+                    "name": "metal-fragments",
+                    "amount": 38
+                }
+            ]
+        }
+    },
+    "storage-barrel-vertical": {
+        "group": "items",
+        "identifier": 1307626005,
+        "name": "storage-barrel-vertical",
+        "shortname": "storage_barrel_b",
+        "description": "Keep your things in this wooden barrel. Stores up to 48 items. Cannot be locked.",
+        "craftData": {
+            "yield": 1,
+            "workbench": 0,
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 375,
+                "craftCost": [
+                    {
+                        "name": "wood",
+                        "amount": 300
+                    },
+                    {
+                        "name": "metal-fragments",
+                        "amount": 75
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": "wood",
+                    "amount": 150
+                },
+                {
+                    "name": "metal-fragments",
+                    "amount": 38
+                }
+            ]
+        }
+    },
     "survival-fish-trap": {
         "group": "items",
         "identifier": 559147458,
@@ -6954,6 +7444,48 @@
                 {
                     "name": "metal-fragments",
                     "amount": 88
+                }
+            ]
+        }
+    },
+    "torch-holder": {
+        "group": "items",
+        "identifier": 446206234,
+        "name": "torch-holder",
+        "shortname": "torchholder",
+        "description": "A wall mounted holder for torches.",
+        "craftData": {
+            "yield": 1,
+            "workbench": 0,
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 20
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 50,
+                "craftCost": [
+                    {
+                        "name": "wood",
+                        "amount": 40
+                    },
+                    {
+                        "name": "metal-fragments",
+                        "amount": 10
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": "wood",
+                    "amount": 20
+                },
+                {
+                    "name": "metal-fragments",
+                    "amount": 5
                 }
             ]
         }
@@ -7190,6 +7722,40 @@
                 {
                     "name": "gears",
                     "amount": 2
+                }
+            ]
+        }
+    },
+    "wanted-poster": {
+        "group": "items",
+        "identifier": -1344017968,
+        "name": "wanted-poster",
+        "shortname": "wantedposter",
+        "description": "A poster that can be display a given player's face as wanted.",
+        "craftData": {
+            "yield": 1,
+            "workbench": 0,
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 20
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 20,
+                "craftCost": [
+                    {
+                        "name": "wood",
+                        "amount": 20
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": "wood",
+                    "amount": 10
                 }
             ]
         }
@@ -13845,10 +14411,10 @@
         "craftData": {},
         "recycleData": {}
     },
-    "water-jug-charitable-rust-2023": {
+    "water-jug": {
         "group": "food",
         "identifier": -119235651,
-        "name": "water-jug-charitable-rust-2023",
+        "name": "water-jug",
         "shortname": "waterjug",
         "description": "The water jug is an item which carries water and can be held in the players hot-bar or inventory.\nThe water jug is far superior to the water bucket because of its extra 1,000 ml capacity and its ability to hold water while not in the hands of the user. It is most commonly used in large numbers to carry massive amounts of water to a players base in one trip. It is highly recommended that you have multiple of these items if you plan to have any kind of indoor farm because of the water bonus to farming.",
         "craftData": {},
@@ -15684,6 +16250,15 @@
         "name": "halloween-candy",
         "shortname": "halloween.candy",
         "description": "Some loose halloween candy Collect 10 to upgrade to a Small Loot Bat!",
+        "craftData": {},
+        "recycleData": {}
+    },
+    "head-bag": {
+        "group": "misc",
+        "identifier": 209218760,
+        "name": "head-bag",
+        "shortname": "head.bag",
+        "description": "A sack containing the head of a defeated foe. Can be added to trophies.",
         "craftData": {},
         "recycleData": {}
     },
