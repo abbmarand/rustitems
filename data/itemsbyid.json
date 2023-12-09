@@ -2914,6 +2914,40 @@
             ]
         }
     },
+    "607400343": {
+        "group": "build",
+        "identifier": 607400343,
+        "name": "legacy-wood-shelter",
+        "shortname": "legacy.shelter.wood",
+        "description": "The classic s*** shack. A great starter base for any fresh spawn.",
+        "craftData": {
+            "yield": 1,
+            "workbench": 0,
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 600,
+                "craftCost": [
+                    {
+                        "name": -151838493,
+                        "amount": 600
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": -151838493,
+                    "amount": 300
+                }
+            ]
+        }
+    },
     "609049394": {
         "group": "resources",
         "identifier": 609049394,
@@ -3404,6 +3438,30 @@
                 {
                     "name": -858312878,
                     "amount": 13
+                }
+            ]
+        }
+    },
+    "678698219": {
+        "group": "weapons",
+        "identifier": 678698219,
+        "name": "m4-shotgun",
+        "shortname": "shotgun.m4",
+        "description": "A semi automatic military issue shotgun",
+        "craftData": {},
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": 317398316,
+                    "amount": 10
+                },
+                {
+                    "name": 95950017,
+                    "amount": 2
+                },
+                {
+                    "name": -1021495308,
+                    "amount": 2
                 }
             ]
         }
@@ -8707,6 +8765,48 @@
                 {
                     "name": 1540934679,
                     "amount": 0.5
+                }
+            ]
+        }
+    },
+    "1603174987": {
+        "group": "fun",
+        "identifier": 1603174987,
+        "name": "confetti-cannon",
+        "shortname": "confetticannon",
+        "description": "Blast a cloud of birthday themed confetti cheer.",
+        "craftData": {
+            "yield": 1,
+            "workbench": 1,
+            "craftTime": {
+                "craftTime": {
+                    "short": 2,
+                    "long": 10
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 80,
+                "craftCost": [
+                    {
+                        "name": -151838493,
+                        "amount": 75
+                    },
+                    {
+                        "name": -265876753,
+                        "amount": 5
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": -151838493,
+                    "amount": 38
+                },
+                {
+                    "name": -265876753,
+                    "amount": 3
                 }
             ]
         }
@@ -15264,6 +15364,40 @@
             ]
         }
     },
+    "-901370585": {
+        "group": "items",
+        "identifier": -901370585,
+        "name": "twitch-rivals-trophy-2023",
+        "shortname": "trophy2023",
+        "description": "A trophy dedicated to the survivors of Rust Twitch Rivals 2023",
+        "craftData": {
+            "yield": 1,
+            "workbench": 0,
+            "craftTime": {
+                "craftTime": {
+                    "short": 2,
+                    "long": 10
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 50,
+                "craftCost": [
+                    {
+                        "name": 69511070,
+                        "amount": 50
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": 69511070,
+                    "amount": 25
+                }
+            ]
+        }
+    },
     "-1647846966": {
         "group": "items",
         "identifier": -1647846966,
@@ -15303,7 +15437,7 @@
         "identifier": -1344017968,
         "name": "wanted-poster",
         "shortname": "wantedposter",
-        "description": "A poster that can be display a given player's face as wanted.",
+        "description": "A poster that can display a given player's face as wanted.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -18681,7 +18815,7 @@
         "identifier": -1003665711,
         "name": "super-serum",
         "shortname": "supertea",
-        "description": "Super Serum, more health, more ore, more wood, more scrap",
+        "description": "Super Serum, more ore, more wood, more scrap",
         "craftData": {},
         "recycleData": {}
     },
@@ -22967,6 +23101,40 @@
                 {
                     "name": -946369541,
                     "amount": 8
+                }
+            ]
+        }
+    },
+    "-1442496789": {
+        "group": "fun",
+        "identifier": -1442496789,
+        "name": "pinata",
+        "shortname": "pinata",
+        "description": "Batter up!",
+        "craftData": {
+            "yield": 1,
+            "workbench": 1,
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 500,
+                "craftCost": [
+                    {
+                        "name": -151838493,
+                        "amount": 500
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": -151838493,
+                    "amount": 250
                 }
             ]
         }
