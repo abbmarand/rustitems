@@ -3793,7 +3793,29 @@
         "name": "christmas-tree",
         "shortname": "xmas.tree",
         "description": "The Christmas Tree is a festive item that can be placed on most horizontal surfaces. Many things can be placed onto it to make it look better, such as; decorative baubles, Decorative Gingerbread Men, Decorative Pinecones, Decorative Plastic Candy Canes, Decorative Tinsel, Star Tree Topper and Tree Lights.",
-        "craftData": {},
+        "craftData": {
+            "yield": 1,
+            "workbench": 0,
+            "craftTime": {
+                "craftTime": {
+                    "short": 2,
+                    "long": 10
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 120,
+                "craftCost": [
+                    {
+                        "name": -151838493,
+                        "amount": 100
+                    },
+                    {
+                        "name": -858312878,
+                        "amount": 20
+                    }
+                ]
+            }
+        },
         "recycleData": {
             "recycleYield": [
                 {
@@ -6907,7 +6929,25 @@
         "name": "short-ice-wall",
         "shortname": "wall.ice.wall",
         "description": "A short wall made of solid ice.",
-        "craftData": {},
+        "craftData": {
+            "yield": 1,
+            "workbench": 1,
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 300,
+                "craftCost": [
+                    {
+                        "name": -2099697608,
+                        "amount": 300
+                    }
+                ]
+            }
+        },
         "recycleData": {
             "recycleYield": [
                 {
@@ -13089,7 +13129,25 @@
         "name": "high-ice-wall",
         "shortname": "wall.external.high.ice",
         "description": "A very high ice wall to protect your property.",
-        "craftData": {},
+        "craftData": {
+            "yield": 1,
+            "workbench": 2,
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 1500,
+                "craftCost": [
+                    {
+                        "name": -2099697608,
+                        "amount": 1
+                    }
+                ]
+            }
+        },
         "recycleData": {
             "recycleYield": [
                 {
@@ -13842,7 +13900,29 @@
         "name": "advent-calendar",
         "shortname": "xmas.advent",
         "description": "Receive a special gift each and every day!",
-        "craftData": {},
+        "craftData": {
+            "yield": 1,
+            "workbench": 1,
+            "craftTime": {
+                "craftTime": {
+                    "short": 2,
+                    "long": 10
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 120,
+                "craftCost": [
+                    {
+                        "name": -151838493,
+                        "amount": 100
+                    },
+                    {
+                        "name": -858312878,
+                        "amount": 20
+                    }
+                ]
+            }
+        },
         "recycleData": {
             "recycleYield": [
                 {

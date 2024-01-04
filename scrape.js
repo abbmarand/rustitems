@@ -6,7 +6,7 @@ import { existsSync } from 'node:fs'
 import { updateData } from './postscrape.js'
 //opens a new browser
 const browser = await puppeteer.launch({
-    headless: "new",
+    headless: false,
     defaultViewport: null,
 })
 //if the datafolder doesn't exist, crate it

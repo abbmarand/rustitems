@@ -242,35 +242,42 @@ async function getItemShortname(page) {
 
 //takes the desired itemname and the browser as an input
 //then it opens a new page corrosponding to the item and scrapes the cost for that item
-async function getItemByName(name, browser) {
-    let identifier = 0
-    //it does open and close a new page for every item which is bad
-    const page = await browser.newPage()
-    try {
-        await page.goto(`https://rustlabs.com/item/${name}`, {
-            waitUntil: "domcontentloaded",
-        })
-        let craftData
-        const shortname = await getItemShortname(page)
-        const crafteble = await checkIfCrafteble(page)
-        const description = await getItemDescription(page)
-        if (crafteble) {
-            craftData = await scrapeItemInfo(page)
-            identifier = await getItemIdentifier(page)//item identifier always exists but not craftrecipie
-        } else {
-            craftData = {}
-            identifier = await getItemIdentifier(page)
+async function getItemByName(name, browser, maxRetries = 3) {
+    let retries = 0;
+    while (retries < maxRetries) {
+        let identifier = 0
+        const page = await browser.newPage()
+        try {
+            await page.goto(`https://rustlabs.com/item/${name}`, {
+                waitUntil: "domcontentloaded",
+            })
+            let craftData
+            const shortname = await getItemShortname(page)
+            const crafteble = await checkIfCrafteble(page)
+            const description = await getItemDescription(page)
+            if (crafteble) {
+                craftData = await scrapeItemInfo(page)
+                identifier = await getItemIdentifier(page)
+            } else {
+                craftData = {}
+                identifier = await getItemIdentifier(page)
+            }
+            const recycleData = await getRecycleYield(page)
+            const a = await getItemImage(page)
+            await page.close()
+            return { identifier, name, shortname, description, craftData, recycleData }
+        } catch (error) {
+            console.log(`Attempt ${retries + 1} failed to scrape data of ${name} (${error})`)
+            await page.close()
+            retries++
+            if (retries === maxRetries) {
+                console.log(`Failed to scrape data of ${name} after ${maxRetries} attempts`)
+                return {}
+            }
         }
-        const recycleData = await getRecycleYield(page)
-        const a = await getItemImage(page)
-        page.close()
-        return { identifier, name, shortname, description, craftData, recycleData }
-    } catch (error) {
-        console.log(`failed to scrape data of ${name} (${error})`)
-        page.close()
-        return {}
     }
 }
+
 
 
 export { getItemByName }
