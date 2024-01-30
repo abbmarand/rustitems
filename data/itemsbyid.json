@@ -3793,29 +3793,7 @@
         "name": "christmas-tree",
         "shortname": "xmas.tree",
         "description": "The Christmas Tree is a festive item that can be placed on most horizontal surfaces. Many things can be placed onto it to make it look better, such as; decorative baubles, Decorative Gingerbread Men, Decorative Pinecones, Decorative Plastic Candy Canes, Decorative Tinsel, Star Tree Topper and Tree Lights.",
-        "craftData": {
-            "yield": 1,
-            "workbench": 0,
-            "craftTime": {
-                "craftTime": {
-                    "short": 2,
-                    "long": 10
-                }
-            },
-            "recipie": {
-                "totalCraftCost": 120,
-                "craftCost": [
-                    {
-                        "name": -151838493,
-                        "amount": 100
-                    },
-                    {
-                        "name": -858312878,
-                        "amount": 20
-                    }
-                ]
-            }
-        },
+        "craftData": {},
         "recycleData": {
             "recycleYield": [
                 {
@@ -6929,25 +6907,7 @@
         "name": "short-ice-wall",
         "shortname": "wall.ice.wall",
         "description": "A short wall made of solid ice.",
-        "craftData": {
-            "yield": 1,
-            "workbench": 1,
-            "craftTime": {
-                "craftTime": {
-                    "short": 7,
-                    "long": 30
-                }
-            },
-            "recipie": {
-                "totalCraftCost": 300,
-                "craftCost": [
-                    {
-                        "name": -2099697608,
-                        "amount": 300
-                    }
-                ]
-            }
-        },
+        "craftData": {},
         "recycleData": {
             "recycleYield": [
                 {
@@ -8815,29 +8775,7 @@
         "name": "confetti-cannon",
         "shortname": "confetticannon",
         "description": "Blast a cloud of birthday themed confetti cheer.",
-        "craftData": {
-            "yield": 1,
-            "workbench": 1,
-            "craftTime": {
-                "craftTime": {
-                    "short": 2,
-                    "long": 10
-                }
-            },
-            "recipie": {
-                "totalCraftCost": 80,
-                "craftCost": [
-                    {
-                        "name": -151838493,
-                        "amount": 75
-                    },
-                    {
-                        "name": -265876753,
-                        "amount": 5
-                    }
-                ]
-            }
-        },
+        "craftData": {},
         "recycleData": {
             "recycleYield": [
                 {
@@ -13129,25 +13067,7 @@
         "name": "high-ice-wall",
         "shortname": "wall.external.high.ice",
         "description": "A very high ice wall to protect your property.",
-        "craftData": {
-            "yield": 1,
-            "workbench": 2,
-            "craftTime": {
-                "craftTime": {
-                    "short": 15,
-                    "long": 30
-                }
-            },
-            "recipie": {
-                "totalCraftCost": 1500,
-                "craftCost": [
-                    {
-                        "name": -2099697608,
-                        "amount": 1
-                    }
-                ]
-            }
-        },
+        "craftData": {},
         "recycleData": {
             "recycleYield": [
                 {
@@ -13900,29 +13820,7 @@
         "name": "advent-calendar",
         "shortname": "xmas.advent",
         "description": "Receive a special gift each and every day!",
-        "craftData": {
-            "yield": 1,
-            "workbench": 1,
-            "craftTime": {
-                "craftTime": {
-                    "short": 2,
-                    "long": 10
-                }
-            },
-            "recipie": {
-                "totalCraftCost": 120,
-                "craftCost": [
-                    {
-                        "name": -151838493,
-                        "amount": 100
-                    },
-                    {
-                        "name": -858312878,
-                        "amount": 20
-                    }
-                ]
-            }
-        },
+        "craftData": {},
         "recycleData": {
             "recycleYield": [
                 {
@@ -14421,6 +14319,74 @@
                 },
                 {
                     "name": -946369541,
+                    "amount": 25
+                }
+            ]
+        }
+    },
+    "-1696379844": {
+        "group": "items",
+        "identifier": -1696379844,
+        "name": "hazmat-youtooz",
+        "shortname": "hazmatyoutooz",
+        "description": "Hazmat Youtooz",
+        "craftData": {
+            "yield": 1,
+            "workbench": 0,
+            "craftTime": {
+                "craftTime": {
+                    "short": 2,
+                    "long": 10
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 50,
+                "craftCost": [
+                    {
+                        "name": 69511070,
+                        "amount": 50
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": 69511070,
+                    "amount": 25
+                }
+            ]
+        }
+    },
+    "-722629980": {
+        "group": "items",
+        "identifier": -722629980,
+        "name": "heavy-scientist-youtooz",
+        "shortname": "heavyscientistyoutooz",
+        "description": "Heavy Scientist Youtooz",
+        "craftData": {
+            "yield": 1,
+            "workbench": 0,
+            "craftTime": {
+                "craftTime": {
+                    "short": 2,
+                    "long": 10
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 50,
+                "craftCost": [
+                    {
+                        "name": 69511070,
+                        "amount": 50
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": 69511070,
                     "amount": 25
                 }
             ]
@@ -23191,25 +23157,7 @@
         "name": "pinata",
         "shortname": "pinata",
         "description": "Batter up!",
-        "craftData": {
-            "yield": 1,
-            "workbench": 1,
-            "craftTime": {
-                "craftTime": {
-                    "short": 3,
-                    "long": 15
-                }
-            },
-            "recipie": {
-                "totalCraftCost": 500,
-                "craftCost": [
-                    {
-                        "name": -151838493,
-                        "amount": 500
-                    }
-                ]
-            }
-        },
+        "craftData": {},
         "recycleData": {
             "recycleYield": [
                 {
