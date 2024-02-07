@@ -38,29 +38,34 @@ async function checkIfCrafteble(page) {
 //finds the element which tells you how many you get from crafting the minimum ammount of the item
 async function getYieldAmount(page) {
     const yieldElement = await page.$('div[data-name="craft"] td.item-cell')
-    if (yieldElement === undefined) {
+    if (yieldElement == undefined) {
         return 1
     }
-    //if the element has a span tag in it there will be text like "2x" which is the yield of the item
-    //if it doesn't have a span it means there is no information about the yield and means the yield is equal to one
+
+    // Check if the element has a span tag
     const hasSpanTag = await page.$eval('div[data-name="craft"] td.item-cell', (element) => {
         return element.querySelector('span') !== null
     })
+
     if (hasSpanTag) {
         const yieldTextElement = await page.$('div[data-name="craft"] td.item-cell span.text-in-icon')
-        if (yieldTextElement === null || yieldTextElement === undefined) {
+        if (yieldTextElement == null) {
             return 1
         }
+
         let yieldAmount = await page.evaluate((yieldTextElement) => yieldTextElement.innerText, yieldTextElement)
-        if (yieldAmount === undefined) {
-            yieldAmount = 1
-        }
         yieldAmount = parseNumber(yieldAmount)
+
+        // Check if yieldAmount is a valid number
+        if (isNaN(yieldAmount)) {
+            return 1
+        }
         return yieldAmount
     } else {
         return 1
     }
 }
+
 
 //stack overflow function to check if a number is an int
 function isInt(value) {

@@ -3216,7 +3216,7 @@
         "identifier": 607400343,
         "name": "legacy-wood-shelter",
         "shortname": "legacy.shelter.wood",
-        "description": "The classic s*** shack. A great starter base for any fresh spawn.",
+        "description": "The classic s*** shack. A great starter base for any fresh spawn. There is a limit to how many you can place.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -4364,7 +4364,7 @@
         "shortname": "bed",
         "description": "The bed can be used as a spawn point, just like the sleeping bag, but it has reduced cooldown use; instead of waiting 5 minutes like the Sleeping Bag, you just wait 2 minutes.\nYou should have a bed if your base is upgraded and quite decent, because if you are getting raided and you have to respawn to defend your base, you cannot afford 5 minutes of respawn delay.",
         "craftData": {
-            "yield": null,
+            "yield": 1,
             "workbench": 1,
             "craftTime": {
                 "craftTime": {
@@ -4557,6 +4557,48 @@
         "name": "chinese-lantern",
         "shortname": "chineselantern",
         "description": "A decorative Paper lantern.",
+        "craftData": {
+            "yield": 1,
+            "workbench": 0,
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 30,
+                "craftCost": [
+                    {
+                        "name": "cloth",
+                        "amount": 25
+                    },
+                    {
+                        "name": "lowgradefuel",
+                        "amount": 5
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": "cloth",
+                    "amount": 13
+                },
+                {
+                    "name": "lowgradefuel",
+                    "amount": 3
+                }
+            ]
+        }
+    },
+    "chineselanternwhite": {
+        "group": "items",
+        "identifier": -770304148,
+        "name": "chinese-lantern-white",
+        "shortname": "chineselanternwhite",
+        "description": "A decorative White Paper lantern",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -6890,7 +6932,7 @@
         "shortname": "sleepingbag",
         "description": "A sleeping bag is a critical part of playing Rust. When placed, this item offers a respawn point directly on top of it. It can be named, given to a friend, or even be picked up by it's owner by using the interact key on it.\nAfter death, a menu will appear displaying your sleeping bags and beds by name and you can select whichever one you need. After being used, or being placed, there is a 5-minute cooldown period before being able to spawn on it.\nWhen possible, you should upgrade your base's respawn point to a bed, which has a drastically shorter cooldown timer.",
         "craftData": {
-            "yield": null,
+            "yield": 1,
             "workbench": 0,
             "craftTime": {
                 "craftTime": {
@@ -10664,6 +10706,30 @@
             ]
         }
     },
+    "largebackpack": {
+        "group": "clothing",
+        "identifier": -907422733,
+        "name": "large-backpack",
+        "shortname": "largebackpack",
+        "description": "A large, military issued backpack that lets you carry 28 extra items.",
+        "craftData": {},
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": "scrap",
+                    "amount": 10
+                },
+                {
+                    "name": "cloth",
+                    "amount": 50
+                },
+                {
+                    "name": "metal.refined",
+                    "amount": 2
+                }
+            ]
+        }
+    },
     "burlap.gloves": {
         "group": "clothing",
         "identifier": 1366282552,
@@ -11972,6 +12038,48 @@
             ]
         }
     },
+    "smallbackpack": {
+        "group": "clothing",
+        "identifier": 2068884361,
+        "name": "small-backpack",
+        "shortname": "smallbackpack",
+        "description": "A small, makeshift backpack",
+        "craftData": {
+            "yield": 1,
+            "workbench": 1,
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 55,
+                "craftCost": [
+                    {
+                        "name": "sewingkit",
+                        "amount": 5
+                    },
+                    {
+                        "name": "cloth",
+                        "amount": 50
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": "sewingkit",
+                    "amount": 3
+                },
+                {
+                    "name": "cloth",
+                    "amount": 25
+                }
+            ]
+        }
+    },
     "jacket.snow": {
         "group": "clothing",
         "identifier": -48090175,
@@ -12917,6 +13025,56 @@
             ]
         }
     },
+    "metal.detector": {
+        "group": "tools",
+        "identifier": 1168856825,
+        "name": "metal-detector",
+        "shortname": "metal.detector",
+        "description": "Detects metal objects which may otherwise be hidden. When the light flashes, or you hear a beep, aim to search for items. Increase the bar until a flag appears. Dig at the flag with a melee item to reveal what it is. Different areas yield different rewards",
+        "craftData": {
+            "yield": 1,
+            "workbench": 1,
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 30
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 207,
+                "craftCost": [
+                    {
+                        "name": "rope",
+                        "amount": 2
+                    },
+                    {
+                        "name": "metal.fragments",
+                        "amount": 200
+                    },
+                    {
+                        "name": "metal.refined",
+                        "amount": 5
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": "rope",
+                    "amount": 1
+                },
+                {
+                    "name": "metal.fragments",
+                    "amount": 100
+                },
+                {
+                    "name": "metal.refined",
+                    "amount": 3
+                }
+            ]
+        }
+    },
     "pickaxe": {
         "group": "tools",
         "identifier": -1302129395,
@@ -13207,6 +13365,22 @@
                 {
                     "name": "rope",
                     "amount": 0.5
+                }
+            ]
+        }
+    },
+    "shovel": {
+        "group": "tools",
+        "identifier": -1536855921,
+        "name": "shovel",
+        "shortname": "shovel",
+        "description": "A shovel for digging up stuff",
+        "craftData": {},
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": "metal.fragments",
+                    "amount": 13
                 }
             ]
         }
@@ -21660,7 +21834,7 @@
         "shortname": "beachtowel",
         "description": "A colourful beach towel. Placing this will give you a location to respawn.",
         "craftData": {
-            "yield": null,
+            "yield": 1,
             "workbench": 0,
             "craftTime": {
                 "craftTime": {
