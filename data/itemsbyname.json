@@ -4486,7 +4486,7 @@
             "workbench": 0,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.25,
+                    "short": 1,
                     "long": 1
                 }
             },
@@ -5462,6 +5462,10 @@
         },
         "recycleData": {
             "recycleYield": [
+                {
+                    "name": "hitch-&-trough",
+                    "amount": 1
+                },
                 {
                     "name": "wood",
                     "amount": 100
@@ -8469,6 +8473,10 @@
         "recycleData": {
             "recycleYield": [
                 {
+                    "name": "coal-:(",
+                    "amount": 1
+                },
+                {
                     "name": "crude-oil",
                     "amount": 2
                 },
@@ -8607,7 +8615,7 @@
             "workbench": 1,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.5,
+                    "short": 1,
                     "long": 2
                 }
             },
@@ -9587,6 +9595,48 @@
             ]
         }
     },
+    "chicken-costume": {
+        "group": "clothing",
+        "identifier": -152332823,
+        "name": "chicken-costume",
+        "shortname": "chicken.costume",
+        "description": "An inflatable chicken costume. Acting as a replacement for wooden pants, you can equip this item to look as silly as possible.",
+        "craftData": {
+            "yield": 1,
+            "workbench": 0,
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 225,
+                "craftCost": [
+                    {
+                        "name": "cloth",
+                        "amount": 25
+                    },
+                    {
+                        "name": "wood",
+                        "amount": 200
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": "cloth",
+                    "amount": 13
+                },
+                {
+                    "name": "wood",
+                    "amount": 100
+                }
+            ]
+        }
+    },
     "clatter-helmet": {
         "group": "clothing",
         "identifier": 968019378,
@@ -9901,7 +9951,7 @@
             "workbench": 0,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.25,
+                    "short": 1,
                     "long": 1
                 }
             },
@@ -11131,7 +11181,7 @@
             "workbench": 0,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.25,
+                    "short": 1,
                     "long": 1
                 }
             },
@@ -11282,7 +11332,7 @@
             "workbench": 3,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.25,
+                    "short": 1,
                     "long": 1
                 }
             },
@@ -11869,7 +11919,7 @@
             "workbench": 0,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.25,
+                    "short": 1,
                     "long": 1
                 }
             },
@@ -12043,7 +12093,7 @@
         "identifier": 2068884361,
         "name": "small-backpack",
         "shortname": "smallbackpack",
-        "description": "A small, makeshift backpack",
+        "description": "A small, makeshift backpack that lets you carry 12 extra items.",
         "craftData": {
             "yield": 1,
             "workbench": 1,
@@ -12201,7 +12251,7 @@
             "workbench": 1,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.25,
+                    "short": 1,
                     "long": 1
                 }
             },
@@ -12718,7 +12768,7 @@
             "workbench": 1,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.25,
+                    "short": 1,
                     "long": 1
                 }
             },
@@ -12814,6 +12864,10 @@
         },
         "recycleData": {
             "recycleYield": [
+                {
+                    "name": "garry's-mod-tool-gun",
+                    "amount": 1
+                },
                 {
                     "name": "wood",
                     "amount": 50
@@ -13030,7 +13084,7 @@
         "identifier": 1168856825,
         "name": "metal-detector",
         "shortname": "metal.detector",
-        "description": "Detects metal objects which may otherwise be hidden. When the light flashes, or you hear a beep, aim to search for items. Increase the bar until a flag appears. Dig at the flag with a melee item to reveal what it is. Different areas yield different rewards",
+        "description": "Detects metal objects which may otherwise be hidden. When the light flashes, or you hear a beep, aim to search for items. Increase the bar until a flag appears. Dig at the flag with a melee item to reveal what it is. Different areas yield different rewards. The metal detector does not work on safezones.",
         "craftData": {
             "yield": 1,
             "workbench": 1,
@@ -15084,7 +15138,7 @@
             "workbench": 0,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.75,
+                    "short": 1,
                     "long": 3
                 }
             },
@@ -15176,7 +15230,7 @@
             "workbench": 1,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.75,
+                    "short": 1,
                     "long": 3
                 }
             },
@@ -15310,7 +15364,7 @@
             "workbench": 1,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.75,
+                    "short": 1,
                     "long": 3
                 }
             },
@@ -15352,7 +15406,7 @@
             "workbench": 1,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.75,
+                    "short": 1,
                     "long": 3
                 }
             },
@@ -15664,7 +15718,7 @@
             "workbench": 0,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.5,
+                    "short": 1,
                     "long": 2
                 }
             },
@@ -15698,7 +15752,7 @@
             "workbench": 1,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.75,
+                    "short": 1,
                     "long": 3
                 }
             },
@@ -15831,6 +15885,10 @@
         "recycleData": {
             "recycleYield": [
                 {
+                    "name": "smoke-rocket-wip!!!!",
+                    "amount": 1
+                },
+                {
                     "name": "metal-fragments",
                     "amount": 40
                 },
@@ -15856,7 +15914,7 @@
             "workbench": 1,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.75,
+                    "short": 1,
                     "long": 3
                 }
             },
@@ -15932,7 +15990,7 @@
             "workbench": 0,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.75,
+                    "short": 1,
                     "long": 3
                 }
             },
@@ -17585,7 +17643,7 @@
             "workbench": 2,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.5,
+                    "short": 1,
                     "long": 1
                 }
             },
@@ -18408,7 +18466,7 @@
             "workbench": 2,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.5,
+                    "short": 1,
                     "long": 1
                 }
             },
@@ -19661,6 +19719,10 @@
         "recycleData": {
             "recycleYield": [
                 {
+                    "name": "fluid-switch-&-pump",
+                    "amount": 1
+                },
+                {
                     "name": "metal-fragments",
                     "amount": 75
                 }
@@ -19746,7 +19808,7 @@
             "workbench": 1,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.25,
+                    "short": 1,
                     "long": 1
                 }
             },
@@ -20422,7 +20484,7 @@
             "workbench": 2,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.5,
+                    "short": 1,
                     "long": 1
                 }
             },
@@ -20458,13 +20520,13 @@
         "identifier": -144513264,
         "name": "pipe-tool",
         "shortname": "pipetool",
-        "description": "Now you're thinking with pipes!",
+        "description": "A tool used to make connections between industrial objects. Aim at an object and click on an input/output handle, then click on another object's input/output handle to form a connection. Holding right mouse will clear or cancel a connection.",
         "craftData": {
             "yield": 1,
             "workbench": 1,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.25,
+                    "short": 1,
                     "long": 1
                 }
             },
@@ -21560,7 +21622,7 @@
             "workbench": 1,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.25,
+                    "short": 1,
                     "long": 1
                 }
             },
@@ -23073,6 +23135,10 @@
         "recycleData": {
             "recycleYield": [
                 {
+                    "name": "plumber's-trumpet",
+                    "amount": 1
+                },
+                {
                     "name": "metal-fragments",
                     "amount": 38
                 }
@@ -23384,7 +23450,7 @@
             "workbench": 0,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.5,
+                    "short": 1,
                     "long": 2
                 }
             },
@@ -23417,17 +23483,13 @@
     },
     "sled": {
         "group": "fun",
-        "identifier": -135252633,
+        "identifier": -333406828,
         "name": "sled",
-        "shortname": "sled.xmas",
+        "shortname": "sled",
         "description": "A wooden sled to quickly travel down snowy hills.",
         "craftData": {},
         "recycleData": {
             "recycleYield": [
-                {
-                    "name": "high-quality-metal",
-                    "amount": 5
-                },
                 {
                     "name": "wood",
                     "amount": 250

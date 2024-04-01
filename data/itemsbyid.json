@@ -60,7 +60,7 @@
             "workbench": 1,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.75,
+                    "short": 1,
                     "long": 3
                 }
             },
@@ -744,7 +744,7 @@
             "workbench": 2,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.5,
+                    "short": 1,
                     "long": 1
                 }
             },
@@ -1169,6 +1169,10 @@
         "recycleData": {
             "recycleYield": [
                 {
+                    "name": 204391461,
+                    "amount": 1
+                },
+                {
                     "name": -321733511,
                     "amount": 2
                 },
@@ -1208,7 +1212,7 @@
             "workbench": 0,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.75,
+                    "short": 1,
                     "long": 3
                 }
             },
@@ -1570,6 +1574,10 @@
         "recycleData": {
             "recycleYield": [
                 {
+                    "name": 273172220,
+                    "amount": 1
+                },
+                {
                     "name": 69511070,
                     "amount": 38
                 }
@@ -1698,7 +1706,7 @@
             "workbench": 1,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.25,
+                    "short": 1,
                     "long": 1
                 }
             },
@@ -1945,7 +1953,7 @@
             "workbench": 1,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.25,
+                    "short": 1,
                     "long": 1
                 }
             },
@@ -2130,6 +2138,10 @@
         },
         "recycleData": {
             "recycleYield": [
+                {
+                    "name": 443432036,
+                    "amount": 1
+                },
                 {
                     "name": 69511070,
                     "amount": 75
@@ -2664,7 +2676,7 @@
             "workbench": 1,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.75,
+                    "short": 1,
                     "long": 3
                 }
             },
@@ -3722,7 +3734,7 @@
             "workbench": 1,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.75,
+                    "short": 1,
                     "long": 3
                 }
             },
@@ -5738,6 +5750,10 @@
         "recycleData": {
             "recycleYield": [
                 {
+                    "name": 1160881421,
+                    "amount": 1
+                },
+                {
                     "name": -151838493,
                     "amount": 100
                 }
@@ -5749,7 +5765,7 @@
         "identifier": 1168856825,
         "name": "metal-detector",
         "shortname": "metal.detector",
-        "description": "Detects metal objects which may otherwise be hidden. When the light flashes, or you hear a beep, aim to search for items. Increase the bar until a flag appears. Dig at the flag with a melee item to reveal what it is. Different areas yield different rewards",
+        "description": "Detects metal objects which may otherwise be hidden. When the light flashes, or you hear a beep, aim to search for items. Increase the bar until a flag appears. Dig at the flag with a melee item to reveal what it is. Different areas yield different rewards. The metal detector does not work on safezones.",
         "craftData": {
             "yield": 1,
             "workbench": 1,
@@ -8137,7 +8153,7 @@
             "workbench": 0,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.25,
+                    "short": 1,
                     "long": 1
                 }
             },
@@ -9971,6 +9987,10 @@
         "recycleData": {
             "recycleYield": [
                 {
+                    "name": 1803831286,
+                    "amount": 1
+                },
+                {
                     "name": -151838493,
                     "amount": 50
                 },
@@ -10026,7 +10046,7 @@
             "workbench": 0,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.5,
+                    "short": 1,
                     "long": 2
                 }
             },
@@ -10424,7 +10444,7 @@
             "workbench": 2,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.5,
+                    "short": 1,
                     "long": 1
                 }
             },
@@ -11488,7 +11508,7 @@
         "identifier": 2068884361,
         "name": "small-backpack",
         "shortname": "smallbackpack",
-        "description": "A small, makeshift backpack",
+        "description": "A small, makeshift backpack that lets you carry 12 extra items.",
         "craftData": {
             "yield": 1,
             "workbench": 1,
@@ -11816,7 +11836,7 @@
             "workbench": 0,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.25,
+                    "short": 1,
                     "long": 1
                 }
             },
@@ -16028,7 +16048,7 @@
             "workbench": 1,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.5,
+                    "short": 1,
                     "long": 2
                 }
             },
@@ -16561,6 +16581,48 @@
             ]
         }
     },
+    "-152332823": {
+        "group": "clothing",
+        "identifier": -152332823,
+        "name": "chicken-costume",
+        "shortname": "chicken.costume",
+        "description": "An inflatable chicken costume. Acting as a replacement for wooden pants, you can equip this item to look as silly as possible.",
+        "craftData": {
+            "yield": 1,
+            "workbench": 0,
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 225,
+                "craftCost": [
+                    {
+                        "name": -858312878,
+                        "amount": 25
+                    },
+                    {
+                        "name": -151838493,
+                        "amount": 200
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": -858312878,
+                    "amount": 13
+                },
+                {
+                    "name": -151838493,
+                    "amount": 100
+                }
+            ]
+        }
+    },
     "-803263829": {
         "group": "clothing",
         "identifier": -803263829,
@@ -16782,7 +16844,7 @@
             "workbench": 0,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.25,
+                    "short": 1,
                     "long": 1
                 }
             },
@@ -17436,7 +17498,7 @@
             "workbench": 0,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.25,
+                    "short": 1,
                     "long": 1
                 }
             },
@@ -17512,7 +17574,7 @@
             "workbench": 3,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.25,
+                    "short": 1,
                     "long": 1
                 }
             },
@@ -17898,7 +17960,7 @@
             "workbench": 1,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.25,
+                    "short": 1,
                     "long": 1
                 }
             },
@@ -19352,7 +19414,7 @@
             "workbench": 1,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.75,
+                    "short": 1,
                     "long": 3
                 }
             },
@@ -19456,7 +19518,7 @@
             "workbench": 0,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.5,
+                    "short": 1,
                     "long": 2
                 }
             },
@@ -19581,6 +19643,10 @@
         "recycleData": {
             "recycleYield": [
                 {
+                    "name": -17123659,
+                    "amount": 1
+                },
+                {
                     "name": 69511070,
                     "amount": 40
                 },
@@ -19606,7 +19672,7 @@
             "workbench": 1,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.75,
+                    "short": 1,
                     "long": 3
                 }
             },
@@ -19682,7 +19748,7 @@
             "workbench": 0,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.75,
+                    "short": 1,
                     "long": 3
                 }
             },
@@ -20583,7 +20649,7 @@
             "workbench": 2,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.5,
+                    "short": 1,
                     "long": 1
                 }
             },
@@ -21652,13 +21718,13 @@
         "identifier": -144513264,
         "name": "pipe-tool",
         "shortname": "pipetool",
-        "description": "Now you're thinking with pipes!",
+        "description": "A tool used to make connections between industrial objects. Aim at an object and click on an input/output handle, then click on another object's input/output handle to form a connection. Holding right mouse will clear or cancel a connection.",
         "craftData": {
             "yield": 1,
             "workbench": 1,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.25,
+                    "short": 1,
                     "long": 1
                 }
             },
@@ -22332,7 +22398,7 @@
             "workbench": 1,
             "craftTime": {
                 "craftTime": {
-                    "short": 0.25,
+                    "short": 1,
                     "long": 1
                 }
             },
@@ -23601,19 +23667,15 @@
             ]
         }
     },
-    "-135252633": {
+    "-333406828": {
         "group": "fun",
-        "identifier": -135252633,
+        "identifier": -333406828,
         "name": "sled",
-        "shortname": "sled.xmas",
+        "shortname": "sled",
         "description": "A wooden sled to quickly travel down snowy hills.",
         "craftData": {},
         "recycleData": {
             "recycleYield": [
-                {
-                    "name": 317398316,
-                    "amount": 5
-                },
                 {
                     "name": -151838493,
                     "amount": 250
