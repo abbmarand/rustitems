@@ -4,6 +4,7 @@ import { getItemNames } from './src/getItemNames.js'
 import * as fs from 'node:fs/promises'
 import { existsSync } from 'node:fs'
 import { updateData } from './postscrape.js'
+import { itemlist } from './itemlist.js'
 //opens a new browser
 const browser = await puppeteer.launch({
     headless: false,
@@ -52,5 +53,6 @@ fs.writeFile('./data/itemsbyshortname.json', JSON.stringify(byshortname), (err) 
     if (err) throw err
 })
 await updateData()
+await itemlist()
 console.log(`done🙂`)
 browser.close()
