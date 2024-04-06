@@ -1288,6 +1288,62 @@
             ]
         }
     },
+    "military-flame-thrower": {
+        "group": "weapons",
+        "identifier": 703057617,
+        "name": "military-flame-thrower",
+        "shortname": "military flamethrower",
+        "description": "A Military grade flamethrower. Uses low grade fuel as ammunition.",
+        "craftData": {},
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": "high-quality-metal",
+                    "amount": 18
+                },
+                {
+                    "name": "metal-pipe",
+                    "amount": 4
+                },
+                {
+                    "name": "low-grade-fuel",
+                    "amount": 50
+                },
+                {
+                    "name": "empty-propane-tank",
+                    "amount": 2
+                }
+            ]
+        }
+    },
+    "minigun": {
+        "group": "weapons",
+        "identifier": 935606207,
+        "name": "minigun",
+        "shortname": "minigun",
+        "description": "A hand made belt-fed light machine gun with high damage, high rate of fire, low accuracy during short bursts.",
+        "craftData": {},
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": "high-quality-metal",
+                    "amount": 25
+                },
+                {
+                    "name": "rifle-body",
+                    "amount": 2
+                },
+                {
+                    "name": "metal-spring",
+                    "amount": 3
+                },
+                {
+                    "name": "metal-pipe",
+                    "amount": 6
+                }
+            ]
+        }
+    },
     "molotov-cocktail": {
         "group": "weapons",
         "identifier": 1556365900,
@@ -22802,7 +22858,7 @@
         "identifier": 39600618,
         "name": "microphone-stand",
         "shortname": "microphonestand",
-        "description": "A powered microphone that lets you broadcast your voice. Press [+reload] to change voice mode between high and low pitch.",
+        "description": "A powered microphone that lets you broadcast your voice. Press [+attack2] to change voice mode between high and low pitch.",
         "craftData": {
             "yield": 1,
             "workbench": 1,

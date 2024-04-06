@@ -315,7 +315,7 @@
         "identifier": 39600618,
         "name": "microphone-stand",
         "shortname": "microphonestand",
-        "description": "A powered microphone that lets you broadcast your voice. Press [+reload] to change voice mode between high and low pitch.",
+        "description": "A powered microphone that lets you broadcast your voice. Press [+attack2] to change voice mode between high and low pitch.",
         "craftData": {
             "yield": 1,
             "workbench": 1,
@@ -3519,6 +3519,34 @@
             ]
         }
     },
+    "703057617": {
+        "group": "weapons",
+        "identifier": 703057617,
+        "name": "military-flame-thrower",
+        "shortname": "military flamethrower",
+        "description": "A Military grade flamethrower. Uses low grade fuel as ammunition.",
+        "craftData": {},
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": 317398316,
+                    "amount": 18
+                },
+                {
+                    "name": 95950017,
+                    "amount": 4
+                },
+                {
+                    "name": -946369541,
+                    "amount": 50
+                },
+                {
+                    "name": -1673693549,
+                    "amount": 2
+                }
+            ]
+        }
+    },
     "709206314": {
         "group": "clothing",
         "identifier": 709206314,
@@ -4609,6 +4637,34 @@
                 {
                     "name": 69511070,
                     "amount": 35
+                }
+            ]
+        }
+    },
+    "935606207": {
+        "group": "weapons",
+        "identifier": 935606207,
+        "name": "minigun",
+        "shortname": "minigun",
+        "description": "A hand made belt-fed light machine gun with high damage, high rate of fire, low accuracy during short bursts.",
+        "craftData": {},
+        "recycleData": {
+            "recycleYield": [
+                {
+                    "name": 317398316,
+                    "amount": 25
+                },
+                {
+                    "name": 176787552,
+                    "amount": 2
+                },
+                {
+                    "name": -1021495308,
+                    "amount": 3
+                },
+                {
+                    "name": 95950017,
+                    "amount": 6
                 }
             ]
         }
