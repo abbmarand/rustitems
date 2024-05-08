@@ -189,6 +189,8 @@ async function getRecycleYield(page) {
     if (!recycleElement) {
         return {}
     } else {
+        const recycleYieldrad = []
+        const recycleYieldsafe = []
         const itemBoxElements = await recycleElement.$$('a.item-box')
         const recycleCost = []
         for (let i = 0; i < itemBoxElements.length; i++) {
@@ -199,7 +201,17 @@ async function getRecycleYield(page) {
             itemAmount = parseNumber(itemAmount)
             recycleCost.push({ name: itemName, amount: itemAmount })
         }
-        return { recycleYield: recycleCost }
+        for (const recycle1 of recycleCost) {
+            for (const recycle2 of recycleCost) {
+                if (recycle1.name === recycle2.name) {
+                    if (recycle1.amount > recycle2.amount) {
+                        recycleYieldrad.push({ name: recycle1.name, amount: recycle1.amount })
+                        recycleYieldsafe.push({ name: recycle2.name, amount: recycle2.amount })
+                    }
+                }
+            }
+        }
+        return { recycleYieldrad, recycleYieldsafe }
     }
 }
 

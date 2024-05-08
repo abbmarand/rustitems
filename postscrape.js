@@ -12,10 +12,15 @@ export async function updateData() {
         for (const itemId in byid) {
             if (byid.hasOwnProperty(itemId)) {
                 const itemInfo = byid[itemId];
-                if (itemInfo.recycleData && Array.isArray(itemInfo.recycleData.recycleYield)) {
-                    itemInfo.recycleData.recycleYield.forEach((yieldItem) => {
+                if (itemInfo.recycleData && Array.isArray(itemInfo.recycleData.recycleYieldsafe) && Array.isArray(itemInfo.recycleData.recycleYieldrad)) {
+                    itemInfo.recycleData.recycleYieldsafe.forEach((yieldItem) => {
                         const yn = yieldItem.name
                         const nyn = byname[yn].identifier
+                        yieldItem.name = nyn
+                    });
+                    itemInfo.recycleData.recycleYieldrad.forEach((yieldItem) => {
+                        const yn = yieldItem.name
+                        const nyn = byname[yn].shortname
                         yieldItem.name = nyn
                     });
                 }
@@ -33,14 +38,20 @@ export async function updateData() {
         for (const shortName in byshortname) {
             if (byshortname.hasOwnProperty(shortName)) {
                 const itemInfo = byshortname[shortName];
-                if (itemInfo.recycleData && Array.isArray(itemInfo.recycleData.recycleYield)) {
+                if (itemInfo.recycleData && Array.isArray(itemInfo.recycleData.recycleYieldsafe) && Array.isArray(itemInfo.recycleData.recycleYieldrad)) {
 
-                    if (itemInfo.recycleData && Array.isArray(itemInfo.recycleData.recycleYield)) {
-                        itemInfo.recycleData.recycleYield.forEach((yieldItem) => {
+                    if (itemInfo.recycleData && Array.isArray(itemInfo.recycleData.recycleYieldsafe) && Array.isArray(itemInfo.recycleData.recycleYieldrad)) {
+                        itemInfo.recycleData.recycleYieldsafe.forEach((yieldItem) => {
                             const yn = yieldItem.name
                             const nyn = byname[yn].shortname
                             yieldItem.name = nyn
                         });
+                        itemInfo.recycleData.recycleYieldrad.forEach((yieldItem) => {
+                            const yn = yieldItem.name
+                            const nyn = byname[yn].shortname
+                            yieldItem.name = nyn
+                        });
+
                     }
 
                     if (itemInfo.craftData && itemInfo.craftData.recipie) {
