@@ -9,11 +9,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "adm-zip": "^0.5.12",
     "axios": "^1.5.1",
     "cheerio": "^1.0.0-rc.12",
     "fs": "^0.0.1-security",
     "path": "^0.12.7",
-    "puppeteer": "^19.11.1"
+    "puppeteer": "^19.11.1",
+    "unzip-js": "^1.0.0"
   },
   "type": "module",
   "description": "",
