@@ -2,7 +2,7 @@
 import axios from 'axios';
 import * as fs from 'node:fs/promises'
 import AdmZip from 'adm-zip';
-
+let langtouse = []
 async function getLanglist() {
     try {
         const response = await axios.get('https://crowdin.com/backend/project/rust/info');
@@ -13,24 +13,27 @@ async function getLanglist() {
     }
 }
 
-async function getLangData(code) {
+async function getLangData(lang) {
     try {
-        const response = await axios.get(`https://crowdin.com/backend/download/project/rust/${code}.zip`, { responseType: 'arraybuffer' });
+        const response = await axios.get(`https://crowdin.com/backend/download/project/rust/${lang.code}.zip`, { responseType: 'arraybuffer' });
         const data = response.data;
         const zip = new AdmZip(data);
-        zip.extractAllTo(`./data/lang/${code}`);
-        console.log('File unzipped successfully!');
+        zip.extractAllTo(`./data/lang/${lang.code}`);
+        langtouse.push(lang.code)
+
     } catch (error) {
-        console.error('failed to download for country:', code);
     }
 }
 
 
-async function getLangs() { 
+async function getLangs() {
     const langs = await getLanglist()
-    for(const lang in langs) {
-        const l  = await getLangData(langs[lang].code)
+    let promises = []
+    for (const lang in langs) {
+        promises.push(getLangData(langs[lang]));
     }
+    await Promise.all(promises);
+    return langtouse
 }
 
 export { getLangs }
