@@ -20,7 +20,7 @@ export async function updateData() {
                     });
                     itemInfo.recycleData.recycleYieldrad.forEach((yieldItem) => {
                         const yn = yieldItem.name
-                        const nyn = byname[yn].shortname
+                        const nyn = byname[yn].identifier
                         yieldItem.name = nyn
                     });
                 }

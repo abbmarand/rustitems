@@ -373,7 +373,7 @@
         "identifier": 2040726127,
         "name": "combat-knife",
         "shortname": "knife.combat",
-        "description": "The best tool for harvesting animal corpses quickly and efficiently. It's also one of the best melee weapons in the game due its fast swing rate and high damage - it can also be swung while sprinting, without slowing down the user.",
+        "description": "The Combat Knife is an extremely useful melee weapon that required Tier 1 workbench to craft, basically an upgraded bone knife. Its exquisite design structure makes it the best skinning efficiency among similar melees, which means you can get the full loot from skinning with shortest time. Its cheap cost makes it the most cost-effective farming tool.\nYou can untie the creates underwater with combat knife, and attack while running.",
         "craftData": {
             "yield": 1,
             "workbench": 1,
