@@ -20,7 +20,6 @@ async function getLangData(lang) {
         const zip = new AdmZip(data);
         zip.extractAllTo(`./data/lang/${lang.code}`);
         langtouse.push(lang.code)
-
     } catch (error) {
     }
 }
