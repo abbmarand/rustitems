@@ -80,7 +80,6 @@ async function getShortNames(lang, langcode) {
         if (names[key].length > 1) {
             const previousmap = {}
             for (const name of names[key]) {
-                console.log(previousmap)
                 previousmap[name] = previousmap[name] + 1 || 1
                 if (previousmap[name] > 1) {
                     names[key] = name
@@ -130,6 +129,11 @@ export async function applyLang(lang, langcode) {
     let itemsbyid = JSON.parse(await fs.readFile('data/itemsbyid.json', "utf-8"))
 
     const shortnames = await getShortNames(lang, langcode)
+    if (langcode === "sv-SE") {
+
+        await fs.writeFile(`data/langdata/shortnames.json`, JSON.stringify(shortnames, null, 2))
+    }
+
     for (const item in itemsbyshortname) {
         itemsbyshortname[item].name = lang[shortnames[item]]
         for (const recycleitem in itemsbyshortname[item].recycleData?.recycleYieldsafe) {
