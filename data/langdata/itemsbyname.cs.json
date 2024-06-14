@@ -1652,7 +1652,7 @@
     "identifier": 703057617,
     "name": "Military Flame Thrower",
     "shortname": "military flamethrower",
-    "description": "A Military grade flamethrower. Uses low grade fuel as ammunition.",
+    "description": "The Military Flame Thrower is a military grade weapon that can only found in Heavy Scientists as a loot, which means it can’t be craft by players.\nIt has maximum capacity of 150 low-grade fuel, and a high fire rate. It takes more damage and range, area of effect than the handmade Flame Thrower, let it possible to become a weapon to against your enemies in the base.\nThe Military Flame Thrower cause specific damage that ignores the player’s armor and defense, make constant value of damage.",
     "craftData": {},
     "recycleData": {
       "recycleYieldrad": [
@@ -4253,8 +4253,8 @@
       "workbench": 1,
       "craftTime": {
         "craftTime": {
-          "short": 7,
-          "long": 30
+          "short": 3,
+          "long": 15
         }
       },
       "recipie": {
@@ -4471,8 +4471,8 @@
       "workbench": 3,
       "craftTime": {
         "craftTime": {
-          "short": 30,
-          "long": 30
+          "short": 15,
+          "long": 15
         }
       },
       "recipie": {
@@ -4809,8 +4809,8 @@
       "workbench": 2,
       "craftTime": {
         "craftTime": {
-          "short": 15,
-          "long": 30
+          "short": 7,
+          "long": 15
         }
       },
       "recipie": {
@@ -5024,8 +5024,8 @@
       "workbench": 0,
       "craftTime": {
         "craftTime": {
-          "short": 7,
-          "long": 30
+          "short": 3,
+          "long": 15
         }
       },
       "recipie": {
@@ -5280,8 +5280,8 @@
       "workbench": 0,
       "craftTime": {
         "craftTime": {
-          "short": 7,
-          "long": 30
+          "short": 3,
+          "long": 15
         }
       },
       "recipie": {
@@ -16672,7 +16672,7 @@
     "identifier": 1397052267,
     "name": "Zásobovací granát",
     "shortname": "supply.signal",
-    "description": "A purple smoke grenade that calls in an airdrop somewhere in a small radius around it. Can be found rarely in Military and Elite Crates.\nWhen you use this item, it will release a purple smoke that can let players who in far away know that there are someone just call a airdrop. Cargo Plane will show somewhere in sky and will release the airdrop to your location shortly\nCalling for airdrop to your base with high walls or monument (water pump stations, oilrig)is a right choice, because that other players won't steal your loot\n",
+    "description": "A purple smoke grenade that calls in an airdrop somewhere in a small radius around it. Can be found as a rare drop in Military and Elite Crates.\nWhen you use this item, it will release a plume of purple smoke that can let players who are far away know that there may be individuals who just called in an airdrop. A Cargo Plane will spawn somewhere in the sky and will release the payload to your location shortly.\nCalling for an airdrop to your base, especially one with high walls or a nearby monument (water pump stations, oilrig) is a fair choice. It may deter other players from looting the payload or, if you're feeling 'spicy', may bring the pvp to your front door.\n",
     "craftData": {},
     "recycleData": {}
   },
@@ -19660,7 +19660,7 @@
     "group": "misc",
     "identifier": -484206264,
     "shortname": "keycard_blue",
-    "description": "The Blue Keycard is a game object required in order to access quite a lot of monument puzzles.\nIt can be obtained by fishing and gutting high tier fish or by completing green monument puzzles on Harbors, Satellite Dish or Sewer Branch.\nList of monuments that require Blue Keycard to finish monument puzzle:\nAirfield, Arctic Research Base, Military Tunnels, Missile Silo, Oil Rig, Power Plant, Trainyard, Water Treatment\nLarge Oil Rig does not require Blue Keycard to access Locked Crate but it grants access to 4 military crates.",
+    "description": "The Blue Keycard is a game object required in order to access quite a lot of monument puzzles.\nIt can be obtained by fishing and gutting high tier fish or by completing green monument puzzles on Harbors, Satellite Dish or Sewer Branch.\nList of monuments that require Blue Keycard to finish monument puzzle:\nAirfield, Arctic Research Base, Military Tunnels, Missile Silo, Oil Rig, Power Plant, Trainyard, Water Treatment and Underwater Labs.\nLarge Oil Rig does not require Blue Keycard to access Locked Crate but it grants access to 4 military crates.",
     "craftData": {},
     "recycleData": {}
   },
@@ -20121,7 +20121,7 @@
     "group": "misc",
     "identifier": 37122747,
     "shortname": "keycard_green",
-    "description": "The Green Keycard is a required object used to open doors with a glowing green keycard lock.\nIt can be found in the Lighthouse, Oxum's Gas Station, Junkyard, and Abandoned Supermarket. They spawn on desks which you can find throughout the monuments.\nIt can then be used on the Satellite Dish, Harbors and the Sewer Branch. These keycard locks will require an electric fuse.\n",
+    "description": "The Green Keycard is a game object required in order to access a some monument puzzles.\nIt can be obtained by killing and looting scientists and can be found on desk in Abandoned Cabins, Abandoned Supermarket, Ferry Terminal, Junkyard, Lighthouse, Oxum's Gas Station, Underwater Lab and by completing Power Plant's monument puzzle.\nList of monuments that require Green Keycard to finish monument puzzle:\nAirfield, Harbors, Launch Site, Military Tunnels, Power Plant, Satellite Dish and Sewer Branch.\n",
     "craftData": {},
     "recycleData": {}
   },
@@ -20317,7 +20317,7 @@
     "group": "misc",
     "identifier": -1880870149,
     "shortname": "keycard_red",
-    "description": "Red Keycard is a required object used to open doors with a red keycard lock. Elite crates start to spawn in red puzzle rooms. However, you will have to start to pull guns out as these red puzzle rooms are always guarded.\nIt can be obtained in the Water Treatment Plant, Airfield, Power Plant, and Trainyard. They are located on the desks.\nIt can then be used on:\n- Military Tunnels (requires an electric fuse, a blue keycard and a red keycard, the green keycard is optional as it only unlocks another path into the monument. You will encounter scientists that throw F1 Grenades, so prepare medical items and weapons)\n- Launch Site (requires 2 electric fuses, a green keycard and a red keycard. You will only encounter Bradley APC, which is not a big problem if you hide from it. Do bring medical items as the radiation inside the building is very high, your hazmat suit will decrease the radiation poisoning but not all)\n- Small / Large Oil Rig (requires a red keycard, but in Small Oil Rig, bring a blue keycard to get to the red puzzle door. You will encounter scientists as well as heavy scientists (if you hack the locked crate), bring medical items and weapons)\n- Underwater Labs (requires an electric fuse and a red keycard)",
+    "description": "The Red Keycard is game object required in order to access high tier loot in monument puzzles.\nIt can be obtained by completing blue monument puzzles on Airfield, Arctic Research Base, Missile Silo, Powerplant, Trainyard and Water Treatment.\nList of monuments that require Red Keycard to finish monument puzzle:\nLarge Oil Rig, Launch Site, Military Tunnels, Small Oil Rig and Underwater Lab.",
     "craftData": {},
     "recycleData": {}
   },
@@ -25530,6 +25530,49 @@
         {
           "name": "Kovové úlomky",
           "amount": 80
+        }
+      ]
+    }
+  },
+  "seismic-sensor": {
+    "group": "electrical",
+    "identifier": -948291630,
+    "shortname": "electric.seismicsensor",
+    "description": "A small device that detects vibrations within a set range. Will output a different power value depending on the explosive type detected, ideal to know when your time has come.",
+    "craftData": {
+      "yield": 1,
+      "workbench": 2,
+      "craftTime": {
+        "craftTime": {
+          "short": 15,
+          "long": 30
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 4,
+        "craftCost": [
+          {
+            "name": "Vysoce kvalitní kov",
+            "amount": 3
+          },
+          {
+            "name": "Sbírka technologických dílů.",
+            "amount": 1
+          }
+        ]
+      }
+    },
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Sbírka technologických dílů.",
+          "amount": 0.6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Sbírka technologických dílů.",
+          "amount": 0.4
         }
       ]
     }

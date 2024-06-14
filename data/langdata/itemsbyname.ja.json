@@ -92,7 +92,7 @@
             "amount": 1
           },
           {
-            "name": "金属のバネ",
+            "name": "バネ",
             "amount": 4
           }
         ]
@@ -109,7 +109,7 @@
           "amount": 120
         },
         {
-          "name": "金属のバネ",
+          "name": "バネ",
           "amount": 3
         },
         {
@@ -127,7 +127,7 @@
           "amount": 80
         },
         {
-          "name": "金属のバネ",
+          "name": "バネ",
           "amount": 2
         },
         {
@@ -216,11 +216,11 @@
             "amount": 1
           },
           {
-            "name": "金属のパイプ",
+            "name": "パイプ",
             "amount": 3
           },
           {
-            "name": "金属のバネ",
+            "name": "バネ",
             "amount": 1
           }
         ]
@@ -237,7 +237,7 @@
           "amount": 0.6
         },
         {
-          "name": "金属のバネ",
+          "name": "バネ",
           "amount": 0.6
         }
       ],
@@ -251,7 +251,7 @@
           "amount": 0.4
         },
         {
-          "name": "金属のバネ",
+          "name": "バネ",
           "amount": 0.4
         }
       ]
@@ -575,7 +575,7 @@
             "amount": 1
           },
           {
-            "name": "金属のバネ",
+            "name": "バネ",
             "amount": 1
           }
         ]
@@ -592,7 +592,7 @@
           "amount": 0.6
         },
         {
-          "name": "金属のバネ",
+          "name": "バネ",
           "amount": 0.6
         }
       ],
@@ -606,7 +606,7 @@
           "amount": 0.4
         },
         {
-          "name": "金属のバネ",
+          "name": "バネ",
           "amount": 0.4
         }
       ]
@@ -635,7 +635,7 @@
             "amount": 175
           },
           {
-            "name": "金属のパイプ",
+            "name": "パイプ",
             "amount": 2
           }
         ]
@@ -648,7 +648,7 @@
           "amount": 105
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 2
         }
       ],
@@ -658,7 +658,7 @@
           "amount": 70
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 1
         }
       ]
@@ -811,7 +811,7 @@
   "flame-thrower": {
     "group": "weapons",
     "identifier": -1215753368,
-    "name": "火炎放射器",
+    "name": "フレイムスローワー",
     "shortname": "flamethrower",
     "description": "The Flame Thrower (or flamethrower) is a close range weapon that also serves as a basic raiding tool. Fire sprayed from a flamethrower may obscure a target's vision and rapidly drain their health.\nThe Flame Thrower will start to steadily spawn fireballs once the trigger has been held long enough, and each one will damage and slow players or burn any wooden items they touch. Take care- fireballs spawned from spraying can and will burn bodies away (but their loot will fall in a bag if they do).\nRaiding with a flamethrower is accomplished by continuously spraying a wooden structure with fire until it shatters. Structures without a base for the fireballs to land on are very inefficient to raid with a flamethrower, since fireballs will not damage the targeted area.\nMany would not recommend using this as a weapon because of its low Damage Per Second, and short range. A good shotgun can outperform it in many situations.",
     "craftData": {
@@ -831,7 +831,7 @@
             "amount": 15
           },
           {
-            "name": "金属のパイプ",
+            "name": "パイプ",
             "amount": 6
           },
           {
@@ -852,7 +852,7 @@
           "amount": 9
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 4
         },
         {
@@ -870,7 +870,7 @@
           "amount": 6
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 3
         },
         {
@@ -963,7 +963,7 @@
             "amount": 1
           },
           {
-            "name": "金属のバネ",
+            "name": "バネ",
             "amount": 3
           },
           {
@@ -1027,7 +1027,7 @@
             "amount": 12
           },
           {
-            "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+            "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
             "amount": 1
           }
         ]
@@ -1040,7 +1040,7 @@
           "amount": 8
         },
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 0.6
         }
       ],
@@ -1050,7 +1050,7 @@
           "amount": 5
         },
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 0.4
         }
       ]
@@ -1078,11 +1078,11 @@
             "amount": 20
           },
           {
-            "name": "金属のパイプ",
+            "name": "パイプ",
             "amount": 3
           },
           {
-            "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+            "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
             "amount": 1
           },
           {
@@ -1099,7 +1099,7 @@
           "amount": 12
         },
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 0.6
         },
         {
@@ -1113,7 +1113,7 @@
           "amount": 8
         },
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 0.4
         },
         {
@@ -1189,11 +1189,11 @@
           "amount": 24
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 4
         },
         {
-          "name": "金属のバネ",
+          "name": "バネ",
           "amount": 3
         },
         {
@@ -1207,11 +1207,11 @@
           "amount": 16
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 3
         },
         {
-          "name": "金属のバネ",
+          "name": "バネ",
           "amount": 2
         },
         {
@@ -1235,7 +1235,7 @@
           "amount": 24
         },
         {
-          "name": "金属のバネ",
+          "name": "バネ",
           "amount": 2
         },
         {
@@ -1253,7 +1253,7 @@
           "amount": 16
         },
         {
-          "name": "金属のバネ",
+          "name": "バネ",
           "amount": 1
         },
         {
@@ -1286,7 +1286,7 @@
         "totalCraftCost": 102,
         "craftCost": [
           {
-            "name": "金属ブレード",
+            "name": "ブレード",
             "amount": 2
           },
           {
@@ -1299,7 +1299,7 @@
     "recycleData": {
       "recycleYieldrad": [
         {
-          "name": "金属ブレード",
+          "name": "ブレード",
           "amount": 2
         },
         {
@@ -1309,7 +1309,7 @@
       ],
       "recycleYieldsafe": [
         {
-          "name": "金属ブレード",
+          "name": "ブレード",
           "amount": 1
         },
         {
@@ -1333,7 +1333,7 @@
           "amount": 24
         },
         {
-          "name": "金属のバネ",
+          "name": "バネ",
           "amount": 4
         },
         {
@@ -1351,7 +1351,7 @@
           "amount": 16
         },
         {
-          "name": "金属のバネ",
+          "name": "バネ",
           "amount": 3
         },
         {
@@ -1375,7 +1375,7 @@
     "recycleData": {
       "recycleYieldrad": [
         {
-          "name": "金属のバネ",
+          "name": "バネ",
           "amount": 3
         },
         {
@@ -1389,7 +1389,7 @@
       ],
       "recycleYieldsafe": [
         {
-          "name": "金属のバネ",
+          "name": "バネ",
           "amount": 2
         },
         {
@@ -1417,7 +1417,7 @@
           "amount": 12
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 3
         }
       ],
@@ -1427,7 +1427,7 @@
           "amount": 8
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 2
         }
       ]
@@ -1451,11 +1451,11 @@
           "amount": 0.6
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 0.6
         },
         {
-          "name": "金属のバネ",
+          "name": "バネ",
           "amount": 0.6
         }
       ],
@@ -1469,11 +1469,11 @@
           "amount": 0.4
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 0.4
         },
         {
-          "name": "金属のバネ",
+          "name": "バネ",
           "amount": 0.4
         }
       ]
@@ -1506,7 +1506,7 @@
             "amount": 1
           },
           {
-            "name": "金属のバネ",
+            "name": "バネ",
             "amount": 2
           }
         ]
@@ -1519,7 +1519,7 @@
           "amount": 9
         },
         {
-          "name": "金属のバネ",
+          "name": "バネ",
           "amount": 2
         },
         {
@@ -1533,7 +1533,7 @@
           "amount": 6
         },
         {
-          "name": "金属のバネ",
+          "name": "バネ",
           "amount": 1
         },
         {
@@ -1650,9 +1650,9 @@
   "military-flame-thrower": {
     "group": "weapons",
     "identifier": 703057617,
-    "name": "ミリタリー火炎放射器",
+    "name": "ピュリファイアー",
     "shortname": "military flamethrower",
-    "description": "A Military grade flamethrower. Uses low grade fuel as ammunition.",
+    "description": "The Military Flame Thrower is a military grade weapon that can only found in Heavy Scientists as a loot, which means it can’t be craft by players.\nIt has maximum capacity of 150 low-grade fuel, and a high fire rate. It takes more damage and range, area of effect than the handmade Flame Thrower, let it possible to become a weapon to against your enemies in the base.\nThe Military Flame Thrower cause specific damage that ignores the player’s armor and defense, make constant value of damage.",
     "craftData": {},
     "recycleData": {
       "recycleYieldrad": [
@@ -1661,7 +1661,7 @@
           "amount": 21
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 5
         },
         {
@@ -1679,7 +1679,7 @@
           "amount": 14
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 4
         },
         {
@@ -1711,11 +1711,11 @@
           "amount": 3
         },
         {
-          "name": "金属のバネ",
+          "name": "バネ",
           "amount": 4
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 8
         }
       ],
@@ -1729,11 +1729,11 @@
           "amount": 2
         },
         {
-          "name": "金属のバネ",
+          "name": "バネ",
           "amount": 3
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 5
         }
       ]
@@ -1968,7 +1968,7 @@
             "amount": 15
           },
           {
-            "name": "金属ブレード",
+            "name": "ブレード",
             "amount": 1
           },
           {
@@ -1989,7 +1989,7 @@
           "amount": 120
         },
         {
-          "name": "金属ブレード",
+          "name": "ブレード",
           "amount": 0.6
         }
       ],
@@ -2003,7 +2003,7 @@
           "amount": 80
         },
         {
-          "name": "金属ブレード",
+          "name": "ブレード",
           "amount": 0.4
         }
       ]
@@ -2061,7 +2061,7 @@
           "amount": 0.6
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 0.6
         }
       ],
@@ -2079,7 +2079,7 @@
           "amount": 0.4
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 0.4
         }
       ]
@@ -2108,11 +2108,11 @@
             "amount": 15
           },
           {
-            "name": "金属のパイプ",
+            "name": "パイプ",
             "amount": 2
           },
           {
-            "name": "金属のバネ",
+            "name": "バネ",
             "amount": 1
           }
         ]
@@ -2125,11 +2125,11 @@
           "amount": 9
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 2
         },
         {
-          "name": "金属のバネ",
+          "name": "バネ",
           "amount": 0.6
         }
       ],
@@ -2139,11 +2139,11 @@
           "amount": 6
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 1
         },
         {
-          "name": "金属のバネ",
+          "name": "バネ",
           "amount": 0.4
         }
       ]
@@ -2167,11 +2167,11 @@
         "totalCraftCost": 14,
         "craftCost": [
           {
-            "name": "金属のパイプ",
+            "name": "パイプ",
             "amount": 3
           },
           {
-            "name": "金属のバネ",
+            "name": "バネ",
             "amount": 1
           },
           {
@@ -2188,7 +2188,7 @@
           "amount": 6
         },
         {
-          "name": "金属のバネ",
+          "name": "バネ",
           "amount": 0.6
         }
       ],
@@ -2198,7 +2198,7 @@
           "amount": 4
         },
         {
-          "name": "金属のバネ",
+          "name": "バネ",
           "amount": 0.4
         }
       ]
@@ -2223,7 +2223,7 @@
         "totalCraftCost": 151,
         "craftCost": [
           {
-            "name": "金属のパイプ",
+            "name": "パイプ",
             "amount": 1
           },
           {
@@ -2248,7 +2248,7 @@
           "amount": 75
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 0.6
         }
       ],
@@ -2262,7 +2262,7 @@
           "amount": 50
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 0.4
         }
       ]
@@ -2291,7 +2291,7 @@
             "amount": 40
           },
           {
-            "name": "金属のパイプ",
+            "name": "パイプ",
             "amount": 4
           }
         ]
@@ -2304,7 +2304,7 @@
           "amount": 24
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 3
         }
       ],
@@ -2314,7 +2314,7 @@
           "amount": 16
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 2
         }
       ]
@@ -2395,7 +2395,7 @@
             "amount": 15
           },
           {
-            "name": "金属ブレード",
+            "name": "ブレード",
             "amount": 1
           }
         ]
@@ -2408,7 +2408,7 @@
           "amount": 9
         },
         {
-          "name": "金属ブレード",
+          "name": "ブレード",
           "amount": 0.6
         }
       ],
@@ -2418,7 +2418,7 @@
           "amount": 6
         },
         {
-          "name": "金属ブレード",
+          "name": "ブレード",
           "amount": 0.4
         }
       ]
@@ -2451,7 +2451,7 @@
             "amount": 4
           },
           {
-            "name": "金属のパイプ",
+            "name": "パイプ",
             "amount": 1
           }
         ]
@@ -2468,7 +2468,7 @@
           "amount": 0.6
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 0.6
         }
       ],
@@ -2482,7 +2482,7 @@
           "amount": 0.4
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 0.4
         }
       ]
@@ -2511,7 +2511,7 @@
             "amount": 1
           },
           {
-            "name": "金属のバネ",
+            "name": "バネ",
             "amount": 1
           },
           {
@@ -2540,7 +2540,7 @@
           "amount": 0.6
         },
         {
-          "name": "金属のバネ",
+          "name": "バネ",
           "amount": 0.6
         }
       ],
@@ -2558,7 +2558,7 @@
           "amount": 0.4
         },
         {
-          "name": "金属のバネ",
+          "name": "バネ",
           "amount": 0.4
         }
       ]
@@ -2729,7 +2729,7 @@
           "amount": 12
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 3
         }
       ],
@@ -2739,7 +2739,7 @@
           "amount": 8
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 2
         }
       ]
@@ -2880,7 +2880,7 @@
             "amount": 1
           },
           {
-            "name": "金属のバネ",
+            "name": "バネ",
             "amount": 1
           }
         ]
@@ -2901,7 +2901,7 @@
           "amount": 0.6
         },
         {
-          "name": "金属のバネ",
+          "name": "バネ",
           "amount": 0.6
         }
       ],
@@ -2919,7 +2919,7 @@
           "amount": 0.4
         },
         {
-          "name": "金属のバネ",
+          "name": "バネ",
           "amount": 0.4
         }
       ]
@@ -3101,7 +3101,7 @@
             "amount": 3
           },
           {
-            "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+            "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
             "amount": 1
           }
         ]
@@ -3110,13 +3110,13 @@
     "recycleData": {
       "recycleYieldrad": [
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 0.6
         }
       ],
       "recycleYieldsafe": [
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 0.4
         }
       ]
@@ -3574,7 +3574,7 @@
           "amount": 30
         },
         {
-          "name": "金属のバネ",
+          "name": "バネ",
           "amount": 0.6
         }
       ],
@@ -3584,7 +3584,7 @@
           "amount": 20
         },
         {
-          "name": "金属のバネ",
+          "name": "バネ",
           "amount": 0.4
         }
       ]
@@ -4134,7 +4134,7 @@
             "amount": 200
           },
           {
-            "name": "金属ブレード",
+            "name": "ブレード",
             "amount": 2
           }
         ]
@@ -4147,7 +4147,7 @@
           "amount": 120
         },
         {
-          "name": "金属ブレード",
+          "name": "ブレード",
           "amount": 2
         }
       ],
@@ -4157,7 +4157,7 @@
           "amount": 80
         },
         {
-          "name": "金属ブレード",
+          "name": "ブレード",
           "amount": 1
         }
       ]
@@ -4253,8 +4253,8 @@
       "workbench": 1,
       "craftTime": {
         "craftTime": {
-          "short": 7,
-          "long": 30
+          "short": 3,
+          "long": 15
         }
       },
       "recipie": {
@@ -4471,8 +4471,8 @@
       "workbench": 3,
       "craftTime": {
         "craftTime": {
-          "short": 30,
-          "long": 30
+          "short": 15,
+          "long": 15
         }
       },
       "recipie": {
@@ -4809,8 +4809,8 @@
       "workbench": 2,
       "craftTime": {
         "craftTime": {
-          "short": 15,
-          "long": 30
+          "short": 7,
+          "long": 15
         }
       },
       "recipie": {
@@ -5024,8 +5024,8 @@
       "workbench": 0,
       "craftTime": {
         "craftTime": {
-          "short": 7,
-          "long": 30
+          "short": 3,
+          "long": 15
         }
       },
       "recipie": {
@@ -5280,8 +5280,8 @@
       "workbench": 0,
       "craftTime": {
         "craftTime": {
-          "short": 7,
-          "long": 30
+          "short": 3,
+          "long": 15
         }
       },
       "recipie": {
@@ -5456,7 +5456,7 @@
             "amount": 100
           },
           {
-            "name": "裁ほう道具",
+            "name": "ソーイングキット",
             "amount": 2
           }
         ]
@@ -5473,7 +5473,7 @@
           "amount": 60
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 2
         }
       ],
@@ -5487,7 +5487,7 @@
           "amount": 40
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 1
         }
       ]
@@ -10779,7 +10779,7 @@
     "recycleData": {
       "recycleYieldrad": [
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 3
         },
         {
@@ -10793,7 +10793,7 @@
       ],
       "recycleYieldsafe": [
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 2
         },
         {
@@ -10855,7 +10855,7 @@
           "amount": 3
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 2
         },
         {
@@ -10869,7 +10869,7 @@
           "amount": 2
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 1
         },
         {
@@ -10940,7 +10940,7 @@
           "amount": 3
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 2
         },
         {
@@ -10954,7 +10954,7 @@
           "amount": 2
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 1
         },
         {
@@ -11276,7 +11276,7 @@
             "amount": 15
           },
           {
-            "name": "裁ほう道具",
+            "name": "ソーイングキット",
             "amount": 1
           }
         ]
@@ -11293,7 +11293,7 @@
           "amount": 9
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 0.6
         }
       ],
@@ -11307,7 +11307,7 @@
           "amount": 6
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 0.4
         }
       ]
@@ -11828,7 +11828,7 @@
             "amount": 60
           },
           {
-            "name": "裁ほう道具",
+            "name": "ソーイングキット",
             "amount": 1
           }
         ]
@@ -11845,7 +11845,7 @@
           "amount": 36
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 0.6
         }
       ],
@@ -11859,7 +11859,7 @@
           "amount": 24
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 0.4
         }
       ]
@@ -11979,7 +11979,7 @@
           "amount": 60
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 2
         }
       ],
@@ -11989,7 +11989,7 @@
           "amount": 40
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 1
         }
       ]
@@ -12108,7 +12108,7 @@
             "amount": 60
           },
           {
-            "name": "裁ほう道具",
+            "name": "ソーイングキット",
             "amount": 2
           }
         ]
@@ -12121,7 +12121,7 @@
           "amount": 36
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 2
         }
       ],
@@ -12131,7 +12131,7 @@
           "amount": 24
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 1
         }
       ]
@@ -12213,7 +12213,7 @@
           "amount": 60
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 2
         }
       ],
@@ -12223,7 +12223,7 @@
           "amount": 40
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 1
         }
       ]
@@ -12269,7 +12269,7 @@
             "amount": 5
           },
           {
-            "name": "裁ほう道具",
+            "name": "ソーイングキット",
             "amount": 2
           },
           {
@@ -12286,7 +12286,7 @@
           "amount": 3
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 2
         },
         {
@@ -12300,7 +12300,7 @@
           "amount": 2
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 1
         },
         {
@@ -12483,7 +12483,7 @@
         "totalCraftCost": 5,
         "craftCost": [
           {
-            "name": "板金",
+            "name": "シートメタル",
             "amount": 1
           },
           {
@@ -12500,7 +12500,7 @@
           "amount": 3
         },
         {
-          "name": "板金",
+          "name": "シートメタル",
           "amount": 0.6
         }
       ],
@@ -12510,7 +12510,7 @@
           "amount": 2
         },
         {
-          "name": "板金",
+          "name": "シートメタル",
           "amount": 0.4
         }
       ]
@@ -12535,7 +12535,7 @@
         "totalCraftCost": 6,
         "craftCost": [
           {
-            "name": "板金",
+            "name": "シートメタル",
             "amount": 2
           },
           {
@@ -12548,7 +12548,7 @@
     "recycleData": {
       "recycleYieldrad": [
         {
-          "name": "板金",
+          "name": "シートメタル",
           "amount": 2
         },
         {
@@ -12558,7 +12558,7 @@
       ],
       "recycleYieldsafe": [
         {
-          "name": "板金",
+          "name": "シートメタル",
           "amount": 1
         },
         {
@@ -12587,7 +12587,7 @@
         "totalCraftCost": 5,
         "craftCost": [
           {
-            "name": "板金",
+            "name": "シートメタル",
             "amount": 1
           },
           {
@@ -12604,7 +12604,7 @@
           "amount": 3
         },
         {
-          "name": "板金",
+          "name": "シートメタル",
           "amount": 0.6
         }
       ],
@@ -12614,7 +12614,7 @@
           "amount": 2
         },
         {
-          "name": "板金",
+          "name": "シートメタル",
           "amount": 0.4
         }
       ]
@@ -12634,7 +12634,7 @@
           "amount": 3
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 2
         },
         {
@@ -12648,7 +12648,7 @@
           "amount": 2
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 1
         },
         {
@@ -12959,7 +12959,7 @@
             "amount": 40
           },
           {
-            "name": "裁ほう道具",
+            "name": "ソーイングキット",
             "amount": 1
           }
         ]
@@ -12972,7 +12972,7 @@
           "amount": 24
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 0.6
         }
       ],
@@ -12982,7 +12982,7 @@
           "amount": 16
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 0.4
         }
       ]
@@ -13111,7 +13111,7 @@
             "amount": 50
           },
           {
-            "name": "裁ほう道具",
+            "name": "ソーイングキット",
             "amount": 2
           }
         ]
@@ -13124,7 +13124,7 @@
           "amount": 30
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 2
         }
       ],
@@ -13134,7 +13134,7 @@
           "amount": 20
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 1
         }
       ]
@@ -13221,7 +13221,7 @@
             "amount": 20
           },
           {
-            "name": "裁ほう道具",
+            "name": "ソーイングキット",
             "amount": 1
           }
         ]
@@ -13234,7 +13234,7 @@
           "amount": 12
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 0.6
         }
       ],
@@ -13244,7 +13244,7 @@
           "amount": 8
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 0.4
         }
       ]
@@ -13393,7 +13393,7 @@
           "amount": 24
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 0.6
         }
       ],
@@ -13403,7 +13403,7 @@
           "amount": 16
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 0.4
         }
       ]
@@ -13526,7 +13526,7 @@
             "amount": 18
           },
           {
-            "name": "裁ほう道具",
+            "name": "ソーイングキット",
             "amount": 8
           }
         ]
@@ -13543,7 +13543,7 @@
           "amount": 11
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 5
         }
       ],
@@ -13557,7 +13557,7 @@
           "amount": 8
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 4
         }
       ]
@@ -13590,7 +13590,7 @@
             "amount": 15
           },
           {
-            "name": "裁ほう道具",
+            "name": "ソーイングキット",
             "amount": 6
           }
         ]
@@ -13607,7 +13607,7 @@
           "amount": 9
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 4
         }
       ],
@@ -13621,7 +13621,7 @@
           "amount": 6
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 3
         }
       ]
@@ -13751,7 +13751,7 @@
           "amount": 3
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 2
         },
         {
@@ -13765,7 +13765,7 @@
           "amount": 2
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 1
         },
         {
@@ -13849,7 +13849,7 @@
             "amount": 10
           },
           {
-            "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+            "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
             "amount": 2
           }
         ]
@@ -13862,7 +13862,7 @@
           "amount": 6
         },
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 2
         }
       ],
@@ -13872,7 +13872,7 @@
           "amount": 4
         },
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 1
         }
       ]
@@ -13901,7 +13901,7 @@
             "amount": 60
           },
           {
-            "name": "裁ほう道具",
+            "name": "ソーイングキット",
             "amount": 2
           }
         ]
@@ -13914,7 +13914,7 @@
           "amount": 36
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 2
         }
       ],
@@ -13924,7 +13924,7 @@
           "amount": 24
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 1
         }
       ]
@@ -14004,7 +14004,7 @@
             "amount": 40
           },
           {
-            "name": "裁ほう道具",
+            "name": "ソーイングキット",
             "amount": 1
           }
         ]
@@ -14017,7 +14017,7 @@
           "amount": 24
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 0.6
         }
       ],
@@ -14027,7 +14027,7 @@
           "amount": 16
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 0.4
         }
       ]
@@ -14055,7 +14055,7 @@
             "amount": 2
           },
           {
-            "name": "裁ほう道具",
+            "name": "ソーイングキット",
             "amount": 2
           },
           {
@@ -14072,7 +14072,7 @@
           "amount": 2
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 2
         },
         {
@@ -14086,7 +14086,7 @@
           "amount": 1
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 1
         },
         {
@@ -14347,7 +14347,7 @@
             "amount": 2
           },
           {
-            "name": "裁ほう道具",
+            "name": "ソーイングキット",
             "amount": 2
           }
         ]
@@ -14364,7 +14364,7 @@
           "amount": 2
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 2
         }
       ],
@@ -14378,7 +14378,7 @@
           "amount": 1
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 1
         }
       ]
@@ -14411,7 +14411,7 @@
             "amount": 1
           },
           {
-            "name": "裁ほう道具",
+            "name": "ソーイングキット",
             "amount": 2
           }
         ]
@@ -14424,7 +14424,7 @@
           "amount": 6
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 2
         },
         {
@@ -14438,7 +14438,7 @@
           "amount": 4
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 1
         },
         {
@@ -14475,7 +14475,7 @@
             "amount": 1
           },
           {
-            "name": "裁ほう道具",
+            "name": "ソーイングキット",
             "amount": 2
           }
         ]
@@ -14488,7 +14488,7 @@
           "amount": 12
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 2
         },
         {
@@ -14502,7 +14502,7 @@
           "amount": 8
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 1
         },
         {
@@ -14534,7 +14534,7 @@
             "amount": 4
           },
           {
-            "name": "裁ほう道具",
+            "name": "ソーイングキット",
             "amount": 2
           }
         ]
@@ -14547,7 +14547,7 @@
           "amount": 3
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 2
         }
       ],
@@ -14557,7 +14557,7 @@
           "amount": 2
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 1
         }
       ]
@@ -14692,7 +14692,7 @@
           "amount": 3
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 2
         },
         {
@@ -14706,7 +14706,7 @@
           "amount": 2
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 1
         },
         {
@@ -14809,7 +14809,7 @@
           "amount": 3
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 2
         }
       ],
@@ -14819,7 +14819,7 @@
           "amount": 2
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 1
         }
       ]
@@ -14843,7 +14843,7 @@
         "totalCraftCost": 55,
         "craftCost": [
           {
-            "name": "裁ほう道具",
+            "name": "ソーイングキット",
             "amount": 5
           },
           {
@@ -14856,7 +14856,7 @@
     "recycleData": {
       "recycleYieldrad": [
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 3
         },
         {
@@ -14866,7 +14866,7 @@
       ],
       "recycleYieldsafe": [
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 2
         },
         {
@@ -14899,7 +14899,7 @@
             "amount": 60
           },
           {
-            "name": "裁ほう道具",
+            "name": "ソーイングキット",
             "amount": 1
           }
         ]
@@ -14912,7 +14912,7 @@
           "amount": 36
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 0.6
         }
       ],
@@ -14922,7 +14922,7 @@
           "amount": 24
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 0.4
         }
       ]
@@ -15029,7 +15029,7 @@
             "amount": 60
           },
           {
-            "name": "裁ほう道具",
+            "name": "ソーイングキット",
             "amount": 2
           }
         ]
@@ -15042,7 +15042,7 @@
           "amount": 36
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 2
         }
       ],
@@ -15052,7 +15052,7 @@
           "amount": 24
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 1
         }
       ]
@@ -15112,7 +15112,7 @@
           "amount": 12
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 6
         }
       ],
@@ -15122,7 +15122,7 @@
           "amount": 8
         },
         {
-          "name": "裁ほう道具",
+          "name": "ソーイングキット",
           "amount": 4
         }
       ]
@@ -15594,7 +15594,7 @@
             "amount": 2
           },
           {
-            "name": "金属ブレード",
+            "name": "ブレード",
             "amount": 6
           }
         ]
@@ -15611,7 +15611,7 @@
           "amount": 2
         },
         {
-          "name": "金属ブレード",
+          "name": "ブレード",
           "amount": 4
         }
       ],
@@ -15625,7 +15625,7 @@
           "amount": 1
         },
         {
-          "name": "金属ブレード",
+          "name": "ブレード",
           "amount": 3
         }
       ]
@@ -16010,11 +16010,11 @@
           "amount": 36
         },
         {
-          "name": "金属ブレード",
+          "name": "ブレード",
           "amount": 3
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 0.6
         }
       ],
@@ -16024,11 +16024,11 @@
           "amount": 24
         },
         {
-          "name": "金属ブレード",
+          "name": "ブレード",
           "amount": 2
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 0.4
         }
       ]
@@ -16248,11 +16248,11 @@
         "totalCraftCost": 6,
         "craftCost": [
           {
-            "name": "金属のパイプ",
+            "name": "パイプ",
             "amount": 1
           },
           {
-            "name": "金属ブレード",
+            "name": "ブレード",
             "amount": 5
           }
         ]
@@ -16261,21 +16261,21 @@
     "recycleData": {
       "recycleYieldrad": [
         {
-          "name": "金属ブレード",
+          "name": "ブレード",
           "amount": 3
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 0.6
         }
       ],
       "recycleYieldsafe": [
         {
-          "name": "金属ブレード",
+          "name": "ブレード",
           "amount": 2
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 0.4
         }
       ]
@@ -16300,7 +16300,7 @@
         "totalCraftCost": 51,
         "craftCost": [
           {
-            "name": "金属のパイプ",
+            "name": "パイプ",
             "amount": 1
           },
           {
@@ -16317,7 +16317,7 @@
           "amount": 30
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 0.6
         }
       ],
@@ -16327,7 +16327,7 @@
           "amount": 20
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 0.4
         }
       ]
@@ -16352,11 +16352,11 @@
         "totalCraftCost": 6,
         "craftCost": [
           {
-            "name": "金属のパイプ",
+            "name": "パイプ",
             "amount": 1
           },
           {
-            "name": "金属ブレード",
+            "name": "ブレード",
             "amount": 5
           }
         ]
@@ -16365,21 +16365,21 @@
     "recycleData": {
       "recycleYieldrad": [
         {
-          "name": "金属ブレード",
+          "name": "ブレード",
           "amount": 3
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 0.6
         }
       ],
       "recycleYieldsafe": [
         {
-          "name": "金属ブレード",
+          "name": "ブレード",
           "amount": 2
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 0.4
         }
       ]
@@ -16672,7 +16672,7 @@
     "identifier": 1397052267,
     "name": "サプライシグナル",
     "shortname": "supply.signal",
-    "description": "A purple smoke grenade that calls in an airdrop somewhere in a small radius around it. Can be found rarely in Military and Elite Crates.\nWhen you use this item, it will release a purple smoke that can let players who in far away know that there are someone just call a airdrop. Cargo Plane will show somewhere in sky and will release the airdrop to your location shortly\nCalling for airdrop to your base with high walls or monument (water pump stations, oilrig)is a right choice, because that other players won't steal your loot\n",
+    "description": "A purple smoke grenade that calls in an airdrop somewhere in a small radius around it. Can be found as a rare drop in Military and Elite Crates.\nWhen you use this item, it will release a plume of purple smoke that can let players who are far away know that there may be individuals who just called in an airdrop. A Cargo Plane will spawn somewhere in the sky and will release the payload to your location shortly.\nCalling for an airdrop to your base, especially one with high walls or a nearby monument (water pump stations, oilrig) is a fair choice. It may deter other players from looting the payload or, if you're feeling 'spicy', may bring the pvp to your front door.\n",
     "craftData": {},
     "recycleData": {}
   },
@@ -16779,7 +16779,7 @@
             "amount": 5
           },
           {
-            "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+            "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
             "amount": 2
           }
         ]
@@ -16796,7 +16796,7 @@
           "amount": 3
         },
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 2
         }
       ],
@@ -16810,7 +16810,7 @@
           "amount": 2
         },
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 1
         }
       ]
@@ -18190,7 +18190,7 @@
           "amount": 9
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 0.3
         },
         {
@@ -18204,7 +18204,7 @@
           "amount": 6
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 0.2
         },
         {
@@ -18256,7 +18256,7 @@
           "amount": 9
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 0.3
         }
       ],
@@ -18266,7 +18266,7 @@
           "amount": 6
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 0.2
         }
       ]
@@ -18352,7 +18352,7 @@
   "explosive-5.56-rifle-ammo": {
     "group": "ammo",
     "identifier": -1321651331,
-    "name": "5.56ライフルアモ(炸裂)",
+    "name": "5.56ライフル炸裂アモ",
     "shortname": "ammo.rifle.explosive",
     "description": "A variant of the standard 5.56 rifle ammunition. The Explosive 5.56 round deals a small amount of additional explosion damage to a player upon direct impact as well as damaging nearby structures or players.\nThe round is effective against low-tier structures such as Wood walls and Sheet Metal doors.",
     "craftData": {
@@ -18480,7 +18480,7 @@
   "hv-5.56-rifle-ammo": {
     "group": "ammo",
     "identifier": 1712070256,
-    "name": "5.56mmライフルアモ(高速)",
+    "name": "5.56mmライフルHVアモ",
     "shortname": "ammo.rifle.hv",
     "description": "A variant of the standard 5.56 rifle ammunition. The High Velocity (HV) 5.56 round will travel faster than the standard round at a more expensive crafting cost. The round experiences little bullet drop. This type of ammo is best used with Bolt Action Rifle and L96 Rifle.",
     "craftData": {
@@ -18514,7 +18514,7 @@
   "hv-pistol-ammo": {
     "group": "ammo",
     "identifier": -1691396643,
-    "name": "9mmピストルアモ(高速)",
+    "name": "9mmピストルHVアモ",
     "shortname": "ammo.pistol.hv",
     "description": "The high velocity pistol ammo is used by pistols and submachine guns.\nIts notable differences from regular pistol ammo include faster bullet travel and increased crafting cost.",
     "craftData": {
@@ -18618,7 +18618,7 @@
   "high-velocity-arrow": {
     "group": "ammo",
     "identifier": -1023065463,
-    "name": "木の矢（高速） ",
+    "name": "木のHV矢",
     "shortname": "arrow.hv",
     "description": "The high velocity arrow is one of four ammo types for the crossbow, compound bow, and the bow. It can be shot further and faster than the normal arrow, however, it causes less damage.",
     "craftData": {
@@ -18670,7 +18670,7 @@
   "high-velocity-rocket": {
     "group": "ammo",
     "identifier": -1841918730,
-    "name": "ロケット(高速)",
+    "name": "HVロケット",
     "shortname": "ammo.rocket.hv",
     "description": "The High Velocity Rocket is essentially a rocket with much less damage than the standard rocket. However, it is also much cheaper, and as the name suggests it has a higher velocity than the standard rocket, so it could be useful for rocketing targets at extreme range. Because of its lower cost and damage, it is useful for situations where a full rocket would be overkill.",
     "craftData": {
@@ -18686,7 +18686,7 @@
         "totalCraftCost": 101,
         "craftCost": [
           {
-            "name": "金属のパイプ",
+            "name": "パイプ",
             "amount": 1
           },
           {
@@ -18703,7 +18703,7 @@
           "amount": 60
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 0.6
         }
       ],
@@ -18713,7 +18713,7 @@
           "amount": 40
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 0.4
         }
       ]
@@ -18738,7 +18738,7 @@
         "totalCraftCost": 103,
         "craftCost": [
           {
-            "name": "金属のパイプ",
+            "name": "パイプ",
             "amount": 2
           },
           {
@@ -18746,7 +18746,7 @@
             "amount": 100
           },
           {
-            "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+            "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
             "amount": 1
           }
         ]
@@ -18759,11 +18759,11 @@
           "amount": 30
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 0.6
         },
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 0.3
         }
       ],
@@ -18773,11 +18773,11 @@
           "amount": 20
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 0.4
         },
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 0.2
         }
       ]
@@ -18786,7 +18786,7 @@
   "incendiary-5.56-rifle-ammo": {
     "group": "ammo",
     "identifier": 605467368,
-    "name": "5.56mmライフルアモ(火炎)",
+    "name": "5.56mmライフル火炎アモ",
     "shortname": "ammo.rifle.incendiary",
     "description": "A variant of the standard 5.56 rifle ammunition. The 5.56 Incendiary round will ignite on impact dealing both bullet and fire damage to a player. The round is however subject to increased bullet drop.",
     "craftData": {
@@ -18850,7 +18850,7 @@
   "incendiary-pistol-bullet": {
     "group": "ammo",
     "identifier": 51984655,
-    "name": "9mmピストルアモ(火炎)",
+    "name": "9mmピストル火炎アモ",
     "shortname": "ammo.pistol.fire",
     "description": "Slower, slightly more effective pistol bullet that also deals fire damage. Useful against Heavy Plate armor.",
     "craftData": {
@@ -18904,7 +18904,7 @@
         "totalCraftCost": 227,
         "craftCost": [
           {
-            "name": "金属のパイプ",
+            "name": "パイプ",
             "amount": 2
           },
           {
@@ -18921,7 +18921,7 @@
     "recycleData": {
       "recycleYieldrad": [
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 2
         },
         {
@@ -18935,7 +18935,7 @@
       ],
       "recycleYieldsafe": [
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 1
         },
         {
@@ -18959,7 +18959,7 @@
     "recycleData": {
       "recycleYieldrad": [
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 3
         },
         {
@@ -18969,7 +18969,7 @@
       ],
       "recycleYieldsafe": [
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 2
         },
         {
@@ -19072,7 +19072,7 @@
         "totalCraftCost": 162,
         "craftCost": [
           {
-            "name": "金属のパイプ",
+            "name": "パイプ",
             "amount": 2
           },
           {
@@ -19089,7 +19089,7 @@
     "recycleData": {
       "recycleYieldrad": [
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 2
         },
         {
@@ -19103,7 +19103,7 @@
       ],
       "recycleYieldsafe": [
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 1
         },
         {
@@ -19136,7 +19136,7 @@
         "totalCraftCost": 31,
         "craftCost": [
           {
-            "name": "金属のパイプ",
+            "name": "パイプ",
             "amount": 1
           },
           {
@@ -19153,7 +19153,7 @@
           "amount": 3
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 0.1
         }
       ],
@@ -19163,7 +19163,7 @@
           "amount": 2
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 0.07
         }
       ]
@@ -19266,7 +19266,7 @@
         "totalCraftCost": 31,
         "craftCost": [
           {
-            "name": "金属のパイプ",
+            "name": "パイプ",
             "amount": 1
           },
           {
@@ -19283,7 +19283,7 @@
           "amount": 4
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 0.12
         }
       ],
@@ -19293,7 +19293,7 @@
           "amount": 3
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 0.08
         }
       ]
@@ -19660,7 +19660,7 @@
     "group": "misc",
     "identifier": -484206264,
     "shortname": "keycard_blue",
-    "description": "The Blue Keycard is a game object required in order to access quite a lot of monument puzzles.\nIt can be obtained by fishing and gutting high tier fish or by completing green monument puzzles on Harbors, Satellite Dish or Sewer Branch.\nList of monuments that require Blue Keycard to finish monument puzzle:\nAirfield, Arctic Research Base, Military Tunnels, Missile Silo, Oil Rig, Power Plant, Trainyard, Water Treatment\nLarge Oil Rig does not require Blue Keycard to access Locked Crate but it grants access to 4 military crates.",
+    "description": "The Blue Keycard is a game object required in order to access quite a lot of monument puzzles.\nIt can be obtained by fishing and gutting high tier fish or by completing green monument puzzles on Harbors, Satellite Dish or Sewer Branch.\nList of monuments that require Blue Keycard to finish monument puzzle:\nAirfield, Arctic Research Base, Military Tunnels, Missile Silo, Oil Rig, Power Plant, Trainyard, Water Treatment and Underwater Labs.\nLarge Oil Rig does not require Blue Keycard to access Locked Crate but it grants access to 4 military crates.",
     "craftData": {},
     "recycleData": {}
   },
@@ -19942,7 +19942,7 @@
             "amount": 30
           },
           {
-            "name": "金属のパイプ",
+            "name": "パイプ",
             "amount": 1
           }
         ]
@@ -19959,7 +19959,7 @@
           "amount": 18
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 0.6
         }
       ],
@@ -19973,7 +19973,7 @@
           "amount": 12
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 0.4
         }
       ]
@@ -20121,7 +20121,7 @@
     "group": "misc",
     "identifier": 37122747,
     "shortname": "keycard_green",
-    "description": "The Green Keycard is a required object used to open doors with a glowing green keycard lock.\nIt can be found in the Lighthouse, Oxum's Gas Station, Junkyard, and Abandoned Supermarket. They spawn on desks which you can find throughout the monuments.\nIt can then be used on the Satellite Dish, Harbors and the Sewer Branch. These keycard locks will require an electric fuse.\n",
+    "description": "The Green Keycard is a game object required in order to access a some monument puzzles.\nIt can be obtained by killing and looting scientists and can be found on desk in Abandoned Cabins, Abandoned Supermarket, Ferry Terminal, Junkyard, Lighthouse, Oxum's Gas Station, Underwater Lab and by completing Power Plant's monument puzzle.\nList of monuments that require Green Keycard to finish monument puzzle:\nAirfield, Harbors, Launch Site, Military Tunnels, Power Plant, Satellite Dish and Sewer Branch.\n",
     "craftData": {},
     "recycleData": {}
   },
@@ -20317,7 +20317,7 @@
     "group": "misc",
     "identifier": -1880870149,
     "shortname": "keycard_red",
-    "description": "Red Keycard is a required object used to open doors with a red keycard lock. Elite crates start to spawn in red puzzle rooms. However, you will have to start to pull guns out as these red puzzle rooms are always guarded.\nIt can be obtained in the Water Treatment Plant, Airfield, Power Plant, and Trainyard. They are located on the desks.\nIt can then be used on:\n- Military Tunnels (requires an electric fuse, a blue keycard and a red keycard, the green keycard is optional as it only unlocks another path into the monument. You will encounter scientists that throw F1 Grenades, so prepare medical items and weapons)\n- Launch Site (requires 2 electric fuses, a green keycard and a red keycard. You will only encounter Bradley APC, which is not a big problem if you hide from it. Do bring medical items as the radiation inside the building is very high, your hazmat suit will decrease the radiation poisoning but not all)\n- Small / Large Oil Rig (requires a red keycard, but in Small Oil Rig, bring a blue keycard to get to the red puzzle door. You will encounter scientists as well as heavy scientists (if you hack the locked crate), bring medical items and weapons)\n- Underwater Labs (requires an electric fuse and a red keycard)",
+    "description": "The Red Keycard is game object required in order to access high tier loot in monument puzzles.\nIt can be obtained by completing blue monument puzzles on Airfield, Arctic Research Base, Missile Silo, Powerplant, Trainyard and Water Treatment.\nList of monuments that require Red Keycard to finish monument puzzle:\nLarge Oil Rig, Launch Site, Military Tunnels, Small Oil Rig and Underwater Lab.",
     "craftData": {},
     "recycleData": {}
   },
@@ -20680,7 +20680,7 @@
             "amount": 30
           },
           {
-            "name": "金属のパイプ",
+            "name": "パイプ",
             "amount": 1
           }
         ]
@@ -20697,7 +20697,7 @@
           "amount": 18
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 0.6
         }
       ],
@@ -20711,7 +20711,7 @@
           "amount": 12
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 0.4
         }
       ]
@@ -22259,7 +22259,7 @@
           "amount": 60
         },
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 3
         }
       ],
@@ -22269,7 +22269,7 @@
           "amount": 40
         },
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 2
         }
       ]
@@ -24350,7 +24350,7 @@
             "amount": 3
           },
           {
-            "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+            "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
             "amount": 2
           }
         ]
@@ -24359,13 +24359,13 @@
     "recycleData": {
       "recycleYieldrad": [
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 2
         }
       ],
       "recycleYieldsafe": [
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 1
         }
       ]
@@ -24563,7 +24563,7 @@
             "amount": 10
           },
           {
-            "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+            "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
             "amount": 2
           }
         ]
@@ -24576,7 +24576,7 @@
           "amount": 6
         },
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 2
         }
       ],
@@ -24586,7 +24586,7 @@
           "amount": 4
         },
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 1
         }
       ]
@@ -24614,7 +24614,7 @@
             "amount": 5
           },
           {
-            "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+            "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
             "amount": 1
           }
         ]
@@ -24627,7 +24627,7 @@
           "amount": 3
         },
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 0.6
         }
       ],
@@ -24637,7 +24637,7 @@
           "amount": 2
         },
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 0.4
         }
       ]
@@ -24796,7 +24796,7 @@
             "amount": 5
           },
           {
-            "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+            "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
             "amount": 1
           }
         ]
@@ -24809,7 +24809,7 @@
           "amount": 3
         },
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 0.6
         }
       ],
@@ -24819,7 +24819,7 @@
           "amount": 2
         },
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 0.4
         }
       ]
@@ -25144,7 +25144,7 @@
             "amount": 150
           },
           {
-            "name": "金属のバネ",
+            "name": "バネ",
             "amount": 1
           },
           {
@@ -25161,7 +25161,7 @@
           "amount": 90
         },
         {
-          "name": "金属のバネ",
+          "name": "バネ",
           "amount": 0.6
         },
         {
@@ -25175,7 +25175,7 @@
           "amount": 60
         },
         {
-          "name": "金属のバネ",
+          "name": "バネ",
           "amount": 0.4
         },
         {
@@ -25534,6 +25534,49 @@
       ]
     }
   },
+  "seismic-sensor": {
+    "group": "electrical",
+    "identifier": -948291630,
+    "shortname": "electric.seismicsensor",
+    "description": "A small device that detects vibrations within a set range. Will output a different power value depending on the explosive type detected, ideal to know when your time has come.",
+    "craftData": {
+      "yield": 1,
+      "workbench": 2,
+      "craftTime": {
+        "craftTime": {
+          "short": 15,
+          "long": 30
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 4,
+        "craftCost": [
+          {
+            "name": "上金属",
+            "amount": 3
+          },
+          {
+            "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
+            "amount": 1
+          }
+        ]
+      }
+    },
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
+          "amount": 0.6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
+          "amount": 0.4
+        }
+      ]
+    }
+  },
   "simple-light": {
     "group": "electrical",
     "identifier": -282113991,
@@ -25755,7 +25798,7 @@
             "amount": 3
           },
           {
-            "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+            "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
             "amount": 1
           }
         ]
@@ -25764,13 +25807,13 @@
     "recycleData": {
       "recycleYieldrad": [
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 0.6
         }
       ],
       "recycleYieldsafe": [
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 0.4
         }
       ]
@@ -25799,7 +25842,7 @@
             "amount": 3
           },
           {
-            "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+            "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
             "amount": 1
           }
         ]
@@ -25808,13 +25851,13 @@
     "recycleData": {
       "recycleYieldrad": [
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 0.6
         }
       ],
       "recycleYieldsafe": [
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 0.4
         }
       ]
@@ -25960,7 +26003,7 @@
             "amount": 3
           },
           {
-            "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+            "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
             "amount": 1
           }
         ]
@@ -25969,13 +26012,13 @@
     "recycleData": {
       "recycleYieldrad": [
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 0.6
         }
       ],
       "recycleYieldsafe": [
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 0.4
         }
       ]
@@ -26042,7 +26085,7 @@
             "amount": 3
           },
           {
-            "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+            "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
             "amount": 1
           }
         ]
@@ -26051,13 +26094,13 @@
     "recycleData": {
       "recycleYieldrad": [
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 0.6
         }
       ],
       "recycleYieldsafe": [
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 0.4
         }
       ]
@@ -26080,7 +26123,7 @@
           "amount": 3
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 2
         },
         {
@@ -26098,7 +26141,7 @@
           "amount": 2
         },
         {
-          "name": "金属のパイプ",
+          "name": "パイプ",
           "amount": 1
         },
         {
@@ -26242,7 +26285,7 @@
             "amount": 3
           },
           {
-            "name": "板金",
+            "name": "シートメタル",
             "amount": 3
           }
         ]
@@ -28682,7 +28725,7 @@
             "amount": 100
           },
           {
-            "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+            "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
             "amount": 1
           }
         ]
@@ -28699,7 +28742,7 @@
           "amount": 60
         },
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 0.6
         }
       ],
@@ -28713,7 +28756,7 @@
           "amount": 40
         },
         {
-          "name": "武器ボックスの他に、CCTVカメラやPCからもゲットできる。\nC4やレーザーサイトにホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ20・上金属1）",
+          "name": "武器ボックスの他に、CCTVカメラやPCリサイクルからもゲットできる。\nC4やレーザーサイト、ホロサイトをクラフトするのに使う。\n（リサイクラー：スクラップ・上金属）",
           "amount": 0.4
         }
       ]

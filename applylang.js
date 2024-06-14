@@ -110,11 +110,12 @@ async function getShortNames(lang, langcode) {
             found = true
         }
         if (!found) {
-            notfound[name] = ""
+            notfound[name] = itemsbyshortname[name]
         }
 
     }
     console.log(`found ${found} of ${total} items in ${langcode} lang`)
+    console.log("Items not found:", notfound);
     for (const name in names) {
         if (typeof names[name] !== 'string') {
             names[name] = names[name][0]

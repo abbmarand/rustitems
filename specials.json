@@ -76,5 +76,6 @@
     "electric.timer": "timer",
     "electric.xorswitch": "xorswitch",
     "lunar.firecrackers": "firecrackers",
-    "laserlight": "sound.laser"
+    "laserlight": "sound.laser",
+    "electric.seismicsensor": "electric.seismicsensor.name"
 }
