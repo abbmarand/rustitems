@@ -260,11 +260,10 @@ async function getItemShortname(page) {
 
 //takes the desired itemname and the browser as an input
 //then it opens a new page corrosponding to the item and scrapes the cost for that item
-async function getItemByName(name, browser, maxRetries = 3) {
+async function getItemByName(name, page, maxRetries = 3) {
     let retries = 0;
     while (retries < maxRetries) {
         let identifier = 0
-        const page = await browser.newPage()
         try {
             await page.goto(`https://wiki.rustclash.com/item/${name}`, {
                 waitUntil: "domcontentloaded",
@@ -282,11 +281,9 @@ async function getItemByName(name, browser, maxRetries = 3) {
             }
             const recycleData = await getRecycleYield(page)
             const a = await getItemImage(page)
-            await page.close()
             return { identifier, name, shortname, description, craftData, recycleData }
         } catch (error) {
             console.log(`Attempt ${retries + 1} failed to scrape data of ${name} (${error})`)
-            await page.close()
             retries++
             if (retries === maxRetries) {
                 console.log(`Failed to scrape data of ${name} after ${maxRetries} attempts`)

@@ -41,8 +41,7 @@ async function scrapeItemsNames(page) {
     return itemtextarr
 }
 
-async function getItemNames(browser) {
-    const page = await browser.newPage()
+async function getItemNames(page) {
     await page.goto(`https://wiki.rustclash.com/group=itemlist`, {
         waitUntil: "domcontentloaded",
     })
@@ -71,7 +70,6 @@ async function getItemNames(browser) {
             console.log(`failed to scrape items with group: ${itemGroups[i]}`)
         }
     }
-    await page.close()
     return items // Return the items array
 }
 

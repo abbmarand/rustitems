@@ -21,7 +21,8 @@ fs.writeFile('./data/itemsbyid.json', '', function () { console.log('cleared fil
 fs.writeFile('./data/itemsbyshortname.json', '', function () { console.log('cleared file') })
 
 //get all the itemnames and run the craft and recycle data for every item
-const itemnames = await getItemNames(browser)
+const page = await browser.newPage()
+const itemnames = await getItemNames(page)
 let byname = {}
 let byid = {}
 let byshortname = {}
@@ -32,14 +33,19 @@ for (const item of itemnames) {
     const startTime = performance.now()
     scrapecount += 1
     const { name, group } = item
-    const iteminfo = await getItemByName(name, browser)
-    const updatedIteminfo = { group, ...iteminfo }
-    byname[name] = updatedIteminfo
-    byid[iteminfo.identifier] = updatedIteminfo
-    byshortname[iteminfo.shortname] = updatedIteminfo
-    const endTime = performance.now() - startTime
-    console.log(`scraped item: ${name} (${scrapecount}/${scrapelen}) in ${(endTime / 1000).toFixed(3)} seconds`)
-    totaltime += endTime
+    await getItemByName(name, page)
+        .then(iteminfo => {
+            const updatedIteminfo = { group, ...iteminfo }
+            byname[name] = updatedIteminfo
+            byid[iteminfo.identifier] = updatedIteminfo
+            byshortname[iteminfo.shortname] = updatedIteminfo
+            const endTime = performance.now() - startTime
+            console.log(`scraped item: ${name} (${scrapecount}/${scrapelen}) in ${(endTime / 1000).toFixed(3)} seconds`)
+            totaltime += endTime
+        })
+        .catch(error => {
+            console.error(`Error scraping item: ${name}`, error)
+        })
 }
 console.log(`finished scraping in ${(totaltime / 60000).toFixed(2)} minutes, post proccessing data`)
 //when done, write the data to a file
