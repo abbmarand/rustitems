@@ -71,6 +71,14 @@ async function getShortNames(lang, langcode) {
                     totalfound++
                 }
             }
+            for (const key in lang) {
+                const langwithoutdotname = key.replace('.large', '')
+                if (langwithoutdotname === item) {
+                    names[item] = [...names[item] || [], key]
+                    found = true
+                    totalfound++
+                }
+            }
         }
 
     }

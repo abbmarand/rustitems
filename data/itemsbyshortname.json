@@ -66,7 +66,7 @@
         "identifier": 1545779598,
         "name": "assault-rifle",
         "shortname": "rifle.ak",
-        "description": "The Assault Rifle is an accurate, powerful, and fully automatic rifle that fires 5.56 rifle rounds. It has a moderate rate of fire which allows for proficiency at close to medium range.\nStrong recoil makes it more difficult to fire in full-auto at long range, but experienced users may be able to control it more effectively.\nThe Assault Rifle is generally used as an end-game multipurpose weapon, able to take fights at any range.",
+        "description": "The Assault Rifle is an accurate, powerful, and fully automatic rifle that fires 5.56 rifle rounds. It has a moderate rate of fire which allows for proficiency at close to medium range.\n\nStrong recoil makes it more difficult to fire in full-auto at long range, but experienced users may be able to control it more effectively.\n\nThe Assault Rifle is generally used as an end-game multipurpose weapon, able to take fights at any range.",
         "craftData": {
             "yield": 1,
             "workbench": 3,
@@ -425,7 +425,7 @@
         "identifier": 884424049,
         "name": "compound-bow",
         "shortname": "bow.compound",
-        "description": "The Compound Bow is the most powerful bow. It can one shot someone with full gear. Pulling the bow while keeping stationary will increase the velocity and damage of the arrow.\nAs of December 2021, the Compound Bow received a nerf. You can no longer find it in default blueprints. You also can't pull the string on the Compound Bow for too long, otherwise it loses durability overtime.",
+        "description": "The Compound Bow is the most powerful bow. It can one shot someone with full gear. Pulling the bow while keeping stationary will increase the velocity and damage of the arrow.\n\nAs of December 2021, the Compound Bow received a nerf. You can no longer find it in default blueprints. You also can't pull the string on the Compound Bow for too long, otherwise it loses durability overtime.",
         "craftData": {
             "yield": 1,
             "workbench": 1,
@@ -617,7 +617,7 @@
         "identifier": -765183617,
         "name": "double-barrel-shotgun",
         "shortname": "shotgun.double",
-        "description": "The Double Barrel Shotgun is a lower tier, close ranged weapon capable of one-hitting enemies within its effective range. It's best used in conjunction with other, longer range guns and against only one or two enemies at a time since it can only shoot two shells before requiring a lengthy reload. Furthermore, shots should only be made with it if it's likely that the majority of the pellets in a blast will connect with their target.\nIt makes for a strong early game weapon because of its relatively low cost. If the extra resources are available, it's a much safer and more reliable investment than the Waterpipe Shotgun since it's not as dependent on a single shot killing an enemy. Generally, unless going into an engagement that has large group of possible enemies (like a base raid or supply drop), it'll most likely be more cost effective to take a Double Barrel over a Pump Shotgun.",
+        "description": "The Double Barrel Shotgun is a lower tier, close ranged weapon capable of one-hitting enemies within its effective range. It's best used in conjunction with other, longer range guns and against only one or two enemies at a time since it can only shoot two shells before requiring a lengthy reload. Furthermore, shots should only be made with it if it's likely that the majority of the pellets in a blast will connect with their target.\n\nIt makes for a strong early game weapon because of its relatively low cost. If the extra resources are available, it's a much safer and more reliable investment than the Waterpipe Shotgun since it's not as dependent on a single shot killing an enemy. Generally, unless going into an engagement that has large group of possible enemies (like a base raid or supply drop), it'll most likely be more cost effective to take a Double Barrel over a Pump Shotgun.",
         "craftData": {
             "yield": 1,
             "workbench": 1,
@@ -813,7 +813,7 @@
         "identifier": -1215753368,
         "name": "flame-thrower",
         "shortname": "flamethrower",
-        "description": "The Flame Thrower (or flamethrower) is a close range weapon that also serves as a basic raiding tool. Fire sprayed from a flamethrower may obscure a target's vision and rapidly drain their health.\nThe Flame Thrower will start to steadily spawn fireballs once the trigger has been held long enough, and each one will damage and slow players or burn any wooden items they touch. Take care- fireballs spawned from spraying can and will burn bodies away (but their loot will fall in a bag if they do).\nRaiding with a flamethrower is accomplished by continuously spraying a wooden structure with fire until it shatters. Structures without a base for the fireballs to land on are very inefficient to raid with a flamethrower, since fireballs will not damage the targeted area.\nMany would not recommend using this as a weapon because of its low Damage Per Second, and short range. A good shotgun can outperform it in many situations.",
+        "description": "The Flame Thrower (or flamethrower) is a close range weapon that also serves as a basic raiding tool. Fire sprayed from a flamethrower may obscure a target's vision and rapidly drain their health.\n\nThe Flame Thrower will start to steadily spawn fireballs once the trigger has been held long enough, and each one will damage and slow players or burn any wooden items they touch. Take care- fireballs spawned from spraying can and will burn bodies away (but their loot will fall in a bag if they do).\n\nRaiding with a flamethrower is accomplished by continuously spraying a wooden structure with fire until it shatters. Structures without a base for the fireballs to land on are very inefficient to raid with a flamethrower, since fireballs will not damage the targeted area.\n\nMany would not recommend using this as a weapon because of its low Damage Per Second, and short range. A good shotgun can outperform it in many situations.",
         "craftData": {
             "yield": 1,
             "workbench": 2,
@@ -941,7 +941,7 @@
         "identifier": -1214542497,
         "name": "hmlmg",
         "shortname": "hmlmg",
-        "description": "A hand-made belt-fed light machine gun with high damage, high rate of fire, and low accuracy during bursts.\n",
+        "description": "A hand-made belt-fed light machine gun with high damage, high rate of fire, and low accuracy during bursts.\n\n",
         "craftData": {
             "yield": 1,
             "workbench": 3,
@@ -1129,7 +1129,7 @@
         "identifier": 1443579727,
         "name": "hunting-bow",
         "shortname": "bow.hunting",
-        "description": "An old school weapon for new school fun. Useful for short to medium range combat. Arrows shot have a chance to break when they hit, so be sure to carry more than one arrow.\nCan use either regular Arrows or High-Velocity Arrows which are able to go farther faster, but do less damage. Best used to hunt animals and other humans.",
+        "description": "An old school weapon for new school fun. Useful for short to medium range combat. Arrows shot have a chance to break when they hit, so be sure to carry more than one arrow.\n\nCan use either regular Arrows or High-Velocity Arrows which are able to go farther faster, but do less damage. Best used to hunt animals and other humans.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -1485,7 +1485,7 @@
         "identifier": 1318558775,
         "name": "mp5a4",
         "shortname": "smg.mp5",
-        "description": "The MP5A4 is a craftable, military-grade 30-round submachine gun. Dealing moderate to low damage with low recoil which makes it extremely effective at close range. However, the MP5A4 has one of the widest spreads in the game, limiting its use to short range. Although, like the LR300, this can be countered with a lasersight, making it viable for medium-range combat.\nThe MP5 is currently the only craftable military-grade weapon.",
+        "description": "The MP5A4 is a craftable, military-grade 30-round submachine gun. Dealing moderate to low damage with low recoil which makes it extremely effective at close range. However, the MP5A4 has one of the widest spreads in the game, limiting its use to short range. Although, like the LR300, this can be countered with a lasersight, making it viable for medium-range combat.\n\nThe MP5 is currently the only craftable military-grade weapon.",
         "craftData": {
             "yield": 1,
             "workbench": 3,
@@ -2091,7 +2091,7 @@
         "identifier": 795371088,
         "name": "pump-shotgun",
         "shortname": "shotgun.pump",
-        "description": "The Pump Shotgun is a mid-tier, close ranged weapon. With a magazine size of 6 and relatively fast firing rate it is ideal for close quarters raiding and combat. Its effective range varies only slightly on the ammo that is being used, but can be increased by using Slugs instead of Buckshot or Hand Made Shells.\n",
+        "description": "The Pump Shotgun is a mid-tier, close ranged weapon. With a magazine size of 6 and relatively fast firing rate it is ideal for close quarters raiding and combat. Its effective range varies only slightly on the ammo that is being used, but can be increased by using Slugs instead of Buckshot or Hand Made Shells.\n\n",
         "craftData": {
             "yield": 1,
             "workbench": 2,
@@ -2211,7 +2211,7 @@
         "identifier": 649912614,
         "name": "revolver",
         "shortname": "pistol.revolver",
-        "description": "The Revolver is cheap, prime for early game use. Although inaccurate, the Revolver's quick rate of fire allows it hold its own against players at most stages. Being a revolver, it has a low capacity of just 8 shots, but it's still an upgrade from its 1- and 2- shot alternatives.\nTaking a Revolver to a fight against opponents with metal armor is quite risky, as such opponents will take many more shots than normal to take out (even more so considering the small capacity). It is best advised to only use the Revolver against opponents with similar armaments or as a sidearm to another weapon.",
+        "description": "The Revolver is cheap, prime for early game use. Although inaccurate, the Revolver's quick rate of fire allows it hold its own against players at most stages. Being a revolver, it has a low capacity of just 8 shots, but it's still an upgrade from its 1- and 2- shot alternatives.\n\nTaking a Revolver to a fight against opponents with metal armor is quite risky, as such opponents will take many more shots than normal to take out (even more so considering the small capacity). It is best advised to only use the Revolver against opponents with similar armaments or as a sidearm to another weapon.",
         "craftData": {
             "yield": 1,
             "workbench": 1,
@@ -2327,7 +2327,7 @@
         "identifier": -1978999529,
         "name": "salvaged-cleaver",
         "shortname": "salvaged.cleaver",
-        "description": "A slow, but powerful melee weapon. This is decent for PVPing but it's main use comes at farming components.\nThe salvaged cleaver is one of the few melee weapons capable of destroying any barrel in a single hit. It is also fairly cheap, this makes it an ideal weapon to use when farming large amounts of barrels, especially if they are spread out.",
+        "description": "A slow, but powerful melee weapon. This is decent for PVPing but it's main use comes at farming components.\n\nThe salvaged cleaver is one of the few melee weapons capable of destroying any barrel in a single hit. It is also fairly cheap, this makes it an ideal weapon to use when farming large amounts of barrels, especially if they are spread out.",
         "craftData": {
             "yield": 1,
             "workbench": 1,
@@ -2431,7 +2431,7 @@
         "identifier": 818877484,
         "name": "semi-automatic-pistol",
         "shortname": "pistol.semiauto",
-        "description": "The semi-automatic pistol (commonly referred to as the 'P250' or 'P2') is a fast firing, medium damage weapon that has a moderate bullet velocity and steep damage drop-off.\nIt is an extremely popular weapon due to it's effectiveness at short-medium distances and it's low cost. It can be easily used as a primary weapon or as a compliment to pretty much any other gun.",
+        "description": "The semi-automatic pistol (commonly referred to as the 'P250' or 'P2') is a fast firing, medium damage weapon that has a moderate bullet velocity and steep damage drop-off.\n\nIt is an extremely popular weapon due to it's effectiveness at short-medium distances and it's low cost. It can be easily used as a primary weapon or as a compliment to pretty much any other gun.",
         "craftData": {
             "yield": 1,
             "workbench": 2,
@@ -2804,7 +2804,7 @@
         "identifier": 1602646136,
         "name": "stone-spear",
         "shortname": "spear.stone",
-        "description": "The Stone Spear is slightly more durable and does more damage than the Wooden Spear.\nThe Stone Spear will cause critical bleeding (high percentage bleeding).\nThe Stone Spear, like the Wooden Spear, is throwable. After being thrown it will become stuck in the place it had hit (even in the target). You can pick it up by pressing the Use button (default 'E').",
+        "description": "The Stone Spear is slightly more durable and does more damage than the Wooden Spear.\n\nThe Stone Spear will cause critical bleeding (high percentage bleeding).\n\nThe Stone Spear, like the Wooden Spear, is throwable. After being thrown it will become stuck in the place it had hit (even in the target). You can pick it up by pressing the Use button (default 'E').",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -2856,7 +2856,7 @@
         "identifier": -1758372725,
         "name": "thompson",
         "shortname": "smg.thompson",
-        "description": "The Thompson provides a mid-range alternative to other submachine guns while still offering close-range firepower. Its high accuracy and damage allow the user to take targets further away than other SMGs.\nWith the recent QoL update, the Thompson can now take underbarrel attachments, such as the Flashlight and Laser, marginally buffing it in comparison to the other SMGs.",
+        "description": "The Thompson provides a mid-range alternative to other submachine guns while still offering close-range firepower. Its high accuracy and damage allow the user to take targets further away than other SMGs.\n\nWith the recent QoL update, the Thompson can now take underbarrel attachments, such as the Flashlight and Laser, marginally buffing it in comparison to the other SMGs.",
         "craftData": {
             "yield": 1,
             "workbench": 2,
@@ -3160,7 +3160,7 @@
         "identifier": 1540934679,
         "name": "wooden-spear",
         "shortname": "spear.wooden",
-        "description": "The Wooden Spear will inflict damage and cause the 'Bleeding' effect on the target.\nThe Wooden Spear is throwable. After being thrown it will become stuck in the place it had hit (in the target). You can pick it up by pressing the 'Use' button (default 'E').\nCan be upgraded to Stone Spear.",
+        "description": "The Wooden Spear will inflict damage and cause the 'Bleeding' effect on the target.\n\nThe Wooden Spear is throwable. After being thrown it will become stuck in the place it had hit (in the target). You can pick it up by pressing the 'Use' button (default 'E').\n\nCan be upgraded to Stone Spear.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -3304,7 +3304,7 @@
         "identifier": 1382263453,
         "name": "barbed-wooden-barricade",
         "shortname": "barricade.woodwire",
-        "description": "The barbed wooden barricade is the second tier of barricades that will damage other players. It can be placed on foundations, and floors.\nThey deal more damage than the wooden barricades but less then the metal barricade. Also you can get the bleeding effect when you touch them. Trying deal damage with melee attacks will damage you as if you ran into them.",
+        "description": "The barbed wooden barricade is the second tier of barricades that will damage other players. It can be placed on foundations, and floors.\n\nThey deal more damage than the wooden barricades but less then the metal barricade. Also you can get the bleeding effect when you touch them. Trying deal damage with melee attacks will damage you as if you ran into them.",
         "craftData": {
             "yield": 1,
             "workbench": 1,
@@ -3368,7 +3368,7 @@
         "identifier": 1525520776,
         "name": "building-plan",
         "shortname": "building.planner",
-        "description": "The Building Plan is used to create weak twig structures at the cost of a nominal amount of wood. These twigs may be upgraded with a Hammer if the player has the resources to do so.\nPlayers may not build in zones in which there is a tool cupboard that they are not authorized on. Additionally, players may not build in certain areas of the map (such as near a radtown). Otherwise, players may build anywhere of their choosing.",
+        "description": "The Building Plan is used to create weak twig structures at the cost of a nominal amount of wood. These twigs may be upgraded with a Hammer if the player has the resources to do so.\n\nPlayers may not build in zones in which there is a tool cupboard that they are not authorized on. Additionally, players may not build in certain areas of the map (such as near a radtown). Otherwise, players may build anywhere of their choosing.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -3488,7 +3488,7 @@
         "identifier": 1159991980,
         "name": "code-lock",
         "shortname": "lock.code",
-        "description": "The code lock is used to lock doors, hatches, and storage crates. Players may set a new four-digit PIN if the lock is unlocked. Once locked, an LED on the keypad will change to red, indicating its status.\nOther players may attempt to gain access to a locked item by typing in a PIN in the keypad. If they are correct, a short beep will emit from the lock, and the player will subsequently have permanent access to the locked item (assuming the code isn't changed). If the player guesses incorrectly, a failure beep will play alongside an electric arc animation on the keypad, and the player will take increasing increments of damage until they wait long enough or die.\nGuest codes may be set on unlocked locks (make sure it's locked after setting the code!), which allows other players access to the locked item without the ability to unlock, remove, or change the code.\nUnlocked Code Locks may be removed or have a new password set by any player.",
+        "description": "The code lock is used to lock doors, hatches, and storage crates. Players may set a new four-digit PIN if the lock is unlocked. Once locked, an LED on the keypad will change to red, indicating its status.\n\nOther players may attempt to gain access to a locked item by typing in a PIN in the keypad. If they are correct, a short beep will emit from the lock, and the player will subsequently have permanent access to the locked item (assuming the code isn't changed). If the player guesses incorrectly, a failure beep will play alongside an electric arc animation on the keypad, and the player will take increasing increments of damage until they wait long enough or die.\n\nGuest codes may be set on unlocked locks (make sure it's locked after setting the code!), which allows other players access to the locked item without the ability to unlock, remove, or change the code.\n\nUnlocked Code Locks may be removed or have a new password set by any player.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -3528,7 +3528,7 @@
         "identifier": -1950721390,
         "name": "concrete-barricade",
         "shortname": "barricade.concrete",
-        "description": "The Concrete Barricade is a deployable building component. It is the most costly and strongest of barricades. They are as about the width of a foundation and slightly higher than a crouching player.\nDue to its low height, barricades are usually placed on higher ground than the opponent. Examples of usage include the top of a hill, roofs and towers. High External Walls take their intended use during combat.",
+        "description": "The Concrete Barricade is a deployable building component. It is the most costly and strongest of barricades. They are as about the width of a foundation and slightly higher than a crouching player.\n\nDue to its low height, barricades are usually placed on higher ground than the opponent. Examples of usage include the top of a hill, roofs and towers. High External Walls take their intended use during combat.",
         "craftData": {
             "yield": 1,
             "workbench": 2,
@@ -3814,7 +3814,7 @@
         "identifier": -335089230,
         "name": "high-external-wooden-gate",
         "shortname": "gates.external.high.wood",
-        "description": "The High External Wooden Gate is a deployable building object used in conjunction with High External Wooden Walls to deny access to an area. The high external gate entrance is about the height and width of a standard 2x2 wall. While its total width is approximately 2.5 foundations wide.\nThe wall model comes with barbed wire but does not slow down or damage any players like its wall counterpart.",
+        "description": "The High External Wooden Gate is a deployable building object used in conjunction with High External Wooden Walls to deny access to an area. The high external gate entrance is about the height and width of a standard 2x2 wall. While its total width is approximately 2.5 foundations wide.\n\nThe wall model comes with barbed wire but does not slow down or damage any players like its wall counterpart.",
         "craftData": {
             "yield": 1,
             "workbench": 1,
@@ -3858,7 +3858,7 @@
         "identifier": 99588025,
         "name": "high-external-wooden-wall",
         "shortname": "wall.external.high",
-        "description": "The High External Wooden Wall is a deployable building object used to wall off an area. The high external is about the height and width of a standard 2x2 wall. The wall also comes with a barbed wire top slowing down and damaging any players that come into contact with it.\nHigh externals can be a cheap and effective way to deny entry, however they decay fairly quickly and need to be maintained.\nDue to their size High External Walls are often used in combat as deployable cover.",
+        "description": "The High External Wooden Wall is a deployable building object used to wall off an area. The high external is about the height and width of a standard 2x2 wall. The wall also comes with a barbed wire top slowing down and damaging any players that come into contact with it.\n\nHigh externals can be a cheap and effective way to deny entry, however they decay fairly quickly and need to be maintained.\n\nDue to their size High External Walls are often used in combat as deployable cover.",
         "craftData": {
             "yield": 1,
             "workbench": 1,
@@ -3920,7 +3920,7 @@
         "identifier": -850982208,
         "name": "key-lock",
         "shortname": "lock.key",
-        "description": "Key locks are used to lock doors, hatches, storage boxes and tool cupboards. Once placed it should be locked by activating it and selecting \"Lock.\" For players other than the one who placed it to unlock it, they must have a key created by by the originating player.\nTo remove a lock, unlock it and pick it up.",
+        "description": "Key locks are used to lock doors, hatches, storage boxes and tool cupboards. Once placed it should be locked by activating it and selecting \"Lock.\" For players other than the one who placed it to unlock it, they must have a key created by by the originating player.\n\nTo remove a lock, unlock it and pick it up.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -4172,7 +4172,7 @@
         "identifier": -148229307,
         "name": "metal-shop-front",
         "shortname": "wall.frame.shopfront.metal",
-        "description": "The metal shop front is quite useful for trading. The vendor can stand safely behind it without worrying about getting shot, as the glass is bulletproof. When the player on the inside and the player on the outside have put in items to make the desired trade, they both have to accept the deal for the items to be transferred.\nAs the Metal Shop Front has similar durability to a sheet metal wall, along with bulletproof glass, it can be used as a safe window to spy on neighbors at higher levels of a base.",
+        "description": "The metal shop front is quite useful for trading. The vendor can stand safely behind it without worrying about getting shot, as the glass is bulletproof. When the player on the inside and the player on the outside have put in items to make the desired trade, they both have to accept the deal for the items to be transferred.\n\nAs the Metal Shop Front has similar durability to a sheet metal wall, along with bulletproof glass, it can be used as a safe window to spy on neighbors at higher levels of a base.",
         "craftData": {
             "yield": 1,
             "workbench": 1,
@@ -4332,7 +4332,7 @@
         "identifier": 1052926200,
         "name": "mining-quarry",
         "shortname": "mining.quarry",
-        "description": "The Mining Quarry is a machine that requires diesel fuel to run in exchange for stones, sulfur or high quality metal.\nThe Mining Quarry is always prioritized to spawn in Procedural Maps, Stone Quarry spawns in Temperate, Sulfur Quarry spawns in Desert and High Quality Metal Quarry spawns in Snow (although the seed might glitch and have them in the wrong biomes).\nThe Mining Quarry cannot be locked to a player. However, you can build High External Walls around the Mining Quarry and use auto turrets to stop players from entering the Mining Quarry and stealing your resources.\nAs of December 2017, mining quarry is no longer craftable or available as a loot drop. It is only obtainable by admins.\nTo place the Mining Quarry, you require Survey Charges. Find a biome that is common in the resources you want to mine. Throw them on a suitable spot (preferably flat ground). If any of the resources (stones, sulfur, high quality metal or crude oil) pops out from the explosion, it means the spot will have the resource for the Mining Quarry to mine (sometimes can be stones with sulfur or high quality metal). Turn 360 degrees to check if the Mining Quarry can be placed. If placed, put diesel fuel inside the blue barrels located at the side of the Mining Quarry and climb to the top and start the engine.",
+        "description": "The Mining Quarry is a machine that requires diesel fuel to run in exchange for stones, sulfur or high quality metal.\n\nThe Mining Quarry is always prioritized to spawn in Procedural Maps, Stone Quarry spawns in Temperate, Sulfur Quarry spawns in Desert and High Quality Metal Quarry spawns in Snow (although the seed might glitch and have them in the wrong biomes).\n\nThe Mining Quarry cannot be locked to a player. However, you can build High External Walls around the Mining Quarry and use auto turrets to stop players from entering the Mining Quarry and stealing your resources.\n\nAs of December 2017, mining quarry is no longer craftable or available as a loot drop. It is only obtainable by admins.\n\nTo place the Mining Quarry, you require Survey Charges. Find a biome that is common in the resources you want to mine. Throw them on a suitable spot (preferably flat ground). If any of the resources (stones, sulfur, high quality metal or crude oil) pops out from the explosion, it means the spot will have the resource for the Mining Quarry to mine (sometimes can be stones with sulfur or high quality metal). Turn 360 degrees to check if the Mining Quarry can be placed. If placed, put diesel fuel inside the blue barrels located at the side of the Mining Quarry and climb to the top and start the engine.",
         "craftData": {},
         "recycleData": {}
     },
@@ -4381,7 +4381,7 @@
         "identifier": -956706906,
         "name": "prison-cell-gate",
         "shortname": "wall.frame.cell.gate",
-        "description": "The prison cell gate is a door that fits into a wall frame.\nIt is unique in that autoturrets and flame turrets can shoot through it.\nIt opens by sliding to the side, leaving the other side accessible.\nIt is worth noting that chests can be accessed through a\ncell gate, so it is not suited for loot rooms.",
+        "description": "The prison cell gate is a door that fits into a wall frame.\n\nIt is unique in that autoturrets and flame turrets can shoot through it.\nIt opens by sliding to the side, leaving the other side accessible.\n\nIt is worth noting that chests can be accessed through a\ncell gate, so it is not suited for loot rooms.",
         "craftData": {
             "yield": 1,
             "workbench": 2,
@@ -4510,7 +4510,7 @@
         "identifier": -559599960,
         "name": "sandbag-barricade",
         "shortname": "barricade.sandbags",
-        "description": "The Sandbag Barricade is a deployable building component. It is the most cost effective of barricades. They are as about the width of a foundation and slightly higher than a crouching player.\nDue to its low height, barricades are usually placed on higher ground than the opponent. Examples of usage include the top of a hill, roofs and towers. High External Walls take their intended use during combat.",
+        "description": "The Sandbag Barricade is a deployable building component. It is the most cost effective of barricades. They are as about the width of a foundation and slightly higher than a crouching player.\n\nDue to its low height, barricades are usually placed on higher ground than the opponent. Examples of usage include the top of a hill, roofs and towers. High External Walls take their intended use during combat.",
         "craftData": {
             "yield": 1,
             "workbench": 1,
@@ -4704,7 +4704,7 @@
         "identifier": -132247350,
         "name": "small-water-catcher",
         "shortname": "water.catcher.small",
-        "description": "The Small Water Catcher is a deployable that collects water passively. It's useful to keep a solo player or small group hydrated without having to leave their base. The catcher is capable of holding 10,000 ml of water.\nCatchers receive collection bonuses during weather events such as rain, snow, and fog.",
+        "description": "The Small Water Catcher is a deployable that collects water passively. It's useful to keep a solo player or small group hydrated without having to leave their base. The catcher is capable of holding 10,000 ml of water.\n\nCatchers receive collection bonuses during weather events such as rain, snow, and fog.",
         "craftData": {
             "yield": 1,
             "workbench": 1,
@@ -4768,7 +4768,7 @@
         "identifier": 15388698,
         "name": "stone-barricade",
         "shortname": "barricade.stone",
-        "description": "The Stone Barricade is a deployable building component. It is the cheapest, weakest and smallest of barricades. They are slightly less than the width of a foundation and slightly higher than a crouching player.\nDue to its low height, barricades are usually placed on higher ground than the opponent. Examples of usage include the top of a hill, roofs and towers. High External Walls take their intended use during combat.",
+        "description": "The Stone Barricade is a deployable building component. It is the cheapest, weakest and smallest of barricades. They are slightly less than the width of a foundation and slightly higher than a crouching player.\n\nDue to its low height, barricades are usually placed on higher ground than the opponent. Examples of usage include the top of a hill, roofs and towers. High External Walls take their intended use during combat.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -4848,7 +4848,7 @@
         "identifier": -97956382,
         "name": "tool-cupboard",
         "shortname": "cupboard.tool",
-        "description": "The Tool Cupboard is essential for any base because it prevents people who are not authorized from upgrading building blocks and placing and picking up deployables within a 25-meter radius (around 9 foundation blocks) from the cupboard. If you press 'E' on the cupboard you can authorize yourself so you are able to build in this area. If you hold 'E' on the cupboard you can clear the list of players authorized including yourself. Any player authorized from the cupboard will not be targeted by any flame turrets or shotgun traps within the cupboard's radius.\nTool Cupboards can be locked with Key and Code Locks in order to disallow players from authorizing themselves without a passcode.",
+        "description": "The Tool Cupboard is essential for any base because it prevents people who are not authorized from upgrading building blocks and placing and picking up deployables within a 25-meter radius (around 9 foundation blocks) from the cupboard. If you press 'E' on the cupboard you can authorize yourself so you are able to build in this area. If you hold 'E' on the cupboard you can clear the list of players authorized including yourself. Any player authorized from the cupboard will not be targeted by any flame turrets or shotgun traps within the cupboard's radius.\n\nTool Cupboards can be locked with Key and Code Locks in order to disallow players from authorizing themselves without a passcode.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -4984,7 +4984,7 @@
         "identifier": -1336109173,
         "name": "wood-double-door",
         "shortname": "door.double.hinged.wood",
-        "description": "A Cheap door to secure your base. Its vulnerability to fire and weak explosive resistance makes the door a temporary solution to securing your base. Due to its flaws you should look at upgrading to a higher tier door such as Sheet Metal.\nThe Wooden Door can take two kinds of locks the basic Key Lock and the Code Lock. To pick up the door, remove any locks and open, hold down the E (USE) key and select 'Pickup'.",
+        "description": "A Cheap door to secure your base. Its vulnerability to fire and weak explosive resistance makes the door a temporary solution to securing your base. Due to its flaws you should look at upgrading to a higher tier door such as Sheet Metal.\n\nThe Wooden Door can take two kinds of locks the basic Key Lock and the Code Lock. To pick up the door, remove any locks and open, hold down the E (USE) key and select 'Pickup'.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -5024,7 +5024,7 @@
         "identifier": -1023374709,
         "name": "wood-shutters",
         "shortname": "shutter.wood.a",
-        "description": "Wooden Shutters are deployable items that can only be placed on windows. They provide the ability to selectively allow or disallow the open state of the window they are placed on which can be used to deny outside players from firing bullets inside the building. In addition, these shutters cannot be locked, allowing either players from inside or outside to open and close them freely so long as they are within reach.\nAs a result, window shutters are usually used on a high floor of a building, which only allows players from the inside to have easy access to them. It should be noted that placing window shutters will grant raiders the ability to know which windows you are actively using to shoot them from if you are closing them after you are done using them.",
+        "description": "Wooden Shutters are deployable items that can only be placed on windows. They provide the ability to selectively allow or disallow the open state of the window they are placed on which can be used to deny outside players from firing bullets inside the building. In addition, these shutters cannot be locked, allowing either players from inside or outside to open and close them freely so long as they are within reach.\n\n\nAs a result, window shutters are usually used on a high floor of a building, which only allows players from the inside to have easy access to them. It should be noted that placing window shutters will grant raiders the ability to know which windows you are actively using to shoot them from if you are closing them after you are done using them.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -5156,7 +5156,7 @@
         "identifier": 1729120840,
         "name": "wooden-door",
         "shortname": "door.hinged.wood",
-        "description": "The Wooden Door is an early game building item that is made from wood and cheap to produce. Being the cheapest of all the doors, it is often used alongside a Lock to quickly secure a base. Its vulnerability to fire and weak explosive resistance makes the door a temporary solution to securing your base. Due to its flaws it should quickly be upgraded to a higher tier door such as Sheet Metal.\nThe Wooden Door can take two kinds of locks the basic Lock and the Code Lock. To pick up the door, remove any locks, hold down the E (USE) key and select 'Pickup'. Note: There is currently a bug where a door sometimes can not be picked up until any type of Lock has been placed and removed.",
+        "description": "The Wooden Door is an early game building item that is made from wood and cheap to produce. Being the cheapest of all the doors, it is often used alongside a Lock to quickly secure a base. Its vulnerability to fire and weak explosive resistance makes the door a temporary solution to securing your base. Due to its flaws it should quickly be upgraded to a higher tier door such as Sheet Metal.\n\nThe Wooden Door can take two kinds of locks the basic Lock and the Code Lock. To pick up the door, remove any locks, hold down the E (USE) key and select 'Pickup'. Note: There is currently a bug where a door sometimes can not be picked up until any type of Lock has been placed and removed.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -5442,7 +5442,7 @@
         "identifier": -1273339005,
         "name": "bed",
         "shortname": "bed",
-        "description": "The bed can be used as a spawn point, just like the sleeping bag, but it has reduced cooldown use; instead of waiting 5 minutes like the Sleeping Bag, you just wait 2 minutes.\nYou should have a bed if your base is upgraded and quite decent, because if you are getting raided and you have to respawn to defend your base, you cannot afford 5 minutes of respawn delay.",
+        "description": "The bed can be used as a spawn point, just like the sleeping bag, but it has reduced cooldown use; instead of waiting 5 minutes like the Sleeping Bag, you just wait 2 minutes.\n\nYou should have a bed if your base is upgraded and quite decent, because if you are getting raided and you have to respawn to defend your base, you cannot afford 5 minutes of respawn delay.",
         "craftData": {
             "yield": 1,
             "workbench": 1,
@@ -5506,7 +5506,7 @@
         "identifier": 613961768,
         "name": "bota-bag",
         "shortname": "botabag",
-        "description": "The Bota Bag is a handmade pouch for the collection and transportation of drinkable water.\nTo fill, equip it and right click while looking at a source of water. You can then drink from it whenever you desire with a left click (make sure the water in the pouch is freshwater and not salt/stagnant water).\nIf the water in the pouch is not desired, or if you are attempting to extinguish a fire (not napalm), you can right click on the pouch again to dump it's contents.",
+        "description": "The Bota Bag is a handmade pouch for the collection and transportation of drinkable water.\n\nTo fill, equip it and right click while looking at a source of water. You can then drink from it whenever you desire with a left click (make sure the water in the pouch is freshwater and not salt/stagnant water).\n\nIf the water in the pouch is not desired, or if you are attempting to extinguish a fire (not napalm), you can right click on the pouch again to dump it's contents.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -5586,7 +5586,7 @@
         "identifier": 1524980732,
         "name": "carvable-pumpkin",
         "shortname": "carvable.pumpkin",
-        "description": "A pumpkin that you can carve.\nRequires wood as a fuel source.",
+        "description": "A pumpkin that you can carve.\n\nRequires wood as a fuel source.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -5782,7 +5782,7 @@
         "identifier": 359723196,
         "name": "chippy-arcade-game",
         "shortname": "arcade.machine.chippy",
-        "description": "A craftable arcade machine that can play games.\nCurrently it can play 1 game that is a contribution of another one of facepunches games known as 'Chippy'\nYou play through a retro style of the game while getting a highscore.\n",
+        "description": "A craftable arcade machine that can play games.\n\nCurrently it can play 1 game that is a contribution of another one of facepunches games known as 'Chippy'\n\nYou play through a retro style of the game while getting a highscore.\n\n",
         "craftData": {
             "yield": 1,
             "workbench": 1,
@@ -6170,7 +6170,7 @@
         "identifier": -1519126340,
         "name": "drop-box",
         "shortname": "dropbox",
-        "description": "The drop box is a device mountable on any wall so long as there is nothing else on that wall such as lamps or another drop box. The front of the drop box is typically placed on the exterior of a building, so that items may be deposited safely to anyone on the other side.\nThe drop box does not require the operation of more than one person, but it will fill up if someone on the rear end does not empty it from time to time, which will disallow you from depositing more items. Be careful to make sure the correct side is facing you when you deploy it, as it may be annoying to remove and place again if you make a mistake.",
+        "description": "The drop box is a device mountable on any wall so long as there is nothing else on that wall such as lamps or another drop box. The front of the drop box is typically placed on the exterior of a building, so that items may be deposited safely to anyone on the other side.\n\nThe drop box does not require the operation of more than one person, but it will fill up if someone on the rear end does not empty it from time to time, which will disallow you from depositing more items. Be careful to make sure the correct side is facing you when you deploy it, as it may be annoying to remove and place again if you make a mistake.",
         "craftData": {
             "yield": 1,
             "workbench": 1,
@@ -6788,7 +6788,7 @@
         "identifier": -1442559428,
         "name": "hobo-barrel",
         "shortname": "hobobarrel",
-        "description": "Hobo Barrel is a large campfire that can be seen in certain monuments. It functions just like campfires and require wood as fuel, you can also cook food on it. It cannot be destroyed or picked up. Standing near a burning hobo barrel gives comfort. Because of the invincibility it has, admins are most likely to spawn hobo barrels to block off places that players are not supposed to reach (out of bounds, places glitching out, etc..)\nIt was once obtainable during the January 2021 Twitch Drop, it is now unobtainable and only admins or players that own the hobo barrels can place it.",
+        "description": "Hobo Barrel is a large campfire that can be seen in certain monuments. It functions just like campfires and require wood as fuel, you can also cook food on it. It cannot be destroyed or picked up. Standing near a burning hobo barrel gives comfort. Because of the invincibility it has, admins are most likely to spawn hobo barrels to block off places that players are not supposed to reach (out of bounds, places glitching out, etc..)\n\nIt was once obtainable during the January 2021 Twitch Drop, it is now unobtainable and only admins or players that own the hobo barrels can place it.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -7156,7 +7156,7 @@
         "identifier": 1658229558,
         "name": "lantern",
         "shortname": "lantern",
-        "description": "A Lantern. Place it where you need light, requires low grade fuel to work.\nCan be placed on the ground deployables. Consumes 1 low grade fuel per 10 minutes.",
+        "description": "A Lantern. Place it where you need light, requires low grade fuel to work.\n\nCan be placed on the ground deployables. Consumes 1 low grade fuel per 10 minutes.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -7324,7 +7324,7 @@
         "identifier": -1992717673,
         "name": "large-furnace",
         "shortname": "furnace.large",
-        "description": "The Large Furnace is used for smelting larger quantities of ore, faster than a regular furnace.\nThe ores that can be smelted using a Large Furnace are: Metal Ore, Sulfur Ore and High Quality Metal Ore.\nWood is used as the fuel for smelting and the Large Furnace holds 2 stacks of wood for up to 2000 total.\nThere are 5 slots for raw materials so a total of 5000 ore can be smelted at once.\nThere are 5 output slots which will fill with your finished product and charcoal.\nThe Large Furnace must be placed on terrain and takes up 4 square foundations space.\nThe Large Furnace cannot be placed on foundations or floors.",
+        "description": "The Large Furnace is used for smelting larger quantities of ore, faster than a regular furnace.\nThe ores that can be smelted using a Large Furnace are: Metal Ore, Sulfur Ore and High Quality Metal Ore.\nWood is used as the fuel for smelting and the Large Furnace holds 2 stacks of wood for up to 2000 total.\nThere are 5 slots for raw materials so a total of 5000 ore can be smelted at once.\nThere are 5 output slots which will fill with your finished product and charcoal.\n\nThe Large Furnace must be placed on terrain and takes up 4 square foundations space.\nThe Large Furnace cannot be placed on foundations or floors.",
         "craftData": {
             "yield": 1,
             "workbench": 2,
@@ -7468,7 +7468,7 @@
         "identifier": 1581210395,
         "name": "large-planter-box",
         "shortname": "planter.large",
-        "description": "Large planters are a planter variant that fits nicely in a 1x1 floor/foundation. It can hold a maximum of 9 separate plants, including corn, hemp, and pumpkin.\nSeeds placed in a planter grow 2x as fast as they would normally on wild ground. Being exposed to light (be it natural sunlight or artificial ceiling lamps) further increases the growth time to 4x the normal speed. Planters also grant you the ability to water the plants, which significantly increases their yield when harvested. A fully matured hemp plant produces 10 cloth normally, but can produce up to 40 cloth when watered properly.\nTo fill your planter with water, simply fill a bucket and dump it straight onto your planter. The maximum amount of water a large planter can hold at once is exactly 9000 ml, and once plants are planted they will soak up an initial amount of water, so it will drain the water fast initially. You may need to refill the planter several times if using many plants at the same time.",
+        "description": "Large planters are a planter variant that fits nicely in a 1x1 floor/foundation. It can hold a maximum of 9 separate plants, including corn, hemp, and pumpkin.\n\nSeeds placed in a planter grow 2x as fast as they would normally on wild ground. Being exposed to light (be it natural sunlight or artificial ceiling lamps) further increases the growth time to 4x the normal speed. Planters also grant you the ability to water the plants, which significantly increases their yield when harvested. A fully matured hemp plant produces 10 cloth normally, but can produce up to 40 cloth when watered properly.\n\nTo fill your planter with water, simply fill a bucket and dump it straight onto your planter. The maximum amount of water a large planter can hold at once is exactly 9000 ml, and once plants are planted they will soak up an initial amount of water, so it will drain the water fast initially. You may need to refill the planter several times if using many plants at the same time.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -7520,7 +7520,7 @@
         "identifier": 833533164,
         "name": "large-wood-box",
         "shortname": "box.wooden.large",
-        "description": "A Large Wood Box is your most popular and conventional way to store your belongings. Each box has enough storage for 48x separate items/stacks of items.\nThey can have both locks and code locks placed on them to keep unwanted players at bay for a brief period. If destroyed, they will destroy a portion of their contents as well.\nBoxes can be placed on shelves to save space.",
+        "description": "A Large Wood Box is your most popular and conventional way to store your belongings. Each box has enough storage for 48x separate items/stacks of items.\n\nThey can have both locks and code locks placed on them to keep unwanted players at bay for a brief period. If destroyed, they will destroy a portion of their contents as well.\n\nBoxes can be placed on shelves to save space.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -7664,7 +7664,7 @@
         "identifier": -586784898,
         "name": "mail-box",
         "shortname": "mailbox",
-        "description": "The mail box can be placed just about anywhere and have a special compartment that can only accept notes and cassettes.\nPlayers without building privileges will only be shown one slot for the note or cassette they are about to leave. Players with building privileges can open it to gain access to any items left inside.\nWhen an item is left then the small red flag on the side of the mail box is raised to indicate at a glance that something is inside. Once the mail box is accessed by a player with building privileges then the red flag will lower, regardless of whether the mail box is emptied or not.",
+        "description": "The mail box can be placed just about anywhere and have a special compartment that can only accept notes and cassettes.\n\nPlayers without building privileges will only be shown one slot for the note or cassette they are about to leave. Players with building privileges can open it to gain access to any items left inside.\n\nWhen an item is left then the small red flag on the side of the mail box is raised to indicate at a glance that something is inside. Once the mail box is accessed by a player with building privileges then the red flag will lower, regardless of whether the mail box is emptied or not.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -7888,7 +7888,7 @@
         "identifier": 696029452,
         "name": "paper-map",
         "shortname": "map",
-        "description": "The Paper Map is one of the first things you should consider crafting when joining a new world. Costing only 5 wood it displays the entire island you have to explore.\nTo open the map, you must place it in your hotbar and then hold the G key on your keyboard. On this map you will see your marker and direction you are facing, the island's topography, biomes, points of interest, and even vending machine locations/names which can help new players substantially.\nThis item is no longer available to craft.",
+        "description": "The Paper Map is one of the first things you should consider crafting when joining a new world. Costing only 5 wood it displays the entire island you have to explore.\n\nTo open the map, you must place it in your hotbar and then hold the G key on your keyboard. On this map you will see your marker and direction you are facing, the island's topography, biomes, points of interest, and even vending machine locations/names which can help new players substantially.\n\nThis item is no longer available to craft.",
         "craftData": {},
         "recycleData": {
             "recycleYieldrad": [
@@ -7910,7 +7910,7 @@
         "identifier": -1651220691,
         "name": "pookie-bear",
         "shortname": "pookie.bear",
-        "description": "The pookie bear is probably your best friend during holiday season. Not only will it not betray you, it will also cheer you whenever you want him too!\nWhen you are near him 100% comfort effect is being applied to you, thus allowing you to slowly heal to 100HP when your hunger is above 100 points, and you are not dying from dehydration or bleeding.",
+        "description": "The pookie bear is probably your best friend during holiday season. Not only will it not betray you, it will also cheer you whenever you want him too!\n\nWhen you are near him 100% comfort effect is being applied to you, thus allowing you to slowly heal to 100HP when your hunger is above 100 points, and you are not dying from dehydration or bleeding.",
         "craftData": {},
         "recycleData": {}
     },
@@ -8063,7 +8063,7 @@
         "identifier": 803222026,
         "name": "repair-bench",
         "shortname": "box.repair.bench",
-        "description": "Repair benches offer a cost-effective way to repair once-broken items back to a usable state. Each repair costs half of the original cost of a new version of the item, and does not use components. Every time an item is repaired, it loses some of it's maximum durability. This is represented with a red portion on the durability bar of the item.\nThe Repair Bench can currently change the skin of any item you have (granted it HAS varying skins) to any skin that you own in your steam inventory.",
+        "description": "Repair benches offer a cost-effective way to repair once-broken items back to a usable state. Each repair costs half of the original cost of a new version of the item, and does not use components. Every time an item is repaired, it loses some of it's maximum durability. This is represented with a red portion on the durability bar of the item.\n\nThe Repair Bench can currently change the skin of any item you have (granted it HAS varying skins) to any skin that you own in your steam inventory.",
         "craftData": {
             "yield": 1,
             "workbench": 1,
@@ -8267,7 +8267,7 @@
         "identifier": -465682601,
         "name": "super-stocking",
         "shortname": "stocking.large",
-        "description": "A special christmas-styled 'container' that generates various goodies after 2 to 3 in-game nights. It must be placed on a player-made structure in order for it to generate items. Quite useful, but you can't depend on it too much due to its RNG nature, thus making it more useful as a small supplement to your resources.\nWhen an item has spawned inside it, the top of the Stocking shall glow bright yellow and have tiny stars flow out on the sides.\nLimited availability. Acquired through upgrading Regular Stockings, which are found in special Christmas presents, spawning only during the Christmas time of the year obviously.",
+        "description": "A special christmas-styled 'container' that generates various goodies after 2 to 3 in-game nights. It must be placed on a player-made structure in order for it to generate items. Quite useful, but you can't depend on it too much due to its RNG nature, thus making it more useful as a small supplement to your resources.\n\nWhen an item has spawned inside it, the top of the Stocking shall glow bright yellow and have tiny stars flow out on the sides.\n\nLimited availability. Acquired through upgrading Regular Stockings, which are found in special Christmas presents, spawning only during the Christmas time of the year obviously.",
         "craftData": {},
         "recycleData": {}
     },
@@ -8316,7 +8316,7 @@
         "identifier": 177226991,
         "name": "scarecrow",
         "shortname": "scarecrow",
-        "description": "The Scarecrow item was added as a unique item store purchase during the 2017 Halloween event alongside other unique skins and items.\nThe Scarecrow has no use in-game but can be placed down on the terrain.",
+        "description": "The Scarecrow item was added as a unique item store purchase during the 2017 Halloween event alongside other unique skins and items.\n\nThe Scarecrow has no use in-game but can be placed down on the terrain.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -8552,7 +8552,7 @@
         "identifier": -1754948969,
         "name": "sleeping-bag",
         "shortname": "sleepingbag",
-        "description": "A sleeping bag is a critical part of playing Rust. When placed, this item offers a respawn point directly on top of it. It can be named, given to a friend, or even be picked up by it's owner by using the interact key on it.\nAfter death, a menu will appear displaying your sleeping bags and beds by name and you can select whichever one you need. After being used, or being placed, there is a 5-minute cooldown period before being able to spawn on it.\nWhen possible, you should upgrade your base's respawn point to a bed, which has a drastically shorter cooldown timer.",
+        "description": "A sleeping bag is a critical part of playing Rust. When placed, this item offers a respawn point directly on top of it. It can be named, given to a friend, or even be picked up by it's owner by using the interact key on it.\n\nAfter death, a menu will appear displaying your sleeping bags and beds by name and you can select whichever one you need. After being used, or being placed, there is a 5-minute cooldown period before being able to spawn on it.\n\nWhen possible, you should upgrade your base's respawn point to a bed, which has a drastically shorter cooldown timer.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -8632,7 +8632,7 @@
         "identifier": -1293296287,
         "name": "small-oil-refinery",
         "shortname": "small.oil.refinery",
-        "description": "The Small Oil Refinery is used to refine low grade fuel from crude oil. Each crude oil produces 3 low grade fuel. The cost of the refinery is quite expensive but can prove to be worth its cost in the long run.\nNote: As of January 18 2018, the Small Oil Refinery produces charcoal.",
+        "description": "The Small Oil Refinery is used to refine low grade fuel from crude oil. Each crude oil produces 3 low grade fuel. The cost of the refinery is quite expensive but can prove to be worth its cost in the long run.\n\nNote: As of January 18 2018, the Small Oil Refinery produces charcoal.",
         "craftData": {
             "yield": 1,
             "workbench": 2,
@@ -8696,7 +8696,7 @@
         "identifier": 1903654061,
         "name": "small-planter-box",
         "shortname": "planter.small",
-        "description": "Small planters are a planter variant that can be placed in less spacious areas. It can hold a maximum of 3 separate plants, including corn, hemp, and pumpkin.\nSeeds placed in a planter grow 2x as fast as they would normally on wild ground. Being exposed to light (be it natural sunlight or artificial ceiling lamps) further increases the growth time to 4x the normal speed. Planters also grant you the ability to water the plants, which significantly increases their yield when harvested. A fully matured hemp plant produces 10 cloth normally, but can produce up to 40 cloth when watered properly.\nTo fill your planter with water, simply fill a bucket/water jug with clean water and dump it straight onto your planter. The maximum amount of water the small planter box can hold at once is 3000ml.",
+        "description": "Small planters are a planter variant that can be placed in less spacious areas. It can hold a maximum of 3 separate plants, including corn, hemp, and pumpkin.\n\nSeeds placed in a planter grow 2x as fast as they would normally on wild ground. Being exposed to light (be it natural sunlight or artificial ceiling lamps) further increases the growth time to 4x the normal speed. Planters also grant you the ability to water the plants, which significantly increases their yield when harvested. A fully matured hemp plant produces 10 cloth normally, but can produce up to 40 cloth when watered properly.\n\nTo fill your planter with water, simply fill a bucket/water jug with clean water and dump it straight onto your planter. The maximum amount of water the small planter box can hold at once is 3000ml.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -8748,7 +8748,7 @@
         "identifier": -369760990,
         "name": "small-stash",
         "shortname": "stash.small",
-        "description": "Small stashes are a very useful tool in the early game, especially when saving enough resources to build a starter base, or hiding your key to your door.\nPlace it where you want it, fill it with up to 6 different items or stacks of items, and interact with it to bury it. After staring at the stash's general location for a couple of seconds, the stash will rise out of the ground and will be able to be accessed again.",
+        "description": "Small stashes are a very useful tool in the early game, especially when saving enough resources to build a starter base, or hiding your key to your door.\n\nPlace it where you want it, fill it with up to 6 different items or stacks of items, and interact with it to bury it. After staring at the stash's general location for a couple of seconds, the stash will rise out of the ground and will be able to be accessed again.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -9449,7 +9449,7 @@
         "identifier": -1478445584,
         "name": "tuna-can-lamp",
         "shortname": "tunalight",
-        "description": "A Makeshift wall light.\nCan be attached to walls only. Runs on Low Grade Fuel and consumes 1 per 10 minutes.",
+        "description": "A Makeshift wall light.\n\nCan be attached to walls only. Runs on Low Grade Fuel and consumes 1 per 10 minutes.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -9673,7 +9673,7 @@
         "identifier": 826309791,
         "name": "two-sided-town-sign-post",
         "shortname": "sign.post.town.roof",
-        "description": "The Two sided Town Sign post is a sign post that you can place anywhere in the terrain.\nIt is very similar to the normal sign holders, except this can be placed anywhere except the walls.\nIt's not something you have, same as the other sign holders, but a skin you can buy on the market.",
+        "description": "The Two sided Town Sign post is a sign post that you can place anywhere in the terrain.\nIt is very similar to the normal sign holders, except this can be placed anywhere except the walls.\n\nIt's not something you have, same as the other sign holders, but a skin you can buy on the market.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -9725,7 +9725,7 @@
         "identifier": 198438816,
         "name": "vending-machine",
         "shortname": "vending.machine",
-        "description": "The Vending Machine provides a safe way to make indirect trade with other players. Anyone who has access to the rear side of the Vending Machine can edit the machine's Buy/Sell orders and modify the contents. Once a Buy/Sell order has been set up, players simply need to walk up to the front of the machine and interact with it. A list of trades will appear on their screen and (provided they have the right materials to complete the transaction) can choose a trade. The process is automatic and requires little to no management (after the orders have been setup).\nSelling high valued items could make you more of a raid target, and although players can't get the machine's contents without access to the rear side of the machine, having a shop inside your base is risky. Vending Machines can also be used to lure in unsuspecting buyers into a trap base.",
+        "description": "The Vending Machine provides a safe way to make indirect trade with other players. Anyone who has access to the rear side of the Vending Machine can edit the machine's Buy/Sell orders and modify the contents. Once a Buy/Sell order has been set up, players simply need to walk up to the front of the machine and interact with it. A list of trades will appear on their screen and (provided they have the right materials to complete the transaction) can choose a trade. The process is automatic and requires little to no management (after the orders have been setup).\n\nSelling high valued items could make you more of a raid target, and although players can't get the machine's contents without access to the rear side of the machine, having a shop inside your base is risky. Vending Machines can also be used to lure in unsuspecting buyers into a trap base.",
         "craftData": {
             "yield": 1,
             "workbench": 1,
@@ -10029,7 +10029,7 @@
         "identifier": -180129657,
         "name": "wood-storage-box",
         "shortname": "box.wooden",
-        "description": "A Wood Storage Box is a small box with the ability to store a maximum of 18 separate items or stacks of items inside of it. These can often times be used as a more space efficient way to store your items than the Large Wood Box, but can prove difficult to keep sorted as not all of your items are in one container.\nThey can have both locks and codelocks placed on them to keep unwanted newmans at bay for a brief period. If destroyed, they will destroy a portion of their contents as well. Boxes can be placed on shelves to save space.",
+        "description": "A Wood Storage Box is a small box with the ability to store a maximum of 18 separate items or stacks of items inside of it. These can often times be used as a more space efficient way to store your items than the Large Wood Box, but can prove difficult to keep sorted as not all of your items are in one container.\n\nThey can have both locks and codelocks placed on them to keep unwanted newmans at bay for a brief period. If destroyed, they will destroy a portion of their contents as well. Boxes can be placed on shelves to save space.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -10368,7 +10368,7 @@
         "identifier": 634478325,
         "name": "cctv-camera",
         "shortname": "cctv.camera",
-        "description": "A CCTV Camera can be placed down to capture video footage and sound when powered and paired with a Computer Station.\nA CCTV Camera has its own unique ID used to pair with a Computer Station. Once the CCTV Camera is powered with 5 rWm, the ID will then be available for anyone to pair with their own Computer Station. Always keep the IDs randomized as people can find out your camera IDs to monitor your base.\n",
+        "description": "A CCTV Camera can be placed down to capture video footage and sound when powered and paired with a Computer Station.\n\nA CCTV Camera has its own unique ID used to pair with a Computer Station. Once the CCTV Camera is powered with 5 rWm, the ID will then be available for anyone to pair with their own Computer Station. Always keep the IDs randomized as people can find out your camera IDs to monitor your base.\n",
         "craftData": {},
         "recycleData": {
             "recycleYieldrad": [],
@@ -10567,7 +10567,7 @@
         "identifier": -265876753,
         "name": "gun-powder",
         "shortname": "gunpowder",
-        "description": "Gunpowder is a resource created by combining smelted sulfur and charcoal. It is used for multiple things from rockets, grenades, ammunition, and even land mines.\nAs this is used almost exclusively for PvP purposes, this is a much sought after resource and should be protected and seized at every opportunity.",
+        "description": "Gunpowder is a resource created by combining smelted sulfur and charcoal. It is used for multiple things from rockets, grenades, ammunition, and even land mines.\n\nAs this is used almost exclusively for PvP purposes, this is a much sought after resource and should be protected and seized at every opportunity.",
         "craftData": {
             "yield": 10,
             "workbench": 1,
@@ -10775,7 +10775,7 @@
         "identifier": -932201673,
         "name": "scrap",
         "shortname": "scrap",
-        "description": "Resource mainly used for researching items into blueprints at workbenches or going down the tech tree, which allows for targeting certain items you want to acquire.\nIt's also a type of currency, used for trading various items at the Scientist Outpost and the Bandit Camp. As such, Scrap is very valuable and essential at any point in the game.",
+        "description": "Resource mainly used for researching items into blueprints at workbenches or going down the tech tree, which allows for targeting certain items you want to acquire.\n\nIt's also a type of currency, used for trading various items at the Scientist Outpost and the Bandit Camp. As such, Scrap is very valuable and essential at any point in the game.",
         "craftData": {},
         "recycleData": {}
     },
@@ -10849,7 +10849,7 @@
         "identifier": -1779180711,
         "name": "water",
         "shortname": "water",
-        "description": "Water can be used to regain thirst, heal yourself and remove radiation poisoning.\nYou can either get it from water collectors, drink it from rivers, streams and lakes or from water bottles found in the ration loot boxes.",
+        "description": "Water can be used to regain thirst, heal yourself and remove radiation poisoning.\n\nYou can either get it from water collectors, drink it from rivers, streams and lakes or from water bottles found in the ration loot boxes.",
         "craftData": {},
         "recycleData": {}
     },
@@ -11152,7 +11152,7 @@
         "identifier": 1746956556,
         "name": "bone-armor",
         "shortname": "bone.armor.suit",
-        "description": "Respectable projectile and melee resistance has promoted bone armor to a heightened status within the primitive era.\nIts slot efficiency is often exploited during helicopter patrols.",
+        "description": "Respectable projectile and melee resistance has promoted bone armor to a heightened status within the primitive era.\n\nIts slot efficiency is often exploited during helicopter patrols.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -11296,7 +11296,7 @@
         "identifier": -1549739227,
         "name": "boots",
         "shortname": "shoes.boots",
-        "description": "The limited available clothing slots often force a player to choose between boots, gloves, and bandanas, with the superior stats of the boots usually giving it priority.\nIt should be noted that the boots provide protection for the entirety of the legs, rather than the feet alone.",
+        "description": "The limited available clothing slots often force a player to choose between boots, gloves, and bandanas, with the superior stats of the boots usually giving it priority.\n\nIt should be noted that the boots provide protection for the entirety of the legs, rather than the feet alone.",
         "craftData": {
             "yield": 1,
             "workbench": 2,
@@ -11810,7 +11810,7 @@
         "identifier": 968019378,
         "name": "clatter-helmet",
         "shortname": "clatter.helmet",
-        "description": "A special item for those who own Clatter.\nTo have it, it is necessary to buy from other games and play for 30 minutes.",
+        "description": "A special item for those who own Clatter.\n\nTo have it, it is necessary to buy from other games and play for 30 minutes.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -12303,7 +12303,7 @@
         "identifier": 1266491000,
         "name": "hazmat-suit",
         "shortname": "hazmatsuit",
-        "description": "The Hazmat Suit allows the wearer to travel through rad-towns and other irradiated areas safely. While it doesn't provide full protection in certain places at monuments, such as the main building at Launch Site, or the cooling tower at the Nuclear Power Plant, it offers protection from radiation poisoning at almost every other monument on the map, making it useful for exploring.\nThe suit itself is a bright yellow color, meaning it is easy to spot from a distance.",
+        "description": "The Hazmat Suit allows the wearer to travel through rad-towns and other irradiated areas safely. While it doesn't provide full protection in certain places at monuments, such as the main building at Launch Site, or the cooling tower at the Nuclear Power Plant, it offers protection from radiation poisoning at almost every other monument on the map, making it useful for exploring.\n\nThe suit itself is a bright yellow color, meaning it is easy to spot from a distance.",
         "craftData": {
             "yield": 1,
             "workbench": 2,
@@ -12407,7 +12407,7 @@
         "identifier": -297099594,
         "name": "heavy-frankenstein-head",
         "shortname": "frankensteins.monster.03.head",
-        "description": "Slightly slower, slightly stronger.\nCombined at a Frankenstein Table to create your very own monster.",
+        "description": "Slightly slower, slightly stronger.\n\nCombined at a Frankenstein Table to create your very own monster.",
         "craftData": {},
         "recycleData": {
             "recycleYieldrad": [
@@ -12445,7 +12445,7 @@
         "identifier": -2024549027,
         "name": "heavy-frankenstein-legs",
         "shortname": "frankensteins.monster.03.legs",
-        "description": "Slightly slower, slightly stronger.\nCombined at a Frankenstein Table to create your very own monster.",
+        "description": "Slightly slower, slightly stronger.\n\nCombined at a Frankenstein Table to create your very own monster.",
         "craftData": {},
         "recycleData": {
             "recycleYieldrad": [
@@ -12483,7 +12483,7 @@
         "identifier": 1614528785,
         "name": "heavy-frankenstein-torso",
         "shortname": "frankensteins.monster.03.torso",
-        "description": "Slightly slower, slightly stronger.\nCombined at a Frankenstein Table to create your very own monster.",
+        "description": "Slightly slower, slightly stronger.\n\nCombined at a Frankenstein Table to create your very own monster.",
         "craftData": {},
         "recycleData": {
             "recycleYieldrad": [
@@ -12521,7 +12521,7 @@
         "identifier": 1181207482,
         "name": "heavy-plate-helmet",
         "shortname": "heavy.plate.helmet",
-        "description": "A high-tier protective helmet which protects the entire head. It costs High Quality Metal and Sheet Metal making it fairly easy to acquire near monuments and dungeons.\nThe Heavy Plate Helmet will cause a user's view to be diminished to a small rectangle.\nDue to heavy plate armour suffering from increased fire damage, it can be countered by a flamethrower or incendiary ammo.",
+        "description": "A high-tier protective helmet which protects the entire head. It costs High Quality Metal and Sheet Metal making it fairly easy to acquire near monuments and dungeons.\n\nThe Heavy Plate Helmet will cause a user's view to be diminished to a small rectangle.\n\nDue to heavy plate armour suffering from increased fire damage, it can be countered by a flamethrower or incendiary ammo.",
         "craftData": {
             "yield": 1,
             "workbench": 2,
@@ -12573,7 +12573,7 @@
         "identifier": -1102429027,
         "name": "heavy-plate-jacket",
         "shortname": "heavy.plate.jacket",
-        "description": "A high-tier protective item that will protect the user from a large portion of the damage dealt by most sources at the price of a movement penalty. It will also amplify the effects of cold and heat damage on the player, making it a situational item.\nThis item also disables the ability to aim down sights on weapons.",
+        "description": "A high-tier protective item that will protect the user from a large portion of the damage dealt by most sources at the price of a movement penalty. It will also amplify the effects of cold and heat damage on the player, making it a situational item.\n\nThis item also disables the ability to aim down sights on weapons.",
         "craftData": {
             "yield": 1,
             "workbench": 2,
@@ -13261,7 +13261,7 @@
         "identifier": 1366282552,
         "name": "leather-gloves",
         "shortname": "burlap.gloves",
-        "description": "The minuscule damage reduction of the leather gloves is off-set by the tendency for the player to be shot in the chest rather than the legs, as well as the reduced cost in comparison to the boots.\nAs was described, the protection of the gloves extend to the rest of the chest as well.",
+        "description": "The minuscule damage reduction of the leather gloves is off-set by the tendency for the player to be shot in the chest rather than the legs, as well as the reduced cost in comparison to the boots.\n\nAs was described, the protection of the gloves extend to the rest of the chest as well.",
         "craftData": {
             "yield": 1,
             "workbench": 3,
@@ -13313,7 +13313,7 @@
         "identifier": -134959124,
         "name": "light-frankenstein-head",
         "shortname": "frankensteins.monster.01.head",
-        "description": "Slightly faster, slightly weaker.\nCombined at a Frankenstein Table to create your very own monster.",
+        "description": "Slightly faster, slightly weaker.\n\nCombined at a Frankenstein Table to create your very own monster.",
         "craftData": {},
         "recycleData": {
             "recycleYieldrad": [
@@ -13343,7 +13343,7 @@
         "identifier": 106959911,
         "name": "light-frankenstein-legs",
         "shortname": "frankensteins.monster.01.legs",
-        "description": "Slightly faster, slightly weaker.\nCombined at a Frankenstein Table to create your very own monster.",
+        "description": "Slightly faster, slightly weaker.\n\nCombined at a Frankenstein Table to create your very own monster.",
         "craftData": {},
         "recycleData": {
             "recycleYieldrad": [
@@ -13373,7 +13373,7 @@
         "identifier": -1624770297,
         "name": "light-frankenstein-torso",
         "shortname": "frankensteins.monster.01.torso",
-        "description": "Slightly faster, slightly weaker.\nCombined at a Frankenstein Table to create your very own monster.",
+        "description": "Slightly faster, slightly weaker.\n\nCombined at a Frankenstein Table to create your very own monster.",
         "craftData": {},
         "recycleData": {
             "recycleYieldrad": [
@@ -13473,7 +13473,7 @@
         "identifier": -1732475823,
         "name": "medium-frankenstein-head",
         "shortname": "frankensteins.monster.02.head",
-        "description": "A balanced head.\nCombined at a Frankenstein Table to create your very own monster.",
+        "description": "A balanced head.\n\nCombined at a Frankenstein Table to create your very own monster.",
         "craftData": {},
         "recycleData": {
             "recycleYieldrad": [
@@ -13503,7 +13503,7 @@
         "identifier": 835042040,
         "name": "medium-frankenstein-legs",
         "shortname": "frankensteins.monster.02.legs",
-        "description": "A balanced set of legs.\nCombined at a Frankenstein Table to create your very own monster.",
+        "description": "A balanced set of legs.\n\nCombined at a Frankenstein Table to create your very own monster.",
         "craftData": {},
         "recycleData": {
             "recycleYieldrad": [
@@ -13533,7 +13533,7 @@
         "identifier": 1491753484,
         "name": "medium-frankenstein-torso",
         "shortname": "frankensteins.monster.02.torso",
-        "description": "A balanced torso.\nCombined at a Frankenstein Table to create your very own monster.",
+        "description": "A balanced torso.\n\nCombined at a Frankenstein Table to create your very own monster.",
         "craftData": {},
         "recycleData": {
             "recycleYieldrad": [
@@ -14169,6 +14169,46 @@
         "description": "A very stupid looking party hat.",
         "craftData": {},
         "recycleData": {}
+    },
+    "prisonerhood": {
+        "group": "clothing",
+        "identifier": -892718768,
+        "name": "prisoner-hood",
+        "shortname": "prisonerhood",
+        "description": "A hood for prisoners, restricts vision.",
+        "craftData": {
+            "yield": 1,
+            "workbench": 1,
+            "craftTime": {
+                "craftTime": {
+                    "short": 3,
+                    "long": 15
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 20,
+                "craftCost": [
+                    {
+                        "name": "cloth",
+                        "amount": 20
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYieldrad": [
+                {
+                    "name": "cloth",
+                    "amount": 12
+                }
+            ],
+            "recycleYieldsafe": [
+                {
+                    "name": "cloth",
+                    "amount": 8
+                }
+            ]
+        }
     },
     "twitchsunglasses": {
         "group": "clothing",
@@ -15089,7 +15129,7 @@
         "identifier": -1785231475,
         "name": "surgeon-scrubs",
         "shortname": "halloween.surgeonsuit",
-        "description": "This surgeon suit is craftable if you own the item on Steam, and, in terms of ballistic protection, makes a great alternative for the Hazmat Suit due to not requiring a researched blueprint, and having a decent, mid-tier overall body protection in one piece, rather than separate pieces of clothing to cover all areas, for a relatively cheap crafting cost.\nIt has no real specialisation, other than a decent radiation protection (which still doesn't compete with the hazmat suit) that allows you to go in most places. Therefore, it's really just the fact it's a cool-looking surgeon suit, and offers fair overall protection.\nFor combat purposes, the Surgeon Scrubs positions itself in the mid-tier segment, directly next to armaments such as the Bone Armor kit, Hazmat Suit, and commonly put together clothes sets that lack any specialized pieces of armor.",
+        "description": "This surgeon suit is craftable if you own the item on Steam, and, in terms of ballistic protection, makes a great alternative for the Hazmat Suit due to not requiring a researched blueprint, and having a decent, mid-tier overall body protection in one piece, rather than separate pieces of clothing to cover all areas, for a relatively cheap crafting cost.\n\nIt has no real specialisation, other than a decent radiation protection (which still doesn't compete with the hazmat suit) that allows you to go in most places. Therefore, it's really just the fact it's a cool-looking surgeon suit, and offers fair overall protection.\n\nFor combat purposes, the Surgeon Scrubs positions itself in the mid-tier segment, directly next to armaments such as the Bone Armor kit, Hazmat Suit, and commonly put together clothes sets that lack any specialized pieces of armor.",
         "craftData": {
             "yield": 1,
             "workbench": 1,
@@ -15303,7 +15343,7 @@
         "identifier": -1101924344,
         "name": "wetsuit",
         "shortname": "diving.wetsuit",
-        "description": "The Wetsuit is used for staying dry while swimming in water.\nIf a player is wearing a wetsuit, they will never get the 'WET' effect.\nIt is especially helpful for swimming in colder regions as it takes much longer to dry in the cold.\nIt also has a huge 15% radiation resistance which can be useful for new players in radtowns.",
+        "description": "The Wetsuit is used for staying dry while swimming in water.\n\nIf a player is wearing a wetsuit, they will never get the 'WET' effect.\nIt is especially helpful for swimming in colder regions as it takes much longer to dry in the cold.\nIt also has a huge 15% radiation resistance which can be useful for new players in radtowns.",
         "craftData": {},
         "recycleData": {
             "recycleYieldrad": [
@@ -15325,7 +15365,7 @@
         "identifier": -1478212975,
         "name": "wolf-headdress",
         "shortname": "hat.wolf",
-        "description": "Scavenging the wolf skull necessary to produce this headdress won't be easy, but it pays for itself and then some with the resistances it grants; phenomenal melee and explosive protection, excellent projectile defense, and a pleasant resistance to cold makes this thing a primitive powerhouse.\nIf that weren't enough, its ability to combine with the bandana can push it even further beyond its already unbelievable state. Treasure these.",
+        "description": "Scavenging the wolf skull necessary to produce this headdress won't be easy, but it pays for itself and then some with the resistances it grants; phenomenal melee and explosive protection, excellent projectile defense, and a pleasant resistance to cold makes this thing a primitive powerhouse.\n\nIf that weren't enough, its ability to combine with the bandana can push it even further beyond its already unbelievable state. Treasure these.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -15655,7 +15695,7 @@
         "identifier": 1104520648,
         "name": "chainsaw",
         "shortname": "chainsaw",
-        "description": "The Chainsaw is a somewhat rare harvesting tool which is an upgrade to the Hatchet and Salvaged Axe. It requires fuel to use, holding up to 50 at once, and must be revved up before it can be used. The chainsaw quickly cuts through trees, even if it doesn't hit the weak spot, and is very useful for gathering large amounts of wood quickly.\nThe chainsaw can also be used as a melee weapon or for cutting through constructions, but beware that it loses durability very fast when doing these tasks.",
+        "description": "The Chainsaw is a somewhat rare harvesting tool which is an upgrade to the Hatchet and Salvaged Axe. It requires fuel to use, holding up to 50 at once, and must be revved up before it can be used. The chainsaw quickly cuts through trees, even if it doesn't hit the weak spot, and is very useful for gathering large amounts of wood quickly.\n\nThe chainsaw can also be used as a melee weapon or for cutting through constructions, but beware that it loses durability very fast when doing these tasks.",
         "craftData": {
             "yield": 1,
             "workbench": 2,
@@ -15719,7 +15759,7 @@
         "identifier": -1707425764,
         "name": "fishing-tackle",
         "shortname": "fishing.tackle",
-        "description": "The Fishing Tackle is a quest item, it is found inside the fisherman's toolbox near the coast of the Fishing Village, it appears when you start the quest.\nIt currently has no use in game.",
+        "description": "The Fishing Tackle is a quest item, it is found inside the fisherman's toolbox near the coast of the Fishing Village, it appears when you start the quest.\n\nIt currently has no use in game.",
         "craftData": {},
         "recycleData": {}
     },
@@ -15728,7 +15768,7 @@
         "identifier": 304481038,
         "name": "flare",
         "shortname": "flare",
-        "description": "Flare can be thrown on the ground to emit red light with large radius. Can be useful in darker areas. However, this can bring enemies to you as the red light is visible from far away.\nCan be recycled for gunpowder.",
+        "description": "Flare can be thrown on the ground to emit red light with large radius. Can be useful in darker areas. However, this can bring enemies to you as the red light is visible from far away.\n\nCan be recycled for gunpowder.",
         "craftData": {
             "yield": 1,
             "workbench": 1,
@@ -15820,7 +15860,7 @@
         "identifier": 1803831286,
         "name": "garry's-mod-tool-gun",
         "shortname": "toolgun",
-        "description": "Garry's Mod Tool Gun is a special tool that has the same functions as the Hammer, with slightly increased range and repairs faster.\nIt can be obtained by buying Garry's Mod on your current Steam account and play for at least 30 minutes.",
+        "description": "Garry's Mod Tool Gun is a special tool that has the same functions as the Hammer, with slightly increased range and repairs faster.\n\nIt can be obtained by buying Garry's Mod on your current Steam account and play for at least 30 minutes.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -15872,7 +15912,7 @@
         "identifier": 999690781,
         "name": "geiger-counter",
         "shortname": "geiger.counter",
-        "description": "The Geiger Counter is a prop used by the Scientist NPC for scanning radiation.\nThis item cannot be obtained by player and can only be spawned by the admin.\nThe first person model shows the player holding a medical syringe and it has no function whatsoever.\n",
+        "description": "The Geiger Counter is a prop used by the Scientist NPC for scanning radiation.\n\nThis item cannot be obtained by player and can only be spawned by the admin.\nThe first person model shows the player holding a medical syringe and it has no function whatsoever.\n\n",
         "craftData": {},
         "recycleData": {
             "recycleYieldrad": [
@@ -15929,12 +15969,52 @@
             ]
         }
     },
+    "handcuffs": {
+        "group": "tools",
+        "identifier": -839576748,
+        "name": "handcuffs",
+        "shortname": "handcuffs",
+        "description": "Handcuffs",
+        "craftData": {
+            "yield": 1,
+            "workbench": 2,
+            "craftTime": {
+                "craftTime": {
+                    "short": 7,
+                    "long": 15
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 70,
+                "craftCost": [
+                    {
+                        "name": "metal.fragments",
+                        "amount": 70
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYieldrad": [
+                {
+                    "name": "metal.fragments",
+                    "amount": 42
+                }
+            ],
+            "recycleYieldsafe": [
+                {
+                    "name": "metal.fragments",
+                    "amount": 28
+                }
+            ]
+        }
+    },
     "fishingrod.handmade": {
         "group": "tools",
         "identifier": 1569882109,
         "name": "handmade-fishing-rod",
         "shortname": "fishingrod.handmade",
-        "description": "Handmade Fishing Rod is a tool used to catch fishes as well as junks that might come in handy.\nTo use the Handmade Fishing Rod, hold RMB and cast out with LMB. Once you've got a bait ready to go simply aim at the water while holding RMB and cast out with LMB. Once you've got a bite, you'll need to reel in the fish. You can use A/D to pull left and right and S to reel the fish in.",
+        "description": "Handmade Fishing Rod is a tool used to catch fishes as well as junks that might come in handy.\n\nTo use the Handmade Fishing Rod, hold RMB and cast out with LMB. Once you've got a bait ready to go simply aim at the water while holding RMB and cast out with LMB. Once you've got a bite, you'll need to reel in the fish. You can use A/D to pull left and right and S to reel the fish in.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -16284,7 +16364,7 @@
         "identifier": 963906841,
         "name": "rock",
         "shortname": "rock",
-        "description": "The Rock is practically the mascot of Rust. As both a weapon and tool, every player starting with one must use it to initially collect resources and protect themselves from the environment before upgrading to superior utensils. The Rock, if broken, is very cheap to craft, costing only a few stones.\nIt is unarguably the least efficient tool and weapon in the game. With its low gather rates and slow speed, most players will desire to immediately upgrade to at least stone tools once they have acquired enough resources.",
+        "description": "The Rock is practically the mascot of Rust. As both a weapon and tool, every player starting with one must use it to initially collect resources and protect themselves from the environment before upgrading to superior utensils. The Rock, if broken, is very cheap to craft, costing only a few stones.\n\nIt is unarguably the least efficient tool and weapon in the game. With its low gather rates and slow speed, most players will desire to immediately upgrade to at least stone tools once they have acquired enough resources.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -16480,7 +16560,7 @@
         "identifier": -1878475007,
         "name": "satchel-charge",
         "shortname": "explosive.satchel",
-        "description": "The Satchel Charge is a midgame raiding tool that can be used to destroy player-made buildings for the purpose of entering and looting another player's base.\nThe Satchel charge becomes armed when placed, has a random time until detonation, and has a small chance to malfunction, requiring the user to pick up and rearm the Charge. Note that sometimes the charge will re-ignite when the dud is picked up, going off with a very short fuse!",
+        "description": "The Satchel Charge is a midgame raiding tool that can be used to destroy player-made buildings for the purpose of entering and looting another player's base.\n\nThe Satchel charge becomes armed when placed, has a random time until detonation, and has a small chance to malfunction, requiring the user to pick up and rearm the Charge. Note that sometimes the charge will re-ignite when the dud is picked up, going off with a very short fuse!",
         "craftData": {
             "yield": 1,
             "workbench": 1,
@@ -16566,7 +16646,7 @@
         "identifier": 1263920163,
         "name": "smoke-grenade",
         "shortname": "grenade.smoke",
-        "description": "The Smoke Grenade is a non-lethal canister-type grenade with many useful purposes. It creates a large cloud of thick grayish smoke that cannot be seen through. It can be used in various environments to cover you from enemy vision, forcing them to either shoot or reposition.\nBest used in urban or wooded areas, where the flat surface will let it create the smoke screen.\nIt can be acquired from Outpost vending machines and crafted.",
+        "description": "The Smoke Grenade is a non-lethal canister-type grenade with many useful purposes. It creates a large cloud of thick grayish smoke that cannot be seen through. It can be used in various environments to cover you from enemy vision, forcing them to either shoot or reposition.\nBest used in urban or wooded areas, where the flat surface will let it create the smoke screen.\n\nIt can be acquired from Outpost vending machines and crafted.",
         "craftData": {
             "yield": 1,
             "workbench": 2,
@@ -16762,7 +16842,7 @@
         "identifier": 1397052267,
         "name": "supply-signal",
         "shortname": "supply.signal",
-        "description": "A purple smoke grenade that calls in an airdrop somewhere in a small radius around it. Can be found as a rare drop in Military and Elite Crates.\nWhen you use this item, it will release a plume of purple smoke that can let players who are far away know that there may be individuals who just called in an airdrop. A Cargo Plane will spawn somewhere in the sky and will release the payload to your location shortly.\nCalling for an airdrop to your base, especially one with high walls or a nearby monument (water pump stations, oilrig) is a fair choice. It may deter other players from looting the payload or, if you're feeling 'spicy', may bring the pvp to your front door.\n",
+        "description": "A purple smoke grenade that calls in an airdrop somewhere in a small radius around it. Can be found as a rare drop in Military and Elite Crates.\n\nWhen you use this item, it will release a plume of purple smoke that can let players who are far away know that there may be individuals who just called in an airdrop. A Cargo Plane will spawn somewhere in the sky and will release the payload to your location shortly.\n\nCalling for an airdrop to your base, especially one with high walls or a nearby monument (water pump stations, oilrig) is a fair choice. It may deter other players from looting the payload or, if you're feeling 'spicy', may bring the pvp to your front door.\n",
         "craftData": {},
         "recycleData": {}
     },
@@ -16847,7 +16927,7 @@
         "identifier": 1248356124,
         "name": "timed-explosive-charge",
         "shortname": "explosive.timed",
-        "description": "The Timed Explosive Charge, mostly knowns as C4, is an item often used when raiding other players. Once thrown, the charge will stick to walls, floors, doors and deployable items.\nOnce attached to a target, the timed explosives will automatically detonate in a dependable and quick manner (in comparison to it's unreliable counterpart, the Satchel Charge). However, it does damage only to the structure it's attached to. If attached to a door, for example, it would destroy it without damaging the door frame or nearby walls.\nThis item deals the most damage out of all explosive devices, and is the most ideal/useful for evicting your neighbors. It's important to protect this item from your enemies, as it can prove fatal once it's in the wrong hands.",
+        "description": "The Timed Explosive Charge, mostly knowns as C4, is an item often used when raiding other players. Once thrown, the charge will stick to walls, floors, doors and deployable items.\n\nOnce attached to a target, the timed explosives will automatically detonate in a dependable and quick manner (in comparison to it's unreliable counterpart, the Satchel Charge). However, it does damage only to the structure it's attached to. If attached to a door, for example, it would destroy it without damaging the door frame or nearby walls.\n\nThis item deals the most damage out of all explosive devices, and is the most ideal/useful for evicting your neighbors. It's important to protect this item from your enemies, as it can prove fatal once it's in the wrong hands.",
         "craftData": {
             "yield": 1,
             "workbench": 3,
@@ -16911,7 +16991,7 @@
         "identifier": 795236088,
         "name": "torch",
         "shortname": "torch",
-        "description": "The torch is one of two items that the player spawns into the world with, and though it finds occasional use in navigating through the dim of night and absolute darkness of the underground, it's abilities beyond that are questionable.\nIt is considered unwise to employ the torch in darkness unless absolutely necessary, as you mark yourself a target to any players within eyeshot.",
+        "description": "The torch is one of two items that the player spawns into the world with, and though it finds occasional use in navigating through the dim of night and absolute darkness of the underground, it's abilities beyond that are questionable.\n\nIt is considered unwise to employ the torch in darkness unless absolutely necessary, as you mark yourself a target to any players within eyeshot.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -17015,7 +17095,7 @@
         "identifier": -1432674913,
         "name": "anti-radiation-pills",
         "shortname": "antiradpills",
-        "description": "Anti-Rad pills are used to remove radiation. Use them after you get radiation sickness not before you go into a radiation zone. Anti-Radiation pills can also be traded at the Bandit Camp for scrap.\nBeware that radiation pills cause significant dehydration.",
+        "description": "Anti-Rad pills are used to remove radiation. Use them after you get radiation sickness not before you go into a radiation zone. Anti-Radiation pills can also be traded at the Bandit Camp for scrap.\n\nBeware that radiation pills cause significant dehydration.",
         "craftData": {},
         "recycleData": {}
     },
@@ -17024,7 +17104,7 @@
         "identifier": -2072273936,
         "name": "bandage",
         "shortname": "bandage",
-        "description": "Bandages are crafted medical supplies that stop bleeding and heal a small amount of health.\nIt is common to chain-use bandages when the player has no access to other medical supplies, as hemp can be picked while running around the map and used for an easy health boost.",
+        "description": "Bandages are crafted medical supplies that stop bleeding and heal a small amount of health.\n\nIt is common to chain-use bandages when the player has no access to other medical supplies, as hemp can be picked while running around the map and used for an easy health boost.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -17073,7 +17153,7 @@
         "identifier": 254522515,
         "name": "large-medkit",
         "shortname": "largemedkit",
-        "description": "The Large Medkit is medical supplies that stops bleeding when used, provides 10 instant health and heals to max health overtime. You can use the Large Medkit by pressing it on your Inventory and click the Use button or move it to your toolbar and press the slot key to use. It does not have an Use animation so bleeding can be stopped immediately.\nAs of July 2021, the Large Medkit can revive you with a chance of 100% while in Wounded state, it must be placed in your toolbar to be consumed. Your revival chance also depends on your Hunger and Hydration status, if both are full, they will give a total of 40% chance to revive you.",
+        "description": "The Large Medkit is medical supplies that stops bleeding when used, provides 10 instant health and heals to max health overtime. You can use the Large Medkit by pressing it on your Inventory and click the Use button or move it to your toolbar and press the slot key to use. It does not have an Use animation so bleeding can be stopped immediately.\n\nAs of July 2021, the Large Medkit can revive you with a chance of 100% while in Wounded state, it must be placed in your toolbar to be consumed. Your revival chance also depends on your Hunger and Hydration status, if both are full, they will give a total of 40% chance to revive you.",
         "craftData": {
             "yield": 1,
             "workbench": 2,
@@ -17125,7 +17205,7 @@
         "identifier": 1079279582,
         "name": "medical-syringe",
         "shortname": "syringe.medical",
-        "description": "The Medical Syringe is the best medical supply used for combat situations. It instant heals you a portion of your health and slowly heals the rest. It also reduces your radiation poisoning which is very useful while navigating the red puzzle building with high levels of radiation.\nAs of July 2021, the Medical Syringe can be used to revive people in Wounded state. It revives faster than holding E on the wounded player, however this gives you a disadvantage to look around and spot enemies as you will cancel the heal animation.",
+        "description": "The Medical Syringe is the best medical supply used for combat situations. It instant heals you a portion of your health and slowly heals the rest. It also reduces your radiation poisoning which is very useful while navigating the red puzzle building with high levels of radiation.\n\nAs of July 2021, the Medical Syringe can be used to revive people in Wounded state. It revives faster than holding E on the wounded player, however this gives you a disadvantage to look around and spot enemies as you will cancel the heal animation.",
         "craftData": {
             "yield": 1,
             "workbench": 2,
@@ -17342,7 +17422,7 @@
         "identifier": 1911552868,
         "name": "black-berry-seed",
         "shortname": "seed.black.berry",
-        "description": "These black berry seeds can be planted in the ground and grown to collect additional food.\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+        "description": "These black berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
         "craftData": {},
         "recycleData": {}
     },
@@ -17378,7 +17458,7 @@
         "identifier": 803954639,
         "name": "blue-berry-seed",
         "shortname": "seed.blue.berry",
-        "description": "These blue berry seeds can be planted in the ground and grown to collect additional food.\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+        "description": "These blue berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
         "craftData": {},
         "recycleData": {}
     },
@@ -17396,7 +17476,7 @@
         "identifier": -989755543,
         "name": "burnt-bear-meat",
         "shortname": "bearmeat.burned",
-        "description": "Burnt Bear Meat is the product of overcooking Bear Meat inside of a Campfire or a Barbecue. Consuming the meat will slightly increase your health and hunger.\n",
+        "description": "Burnt Bear Meat is the product of overcooking Bear Meat inside of a Campfire or a Barbecue. Consuming the meat will slightly increase your health and hunger.\n\n",
         "craftData": {},
         "recycleData": {}
     },
@@ -17603,7 +17683,7 @@
         "identifier": 998894949,
         "name": "corn-seed",
         "shortname": "seed.corn",
-        "description": "Corn seeds can be found when picking wild Corn plants. These seeds can be planted in the ground and grown to collect additional food.\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster growth.",
+        "description": "Corn seeds can be found when picking wild Corn plants. These seeds can be planted in the ground and grown to collect additional food.\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster growth.",
         "craftData": {},
         "recycleData": {}
     },
@@ -17639,7 +17719,7 @@
         "identifier": -1776128552,
         "name": "green-berry-seed",
         "shortname": "seed.green.berry",
-        "description": "These green berry seeds can be planted in the ground and grown to collect additional food.\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+        "description": "These green berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
         "craftData": {},
         "recycleData": {}
     },
@@ -17666,7 +17746,7 @@
         "identifier": -237809779,
         "name": "hemp-seed",
         "shortname": "seed.hemp",
-        "description": "Hemp seeds are a secondary product when collecting hemp plants. These seeds can be planted in the ground and grown to collect additional cloth. A common practice is to plant them immediately after harvesting out in the world so that other new players can get cloth from it later on.\nIf they are planted in the ground, watering them has no effect, and you are not able to use fertilizer on them. This means that they are lower maintenance, but you have no control over the quality of the soil, so they will typically grow more slowly.\nHowever, if you plant them in a planter box (small or large), they will require you to regularly water them and keep them stocked with fertilizer for maximum growth efficiency. Be careful not to over-water them, or efficiency may go back down a bit. Generally a good amount of water to have is somewhere between 50% and 70% capacity.\nThe plant needs light to grow, whether from a lamp or the sun. As of May 2020, floor grates do not let light through to the plant, despite looking like they do. This is likely a bug and may be fixed in the future. With the new electric water pump and electric water purifier, it is a good idea to build either on the beach or on a river (with one lower or missing foundation for safe access to water), as you can set up automatic plant watering fairly easily.",
+        "description": "Hemp seeds are a secondary product when collecting hemp plants. These seeds can be planted in the ground and grown to collect additional cloth. A common practice is to plant them immediately after harvesting out in the world so that other new players can get cloth from it later on.\n\nIf they are planted in the ground, watering them has no effect, and you are not able to use fertilizer on them. This means that they are lower maintenance, but you have no control over the quality of the soil, so they will typically grow more slowly.\n\nHowever, if you plant them in a planter box (small or large), they will require you to regularly water them and keep them stocked with fertilizer for maximum growth efficiency. Be careful not to over-water them, or efficiency may go back down a bit. Generally a good amount of water to have is somewhere between 50% and 70% capacity.\n\nThe plant needs light to grow, whether from a lamp or the sun. As of May 2020, floor grates do not let light through to the plant, despite looking like they do. This is likely a bug and may be fixed in the future. With the new electric water pump and electric water purifier, it is a good idea to build either on the beach or on a river (with one lower or missing foundation for safe access to water), as you can set up automatic plant watering fairly easily.",
         "craftData": {},
         "recycleData": {}
     },
@@ -17738,7 +17818,7 @@
         "identifier": -2084071424,
         "name": "potato-seed",
         "shortname": "seed.potato",
-        "description": "These potato seeds can be planted in the ground and grown to collect additional food.\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+        "description": "These potato seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
         "craftData": {},
         "recycleData": {}
     },
@@ -17747,7 +17827,7 @@
         "identifier": -567909622,
         "name": "pumpkin",
         "shortname": "pumpkin",
-        "description": "The Pumpkin provides a great amount of calories, hydration, and healing compared to the other foods. It can also be worn on your head. When high durability, seeds are dropped when consumed. With the plant giving 3 harvests, they prove to be an easy to farm foodstuff giving massive returns.\nCan be found on the sides of streams.",
+        "description": "The Pumpkin provides a great amount of calories, hydration, and healing compared to the other foods. It can also be worn on your head. When high durability, seeds are dropped when consumed. With the plant giving 3 harvests, they prove to be an easy to farm foodstuff giving massive returns.\n\nCan be found on the sides of streams.",
         "craftData": {},
         "recycleData": {}
     },
@@ -17936,7 +18016,7 @@
         "identifier": 830839496,
         "name": "red-berry-seed",
         "shortname": "seed.red.berry",
-        "description": "These red berry seeds can be planted in the ground and grown to collect additional food.\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+        "description": "These red berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
         "craftData": {},
         "recycleData": {}
     },
@@ -17990,7 +18070,7 @@
         "identifier": -1039528932,
         "name": "small-water-bottle",
         "shortname": "smallwaterbottle",
-        "description": "The Water Bottle found in trash piles, and is used for the collection and transportation of drinkable water.\nTo fill, equip it and right click while looking at a source of water. You can then drink from it whenever you desire with a left click (make sure the water in the bottle is freshwater and not salt/stagnant water).\nIf the water in the pouch is not desired, or if you are attempting to extinguish a fire (not napalm), you can right click on the bottle again to dump it's contents.",
+        "description": "The Water Bottle found in trash piles, and is used for the collection and transportation of drinkable water.\n\nTo fill, equip it and right click while looking at a source of water. You can then drink from it whenever you desire with a left click (make sure the water in the bottle is freshwater and not salt/stagnant water).\n\nIf the water in the pouch is not desired, or if you are attempting to extinguish a fire (not napalm), you can right click on the bottle again to dump it's contents.",
         "craftData": {},
         "recycleData": {}
     },
@@ -18044,7 +18124,7 @@
         "identifier": -119235651,
         "name": "water-jug",
         "shortname": "waterjug",
-        "description": "The water jug is an item which carries water and can be held in the players hot-bar or inventory.\nThe water jug is far superior to the water bucket because of its extra 1,000 ml capacity and its ability to hold water while not in the hands of the user. It is most commonly used in large numbers to carry massive amounts of water to a players base in one trip. It is highly recommended that you have multiple of these items if you plan to have any kind of indoor farm because of the water bonus to farming.",
+        "description": "The water jug is an item which carries water and can be held in the players hot-bar or inventory.\n\nThe water jug is far superior to the water bucket because of its extra 1,000 ml capacity and its ability to hold water while not in the hands of the user. It is most commonly used in large numbers to carry massive amounts of water to a players base in one trip. It is highly recommended that you have multiple of these items if you plan to have any kind of indoor farm because of the water bonus to farming.",
         "craftData": {},
         "recycleData": {
             "recycleYieldrad": [
@@ -18084,7 +18164,7 @@
         "identifier": -992286106,
         "name": "white-berry-seed",
         "shortname": "seed.white.berry",
-        "description": "These white berry seeds can be planted in the ground and grown to collect additional food.\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+        "description": "These white berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
         "craftData": {},
         "recycleData": {}
     },
@@ -18120,7 +18200,7 @@
         "identifier": -520133715,
         "name": "yellow-berry-seed",
         "shortname": "seed.yellow.berry",
-        "description": "These yellow berry seeds can be planted in the ground and grown to collect additional food.\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+        "description": "These yellow berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
         "craftData": {},
         "recycleData": {}
     },
@@ -18138,7 +18218,7 @@
         "identifier": -1685290200,
         "name": "12-gauge-buckshot",
         "shortname": "ammo.shotgun",
-        "description": "12 Gauge Buckshot is a type shotgun ammunition that fires a wide spread of 14 low-damage pellets. Regardless of the weapon it is fired out of, it is extremely lethal in close quarters, capable of one-shotting fully geared players at point-blank.\n12 Gauge buckshot has fewer pellets than the Handmade Shell, but makes up for it by doing much more damage with each pellet.",
+        "description": "12 Gauge Buckshot is a type shotgun ammunition that fires a wide spread of 14 low-damage pellets. Regardless of the weapon it is fired out of, it is extremely lethal in close quarters, capable of one-shotting fully geared players at point-blank.\n\n12 Gauge buckshot has fewer pellets than the Handmade Shell, but makes up for it by doing much more damage with each pellet.",
         "craftData": {
             "yield": 2,
             "workbench": 2,
@@ -18482,7 +18562,7 @@
         "identifier": -1321651331,
         "name": "explosive-5.56-rifle-ammo",
         "shortname": "ammo.rifle.explosive",
-        "description": "A variant of the standard 5.56 rifle ammunition. The Explosive 5.56 round deals a small amount of additional explosion damage to a player upon direct impact as well as damaging nearby structures or players.\nThe round is effective against low-tier structures such as Wood walls and Sheet Metal doors.",
+        "description": "A variant of the standard 5.56 rifle ammunition. The Explosive 5.56 round deals a small amount of additional explosion damage to a player upon direct impact as well as damaging nearby structures or players.\n\nThe round is effective against low-tier structures such as Wood walls and Sheet Metal doors.",
         "craftData": {
             "yield": 2,
             "workbench": 3,
@@ -18546,7 +18626,7 @@
         "identifier": 14241751,
         "name": "fire-arrow",
         "shortname": "arrow.fire",
-        "description": "Low-velocity high-damage equivalent to the wooden arrows. Emits a fiery area of effect near its point of impact which will damage and slow anyone in its radius. In combat this can deny both a push and a retreat.\nAs a raid tool it's faster and quieter than the eoka. Unlike the flamethrower, the fire it spreads won't damage structures.",
+        "description": "Low-velocity high-damage equivalent to the wooden arrows. Emits a fiery area of effect near its point of impact which will damage and slow anyone in its radius. In combat this can deny both a push and a retreat.\n\nAs a raid tool it's faster and quieter than the eoka. Unlike the flamethrower, the fire it spreads won't damage structures.",
         "craftData": {
             "yield": 2,
             "workbench": 1,
@@ -18644,7 +18724,7 @@
         "identifier": -1691396643,
         "name": "hv-pistol-ammo",
         "shortname": "ammo.pistol.hv",
-        "description": "The high velocity pistol ammo is used by pistols and submachine guns.\nIts notable differences from regular pistol ammo include faster bullet travel and increased crafting cost.",
+        "description": "The high velocity pistol ammo is used by pistols and submachine guns.\n\nIts notable differences from regular pistol ammo include faster bullet travel and increased crafting cost.",
         "craftData": {
             "yield": 4,
             "workbench": 2,
@@ -18696,7 +18776,7 @@
         "identifier": 588596902,
         "name": "handmade-shell",
         "shortname": "ammo.handmade.shell",
-        "description": "The handmade shell is an early-game shotgun ammunition that fires a spread of 20 low-damage pellets. It's highly damaging in close quarters, but its lethality quickly drops off as range increases.\nIn comparison to 12 gauge buckshot, the handmade shell has significantly more pellets, but less damage overall.",
+        "description": "The handmade shell is an early-game shotgun ammunition that fires a spread of 20 low-damage pellets. It's highly damaging in close quarters, but its lethality quickly drops off as range increases.\n\nIn comparison to 12 gauge buckshot, the handmade shell has significantly more pellets, but less damage overall.",
         "craftData": {
             "yield": 2,
             "workbench": 1,
@@ -19186,7 +19266,7 @@
         "identifier": -742865266,
         "name": "rocket",
         "shortname": "ammo.rocket.basic",
-        "description": "In Rust, rockets are the ammunition for rocket launchers, rockets will cause splash damage that can hit up to 4 walls at once. This type of ammunition is particularly effective against buildings.\nIn terms of trajectory, rockets are launched forward with a considerable speed upon firing. However, the trajectory eventually falls off due to the in-game gravity effect.\nRockets are currently one of the best tools for raiding and destroying buildings. Rockets are also deadly against players due to its high damage and range of splash damage.",
+        "description": "In Rust, rockets are the ammunition for rocket launchers, rockets will cause splash damage that can hit up to 4 walls at once. This type of ammunition is particularly effective against buildings.\n\nIn terms of trajectory, rockets are launched forward with a considerable speed upon firing. However, the trajectory eventually falls off due to the in-game gravity effect.\n\nRockets are currently one of the best tools for raiding and destroying buildings. Rockets are also deadly against players due to its high damage and range of splash damage.",
         "craftData": {
             "yield": 1,
             "workbench": 3,
@@ -19380,7 +19460,7 @@
         "identifier": -1671551935,
         "name": "torpedo",
         "shortname": "submarine.torpedo.straight",
-        "description": "Ammunition for both submarine types. Fires in a straight line. Used to be called Direct Torpedo.\nAs of September 2021's update, the Surface Torpedo was removed from the game due to players camping underwater with little to no risk. The Direct Torpedo was then renamed to Torpedo.",
+        "description": "Ammunition for both submarine types. Fires in a straight line. Used to be called Direct Torpedo.\n\nAs of September 2021's update, the Surface Torpedo was removed from the game due to players camping underwater with little to no risk. The Direct Torpedo was then renamed to Torpedo.",
         "craftData": {
             "yield": 5,
             "workbench": 2,
@@ -19484,7 +19564,7 @@
         "identifier": 528668503,
         "name": "flame-turret",
         "shortname": "flameturret",
-        "description": "The flame turret is a unique item that is difficult to find many applications for. It mostly finds it's way into 'trap bases', where a player is locked in a tight space and is burnt to a crisp by this monster.\nIt functions similarly to an Auto-Turret, activating only when a player without building privilege wanders in front of it. It then rotates rapidly, spewing a wall of flame in about a 30° angle in the general direction of the target until the target is dead or gone.\nThe flame turret is fueled by low grade fuel, and has a relatively short range to it's flames. Thus, this is a trap that requires a fair bit of planning for you to make good use of, but can be a powerful ally if you do.",
+        "description": "The flame turret is a unique item that is difficult to find many applications for. It mostly finds it's way into 'trap bases', where a player is locked in a tight space and is burnt to a crisp by this monster.\n\nIt functions similarly to an Auto-Turret, activating only when a player without building privilege wanders in front of it. It then rotates rapidly, spewing a wall of flame in about a 30° angle in the general direction of the target until the target is dead or gone.\n\nThe flame turret is fueled by low grade fuel, and has a relatively short range to it's flames. Thus, this is a trap that requires a fair bit of planning for you to make good use of, but can be a powerful ally if you do.",
         "craftData": {
             "yield": 1,
             "workbench": 1,
@@ -19600,7 +19680,7 @@
         "identifier": -1009359066,
         "name": "sam-site",
         "shortname": "samsite",
-        "description": "The SAM Site targets any air vehicles (minicopter, scrap helicopter and hot air balloon, even TC authorized players with air vehicles) in range and shoots SAM ammo at the targeted vehicle. They will also target at MLRS rockets, 3 SAM sites are recommended for maximum MLRS protection.\nIt is recommended to have a RF Transmitter or a Smart Switch paired on your phone to toggle the SAM site if you have air vehicles.\nAs of February 2022, the SAM site has a Defender Mode that only targets MLRS rockets but not air vehicles. This allows you to still use your minicopters, but never friendly fired by your own SAM sites.",
+        "description": "The SAM Site targets any air vehicles (minicopter, scrap helicopter and hot air balloon, even TC authorized players with air vehicles) in range and shoots SAM ammo at the targeted vehicle. They will also target at MLRS rockets, 3 SAM sites are recommended for maximum MLRS protection.\n\nIt is recommended to have a RF Transmitter or a Smart Switch paired on your phone to toggle the SAM site if you have air vehicles.\n\nAs of February 2022, the SAM site has a Defender Mode that only targets MLRS rockets but not air vehicles. This allows you to still use your minicopters, but never friendly fired by your own SAM sites.",
         "craftData": {},
         "recycleData": {
             "recycleYieldrad": [
@@ -19698,7 +19778,7 @@
         "identifier": -582782051,
         "name": "snap-trap",
         "shortname": "trap.bear",
-        "description": "The Snap Trap is a small anti-personnel trap used to wound a player. The trap can be deactivated for safe passage by hitting/shooting the middle causing the trap to slam shut making it harmless.\nThey can be picked back up once triggered if you have building privilege.",
+        "description": "The Snap Trap is a small anti-personnel trap used to wound a player. The trap can be deactivated for safe passage by hitting/shooting the middle causing the trap to slam shut making it harmless.\n\nThey can be picked back up once triggered if you have building privilege.",
         "craftData": {
             "yield": 1,
             "workbench": 1,
@@ -19790,7 +19870,7 @@
         "identifier": -484206264,
         "name": "blue-keycard",
         "shortname": "keycard_blue",
-        "description": "The Blue Keycard is a game object required in order to access quite a lot of monument puzzles.\nIt can be obtained by fishing and gutting high tier fish or by completing green monument puzzles on Harbors, Satellite Dish or Sewer Branch.\nList of monuments that require Blue Keycard to finish monument puzzle:\nAirfield, Arctic Research Base, Military Tunnels, Missile Silo, Oil Rig, Power Plant, Trainyard, Water Treatment and Underwater Labs.\nLarge Oil Rig does not require Blue Keycard to access Locked Crate but it grants access to 4 military crates.",
+        "description": "The Blue Keycard is a game object required in order to access quite a lot of monument puzzles.\nIt can be obtained by fishing and gutting high tier fish or by completing green monument puzzles on Harbors, Satellite Dish or Sewer Branch.\n\nList of monuments that require Blue Keycard to finish monument puzzle:\nAirfield, Arctic Research Base, Military Tunnels, Missile Silo, Oil Rig, Power Plant, Trainyard, Water Treatment and Underwater Labs.\n\nLarge Oil Rig does not require Blue Keycard to access Locked Crate but it grants access to 4 military crates.",
         "craftData": {},
         "recycleData": {}
     },
@@ -20005,7 +20085,7 @@
         "identifier": -1112793865,
         "name": "door-key",
         "shortname": "door.key",
-        "description": "Door keys are used in conjunction with a Key Lock for letting others access (open and close) your door.\nImportant: the person who places a Key Lock, has access by default, without the need for a door key.\nIf the key is lost, then the person carrying it won't have access anymore. In addition, if their killer or anyone else loots it from them and are able to locate the base, your base (or the particular door) might be compromised. So overall, carrying door keys outside of your base is risky.\nTo avoid this risk, it's advised to upgrade to Code Locks if you have multiple people that need to have access to your doors. Using keylocks within groups is really not practical, they are mostly used by solo players.",
+        "description": "Door keys are used in conjunction with a Key Lock for letting others access (open and close) your door.\nImportant: the person who places a Key Lock, has access by default, without the need for a door key.\n\nIf the key is lost, then the person carrying it won't have access anymore. In addition, if their killer or anyone else loots it from them and are able to locate the base, your base (or the particular door) might be compromised. So overall, carrying door keys outside of your base is risky.\n\nTo avoid this risk, it's advised to upgrade to Code Locks if you have multiple people that need to have access to your doors. Using keylocks within groups is really not practical, they are mostly used by solo players.",
         "craftData": {},
         "recycleData": {
             "recycleYieldrad": [
@@ -20262,7 +20342,7 @@
         "identifier": 37122747,
         "name": "green-keycard",
         "shortname": "keycard_green",
-        "description": "The Green Keycard is a game object required in order to access a some monument puzzles.\nIt can be obtained by killing and looting scientists and can be found on desk in Abandoned Cabins, Abandoned Supermarket, Ferry Terminal, Junkyard, Lighthouse, Oxum's Gas Station, Underwater Lab and by completing Power Plant's monument puzzle.\nList of monuments that require Green Keycard to finish monument puzzle:\nAirfield, Harbors, Launch Site, Military Tunnels, Power Plant, Satellite Dish and Sewer Branch.\n",
+        "description": "The Green Keycard is a game object required in order to access a some monument puzzles.\nIt can be obtained by killing and looting scientists and can be found on desk in Abandoned Cabins, Abandoned Supermarket, Ferry Terminal, Junkyard, Lighthouse, Oxum's Gas Station, Underwater Lab and by completing Power Plant's monument puzzle.\n\nList of monuments that require Green Keycard to finish monument puzzle:\nAirfield, Harbors, Launch Site, Military Tunnels, Power Plant, Satellite Dish and Sewer Branch.\n\n",
         "craftData": {},
         "recycleData": {}
     },
@@ -20377,7 +20457,7 @@
         "identifier": 1414245162,
         "name": "note",
         "shortname": "note",
-        "description": "A note which can have letters written on but not notes. When a note is done being written on the player may place it in a container or leave it in their inventory. Useful for conveying messages to other players or raiders.\nNotes are the only items that may be placed inside of mailboxes, and are handy for keeping in contact with friendly neighbors.",
+        "description": "A note which can have letters written on but not notes. When a note is done being written on the player may place it in a container or leave it in their inventory. Useful for conveying messages to other players or raiders.\n\nNotes are the only items that may be placed inside of mailboxes, and are handy for keeping in contact with friendly neighbors.",
         "craftData": {
             "yield": 1,
             "workbench": 0,
@@ -21269,7 +21349,7 @@
         "identifier": -1040518150,
         "name": "camper-vehicle-module",
         "shortname": "vehicle.2mod.camper",
-        "description": "The Camper Vehicle Module is a dual module camper that can be fitted into a 3 Module Vehicle or a 4 Module Vehicle (does not come with a cockpit with engine), containing 4 sleeping bags, a barbeque, a locker and a small storage box.\nBy claiming a bed inside the camper, you can respawn on it and has the same respawn cooldown as the sleeping bag. The locker, barbeque and small storage box can also be used for storage, kits and more. It acts as a portable sleeping bag as you can drive it anywhere and respawn on it (except for safe zones).",
+        "description": "The Camper Vehicle Module is a dual module camper that can be fitted into a 3 Module Vehicle or a 4 Module Vehicle (does not come with a cockpit with engine), containing 4 sleeping bags, a barbeque, a locker and a small storage box.\n\nBy claiming a bed inside the camper, you can respawn on it and has the same respawn cooldown as the sleeping bag. The locker, barbeque and small storage box can also be used for storage, kits and more. It acts as a portable sleeping bag as you can drive it anywhere and respawn on it (except for safe zones).",
         "craftData": {
             "yield": 1,
             "workbench": 2,
@@ -21881,7 +21961,7 @@
         "identifier": 479143914,
         "name": "gears",
         "shortname": "gears",
-        "description": "Gears are used in the crafting of various desirable (building) supplies involved in base defense, such as traps, gates, and first and foremost armored & garage doors, which are significantly stronger than sheet metal doors.\nThese are hard to come by in large quantities and are one of the more sought after items in the game.",
+        "description": "Gears are used in the crafting of various desirable (building) supplies involved in base defense, such as traps, gates, and first and foremost armored & garage doors, which are significantly stronger than sheet metal doors.\n\nThese are hard to come by in large quantities and are one of the more sought after items in the game.",
         "craftData": {
             "yield": 1,
             "workbench": 3,
@@ -21933,7 +22013,7 @@
         "identifier": -1899491405,
         "name": "glue",
         "shortname": "glue",
-        "description": "A sticky white substance that at this point in time has no real functions. Only players with access to the console (i.e Admin, owner, mod) can spawn it.\n",
+        "description": "A sticky white substance that at this point in time has no real functions. Only players with access to the console (i.e Admin, owner, mod) can spawn it.\n\n",
         "craftData": {},
         "recycleData": {}
     },
@@ -22656,7 +22736,7 @@
         "identifier": 1882709339,
         "name": "metal-blade",
         "shortname": "metalblade",
-        "description": "Metal blades are common components that can be found in barrels near roads or at monuments. They are used to craft some tools and melee weapons.\nIf you don't have any use for the items you can craft with these it would be wise to recycle them for two scrap.",
+        "description": "Metal blades are common components that can be found in barrels near roads or at monuments. They are used to craft some tools and melee weapons.\n\nIf you don't have any use for the items you can craft with these it would be wise to recycle them for two scrap.",
         "craftData": {
             "yield": 1,
             "workbench": 2,
@@ -23054,7 +23134,7 @@
         "identifier": 1414245522,
         "name": "rope",
         "shortname": "rope",
-        "description": "Rope is quite common component used in many items like wooden armor, satchel charges, ladders and shotgun traps. Because of that it remains relatively useful throughout the whole game.\nIt can be often found in barrels alongside sewing kits which can be recycled for even more rope.",
+        "description": "Rope is quite common component used in many items like wooden armor, satchel charges, ladders and shotgun traps. Because of that it remains relatively useful throughout the whole game.\n\nIt can be often found in barrels alongside sewing kits which can be recycled for even more rope.",
         "craftData": {},
         "recycleData": {
             "recycleYieldrad": [
@@ -23552,7 +23632,7 @@
         "identifier": -2139580305,
         "name": "auto-turret",
         "shortname": "autoturret",
-        "description": "The Auto Turret is a placed object used to detect enemies and shoot with its armed weapon. It detects enemies if the enemies were to reach its 180 degrees detection range or shoot the turret. The Auto Turret ignores the Tool Cupboard authorizations and only shoot people not in its authorize list so you and your team must authorize to it manually.\nYou can arm any ranged weapons onto the Auto Turret and insert the ammo of the equipped weapon. You must turn the turret off in order to refill ammo and weapon slot.\nThe Auto Turret can be turned on if the Power In slot is powering at least 10 rWm. There are 3 extra slots (Has Target, Low Ammo, No Ammo) that you can set up with Smart Alarm or traps, you must have 11 rWm for the Auto Turret to power the 3 slots. As an example, if someone walks into the detection range of the Auto Turret, 1 rWm will be used up to power out the Has Target slot.\nThe Auto Turret has 2 modes, Peacekeeper and Attack All. By default, Attack All mode makes the turret targets unauthorized players. Peacekeeper mode only shoots hostile players that has the red sight icon on the top right corner, it works just like the Outpost turrets and Bandit Camp turrets.\n",
+        "description": "The Auto Turret is a placed object used to detect enemies and shoot with its armed weapon. It detects enemies if the enemies were to reach its 180 degrees detection range or shoot the turret. The Auto Turret ignores the Tool Cupboard authorizations and only shoot people not in its authorize list so you and your team must authorize to it manually.\n\nYou can arm any ranged weapons onto the Auto Turret and insert the ammo of the equipped weapon. You must turn the turret off in order to refill ammo and weapon slot.\n\nThe Auto Turret can be turned on if the Power In slot is powering at least 10 rWm. There are 3 extra slots (Has Target, Low Ammo, No Ammo) that you can set up with Smart Alarm or traps, you must have 11 rWm for the Auto Turret to power the 3 slots. As an example, if someone walks into the detection range of the Auto Turret, 1 rWm will be used up to power out the Has Target slot.\n\nThe Auto Turret has 2 modes, Peacekeeper and Attack All. By default, Attack All mode makes the turret targets unauthorized players. Peacekeeper mode only shoots hostile players that has the red sight icon on the top right corner, it works just like the Outpost turrets and Bandit Camp turrets.\n\n",
         "craftData": {
             "yield": 1,
             "workbench": 2,
@@ -24006,7 +24086,7 @@
         "identifier": -784870360,
         "name": "electric-heater",
         "shortname": "electric.heater",
-        "description": "The Electric Heater is very useful for bases on snow biome, it will completely remove the \"TOO COLD\" status and provide 50% \"COMFORT\" status when nearby, thus regenerating your health.\nIt can also be placed nearby plants to provide 100% temperature. However, placing electric heater in desert biome may downgrade the temperature of plants. This can also apply to players.",
+        "description": "The Electric Heater is very useful for bases on snow biome, it will completely remove the \"TOO COLD\" status and provide 50% \"COMFORT\" status when nearby, thus regenerating your health.\n\nIt can also be placed nearby plants to provide 100% temperature. However, placing electric heater in desert biome may downgrade the temperature of plants. This can also apply to players.",
         "craftData": {
             "yield": 1,
             "workbench": 1,
@@ -24626,7 +24706,7 @@
         "identifier": 1623701499,
         "name": "industrial-wall-light",
         "shortname": "industrial.wall.light",
-        "description": "The Industrial Wall Light is a mountable light that can be placed on walls, ceilings or floors. It functions just like the Ceiling Light with smaller light radius. There are 3 variations of the Industrial Wall Light, White, Green and Red.\nIt was released with the mandatory update \"Nomad\" that came along with the permanent shop.",
+        "description": "The Industrial Wall Light is a mountable light that can be placed on walls, ceilings or floors. It functions just like the Ceiling Light with smaller light radius. There are 3 variations of the Industrial Wall Light, White, Green and Red.\n\nIt was released with the mandatory update \"Nomad\" that came along with the permanent shop.",
         "craftData": {
             "yield": 1,
             "workbench": 1,
@@ -25086,7 +25166,7 @@
         "identifier": 1696050067,
         "name": "modular-car-lift",
         "shortname": "modularcarlift",
-        "description": "Allows you to modify modular vehicles. Modules can be fully repaired more cost-effective than manual repair by hammer. Cannot move or remove modules with items inside (liquid in fluid tank, items in storage module, parts in engine), but allows you to quick-remove all items. Can add/remove a locks to/from cockpit module and craft keys (lock is removed when module is removed from chassis).\nRemoving modules can let you research them to be crafted and placed on other chassis later, and removing all modules from a chassis presents you the option to destroy the chassis.\nAs of \"Mixing Table Update,\" cars no longer decay on powered lifts.",
+        "description": "Allows you to modify modular vehicles. Modules can be fully repaired more cost-effective than manual repair by hammer. Cannot move or remove modules with items inside (liquid in fluid tank, items in storage module, parts in engine), but allows you to quick-remove all items. Can add/remove a locks to/from cockpit module and craft keys (lock is removed when module is removed from chassis).\n\nRemoving modules can let you research them to be crafted and placed on other chassis later, and removing all modules from a chassis presents you the option to destroy the chassis.\n\nAs of \"Mixing Table Update,\" cars no longer decay on powered lifts.",
         "craftData": {
             "yield": 1,
             "workbench": 2,
@@ -26348,7 +26428,7 @@
         "identifier": -295829489,
         "name": "test-generator",
         "shortname": "electric.generator.small",
-        "description": "The Test Generator is most known for debugging with electrical stuff. It will always generate 100 power and can be placed anywhere.\nIt is unobtainable through normal gameplay and can only be obtained by admins.",
+        "description": "The Test Generator is most known for debugging with electrical stuff. It will always generate 100 power and can be placed anywhere.\n\nIt is unobtainable through normal gameplay and can only be obtained by admins.",
         "craftData": {},
         "recycleData": {
             "recycleYieldrad": [
@@ -26558,7 +26638,7 @@
         "identifier": -144417939,
         "name": "wire-tool",
         "shortname": "wiretool",
-        "description": "A tool used to make connections between electrical objects.\nTo use the Wire Tool, aim at an electrical object to highlight the available inputs and outputs (connections). Press the LMB to attach wires to these connections (wires can clip through any item). To disconnect a wired connection, highlight the connection and hold RMB. Wired connections can be disconnected with RMB while simultaneously holding a wire to then be connected. Electrical components will automatically grey out connections that cannot be paired based on their type (input vs output). Hold R to view wire color wheel.",
+        "description": "A tool used to make connections between electrical objects.\n\nTo use the Wire Tool, aim at an electrical object to highlight the available inputs and outputs (connections). Press the LMB to attach wires to these connections (wires can clip through any item). To disconnect a wired connection, highlight the connection and hold RMB. Wired connections can be disconnected with RMB while simultaneously holding a wire to then be connected. Electrical components will automatically grey out connections that cannot be paired based on their type (input vs output). Hold R to view wire color wheel.",
         "craftData": {
             "yield": 1,
             "workbench": 1,
@@ -28436,7 +28516,7 @@
         "identifier": 576509618,
         "name": "portable-boom-box",
         "shortname": "fun.boomboxportable",
-        "description": "The Portable Boom Box can stream real world radio stations, and you can only use it on your hands. Voice Props DLC is required to craft it.\nStationary Boom Boxes can be found in the Underwater labs. These can be useful to drown out and \"hide\" your stepping sounds. Other players may have muted streams and cannot hear Boomboxes, making them useless to cover your steps.\nCustom Streams have to be provided by the Server.",
+        "description": "The Portable Boom Box can stream real world radio stations, and you can only use it on your hands. Voice Props DLC is required to craft it.\n\nStationary Boom Boxes can be found in the Underwater labs. These can be useful to drown out and \"hide\" your stepping sounds. Other players may have muted streams and cannot hear Boomboxes, making them useless to cover your steps.\n\nCustom Streams have to be provided by the Server.",
         "craftData": {
             "yield": 1,
             "workbench": 1,

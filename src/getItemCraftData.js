@@ -229,6 +229,7 @@ async function downloadImage(imageDownloadLink, folderPath, shortname) {
 
 async function getItemImage(page) {
     const imageDownloadLink = await page.$eval('img.main-icon', (img) => img.getAttribute('src'))
+    const fullImageLink = `https://wiki.rustclash.com${imageDownloadLink}`
     let imageName = await page.$eval('img.main-icon', (img) => img.getAttribute('alt'))
     const filename = imageDownloadLink.split('/').pop();
     // Extract the part you need by removing the '.png' extension
@@ -240,7 +241,7 @@ async function getItemImage(page) {
         fs.mkdirSync(folderPath)
     }
     imageName = parseItemString(imageName)
-    await downloadImage(imageDownloadLink, folderPath, shortname)
+    await downloadImage(fullImageLink, folderPath, shortname)
 }
 async function getItemDescription(page) {
     const descriptionObject = await page.$('p.description')
@@ -265,7 +266,7 @@ async function getItemByName(name, browser, maxRetries = 3) {
         let identifier = 0
         const page = await browser.newPage()
         try {
-            await page.goto(`https://rustlabs.com/item/${name}`, {
+            await page.goto(`https://wiki.rustclash.com/item/${name}`, {
                 waitUntil: "domcontentloaded",
             })
             let craftData

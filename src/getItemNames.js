@@ -43,7 +43,7 @@ async function scrapeItemsNames(page) {
 
 async function getItemNames(browser) {
     const page = await browser.newPage()
-    await page.goto(`https://rustlabs.com/group=itemlist`, {
+    await page.goto(`https://wiki.rustclash.com/group=itemlist`, {
         waitUntil: "domcontentloaded",
     })
 
@@ -56,7 +56,7 @@ async function getItemNames(browser) {
     //the name of the item and the group
     for (let i = 0; i < itemGroups.length; i++) {
         try {
-            await page.goto(`https://rustlabs.com${itemGroups[i]}`, {
+            await page.goto(`https://wiki.rustclash.com${itemGroups[i]}`, {
                 waitUntil: "domcontentloaded",
             })
 
