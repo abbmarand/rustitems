@@ -7,7 +7,7 @@ It also takes data from the official [Rust Crowdin page](https://crowdin.com/pro
 ## Usage
 To get started, follow these steps:
 
-Clone the repository from [https://github.com/abbindustrigymnasium/web-scraping-med-puppeteer-abbmarand.git](https://github.com/abbindustrigymnasium/web-scraping-med-puppeteer-abbmarand.git).
+Clone the ```https://github.com/abbmarand/rustitems.git```.
 
 ```bash
 git clone https://github.com/abbmarand/rustitems.git
