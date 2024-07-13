@@ -1,9 +1,8 @@
-# web scraping med puppeteer abbmarand
+# Rustlabs Webscraping
 
 ## Introduction
-This project is designed for web scraping and includes a simple data visualization feature. The primary purpose of this project is to collect accurate data for future projects. The scraped data can be used in conjunction with another project of mine, which utilizes the same commands in the game Rust. You can find the other project at [https://github.com/abbmarand/better_rustplus.git](https://github.com/abbmarand/better_rustplus.git).
-
-Please note that the visualization component of this project does not utilize all the scraped data, as the main focus has been on data collection.
+This project webscrapes the [RustLabs.com](https://rustlabs.com) website for usable itemdata in the game rust such as crafting data and recycling data. 
+It also takes data from the official [Rust Crowdin page](https://crowdin.com/project/rust) to translate items
 
 ## Usage
 To get started, follow these steps:
@@ -11,7 +10,7 @@ To get started, follow these steps:
 1. Clone the repository from [https://github.com/abbindustrigymnasium/web-scraping-med-puppeteer-abbmarand.git](https://github.com/abbindustrigymnasium/web-scraping-med-puppeteer-abbmarand.git).
 
 ```bash
-git clone https://github.com/abbindustrigymnasium/web-scraping-med-puppeteer-abbmarand.git
+git clone https://github.com/abbmarand/rustitems.git
 ```
 run to install all dependacies 
 ```bash
@@ -21,14 +20,7 @@ to scrape new data.(takes around 10 minutes)
 ```bash
 node scrape.js
 ``` 
-
-To use the scraped data, run.
+to apply all the languages
 ```bash
-node input.js
-``` 
-Alternatively, if you want to use the data specifically for the game Rust, follow the instructions provided in [https://github.com/abbmarand/better_rustplus.git](https://github.com/abbmarand/better_rustplus.git).
-
-Once you have the data, execute the `input.js` file and try the following commands:
-
-- `!craft assault-rifle 2`
-- `!recycle assault-rifle 4`
+node lang.js
+```
