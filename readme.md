@@ -7,8 +7,7 @@ It also takes data from the official [Rust Crowdin page](https://crowdin.com/pro
 ## Usage
 To get started, follow these steps:
 
-Clone the ```https://github.com/abbmarand/rustitems.git```.
-
+Clone the repository
 ```bash
 git clone https://github.com/abbmarand/rustitems.git
 ```
