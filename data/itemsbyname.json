@@ -941,7 +941,7 @@
         "identifier": -1214542497,
         "name": "hmlmg",
         "shortname": "hmlmg",
-        "description": "A hand-made belt-fed light machine gun with high damage, high rate of fire, and low accuracy during bursts.\n\n",
+        "description": "A hand-made belt-fed light machine gun with high damage, high rate of fire, and low accuracy during bursts. This craftable weapon serves as a direct craft item of the infamous m249, not quite as easy to control, slightly lower damage and fire-rate but rest assured, this is a weapon that still packs enough kick to cause some real damage.\n\n",
         "craftData": {
             "yield": 1,
             "workbench": 3,
@@ -19820,6 +19820,70 @@
                 },
                 {
                     "name": "gears",
+                    "amount": 0.4
+                }
+            ]
+        }
+    },
+    "tin-can-alarm": {
+        "group": "traps",
+        "identifier": 962186730,
+        "name": "tin-can-alarm",
+        "shortname": "tincan.alarm",
+        "description": "A primitive perimeter alarm made from hanging tin cans. Clatters loudly when disturbed, alerting you to any trespassers. Simple but effective.",
+        "craftData": {
+            "yield": 1,
+            "workbench": 1,
+            "craftTime": {
+                "craftTime": {
+                    "short": 5,
+                    "long": 20
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 103,
+                "craftCost": [
+                    {
+                        "name": "wood",
+                        "amount": 100
+                    },
+                    {
+                        "name": "rope",
+                        "amount": 1
+                    },
+                    {
+                        "name": "empty-tuna-can",
+                        "amount": 2
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYieldrad": [
+                {
+                    "name": "wood",
+                    "amount": 60
+                },
+                {
+                    "name": "empty-tuna-can",
+                    "amount": 2
+                },
+                {
+                    "name": "rope",
+                    "amount": 0.6
+                }
+            ],
+            "recycleYieldsafe": [
+                {
+                    "name": "wood",
+                    "amount": 40
+                },
+                {
+                    "name": "empty-tuna-can",
+                    "amount": 1
+                },
+                {
+                    "name": "rope",
                     "amount": 0.4
                 }
             ]
