@@ -33,16 +33,13 @@ async function getLangData(lang) {
         };
         const cookieString = process.env.COOKIE
         headers.Cookie = cookieString
-        const response = await axios.get(`https://crowdin.com/backend/project/rust/sv/22588/export`, { headers });
+        const response = await axios.get(`https://crowdin.com/backend/project/rust/${lang.code}/22588/export`, { headers });
         const link = response.data?.url;
         const linkData = await axios.get(link) // No Headers needed when downloading
-        console.log(linkData.data)
         if (linkData && linkData?.data) {
             const data = linkData.data;
-            // Ensure the directory exists before writing the file
             await fs.mkdir(`./data/lang/${lang.code}`, { recursive: true });
-            await fs.writeFile(`./data/lang/${lang.code}/${lang.code}.json`, JSON.stringify(data, null, 2));
-            console.log(data);
+            await fs.writeFile(`./data/lang/${lang.code}/engine.json`, JSON.stringify(data, null, 2));
             langtouse.push(lang.code)
         } else {
             return
@@ -50,7 +47,6 @@ async function getLangData(lang) {
 
 
     } catch (error) {
-        console.log(error)
     }
 }
 

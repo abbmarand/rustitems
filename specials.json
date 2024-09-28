@@ -77,5 +77,6 @@
     "electric.xorswitch": "xorswitch",
     "lunar.firecrackers": "firecrackers",
     "laserlight": "sound.laser",
-    "electric.seismicsensor": "electric.seismicsensor.name"
+    "electric.seismicsensor": "electric.seismicsensor.name",
+    "weapon.mod.gascompressionovedrive": "weapon.mod.gco.name"
 }

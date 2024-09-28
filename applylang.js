@@ -139,7 +139,6 @@ export async function applyLang(lang, langcode) {
 
     const shortnames = await getShortNames(lang, langcode)
     if (langcode === "sv-SE") {
-
         await fs.writeFile(`data/langdata/shortnames.json`, JSON.stringify(shortnames, null, 2))
     }
 
