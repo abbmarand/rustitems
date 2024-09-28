@@ -1,13 +1,13 @@
 
 import axios from 'axios';
+import 'dotenv/config'
 import * as fs from 'node:fs/promises'
-import AdmZip from 'adm-zip';
 let langtouse = []
 async function getLanglist() {
     try {
         const response = await axios.get('https://crowdin.com/backend/project/rust/info');
-        const data = response.data;
-        return data.data._crowdin_languages;
+        console.log()
+        return response.data.data._crowdin_languages
     } catch (error) {
         console.error('Error fetching data:', error);
     }
@@ -15,23 +15,52 @@ async function getLanglist() {
 
 async function getLangData(lang) {
     try {
-        const response = await axios.get(`https://crowdin.com/backend/download/project/rust/${lang.code}.zip`, { responseType: 'arraybuffer' });
-        const data = response.data;
-        const zip = new AdmZip(data);
-        zip.extractAllTo(`./data/lang/${lang.code}`);
-        langtouse.push(lang.code)
+        console.log(`Downloading ${lang.code}...`)
+        const headers = {
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8',
+            'Accept-Encoding': 'gzip, deflate, br, zstd',
+            'Accept-Language': 'en,sv;q=0.8,en-US;q=0.5,sv-SE;q=0.3',
+            'Connection': 'keep-alive',
+            'Host': 'crowdin.com',
+            'Priority': 'u=0, i',
+            'Sec-Fetch-Dest': 'document',
+            'Sec-Fetch-Mode': 'navigate',
+            'Sec-Fetch-Site': 'none',
+            'Sec-Fetch-User': '?1',
+            'TE': 'trailers',
+            'Upgrade-Insecure-Requests': '1',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0',
+        };
+        const cookieString = process.env.COOKIE
+        headers.Cookie = cookieString
+        const response = await axios.get(`https://crowdin.com/backend/project/rust/sv/22588/export`, { headers });
+        const link = response.data?.url;
+        const linkData = await axios.get(link) // No Headers needed when downloading
+        console.log(linkData.data)
+        if (linkData && linkData?.data) {
+            const data = linkData.data;
+            // Ensure the directory exists before writing the file
+            await fs.mkdir(`./data/lang/${lang.code}`, { recursive: true });
+            await fs.writeFile(`./data/lang/${lang.code}/${lang.code}.json`, JSON.stringify(data, null, 2));
+            console.log(data);
+            langtouse.push(lang.code)
+        } else {
+            return
+        }
+
+
     } catch (error) {
+        console.log(error)
     }
 }
 
 
 async function getLangs() {
     const langs = await getLanglist()
-    let promises = []
     for (const lang in langs) {
-        promises.push(getLangData(langs[lang]));
+        await getLangData(langs[lang])
+
     }
-    await Promise.all(promises);
     return langtouse
 }
 

@@ -11055,6 +11055,46 @@
             ]
         }
     },
+    "1619039771": {
+        "group": "electrical",
+        "identifier": 1619039771,
+        "name": "digital-clock",
+        "shortname": "electric.digitalclock",
+        "description": "A digital clock that displays the server time and lets you set alarms to pass power through when ringing. Ideal for synchronizing traps or timed events.",
+        "craftData": {
+            "yield": 1,
+            "workbench": 2,
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 100,
+                "craftCost": [
+                    {
+                        "name": 69511070,
+                        "amount": 100
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYieldrad": [
+                {
+                    "name": 69511070,
+                    "amount": 60
+                }
+            ],
+            "recycleYieldsafe": [
+                {
+                    "name": 69511070,
+                    "amount": 40
+                }
+            ]
+        }
+    },
     "1623701499": {
         "group": "electrical",
         "identifier": 1623701499,
@@ -13882,7 +13922,7 @@
         "identifier": 2005491391,
         "name": "extended-magazine",
         "shortname": "weapon.mod.extendedmags",
-        "description": "Larger magazine size",
+        "description": "The Extended Magazine is an attachment which increases a gun's ammo capacity. If your gun has a free attachment slot, this may be useful.",
         "craftData": {
             "yield": 1,
             "workbench": 2,
@@ -18442,7 +18482,7 @@
         "identifier": -1861522751,
         "name": "research-table",
         "shortname": "research.table",
-        "description": "The research table is a craftable deployable item that is used for researching obtained items for a price. This can be done by pressing the 'E' key, inserting your item and the required scrap metal to acquire a blueprint for use at the appropriate tier of workbench. (note: blueprint is guaranteed unlike previous versions of rust).",
+        "description": "The research table is a craftable deployable item that is used for researching obtained items for scrap. This can be done by USING the research table, inserting your item, and inserting the amount of scrap to learn the item's blueprint in an appropriate workbench. (note: blueprint is guaranteed unlike previous versions of rust).",
         "craftData": {
             "yield": 1,
             "workbench": 1,
@@ -19210,6 +19250,46 @@
                 {
                     "name": 69511070,
                     "amount": 40
+                }
+            ]
+        }
+    },
+    "-1501434104": {
+        "group": "items",
+        "identifier": -1501434104,
+        "name": "wallpaper",
+        "shortname": "wallpaper",
+        "description": "Transform your base from a rusty shack to a cozy hideout with this sleek wallpaper. A nice touch of style - until the next raid, at least.",
+        "craftData": {
+            "yield": 2,
+            "workbench": 0,
+            "craftTime": {
+                "craftTime": {
+                    "short": 1,
+                    "long": 5
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 10,
+                "craftCost": [
+                    {
+                        "name": -858312878,
+                        "amount": 10
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYieldrad": [
+                {
+                    "name": -858312878,
+                    "amount": 3
+                }
+            ],
+            "recycleYieldsafe": [
+                {
+                    "name": -858312878,
+                    "amount": 2
                 }
             ]
         }
@@ -25546,6 +25626,46 @@
                 {
                     "name": -151838493,
                     "amount": 40
+                }
+            ]
+        }
+    },
+    "-1767794021": {
+        "group": "components",
+        "identifier": -1767794021,
+        "name": "gas-compression-overdrive",
+        "shortname": "weapon.mod.gascompressionovedrive",
+        "description": "An internal weapon mod which compresses and directs gasses used for cycling the weapon to the barrel, effectively increasing projectile velocity and damage at the expense of cycle rate.",
+        "craftData": {
+            "yield": 1,
+            "workbench": 2,
+            "craftTime": {
+                "craftTime": {
+                    "short": 15,
+                    "long": 30
+                }
+            },
+            "recipie": {
+                "totalCraftCost": 10,
+                "craftCost": [
+                    {
+                        "name": 317398316,
+                        "amount": 10
+                    }
+                ]
+            }
+        },
+        "recycleData": {
+            "recycleYieldrad": [
+                {
+                    "name": 317398316,
+                    "amount": 6
+                }
+            ],
+            "recycleYieldsafe": [
+                {
+                    "name": 317398316,
+                    "amount": 4
                 }
             ]
         }

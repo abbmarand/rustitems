@@ -19,7 +19,8 @@ to scrape new data.(takes around 10 minutes)
 ```bash
 node scrape.js
 ``` 
-to apply all the languages
+to apply all the languages (needs env variables)
+You can sign in to the [Rusts crowdin project](https://crowdin.com/project/rust) and copy the cookies and put them in the .env file
 ```bash
 node lang.js
 ```
