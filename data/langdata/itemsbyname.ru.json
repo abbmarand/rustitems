@@ -1,26 +1,4 @@
 {
-  "16x-zoom-scope": {
-    "group": "weapons",
-    "identifier": 174866732,
-    "name": "Прицел 16х",
-    "shortname": "weapon.mod.8x.scope",
-    "description": "The 16x Zoom Scope is a military-grade telescopic sight. Its reticle is a thin cross with bullet-drop guides. Its extreme magnification allows for precise fire over extreme distances, but its narrow field of view makes it impractical for any close quarter engagements or full-auto fire. As it's susceptible to shaking, consider using a Weapon Lasersight or Tactical Gloves in addition to this scope.",
-    "craftData": {},
-    "recycleData": {
-      "recycleYieldrad": [
-        {
-          "name": "Металл высокого качества",
-          "amount": 48
-        }
-      ],
-      "recycleYieldsafe": [
-        {
-          "name": "Металл высокого качества",
-          "amount": 32
-        }
-      ]
-    }
-  },
   "8x-zoom-scope": {
     "group": "weapons",
     "identifier": 567235583,
@@ -64,7 +42,7 @@
   "assault-rifle": {
     "group": "weapons",
     "identifier": 1545779598,
-    "name": "АК-47",
+    "name": "Штурмовая Винтовка",
     "shortname": "rifle.ak",
     "description": "The Assault Rifle is an accurate, powerful, and fully automatic rifle that fires 5.56 rifle rounds. It has a moderate rate of fire which allows for proficiency at close to medium range.\n\nStrong recoil makes it more difficult to fire in full-auto at long range, but experienced users may be able to control it more effectively.\n\nThe Assault Rifle is generally used as an end-game multipurpose weapon, able to take fights at any range.",
     "craftData": {
@@ -887,7 +865,7 @@
   "flashbang": {
     "group": "weapons",
     "identifier": -936921910,
-    "name": "Светошумовая Граната",
+    "name": "Светошумовая граната",
     "shortname": "grenade.flashbang",
     "description": "A bright explosive device which blinds and disorients anyone near it upon detonation",
     "craftData": {
@@ -932,6 +910,45 @@
         {
           "name": "Фрагменты металла",
           "amount": 20
+        }
+      ]
+    }
+  },
+  "gas-compression-overdrive": {
+    "group": "weapons",
+    "identifier": -1767794021,
+    "shortname": "weapon.mod.gascompressionovedrive",
+    "description": "An internal weapon mod which compresses and directs gasses used for cycling the weapon to the barrel, effectively increasing projectile velocity and damage at the expense of cycle rate.",
+    "craftData": {
+      "yield": 1,
+      "workbench": 2,
+      "craftTime": {
+        "craftTime": {
+          "short": 15,
+          "long": 30
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 10,
+        "craftCost": [
+          {
+            "name": "Металл высокого качества",
+            "amount": 10
+          }
+        ]
+      }
+    },
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Металл высокого качества",
+          "amount": 6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Металл высокого качества",
+          "amount": 4
         }
       ]
     }
@@ -999,6 +1016,146 @@
         },
         {
           "name": "Корпус винтовки",
+          "amount": 0.4
+        }
+      ]
+    }
+  },
+  "handmade-smg": {
+    "group": "weapons",
+    "identifier": 2083256995,
+    "name": "Кустарный пистолет пулемёт",
+    "shortname": "t1_smg",
+    "description": "An extremely basic automatic firearm. Low damage and accuracy.",
+    "craftData": {
+      "yield": 1,
+      "workbench": 1,
+      "craftTime": {
+        "craftTime": {
+          "short": 7,
+          "long": 30
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 206,
+        "craftCost": [
+          {
+            "name": "Металл высокого качества",
+            "amount": 5
+          },
+          {
+            "name": "Фрагменты металла",
+            "amount": 200
+          },
+          {
+            "name": "Металлическая пружина",
+            "amount": 1
+          }
+        ]
+      }
+    },
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Металл высокого качества",
+          "amount": 3
+        },
+        {
+          "name": "Фрагменты металла",
+          "amount": 120
+        },
+        {
+          "name": "Металлическая пружина",
+          "amount": 0.6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Металл высокого качества",
+          "amount": 2
+        },
+        {
+          "name": "Фрагменты металла",
+          "amount": 80
+        },
+        {
+          "name": "Металлическая пружина",
+          "amount": 0.4
+        }
+      ]
+    }
+  },
+  "high-caliber-revolver": {
+    "group": "weapons",
+    "identifier": -92315244,
+    "name": "Крупнокалиберный револьвер",
+    "shortname": "revolver.hc",
+    "description": "A High Caliber six-shooter.",
+    "craftData": {
+      "yield": 1,
+      "workbench": 2,
+      "craftTime": {
+        "craftTime": {
+          "short": 15,
+          "long": 30
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 12,
+        "craftCost": [
+          {
+            "name": "Металлическая труба",
+            "amount": 4
+          },
+          {
+            "name": "Металлическая пружина",
+            "amount": 1
+          },
+          {
+            "name": "Шестерни",
+            "amount": 1
+          },
+          {
+            "name": "Металл высокого качества",
+            "amount": 6
+          }
+        ]
+      }
+    },
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Металлическая труба",
+          "amount": 3
+        },
+        {
+          "name": "Металл высокого качества",
+          "amount": 4
+        },
+        {
+          "name": "Металлическая пружина",
+          "amount": 0.6
+        },
+        {
+          "name": "Шестерни",
+          "amount": 0.6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Металлическая труба",
+          "amount": 2
+        },
+        {
+          "name": "Металл высокого качества",
+          "amount": 3
+        },
+        {
+          "name": "Металлическая пружина",
+          "amount": 0.4
+        },
+        {
+          "name": "Шестерни",
           "amount": 0.4
         }
       ]
@@ -1239,7 +1396,7 @@
           "amount": 2
         },
         {
-          "name": "Модуль очередной стрельбы",
+          "name": "Модуль очерёдной стрельбы",
           "amount": 2
         },
         {
@@ -1257,7 +1414,7 @@
           "amount": 1
         },
         {
-          "name": "Модуль очередной стрельбы",
+          "name": "Модуль очерёдной стрельбы",
           "amount": 1
         },
         {
@@ -1406,7 +1563,7 @@
   "m4-shotgun": {
     "group": "weapons",
     "identifier": 678698219,
-    "name": "Дробовик М4",
+    "name": "Дробовик M4",
     "shortname": "shotgun.m4",
     "description": "A semi automatic military issue shotgun",
     "craftData": {},
@@ -2053,7 +2210,7 @@
           "amount": 3
         },
         {
-          "name": "Модуль очередной стрельбы",
+          "name": "Модуль очерёдной стрельбы",
           "amount": 2
         },
         {
@@ -2071,7 +2228,7 @@
           "amount": 2
         },
         {
-          "name": "Модуль очередной стрельбы",
+          "name": "Модуль очерёдной стрельбы",
           "amount": 1
         },
         {
@@ -2316,6 +2473,82 @@
         {
           "name": "Металлическая труба",
           "amount": 2
+        }
+      ]
+    }
+  },
+  "sks": {
+    "group": "weapons",
+    "identifier": -348232115,
+    "name": "СКС",
+    "shortname": "rifle.sks",
+    "description": "A Military-Grade Semi Automatic Rifle.",
+    "craftData": {
+      "yield": 1,
+      "workbench": 3,
+      "craftTime": {
+        "craftTime": {
+          "short": 30,
+          "long": 30
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 215,
+        "craftCost": [
+          {
+            "name": "Корпус полуавтомата",
+            "amount": 1
+          },
+          {
+            "name": "Металлическая пружина",
+            "amount": 2
+          },
+          {
+            "name": "Фрагменты металла",
+            "amount": 200
+          },
+          {
+            "name": "Металл высокого качества",
+            "amount": 12
+          }
+        ]
+      }
+    },
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Металлическая пружина",
+          "amount": 2
+        },
+        {
+          "name": "Фрагменты металла",
+          "amount": 120
+        },
+        {
+          "name": "Металл высокого качества",
+          "amount": 8
+        },
+        {
+          "name": "Корпус полуавтомата",
+          "amount": 0.6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Металлическая пружина",
+          "amount": 1
+        },
+        {
+          "name": "Фрагменты металла",
+          "amount": 80
+        },
+        {
+          "name": "Металл высокого качества",
+          "amount": 5
+        },
+        {
+          "name": "Корпус полуавтомата",
+          "amount": 0.4
         }
       ]
     }
@@ -2946,6 +3179,27 @@
       ]
     }
   },
+  "variable-zoom-scope": {
+    "group": "weapons",
+    "identifier": 174866732,
+    "shortname": "weapon.mod.8x.scope",
+    "description": "The 16x Zoom Scope is a military-grade telescopic sight. Its reticle is a thin cross with bullet-drop guides. Its extreme magnification allows for precise fire over extreme distances, but its narrow field of view makes it impractical for any close quarter engagements or full-auto fire. As it's susceptible to shaking, consider using a Weapon Lasersight or Tactical Gloves in addition to this scope.",
+    "craftData": {},
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Металл высокого качества",
+          "amount": 48
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Металл высокого качества",
+          "amount": 32
+        }
+      ]
+    }
+  },
   "water-gun": {
     "group": "weapons",
     "identifier": 722955039,
@@ -3193,7 +3447,7 @@
     }
   },
   "armored-door": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1353298668,
     "name": "Бронированная дверь",
     "shortname": "door.hinged.toptier",
@@ -3245,7 +3499,7 @@
     }
   },
   "armored-double-door": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1221063409,
     "name": "Двойная бронированная дверь",
     "shortname": "door.double.hinged.toptier",
@@ -3297,7 +3551,7 @@
     }
   },
   "barbed-wooden-barricade": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1382263453,
     "name": "Деревянная баррикада с колючей проволокой",
     "shortname": "barricade.woodwire",
@@ -3361,7 +3615,7 @@
     }
   },
   "building-plan": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1525520776,
     "name": "План постройки",
     "shortname": "building.planner",
@@ -3401,7 +3655,7 @@
     }
   },
   "chainlink-fence": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1117626326,
     "name": "Сетчатый забор",
     "shortname": "wall.frame.fence",
@@ -3441,7 +3695,7 @@
     }
   },
   "chainlink-fence-gate": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1451568081,
     "name": "Сетчатая дверь",
     "shortname": "wall.frame.fence.gate",
@@ -3481,7 +3735,7 @@
     }
   },
   "code-lock": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1159991980,
     "name": "Кодовый замок",
     "shortname": "lock.code",
@@ -3521,7 +3775,7 @@
     }
   },
   "concrete-barricade": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1950721390,
     "name": "Бетонная баррикада",
     "shortname": "barricade.concrete",
@@ -3561,7 +3815,7 @@
     }
   },
   "door-closer": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1409529282,
     "name": "Дверной доводчик",
     "shortname": "door.closer",
@@ -3591,7 +3845,7 @@
     }
   },
   "floor-grill": {
-    "group": "build",
+    "group": "construction",
     "identifier": 936496778,
     "name": "Решётчатый настил",
     "shortname": "floor.grill",
@@ -3631,7 +3885,7 @@
     }
   },
   "floor-triangle-grill": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1983621560,
     "name": "Треугольный решётчатый настил",
     "shortname": "floor.triangle.grill",
@@ -3671,7 +3925,7 @@
     }
   },
   "garage-door": {
-    "group": "build",
+    "group": "construction",
     "identifier": -148794216,
     "name": "Гаражная дверь",
     "shortname": "wall.frame.garagedoor",
@@ -3723,7 +3977,7 @@
     }
   },
   "high-external-stone-gate": {
-    "group": "build",
+    "group": "construction",
     "identifier": -691113464,
     "name": "Высокие внешние каменные ворота",
     "shortname": "gates.external.high.stone",
@@ -3738,7 +3992,7 @@
         }
       },
       "recipie": {
-        "totalCraftCost": 3005,
+        "totalCraftCost": 3004,
         "craftCost": [
           {
             "name": "Камни",
@@ -3746,7 +4000,11 @@
           },
           {
             "name": "Шестерни",
-            "amount": 5
+            "amount": 3
+          },
+          {
+            "name": "Листовой металл",
+            "amount": 1
           }
         ]
       }
@@ -3754,26 +4012,26 @@
     "recycleData": {
       "recycleYieldrad": [
         {
-          "name": "Шестерни",
-          "amount": 3
+          "name": "Листовой металл",
+          "amount": 0.6
         }
       ],
       "recycleYieldsafe": [
         {
-          "name": "Шестерни",
-          "amount": 2
+          "name": "Листовой металл",
+          "amount": 0.4
         }
       ]
     }
   },
   "high-external-stone-wall": {
-    "group": "build",
+    "group": "construction",
     "identifier": -967648160,
     "name": "Высокая внешняя каменная стена",
     "shortname": "wall.external.high.stone",
-    "description": "High External Stone Walls are generally used in the construction of compounds, and, unlike their wooden relatives, are fire-resistant and require explosives to get through unless you use a ladder, though this may prove difficult due to the damage and slow inflicted by the barbed wire on top of these walls. Both these and their wooden equivalents are also commonly used in pvp combat, as they can be carried in stacks of ten for some portable cover.",
+    "description": "High External Stone Walls are generally used in the construction of compounds, and, unlike their wooden relatives, are fire-resistant and require explosives to get through unless you use a ladder, though this may prove difficult due to the damage and slow inflicted by the barbed wire on top of these walls.",
     "craftData": {
-      "yield": 1,
+      "yield": 3,
       "workbench": 2,
       "craftTime": {
         "craftTime": {
@@ -3782,10 +4040,14 @@
         }
       },
       "recipie": {
-        "totalCraftCost": 1500,
+        "totalCraftCost": 4001,
         "craftCost": [
           {
             "name": "Камни",
+            "amount": 4
+          },
+          {
+            "name": "Листовой металл",
             "amount": 1
           }
         ]
@@ -3795,19 +4057,27 @@
       "recycleYieldrad": [
         {
           "name": "Камни",
-          "amount": 900
+          "amount": 800
+        },
+        {
+          "name": "Листовой металл",
+          "amount": 0.2
         }
       ],
       "recycleYieldsafe": [
         {
           "name": "Камни",
-          "amount": 600
+          "amount": 534
+        },
+        {
+          "name": "Листовой металл",
+          "amount": 0.13
         }
       ]
     }
   },
   "high-external-wooden-gate": {
-    "group": "build",
+    "group": "construction",
     "identifier": -335089230,
     "name": "Высокие внешние деревянные ворота",
     "shortname": "gates.external.high.wood",
@@ -3851,13 +4121,13 @@
     }
   },
   "high-external-wooden-wall": {
-    "group": "build",
+    "group": "construction",
     "identifier": 99588025,
     "name": "Высокая внешняя деревянная стена ",
     "shortname": "wall.external.high",
     "description": "The High External Wooden Wall is a deployable building object used to wall off an area. The high external is about the height and width of a standard 2x2 wall. The wall also comes with a barbed wire top slowing down and damaging any players that come into contact with it.\n\nHigh externals can be a cheap and effective way to deny entry, however they decay fairly quickly and need to be maintained.\n\nDue to their size High External Walls are often used in combat as deployable cover.",
     "craftData": {
-      "yield": 1,
+      "yield": 3,
       "workbench": 1,
       "craftTime": {
         "craftTime": {
@@ -3866,11 +4136,11 @@
         }
       },
       "recipie": {
-        "totalCraftCost": 1500,
+        "totalCraftCost": 4000,
         "craftCost": [
           {
             "name": "Дерево",
-            "amount": 1
+            "amount": 4
           }
         ]
       }
@@ -3879,19 +4149,19 @@
       "recycleYieldrad": [
         {
           "name": "Дерево",
-          "amount": 900
+          "amount": 800
         }
       ],
       "recycleYieldsafe": [
         {
           "name": "Дерево",
-          "amount": 600
+          "amount": 534
         }
       ]
     }
   },
   "high-ice-wall": {
-    "group": "build",
+    "group": "construction",
     "identifier": -985781766,
     "name": "Высокая ледяная стена",
     "shortname": "wall.external.high.ice",
@@ -3913,7 +4183,7 @@
     }
   },
   "key-lock": {
-    "group": "build",
+    "group": "construction",
     "identifier": -850982208,
     "name": "Дверной замок",
     "shortname": "lock.key",
@@ -3953,7 +4223,7 @@
     }
   },
   "ladder-hatch": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1948067030,
     "name": "Лестничный люк",
     "shortname": "floor.ladder.hatch",
@@ -4009,7 +4279,7 @@
     }
   },
   "large-water-catcher": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1100168350,
     "name": "Большой водосборник",
     "shortname": "water.catcher.large",
@@ -4073,7 +4343,7 @@
     }
   },
   "legacy-wood-shelter": {
-    "group": "build",
+    "group": "construction",
     "identifier": 607400343,
     "shortname": "legacy.shelter.wood",
     "description": "The classic s*** shack. A great starter base for any fresh spawn. There is a limit to how many you can place.",
@@ -4112,7 +4382,7 @@
     }
   },
   "metal-barricade": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1655650836,
     "name": "Металлическая баррикада",
     "shortname": "barricade.metal",
@@ -4164,7 +4434,7 @@
     }
   },
   "metal-shop-front": {
-    "group": "build",
+    "group": "construction",
     "identifier": -148229307,
     "shortname": "wall.frame.shopfront.metal",
     "description": "The metal shop front is quite useful for trading. The vendor can stand safely behind it without worrying about getting shot, as the glass is bulletproof. When the player on the inside and the player on the outside have put in items to make the desired trade, they both have to accept the deal for the items to be transferred.\n\nAs the Metal Shop Front has similar durability to a sheet metal wall, along with bulletproof glass, it can be used as a safe window to spy on neighbors at higher levels of a base.",
@@ -4203,7 +4473,7 @@
     }
   },
   "metal-vertical-embrasure": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1199897172,
     "name": "Металлическая вертикальная бойница",
     "shortname": "shutter.metal.embrasure.b",
@@ -4243,7 +4513,7 @@
     }
   },
   "metal-window-bars": {
-    "group": "build",
+    "group": "construction",
     "identifier": -819720157,
     "name": "Металлические оконные решётки",
     "shortname": "wall.window.bars.metal",
@@ -4283,7 +4553,7 @@
     }
   },
   "metal-horizontal-embrasure": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1199897169,
     "name": "Металлическая горизонтальная бойница",
     "shortname": "shutter.metal.embrasure.a",
@@ -4323,7 +4593,7 @@
     }
   },
   "mining-quarry": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1052926200,
     "name": "Горнорудный карьер",
     "shortname": "mining.quarry",
@@ -4332,7 +4602,7 @@
     "recycleData": {}
   },
   "netting": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1516985844,
     "name": "Сетка",
     "shortname": "wall.frame.netting",
@@ -4372,7 +4642,7 @@
     }
   },
   "prison-cell-gate": {
-    "group": "build",
+    "group": "construction",
     "identifier": -956706906,
     "name": "Тюремная дверь",
     "shortname": "wall.frame.cell.gate",
@@ -4412,7 +4682,7 @@
     }
   },
   "prison-cell-wall": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1429456799,
     "name": "Тюремная решётка",
     "shortname": "wall.frame.cell",
@@ -4452,7 +4722,7 @@
     }
   },
   "pump-jack": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1130709577,
     "name": "Нефтяная вышка",
     "shortname": "mining.pumpjack",
@@ -4461,7 +4731,7 @@
     "recycleData": {}
   },
   "reinforced-glass-window": {
-    "group": "build",
+    "group": "construction",
     "identifier": 671706427,
     "name": "Укреплённое стеклянное окно",
     "shortname": "wall.window.bars.toptier",
@@ -4501,7 +4771,7 @@
     }
   },
   "sandbag-barricade": {
-    "group": "build",
+    "group": "construction",
     "identifier": -559599960,
     "name": "Баррикада из мешков с песком",
     "shortname": "barricade.sandbags",
@@ -4553,7 +4823,7 @@
     }
   },
   "sheet-metal-door": {
-    "group": "build",
+    "group": "construction",
     "identifier": -2067472972,
     "name": "Дверь из листового металла",
     "shortname": "door.hinged.metal",
@@ -4593,7 +4863,7 @@
     }
   },
   "sheet-metal-double-door": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1390353317,
     "name": "Двойная металлическая дверь",
     "shortname": "door.double.hinged.metal",
@@ -4633,7 +4903,7 @@
     }
   },
   "shop-front": {
-    "group": "build",
+    "group": "construction",
     "identifier": -796583652,
     "name": "Витрина магазина",
     "shortname": "wall.frame.shopfront",
@@ -4673,7 +4943,7 @@
     }
   },
   "short-ice-wall": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1327005675,
     "name": "Короткая ледяная стена",
     "shortname": "wall.ice.wall",
@@ -4695,7 +4965,7 @@
     }
   },
   "small-water-catcher": {
-    "group": "build",
+    "group": "construction",
     "identifier": -132247350,
     "name": "Маленький водосборник",
     "shortname": "water.catcher.small",
@@ -4759,7 +5029,7 @@
     }
   },
   "stone-barricade": {
-    "group": "build",
+    "group": "construction",
     "identifier": 15388698,
     "name": "Каменная баррикада",
     "shortname": "barricade.stone",
@@ -4799,7 +5069,7 @@
     }
   },
   "strengthened-glass-window": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1614955425,
     "name": "Усиленное стеклянное окно",
     "shortname": "wall.window.glass.reinforced",
@@ -4839,7 +5109,7 @@
     }
   },
   "tool-cupboard": {
-    "group": "build",
+    "group": "construction",
     "identifier": -97956382,
     "name": "Шкаф с инструментами",
     "shortname": "cupboard.tool",
@@ -4879,7 +5149,7 @@
     }
   },
   "triangle-ladder-hatch": {
-    "group": "build",
+    "group": "construction",
     "identifier": 2041899972,
     "name": "Треугольный люк",
     "shortname": "floor.triangle.ladder.hatch",
@@ -4935,7 +5205,7 @@
     }
   },
   "watch-tower": {
-    "group": "build",
+    "group": "construction",
     "identifier": -463122489,
     "shortname": "watchtower.wood",
     "description": "A place-able tower that can be used to help hold positions.\nCannot be placed on foundations\nRelatively resistant to gunfire, but falls reasonably fast to melee weapons or weapon throws.",
@@ -4974,7 +5244,7 @@
     }
   },
   "wood-double-door": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1336109173,
     "name": "Двойная деревянная дверь",
     "shortname": "door.double.hinged.wood",
@@ -5014,7 +5284,7 @@
     }
   },
   "wood-shutters": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1023374709,
     "name": "Деревянные ставни",
     "shortname": "shutter.wood.a",
@@ -5054,7 +5324,7 @@
     }
   },
   "wooden-barricade": {
-    "group": "build",
+    "group": "construction",
     "identifier": 866889860,
     "name": "Деревянная баррикада",
     "shortname": "barricade.wood",
@@ -5106,7 +5376,7 @@
     }
   },
   "wooden-barricade-cover": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1373240771,
     "name": "Деревянное укрытие",
     "shortname": "barricade.wood.cover",
@@ -5146,7 +5416,7 @@
     }
   },
   "wooden-door": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1729120840,
     "name": "Деревянная дверь",
     "shortname": "door.hinged.wood",
@@ -5186,7 +5456,7 @@
     }
   },
   "wooden-frontier-bar-doors": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1151332840,
     "name": "Деревянные барные двери запада",
     "shortname": "door.double.hinged.bardoors",
@@ -5226,7 +5496,7 @@
     }
   },
   "wooden-ladder": {
-    "group": "build",
+    "group": "construction",
     "identifier": -316250604,
     "name": "Деревянная лестница",
     "shortname": "ladder.wooden.wall",
@@ -5270,7 +5540,7 @@
     }
   },
   "wooden-window-bars": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1183726687,
     "name": "Деревянные решетки",
     "shortname": "wall.window.bars.wood",
@@ -6020,6 +6290,57 @@
       ]
     }
   },
+  "diver-propulsion-vehicle": {
+    "group": "items",
+    "identifier": -1056824343,
+    "shortname": "skidoo",
+    "description": "A personal underwater propulsion device",
+    "craftData": {
+      "yield": 1,
+      "workbench": 2,
+      "craftTime": {
+        "craftTime": {
+          "short": 15,
+          "long": 30
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 16,
+        "craftCost": [
+          {
+            "name": "Куча случайных микросхем.",
+            "amount": 1
+          },
+          {
+            "name": "Металл высокого качества",
+            "amount": 15
+          }
+        ]
+      }
+    },
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Металл высокого качества",
+          "amount": 9
+        },
+        {
+          "name": "Куча случайных микросхем.",
+          "amount": 0.6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Металл высокого качества",
+          "amount": 6
+        },
+        {
+          "name": "Куча случайных микросхем.",
+          "amount": 0.4
+        }
+      ]
+    }
+  },
   "double-sign-post": {
     "group": "items",
     "identifier": 1521286012,
@@ -6647,6 +6968,27 @@
       ]
     }
   },
+  "hazmat-plushy": {
+    "group": "items",
+    "identifier": 1578317134,
+    "shortname": "hazmat.plushy",
+    "description": "A plushy of your favourite outfit made by the fabulous people at YouTooz.com",
+    "craftData": {},
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Ткань",
+          "amount": 30
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Ткань",
+          "amount": 20
+        }
+      ]
+    }
+  },
   "hazmat-youtooz": {
     "group": "items",
     "identifier": -1696379844,
@@ -6891,6 +7233,36 @@
         {
           "name": "Дерево",
           "amount": 100
+        }
+      ]
+    }
+  },
+  "ice-sculpture": {
+    "group": "items",
+    "identifier": 504109620,
+    "name": "Ледяная скульптура",
+    "shortname": "sculpture.ice",
+    "description": "An block of ice you can sculpt.",
+    "craftData": {},
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Дерево",
+          "amount": 300
+        },
+        {
+          "name": "Фрагменты металла",
+          "amount": 60
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Дерево",
+          "amount": 200
+        },
+        {
+          "name": "Фрагменты металла",
+          "amount": 40
         }
       ]
     }
@@ -8337,7 +8709,7 @@
       ]
     }
   },
-  "secret-lab-chair": {
+  "secretlab-chair": {
     "group": "items",
     "identifier": 567871954,
     "name": "Игровое кресло SecretLab",
@@ -10756,6 +11128,15 @@
     "craftData": {},
     "recycleData": {}
   },
+  "radioactive-water": {
+    "group": "resources",
+    "identifier": 1811780502,
+    "name": "Радиоактивная вода",
+    "shortname": "water.radioactive",
+    "description": "Glowing water. Consuming will damage your health and irradiate you.",
+    "craftData": {},
+    "recycleData": {}
+  },
   "research-paper": {
     "group": "resources",
     "identifier": -544317637,
@@ -10874,7 +11255,7 @@
     "recycleData": {}
   },
   "a-barrel-costume": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1215166612,
     "shortname": "barrelcostume",
     "description": "A stupid barrel costume, so you can hide like a pro..p",
@@ -10882,7 +11263,7 @@
     "recycleData": {}
   },
   "arctic-scientist-suit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1107575710,
     "shortname": "hazmatsuit_scientist_arctic",
     "description": "An Arctic Scientist Suit worn by the scientists which are found in arctic research bases. Unobtainable during normal gameplay, it can only be acquired through console by admins.",
@@ -10919,7 +11300,7 @@
     }
   },
   "arctic-suit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -470439097,
     "shortname": "hazmatsuit.arcticsuit",
     "description": "An arctic variant of the hazmat suit which trades radiation for cold protection.",
@@ -10927,7 +11308,7 @@
     "recycleData": {}
   },
   "bandana-mask": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -702051347,
     "name": "Кусок ткани, завязанный на лице, в области рта и носа.",
     "shortname": "mask.bandana",
@@ -10967,7 +11348,7 @@
     }
   },
   "bandit-guard-gear": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1622110948,
     "shortname": "attire.banditguard",
     "description": "A Bandit Guard Suit worn by the guards at bandit camp. Unobtainable during normal gameplay, it can only be acquired through console by admins.",
@@ -11004,7 +11385,7 @@
     }
   },
   "baseball-cap": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1022661119,
     "name": "Кепка",
     "shortname": "hat.cap",
@@ -11044,7 +11425,7 @@
     }
   },
   "basic-horse-shoes": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1211268013,
     "shortname": "horse.shoes.basic",
     "description": "Equipping these horse shoes will grant your horse additional movement speed",
@@ -11083,7 +11464,7 @@
     }
   },
   "beenie-hat": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1675639563,
     "name": "Вязаная шапочка",
     "shortname": "hat.beenie",
@@ -11123,7 +11504,7 @@
     }
   },
   "blue-jumpsuit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1601468620,
     "name": "Синий комбинезон",
     "shortname": "jumpsuit.suit.blue",
@@ -11145,7 +11526,7 @@
     }
   },
   "bone-armor": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1746956556,
     "name": "Костяная броня",
     "shortname": "bone.armor.suit",
@@ -11197,7 +11578,7 @@
     }
   },
   "bone-helmet": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1903165497,
     "name": "Костяной шлем",
     "shortname": "deer.skull.mask",
@@ -11249,7 +11630,7 @@
     }
   },
   "boonie-hat": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -23994173,
     "name": "Панама",
     "shortname": "hat.boonie",
@@ -11289,7 +11670,7 @@
     }
   },
   "boots": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1549739227,
     "name": "Ботинки",
     "shortname": "shoes.boots",
@@ -11353,7 +11734,7 @@
     }
   },
   "bucket-helmet": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 850280505,
     "name": "Шлем из ведра",
     "shortname": "bucket.helmet",
@@ -11393,7 +11774,7 @@
     }
   },
   "bunny-ears": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1004426654,
     "shortname": "attire.bunnyears",
     "description": "Bunny Ears. Grants additional Egg Vision allowing you to detect more eggs during an Easter egg hunt.",
@@ -11414,7 +11795,7 @@
     }
   },
   "bunny-hat": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 23391694,
     "name": "Шапка кролика",
     "shortname": "hat.bunnyhat",
@@ -11454,7 +11835,7 @@
     }
   },
   "bunny-onesie": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1266045928,
     "name": "Костюм кролика",
     "shortname": "attire.bunny.onesie",
@@ -11476,7 +11857,7 @@
     }
   },
   "burlap-gloves": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 21402876,
     "name": "Перчатки из мешковины",
     "shortname": "burlap.gloves.new",
@@ -11516,7 +11897,7 @@
     }
   },
   "burlap-headwrap": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1877339384,
     "name": "Повязка из мешковины",
     "shortname": "burlap.headwrap",
@@ -11556,7 +11937,7 @@
     }
   },
   "burlap-shirt": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 602741290,
     "name": "Рубашка из мешковины",
     "shortname": "burlap.shirt",
@@ -11596,7 +11977,7 @@
     }
   },
   "burlap-shoes": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -761829530,
     "name": "Обувь из мешковины",
     "shortname": "burlap.shoes",
@@ -11636,7 +12017,7 @@
     }
   },
   "burlap-trousers": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1992974553,
     "name": "Штаны из мешковины",
     "shortname": "burlap.trousers",
@@ -11676,7 +12057,7 @@
     }
   },
   "candle-hat": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1714496074,
     "name": "Шляпа со свечой",
     "shortname": "hat.candle",
@@ -11728,7 +12109,7 @@
     }
   },
   "card-movember-moustache": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 3380160,
     "shortname": "movembermoustachecard",
     "description": "A fake moustache for Movember",
@@ -11749,7 +12130,7 @@
     }
   },
   "chicken-costume": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -152332823,
     "name": "Костюм курицы",
     "shortname": "chicken.costume",
@@ -11801,7 +12182,7 @@
     }
   },
   "clatter-helmet": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 968019378,
     "name": "Шлем Clatter",
     "shortname": "clatter.helmet",
@@ -11841,7 +12222,7 @@
     }
   },
   "coffee-can-helmet": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -803263829,
     "name": "Шлем из кофейной банки",
     "shortname": "coffeecan.helmet",
@@ -11905,7 +12286,7 @@
     }
   },
   "crate-costume": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1189981699,
     "shortname": "cratecostume",
     "description": "A sneaky crate costume. Use with a friend to expertly troll other players",
@@ -11913,7 +12294,7 @@
     "recycleData": {}
   },
   "diving-fins": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 296519935,
     "shortname": "diving.fins",
     "description": "The diving fins are flippers that make you walk slow on land and swim a lot faster. They have no protection stats so only use them for swimming.",
@@ -11934,7 +12315,7 @@
     }
   },
   "diving-mask": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -113413047,
     "shortname": "diving.mask",
     "description": "A Diving Mask. Provides clear vision under water.",
@@ -11955,7 +12336,7 @@
     }
   },
   "diving-tank": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2022172587,
     "shortname": "diving.tank",
     "description": "The Diving Tank is a tank of air used for staying underwater for extended periods of time, 10 minutes to be exact. After this is up, you will need to refill it at a workbench. This item must be worn to work, and occupies the top torso layer (usually where chest armor goes). Note that wearing the tank while not underwater will not deplete the oxygen supply.",
@@ -11984,7 +12365,7 @@
     }
   },
   "double-horse-saddle": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1323101799,
     "shortname": "horse.saddle.double",
     "description": "A horse saddle with two seats. Having this item allows you to claim a horse in a stable by holding E and selecting the 'Claim' option",
@@ -12005,17 +12386,39 @@
     }
   },
   "dracula-cape": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -258574361,
     "name": "Плащ Дракулы",
     "shortname": "draculacape",
     "description": "A robustly thick outer garment providing ample protection to the wearer.",
-    "craftData": {},
+    "craftData": {
+      "yield": 1,
+      "workbench": 1,
+      "craftTime": {
+        "craftTime": {
+          "short": 7,
+          "long": 30
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 52,
+        "craftCost": [
+          {
+            "name": "Ткань",
+            "amount": 50
+          },
+          {
+            "name": "Набор для шитья",
+            "amount": 2
+          }
+        ]
+      }
+    },
     "recycleData": {
       "recycleYieldrad": [
         {
           "name": "Ткань",
-          "amount": 60
+          "amount": 30
         },
         {
           "name": "Набор для шитья",
@@ -12025,7 +12428,7 @@
       "recycleYieldsafe": [
         {
           "name": "Ткань",
-          "amount": 40
+          "amount": 20
         },
         {
           "name": "Набор для шитья",
@@ -12035,7 +12438,7 @@
     }
   },
   "dracula-mask": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1865253052,
     "shortname": "draculamask",
     "description": "A classic halloween costume mask which provides decent protection.",
@@ -12074,7 +12477,7 @@
     }
   },
   "dragon-mask": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -22883916,
     "shortname": "hat.dragonmask",
     "description": "A special dragon mask to celebrate Chinese New Year.",
@@ -12125,7 +12528,7 @@
     }
   },
   "egg-suit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -747743875,
     "name": "Костюм яйца",
     "shortname": "attire.egg.suit",
@@ -12176,8 +12579,29 @@
       ]
     }
   },
+  "frankenstein-mask": {
+    "group": "attire",
+    "identifier": -1647389398,
+    "shortname": "frankensteinmask",
+    "description": "Frankenstein halloween costume mask which provides decent protection.",
+    "craftData": {},
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Ткань",
+          "amount": 6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Ткань",
+          "amount": 4
+        }
+      ]
+    }
+  },
   "frog-boots": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1000573653,
     "name": "Сапоги-лягушки",
     "shortname": "boots.frog",
@@ -12217,7 +12641,7 @@
     }
   },
   "gas-mask": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1659114910,
     "name": "Противогаз",
     "shortname": "hat.gas.mask",
@@ -12239,7 +12663,7 @@
     }
   },
   "ghost-costume": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1043618880,
     "name": "Костюм призрака",
     "shortname": "ghostsheet",
@@ -12269,7 +12693,7 @@
     }
   },
   "gingerbread-suit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -558880549,
     "shortname": "gingerbreadsuit",
     "description": "A suit made of gingerbread, slightly crunchy.",
@@ -12277,7 +12701,7 @@
     "recycleData": {}
   },
   "glowing-eyes": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -690276911,
     "name": "Светящиеся глаза",
     "shortname": "gloweyes",
@@ -12286,7 +12710,7 @@
     "recycleData": {}
   },
   "hazmat-suit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1266491000,
     "name": "Антирадиационный костюм",
     "shortname": "hazmatsuit",
@@ -12350,7 +12774,7 @@
     }
   },
   "headset": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1569700847,
     "name": "Наушники",
     "shortname": "twitch.headset",
@@ -12390,7 +12814,7 @@
     }
   },
   "heavy-frankenstein-head": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -297099594,
     "name": "Тяжёлая голова Франкенштейна",
     "shortname": "frankensteins.monster.03.head",
@@ -12428,7 +12852,7 @@
     }
   },
   "heavy-frankenstein-legs": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2024549027,
     "name": "Тяжёлые ноги Франкенштейна ",
     "shortname": "frankensteins.monster.03.legs",
@@ -12466,7 +12890,7 @@
     }
   },
   "heavy-frankenstein-torso": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1614528785,
     "name": "Тяжёлые ноги Франкенштейна",
     "shortname": "frankensteins.monster.03.torso",
@@ -12504,7 +12928,7 @@
     }
   },
   "heavy-plate-helmet": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1181207482,
     "name": "Тяжёлый пуленепробиваемый шлем",
     "shortname": "heavy.plate.helmet",
@@ -12556,7 +12980,7 @@
     }
   },
   "heavy-plate-jacket": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1102429027,
     "name": "Тяжёлый латный нагрудник",
     "shortname": "heavy.plate.jacket",
@@ -12608,7 +13032,7 @@
     }
   },
   "heavy-plate-pants": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1778159885,
     "name": "Тяжёлые пуленепробиваемые поножи",
     "shortname": "heavy.plate.pants",
@@ -12660,7 +13084,7 @@
     }
   },
   "heavy-scientist-suit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1772746857,
     "name": "Бронированный костюм, сделанный из радиационно-стойкой резины.",
     "shortname": "scientistsuit_heavy",
@@ -12698,7 +13122,7 @@
     }
   },
   "hide-boots": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 794356786,
     "name": "Сапоги из шкуры",
     "shortname": "attire.hide.boots",
@@ -12738,7 +13162,7 @@
     }
   },
   "hide-halterneck": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 3222790,
     "shortname": "attire.hide.helterneck",
     "description": "Statistically identical to the burlap shirt in spite of its provocative display of the skin.",
@@ -12777,7 +13201,7 @@
     }
   },
   "hide-pants": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1722154847,
     "name": "Штаны из шкуры",
     "shortname": "attire.hide.pants",
@@ -12817,7 +13241,7 @@
     }
   },
   "hide-poncho": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 980333378,
     "name": "Пончо из шкуры",
     "shortname": "attire.hide.poncho",
@@ -12857,7 +13281,7 @@
     }
   },
   "hide-skirt": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1773144852,
     "name": "Юбка из кожи",
     "shortname": "attire.hide.skirt",
@@ -12897,7 +13321,7 @@
     }
   },
   "hide-vest": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 196700171,
     "name": "Жилет из шкуры",
     "shortname": "attire.hide.vest",
@@ -12937,7 +13361,7 @@
     }
   },
   "high-quality-horse-shoes": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1989785143,
     "shortname": "horse.shoes.advanced",
     "description": "Equipping these horse shoes will grant your horse additional movement speed",
@@ -12976,7 +13400,7 @@
     }
   },
   "hoodie": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1751045826,
     "name": "Толстовка с капюшоном",
     "shortname": "hoodie",
@@ -13028,7 +13452,7 @@
     }
   },
   "horse-saddle": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1997543660,
     "shortname": "horse.saddle",
     "description": "Having this item allows you to claim a horse in a stable by holding E and selecting the 'Claim' option",
@@ -13049,7 +13473,7 @@
     }
   },
   "hot-air-balloon-armor": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1989600732,
     "shortname": "hab.armor",
     "description": "Armor for the Hot Air Balloon",
@@ -13088,7 +13512,7 @@
     }
   },
   "improvised-balaclava": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2012470695,
     "name": "Балаклава",
     "shortname": "mask.balaclava",
@@ -13128,7 +13552,7 @@
     }
   },
   "jacket": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1163532624,
     "name": "Куртка",
     "shortname": "jacket",
@@ -13180,7 +13604,7 @@
     }
   },
   "jumpsuit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -97459906,
     "name": "Комбинезон",
     "shortname": "jumpsuit.suit",
@@ -13202,7 +13626,7 @@
     }
   },
   "large-backpack": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -907422733,
     "shortname": "largebackpack",
     "description": "A large, military issued backpack that lets you carry 28 extra items.",
@@ -13239,7 +13663,7 @@
     }
   },
   "leather-gloves": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1366282552,
     "shortname": "burlap.gloves",
     "description": "The minuscule damage reduction of the leather gloves is off-set by the tendency for the player to be shot in the chest rather than the legs, as well as the reduced cost in comparison to the boots.\n\nAs was described, the protection of the gloves extend to the rest of the chest as well.",
@@ -13290,7 +13714,7 @@
     }
   },
   "light-frankenstein-head": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -134959124,
     "name": "Лёгкая голова Франкенштейна",
     "shortname": "frankensteins.monster.01.head",
@@ -13320,7 +13744,7 @@
     }
   },
   "light-frankenstein-legs": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 106959911,
     "name": "Лёгкие ноги Франкенштейна",
     "shortname": "frankensteins.monster.01.legs",
@@ -13350,7 +13774,7 @@
     }
   },
   "light-frankenstein-torso": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1624770297,
     "name": "Лёгкое туловище Франкенштейна",
     "shortname": "frankensteins.monster.01.torso",
@@ -13380,7 +13804,7 @@
     }
   },
   "longsleeve-t-shirt": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 935692442,
     "name": "Водолазка",
     "shortname": "tshirt.long",
@@ -13420,7 +13844,7 @@
     }
   },
   "lumberjack-hoodie": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -763071910,
     "shortname": "lumberjack hoodie",
     "description": "A Lumberjack Hoodie",
@@ -13449,7 +13873,7 @@
     }
   },
   "medium-frankenstein-head": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1732475823,
     "name": "Сбалансированная голова Франкенштейна",
     "shortname": "frankensteins.monster.02.head",
@@ -13479,7 +13903,7 @@
     }
   },
   "medium-frankenstein-legs": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 835042040,
     "name": "Сбалансированные ноги Франкенштейна",
     "shortname": "frankensteins.monster.02.legs",
@@ -13509,7 +13933,7 @@
     }
   },
   "medium-frankenstein-torso": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1491753484,
     "name": "Сбалансированное туловище Франкенштейна",
     "shortname": "frankensteins.monster.02.torso",
@@ -13539,7 +13963,7 @@
     }
   },
   "metal-chest-plate": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1110385766,
     "name": "Металлический нагрудник",
     "shortname": "metal.plate.torso",
@@ -13603,7 +14027,7 @@
     }
   },
   "metal-facemask": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -194953424,
     "name": "Железная маска",
     "shortname": "metal.facemask",
@@ -13667,7 +14091,7 @@
     }
   },
   "miners-hat": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1539025626,
     "name": "Фуражка шахтёра",
     "shortname": "hat.miner",
@@ -13731,7 +14155,7 @@
     }
   },
   "movember-moustache": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2047081330,
     "shortname": "movembermoustache",
     "description": "A magnificent moustache for Movember",
@@ -13769,8 +14193,29 @@
       ]
     }
   },
+  "mummy-mask": {
+    "group": "attire",
+    "identifier": 809689733,
+    "shortname": "mummymask",
+    "description": "A classic halloween costume mask which provides decent protection.",
+    "craftData": {},
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Ткань",
+          "amount": 6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Ткань",
+          "amount": 4
+        }
+      ]
+    }
+  },
   "mummy-suit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 277730763,
     "shortname": "halloween.mummysuit",
     "description": "A mummy suit",
@@ -13778,7 +14223,7 @@
     "recycleData": {}
   },
   "nvgm-scientist-suit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 86840834,
     "shortname": "hazmatsuit_scientist_nvgm",
     "description": "A hazmat suit made from radiation resistant rubber.",
@@ -13815,7 +14260,7 @@
     }
   },
   "nest-hat": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1081315464,
     "shortname": "attire.nesthat",
     "description": "An extremely silly easter nest hat with googly eyes.",
@@ -13866,7 +14311,7 @@
     }
   },
   "night-vision-goggles": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1518883088,
     "name": "Очки ночного видения",
     "shortname": "nightvisiongoggles",
@@ -13918,7 +14363,7 @@
     }
   },
   "ninja-suit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1506417026,
     "name": "Костюм ниндзя",
     "shortname": "attire.ninja.suit",
@@ -13970,7 +14415,7 @@
     }
   },
   "ox-mask": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1315082560,
     "shortname": "hat.oxmask",
     "description": "An Ox mask to celebrate the 2021 Lunar New Year.",
@@ -14021,7 +14466,7 @@
     }
   },
   "pants": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 237239288,
     "name": "Штаны",
     "shortname": "pants",
@@ -14073,7 +14518,7 @@
     }
   },
   "parachute": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 602628465,
     "shortname": "parachute",
     "description": "Once equipped, press [+jump] while in mid-air to pull the cord. Must be repacked after use. Must be at least 15m above the ground in order to deploy.",
@@ -14136,7 +14581,7 @@
     }
   },
   "party-hat": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -575744869,
     "name": "Праздничный колпак",
     "shortname": "partyhat",
@@ -14145,7 +14590,7 @@
     "recycleData": {}
   },
   "prisoner-hood": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -892718768,
     "shortname": "prisonerhood",
     "description": "A hood for prisoners, restricts vision.",
@@ -14184,7 +14629,7 @@
     }
   },
   "purple-sunglasses": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 20489901,
     "shortname": "twitchsunglasses",
     "description": "Sunglasses - Gained from Rust's first Twitch drop event.",
@@ -14223,7 +14668,7 @@
     }
   },
   "rabbit-mask": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -986782031,
     "shortname": "hat.rabbitmask",
     "description": "A Beautifully crafted Rabbit mask to celebrate the 2023 Lunar New Year",
@@ -14274,7 +14719,7 @@
     }
   },
   "rat-mask": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 271048478,
     "shortname": "hat.ratmask",
     "description": "A Beautifully crafted bronze and gold Rat mask to celebrate the 2020 Lunar New Year",
@@ -14325,7 +14770,7 @@
     }
   },
   "reindeer-antlers": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -324675402,
     "name": "Оленьи рога",
     "shortname": "attire.reindeer.headband",
@@ -14347,7 +14792,7 @@
     }
   },
   "riot-helmet": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 671063303,
     "name": "Шлем бунтаря",
     "shortname": "riot.helmet",
@@ -14399,7 +14844,7 @@
     }
   },
   "road-sign-jacket": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2002277461,
     "name": "Броня из дорожных знаков",
     "shortname": "roadsign.jacket",
@@ -14463,7 +14908,7 @@
     }
   },
   "road-sign-kilt": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1850456855,
     "name": "Килт из дорожных знаков",
     "shortname": "roadsign.kilt",
@@ -14527,7 +14972,7 @@
     }
   },
   "roadsign-gloves": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -699558439,
     "name": "Перчатки из дорожных знаков",
     "shortname": "roadsign.gloves",
@@ -14591,7 +15036,7 @@
     }
   },
   "roadsign-horse-armor": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 60528587,
     "shortname": "horse.armor.roadsign",
     "description": "A set of roadsign armor for a horse",
@@ -14642,7 +15087,7 @@
     }
   },
   "saddle-bag": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1400460850,
     "shortname": "horse.saddlebag",
     "description": "Equipping this saddle bag will add extra storage space on your horse",
@@ -14681,7 +15126,7 @@
     }
   },
   "santa-beard": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 2126889441,
     "shortname": "santabeard",
     "description": "A santa beard. Ho Ho ho.",
@@ -14720,7 +15165,7 @@
     }
   },
   "santa-hat": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -575483084,
     "name": "Шапка Санты",
     "shortname": "santahat",
@@ -14729,7 +15174,7 @@
     "recycleData": {}
   },
   "scarecrow-suit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 273951840,
     "shortname": "scarecrow.suit",
     "description": "An item that can only be spawned in the console menu by admins. Currently the icon appears to be a wetsuit but when it is on a character it will be the scarecrow NPC costume from the Halloween event.",
@@ -14737,7 +15182,7 @@
     "recycleData": {}
   },
   "scarecrow-wrap": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 809942731,
     "shortname": "scarecrowhead",
     "description": "A creepy burlap scarecrow hat.",
@@ -14758,7 +15203,7 @@
     }
   },
   "scientist-suit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -253079493,
     "shortname": "hazmatsuit_scientist_peacekeeper",
     "description": "A piece of clothing worn by the Scientist NPCs. Although it is an unobtainable item, it can be spawned in by an admin.",
@@ -14795,7 +15240,7 @@
     }
   },
   "shirt": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2025184684,
     "name": "Рубашка",
     "shortname": "shirt.collared",
@@ -14835,7 +15280,7 @@
     }
   },
   "shorts": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1695367501,
     "name": "Шорты",
     "shortname": "pants.shorts",
@@ -14875,7 +15320,7 @@
     }
   },
   "single-horse-saddle": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1559915778,
     "shortname": "horse.saddle.single",
     "description": "A horse saddle with one seat. Having this item allows you to claim a horse in a stable by holding E and selecting the 'Claim' option",
@@ -14904,7 +15349,7 @@
     }
   },
   "small-backpack": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 2068884361,
     "shortname": "smallbackpack",
     "description": "A small, makeshift backpack that lets you carry 12 extra items.",
@@ -14955,7 +15400,7 @@
     }
   },
   "snow-jacket": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -48090175,
     "name": "Зимняя куртка",
     "shortname": "jacket.snow",
@@ -15007,7 +15452,7 @@
     }
   },
   "snowman-helmet": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -842267147,
     "name": "Шлем снеговика",
     "shortname": "attire.snowman.helmet",
@@ -15047,7 +15492,7 @@
     }
   },
   "sunglasses": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 352321488,
     "shortname": "sunglasses",
     "description": "A pair of sunglasses. Functional and stylish!",
@@ -15086,13 +15531,13 @@
     }
   },
   "surgeon-scrubs": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1785231475,
     "shortname": "halloween.surgeonsuit",
     "description": "This surgeon suit is craftable if you own the item on Steam, and, in terms of ballistic protection, makes a great alternative for the Hazmat Suit due to not requiring a researched blueprint, and having a decent, mid-tier overall body protection in one piece, rather than separate pieces of clothing to cover all areas, for a relatively cheap crafting cost.\n\nIt has no real specialisation, other than a decent radiation protection (which still doesn't compete with the hazmat suit) that allows you to go in most places. Therefore, it's really just the fact it's a cool-looking surgeon suit, and offers fair overall protection.\n\nFor combat purposes, the Surgeon Scrubs positions itself in the mid-tier segment, directly next to armaments such as the Bone Armor kit, Hazmat Suit, and commonly put together clothes sets that lack any specialized pieces of armor.",
     "craftData": {
       "yield": 1,
-      "workbench": 1,
+      "workbench": 3,
       "craftTime": {
         "craftTime": {
           "short": 1,
@@ -15137,7 +15582,7 @@
     }
   },
   "t-shirt": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 223891266,
     "name": "Футболка",
     "shortname": "tshirt",
@@ -15177,7 +15622,7 @@
     }
   },
   "tactical-gloves": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1108136649,
     "name": "Тактические перчатки",
     "shortname": "tactical.gloves",
@@ -15207,7 +15652,7 @@
     }
   },
   "tank-top": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1608640313,
     "name": "Майка",
     "shortname": "shirt.tanktop",
@@ -15247,7 +15692,7 @@
     }
   },
   "tiger-mask": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 709206314,
     "shortname": "hat.tigermask",
     "description": "A special tiger mask to celebrate Chinese New Year",
@@ -15297,8 +15742,37 @@
       ]
     }
   },
+  "twitch-rivals-flag": {
+    "group": "attire",
+    "identifier": -739993590,
+    "shortname": "twitchrivalsflag",
+    "description": "A wearable flag for Twitch Rivals",
+    "craftData": {},
+    "recycleData": {}
+  },
+  "waterwell-npc-jumpsuit": {
+    "group": "attire",
+    "identifier": -874908751,
+    "shortname": "jumpsuit.waterwellnpc",
+    "description": "A green jumpsuit and gasmask worn by the waterwell NPC",
+    "craftData": {},
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Ткань",
+          "amount": 30
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Ткань",
+          "amount": 20
+        }
+      ]
+    }
+  },
   "wetsuit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1101924344,
     "shortname": "diving.wetsuit",
     "description": "The Wetsuit is used for staying dry while swimming in water.\n\nIf a player is wearing a wetsuit, they will never get the 'WET' effect.\nIt is especially helpful for swimming in colder regions as it takes much longer to dry in the cold.\nIt also has a huge 15% radiation resistance which can be useful for new players in radtowns.",
@@ -15319,7 +15793,7 @@
     }
   },
   "wolf-headdress": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1478212975,
     "name": "Шапка из волка",
     "shortname": "hat.wolf",
@@ -15371,7 +15845,7 @@
     }
   },
   "wood-armor-helmet": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2094954543,
     "name": "Деревянный шлем",
     "shortname": "wood.armor.helmet",
@@ -15423,7 +15897,7 @@
     }
   },
   "wood-armor-pants": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 832133926,
     "name": "Деревянные щитки",
     "shortname": "wood.armor.pants",
@@ -15475,7 +15949,7 @@
     }
   },
   "wood-chestplate": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 418081930,
     "name": "Деревянный нагрудник",
     "shortname": "wood.armor.jacket",
@@ -15527,7 +16001,7 @@
     }
   },
   "wooden-horse-armor": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1659447559,
     "shortname": "horse.armor.wood",
     "description": "A set of wooden horse armor",
@@ -17356,7 +17830,7 @@
     "identifier": 1911552868,
     "name": "Семена чёрной ягоды",
     "shortname": "seed.black.berry",
-    "description": "These black berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "description": "These black berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more berries and faster growth.",
     "craftData": {},
     "recycleData": {}
   },
@@ -17392,7 +17866,7 @@
     "identifier": 803954639,
     "name": "Семена голубой ягоды",
     "shortname": "seed.blue.berry",
-    "description": "These blue berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "description": "These blue berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more berries and faster growth.",
     "craftData": {},
     "recycleData": {}
   },
@@ -17747,7 +18221,7 @@
     "identifier": -2084071424,
     "name": "Семя картофеля",
     "shortname": "seed.potato",
-    "description": "These potato seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "description": "These potato seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more potatoes and faster growth.",
     "craftData": {},
     "recycleData": {}
   },
@@ -17936,7 +18410,7 @@
     "identifier": 830839496,
     "name": "Семена красной ягоды",
     "shortname": "seed.red.berry",
-    "description": "These red berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "description": "These red berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more berries and faster growth.",
     "craftData": {},
     "recycleData": {}
   },
@@ -18079,7 +18553,7 @@
     "identifier": -992286106,
     "name": "Семена белой ягоды",
     "shortname": "seed.white.berry",
-    "description": "These white berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "description": "These white berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more berries and faster growth.",
     "craftData": {},
     "recycleData": {}
   },
@@ -18115,7 +18589,7 @@
     "identifier": -520133715,
     "name": "Семена жёлтой ягоды",
     "shortname": "seed.yellow.berry",
-    "description": "These yellow berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "description": "These yellow berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more berries and faster growth.",
     "craftData": {},
     "recycleData": {}
   },
@@ -18182,7 +18656,7 @@
   "12-gauge-incendiary-shell": {
     "group": "ammo",
     "identifier": -1036635990,
-    "name": "Зажигательный снаряд 12 калибра",
+    "name": "Зажигательный снаряд 12-го калибра",
     "shortname": "ammo.shotgun.fire",
     "description": "The 12 gauge incendiary shell is a new shotgun ammunition as of Devblog 198. Once fired, unlike any other shell, it will spew out flaming shotgun projectiles. If stepped on, the player that walks over it will take fire damage. The flame projectile sparks rather than flame when the projectile hit the target.",
     "craftData": {
@@ -18598,7 +19072,7 @@
   "hv-5.56-rifle-ammo": {
     "group": "ammo",
     "identifier": 1712070256,
-    "name": "Скоростной патрон 5.56 мм",
+    "name": "Патрон 5.56 мм (скоростной)",
     "shortname": "ammo.rifle.hv",
     "description": "A variant of the standard 5.56 rifle ammunition. The High Velocity (HV) 5.56 round will travel faster than the standard round at a more expensive crafting cost. The round experiences little bullet drop. This type of ammo is best used with Bolt Action Rifle and L96 Rifle.",
     "craftData": {
@@ -18788,9 +19262,9 @@
   "high-velocity-rocket": {
     "group": "ammo",
     "identifier": -1841918730,
-    "name": "Скоростная ракета",
+    "name": "Ракета (Скоростная)",
     "shortname": "ammo.rocket.hv",
-    "description": "The High Velocity Rocket is essentially a rocket with much less damage than the standard rocket. However, it is also much cheaper, and as the name suggests it has a higher velocity than the standard rocket, so it could be useful for rocketing targets at extreme range. Because of its lower cost and damage, it is useful for situations where a full rocket would be overkill.",
+    "description": "The High-Velocity Rocket trades damage for a much higher speed and far less drop. The High-Velocity rocket is best used against placeables (mainly turrets), vehicles such as cars and helicopters, and enemy players. It is essentially intended for cases where a rocket would be overkill, or you would need the extra speed. The high-velocity rocket has poor damage against buildables and doors, but is a valuable tool for raiding in the other ways described.",
     "craftData": {
       "yield": 1,
       "workbench": 2,
@@ -18904,9 +19378,9 @@
   "incendiary-5.56-rifle-ammo": {
     "group": "ammo",
     "identifier": 605467368,
-    "name": "Зажигательный патрон 5.56 мм",
+    "name": "Патрон 5.56 мм (зажигательный)",
     "shortname": "ammo.rifle.incendiary",
-    "description": "A variant of the standard 5.56 rifle ammunition. The 5.56 Incendiary round will ignite on impact dealing both bullet and fire damage to a player. The round is however subject to increased bullet drop.",
+    "description": "A variant of the standard 5.56 rifle ammunition. The 5.56 Incendiary round will ignite on impact dealing both bullet and fire damage to a player. The round is however subject to increased bullet drop and lower velocity. This bullet is an especially effective counter to helicopters and vehicles for its cost.",
     "craftData": {
       "yield": 2,
       "workbench": 3,
@@ -19006,7 +19480,7 @@
   "incendiary-rocket": {
     "group": "ammo",
     "identifier": 1638322904,
-    "name": "Зажигательная ракета",
+    "name": "Ракета (Зажигательная)",
     "shortname": "ammo.rocket.fire",
     "description": "Incendiary rockets spread flames over the area of impact, dealing fire damage to its surroundings. It deals heavy damage to wooden structures and turrets. They can also be used effectively to trap and kill players in an enclosed space.",
     "craftData": {
@@ -19290,7 +19764,7 @@
   "smoke-rocket-wip!!!!": {
     "group": "ammo",
     "identifier": -17123659,
-    "name": "Дымовая ракета В РАЗРАБОТКЕ!!!!",
+    "name": "Ракета (Дымовая) В РАЗРАБОТКЕ!",
     "shortname": "ammo.rocket.smoke",
     "description": "Currently, smoke rockets in Rust are labeled as WIP (Work In Progress). They do minor poison damage to players or to structures, and provide minimal amounts of quickly disappearing smoke. Though they are cannot currently be crafted or found, admins are able to spawn them in via the console.",
     "craftData": {},
@@ -19749,7 +20223,7 @@
         }
       },
       "recipie": {
-        "totalCraftCost": 103,
+        "totalCraftCost": 131,
         "craftCost": [
           {
             "name": "Дерево",
@@ -19760,8 +20234,8 @@
             "amount": 1
           },
           {
-            "name": "Пустая банка из-под тунца",
-            "amount": 2
+            "name": "Фрагменты металла",
+            "amount": 30
           }
         ]
       }
@@ -19773,8 +20247,8 @@
           "amount": 60
         },
         {
-          "name": "Пустая банка из-под тунца",
-          "amount": 2
+          "name": "Фрагменты металла",
+          "amount": 18
         },
         {
           "name": "Верёвка",
@@ -19787,8 +20261,8 @@
           "amount": 40
         },
         {
-          "name": "Пустая банка из-под тунца",
-          "amount": 1
+          "name": "Фрагменты металла",
+          "amount": 12
         },
         {
           "name": "Верёвка",
@@ -20310,7 +20784,7 @@
     "group": "misc",
     "identifier": -888153050,
     "shortname": "halloween.candy",
-    "description": "Some loose halloween candy Collect 10 to upgrade to a Small Loot Bat!",
+    "description": "Some loose halloween candy Collect 10 to upgrade to a Small Loot Bag!",
     "craftData": {},
     "recycleData": {}
   },
@@ -20464,10 +20938,10 @@
     "craftData": {},
     "recycleData": {}
   },
-  "pumpkin-bucket": {
+  "pumpkin-basket": {
     "group": "misc",
     "identifier": 1346158228,
-    "name": "Тыквенная Корзина",
+    "name": "Тыквенная корзина",
     "shortname": "pumpkinbasket",
     "description": "A pumpkin basket to help you collect candy much faster during Trick or Treat events with left click. Use right click to throw candy",
     "craftData": {},
@@ -21264,7 +21738,7 @@
   "burst-module": {
     "group": "components",
     "identifier": 838308300,
-    "name": "Модуль очередной стрельбы",
+    "name": "Модуль очерёдной стрельбы",
     "shortname": "weapon.mod.burstmodule",
     "description": "Forces the weapon to fire in 3 round bursts.",
     "craftData": {},
@@ -21893,45 +22367,6 @@
       ]
     }
   },
-  "gas-compression-overdrive": {
-    "group": "components",
-    "identifier": -1767794021,
-    "shortname": "weapon.mod.gascompressionovedrive",
-    "description": "An internal weapon mod which compresses and directs gasses used for cycling the weapon to the barrel, effectively increasing projectile velocity and damage at the expense of cycle rate.",
-    "craftData": {
-      "yield": 1,
-      "workbench": 2,
-      "craftTime": {
-        "craftTime": {
-          "short": 15,
-          "long": 30
-        }
-      },
-      "recipie": {
-        "totalCraftCost": 10,
-        "craftCost": [
-          {
-            "name": "Металл высокого качества",
-            "amount": 10
-          }
-        ]
-      }
-    },
-    "recycleData": {
-      "recycleYieldrad": [
-        {
-          "name": "Металл высокого качества",
-          "amount": 6
-        }
-      ],
-      "recycleYieldsafe": [
-        {
-          "name": "Металл высокого качества",
-          "amount": 4
-        }
-      ]
-    }
-  },
   "gears": {
     "group": "components",
     "identifier": 479143914,
@@ -22468,7 +22903,7 @@
   "mlrs-aiming-module": {
     "group": "components",
     "identifier": 343045591,
-    "name": "Модуль целеуказания РСЗО",
+    "name": "Модуль наведения РСЗО",
     "shortname": "aiming.module.mlrs",
     "description": "The MLRS Aiming Module is a required item to use the MLRS, it can only be found in Locked Crates considering the power of the MLRS. After using the MLRS, the aiming module gets consumed.",
     "craftData": {},
@@ -25320,7 +25755,7 @@
   "powered-water-purifier": {
     "group": "electrical",
     "identifier": -365097295,
-    "name": "Электроочиститель воды",
+    "name": "Электрический опреснитель воды",
     "shortname": "powered.water.purifier",
     "description": "A device that converts salt water to fresh water while powered.",
     "craftData": {
@@ -27214,6 +27649,46 @@
       ]
     }
   },
+  "car-radio": {
+    "group": "fun",
+    "identifier": 721798950,
+    "name": "Магнитола",
+    "shortname": "vehicle.car_radio",
+    "description": "A small radio to use in cars. Will only work while the car is turned on.",
+    "craftData": {
+      "yield": 1,
+      "workbench": 1,
+      "craftTime": {
+        "craftTime": {
+          "short": 3,
+          "long": 15
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 120,
+        "craftCost": [
+          {
+            "name": "Фрагменты металла",
+            "amount": 120
+          }
+        ]
+      }
+    },
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Фрагменты металла",
+          "amount": 72
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Фрагменты металла",
+          "amount": 48
+        }
+      ]
+    }
+  },
   "cassette-long": {
     "group": "fun",
     "identifier": 476066818,
@@ -28063,7 +28538,7 @@
     "group": "fun",
     "identifier": -20045316,
     "shortname": "mobilephone",
-    "description": "A mobile phone that lets you place calls from anywhere. Truly cutting edge Cobalt technology. Use [attack] to access the dialler.",
+    "description": "A mobile phone that lets you place calls from anywhere. Truly cutting edge Cobalt technology. Use [attack] to access the dialer.",
     "craftData": {
       "yield": 1,
       "workbench": 1,

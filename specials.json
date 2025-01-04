@@ -78,5 +78,7 @@
     "lunar.firecrackers": "firecrackers",
     "laserlight": "sound.laser",
     "electric.seismicsensor": "electric.seismicsensor.name",
-    "weapon.mod.gascompressionovedrive": "weapon.mod.gco.name"
+    "weapon.mod.gascompressionovedrive": "weapon.mod.gco.name",
+    "skidoo": "dpv",
+    "jumpsuit.waterwellnpc": "jumpsuit.suit.waterwellnpc"
 }

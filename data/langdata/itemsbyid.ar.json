@@ -1,6 +1,6 @@
 {
   "3222790": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 3222790,
     "name": "حمالة صدر جلدية",
     "shortname": "attire.hide.helterneck",
@@ -40,7 +40,7 @@
     }
   },
   "3380160": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 3380160,
     "name": "بطاقة لحدث شارب موفمبر",
     "shortname": "movembermoustachecard",
@@ -126,7 +126,7 @@
     }
   },
   "15388698": {
-    "group": "build",
+    "group": "construction",
     "identifier": 15388698,
     "name": "حاجز حجري",
     "shortname": "barricade.stone",
@@ -166,7 +166,7 @@
     }
   },
   "20489901": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 20489901,
     "name": "نظارة شمسية بنفسجية",
     "shortname": "twitchsunglasses",
@@ -206,7 +206,7 @@
     }
   },
   "21402876": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 21402876,
     "name": "قفازات الخيش",
     "shortname": "burlap.gloves.new",
@@ -298,7 +298,7 @@
     }
   },
   "23391694": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 23391694,
     "name": "قبعة الأرنب",
     "shortname": "hat.bunnyhat",
@@ -515,7 +515,7 @@
     }
   },
   "60528587": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 60528587,
     "name": "درع حصان من الافتات المرورية",
     "shortname": "horse.armor.roadsign",
@@ -615,7 +615,7 @@
     }
   },
   "86840834": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 86840834,
     "name": "بدلة عالم",
     "shortname": "hazmatsuit_scientist_nvgm",
@@ -757,13 +757,13 @@
     }
   },
   "99588025": {
-    "group": "build",
+    "group": "construction",
     "identifier": 99588025,
     "name": "جدار خشبي عالي",
     "shortname": "wall.external.high",
     "description": "The High External Wooden Wall is a deployable building object used to wall off an area. The high external is about the height and width of a standard 2x2 wall. The wall also comes with a barbed wire top slowing down and damaging any players that come into contact with it.\n\nHigh externals can be a cheap and effective way to deny entry, however they decay fairly quickly and need to be maintained.\n\nDue to their size High External Walls are often used in combat as deployable cover.",
     "craftData": {
-      "yield": 1,
+      "yield": 3,
       "workbench": 1,
       "craftTime": {
         "craftTime": {
@@ -772,11 +772,11 @@
         }
       },
       "recipie": {
-        "totalCraftCost": 1500,
+        "totalCraftCost": 4000,
         "craftCost": [
           {
             "name": "خشب",
-            "amount": 1
+            "amount": 4
           }
         ]
       }
@@ -785,19 +785,19 @@
       "recycleYieldrad": [
         {
           "name": "خشب",
-          "amount": 900
+          "amount": 800
         }
       ],
       "recycleYieldsafe": [
         {
           "name": "خشب",
-          "amount": 600
+          "amount": 534
         }
       ]
     }
   },
   "106959911": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 106959911,
     "name": "ضوء الساقين فرانكشتاين",
     "shortname": "frankensteins.monster.01.legs",
@@ -1150,7 +1150,7 @@
   "174866732": {
     "group": "weapons",
     "identifier": 174866732,
-    "name": "منظار 16X عدسة مكبرة",
+    "name": "منظار متغير التكبير",
     "shortname": "weapon.mod.8x.scope",
     "description": "The 16x Zoom Scope is a military-grade telescopic sight. Its reticle is a thin cross with bullet-drop guides. Its extreme magnification allows for precise fire over extreme distances, but its narrow field of view makes it impractical for any close quarter engagements or full-auto fire. As it's susceptible to shaking, consider using a Weapon Lasersight or Tactical Gloves in addition to this scope.",
     "craftData": {},
@@ -1308,7 +1308,7 @@
     }
   },
   "196700171": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 196700171,
     "name": "سترة جلدي",
     "shortname": "attire.hide.vest",
@@ -1524,7 +1524,7 @@
     }
   },
   "223891266": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 223891266,
     "name": "قميص",
     "shortname": "tshirt",
@@ -1564,7 +1564,7 @@
     }
   },
   "237239288": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 237239288,
     "name": "بناطيل",
     "shortname": "pants",
@@ -1865,7 +1865,7 @@
     }
   },
   "271048478": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 271048478,
     "name": "قناع الفئران",
     "shortname": "hat.ratmask",
@@ -1957,7 +1957,7 @@
     }
   },
   "273951840": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 273951840,
     "name": "بدلة فزاعة",
     "shortname": "scarecrow.suit",
@@ -1966,7 +1966,7 @@
     "recycleData": {}
   },
   "277730763": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 277730763,
     "name": "بدلة مومياء",
     "shortname": "halloween.mummysuit",
@@ -2064,7 +2064,7 @@
     }
   },
   "296519935": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 296519935,
     "name": "زعانف الغوص",
     "shortname": "diving.fins",
@@ -2158,7 +2158,7 @@
   "343045591": {
     "group": "components",
     "identifier": 343045591,
-    "name": "وحدة التصويب MLRS",
+    "name": "وحدة تصويب نظام إطلاق الصواريخ المتعددة",
     "shortname": "aiming.module.mlrs",
     "description": "The MLRS Aiming Module is a required item to use the MLRS, it can only be found in Locked Crates considering the power of the MLRS. After using the MLRS, the aiming module gets consumed.",
     "craftData": {},
@@ -2233,7 +2233,7 @@
     "recycleData": {}
   },
   "352321488": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 352321488,
     "name": "نظارة شمسيه",
     "shortname": "sunglasses",
@@ -2450,7 +2450,7 @@
     "recycleData": {}
   },
   "418081930": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 418081930,
     "name": "درع صدر خشبي",
     "shortname": "wood.armor.jacket",
@@ -2864,6 +2864,36 @@
         {
           "name": "قطع معدنية",
           "amount": 30
+        }
+      ]
+    }
+  },
+  "504109620": {
+    "group": "items",
+    "identifier": 504109620,
+    "name": "تمثال جليدي",
+    "shortname": "sculpture.ice",
+    "description": "An block of ice you can sculpt.",
+    "craftData": {},
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "خشب",
+          "amount": 300
+        },
+        {
+          "name": "قطع معدنية",
+          "amount": 60
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "خشب",
+          "amount": 200
+        },
+        {
+          "name": "قطع معدنية",
+          "amount": 40
         }
       ]
     }
@@ -3414,7 +3444,7 @@
     }
   },
   "602628465": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 602628465,
     "name": "المظلة (المنتشرة)",
     "shortname": "parachute",
@@ -3478,7 +3508,7 @@
     }
   },
   "602741290": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 602741290,
     "name": "قميص خيش",
     "shortname": "burlap.shirt",
@@ -3531,7 +3561,7 @@
     "identifier": 605467368,
     "name": "رصاص بندقية عيار 5.56 حارقة",
     "shortname": "ammo.rifle.incendiary",
-    "description": "A variant of the standard 5.56 rifle ammunition. The 5.56 Incendiary round will ignite on impact dealing both bullet and fire damage to a player. The round is however subject to increased bullet drop.",
+    "description": "A variant of the standard 5.56 rifle ammunition. The 5.56 Incendiary round will ignite on impact dealing both bullet and fire damage to a player. The round is however subject to increased bullet drop and lower velocity. This bullet is an especially effective counter to helicopters and vehicles for its cost.",
     "craftData": {
       "yield": 2,
       "workbench": 3,
@@ -3591,7 +3621,7 @@
     }
   },
   "607400343": {
-    "group": "build",
+    "group": "construction",
     "identifier": 607400343,
     "name": "مأوى الخشب القديم",
     "shortname": "legacy.shelter.wood",
@@ -4079,7 +4109,7 @@
     }
   },
   "671063303": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 671063303,
     "name": "خوذة مكافحة الشغب",
     "shortname": "riot.helmet",
@@ -4131,7 +4161,7 @@
     }
   },
   "671706427": {
-    "group": "build",
+    "group": "construction",
     "identifier": 671706427,
     "name": "نافذة زجاجية مقواة",
     "shortname": "wall.window.bars.toptier",
@@ -4340,7 +4370,7 @@
     }
   },
   "709206314": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 709206314,
     "name": "قناع النمر",
     "shortname": "hat.tigermask",
@@ -4387,6 +4417,46 @@
         {
           "name": "جمجمة ذئب",
           "amount": 0.4
+        }
+      ]
+    }
+  },
+  "721798950": {
+    "group": "fun",
+    "identifier": 721798950,
+    "name": "راديو السيارة",
+    "shortname": "vehicle.car_radio",
+    "description": "A small radio to use in cars. Will only work while the car is turned on.",
+    "craftData": {
+      "yield": 1,
+      "workbench": 1,
+      "craftTime": {
+        "craftTime": {
+          "short": 3,
+          "long": 15
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 120,
+        "craftCost": [
+          {
+            "name": "قطع معدنية",
+            "amount": 120
+          }
+        ]
+      }
+    },
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "قطع معدنية",
+          "amount": 72
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "قطع معدنية",
+          "amount": 48
         }
       ]
     }
@@ -4626,7 +4696,7 @@
     }
   },
   "794356786": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 794356786,
     "name": "حذاء جلدي",
     "shortname": "attire.hide.boots",
@@ -4868,7 +4938,7 @@
     "identifier": 803954639,
     "name": "بذور التوت الأزرق",
     "shortname": "seed.blue.berry",
-    "description": "These blue berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "description": "These blue berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more berries and faster growth.",
     "craftData": {},
     "recycleData": {}
   },
@@ -4894,8 +4964,30 @@
       ]
     }
   },
+  "809689733": {
+    "group": "attire",
+    "identifier": 809689733,
+    "name": "قناع زي الهالوين الكلاسيكي الذي يوفر حماية لائقة.",
+    "shortname": "mummymask",
+    "description": "A classic halloween costume mask which provides decent protection.",
+    "craftData": {},
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "قماش",
+          "amount": 6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "قماش",
+          "amount": 4
+        }
+      ]
+    }
+  },
   "809942731": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 809942731,
     "name": "فزاعة التفاف",
     "shortname": "scarecrowhead",
@@ -5046,12 +5138,12 @@
     "identifier": 830839496,
     "name": "بذور التوت الأحمر",
     "shortname": "seed.red.berry",
-    "description": "These red berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "description": "These red berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more berries and faster growth.",
     "craftData": {},
     "recycleData": {}
   },
   "832133926": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 832133926,
     "name": "درع سروال خشبي",
     "shortname": "wood.armor.pants",
@@ -5155,7 +5247,7 @@
     }
   },
   "835042040": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 835042040,
     "name": "متوسطة الساقين فرانكشتاين",
     "shortname": "frankensteins.monster.02.legs",
@@ -5225,7 +5317,7 @@
     "recycleData": {}
   },
   "850280505": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 850280505,
     "name": "خوذة دلو",
     "shortname": "bucket.helmet",
@@ -5363,7 +5455,7 @@
     }
   },
   "866889860": {
-    "group": "build",
+    "group": "construction",
     "identifier": 866889860,
     "name": "حاجز خشبي",
     "shortname": "barricade.wood",
@@ -5728,7 +5820,7 @@
     }
   },
   "935692442": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 935692442,
     "name": "قميص بأكمام طويلة",
     "shortname": "tshirt.long",
@@ -5768,7 +5860,7 @@
     }
   },
   "936496778": {
-    "group": "build",
+    "group": "construction",
     "identifier": 936496778,
     "name": "أرضية شبك حديد",
     "shortname": "floor.grill",
@@ -5893,7 +5985,7 @@
         }
       },
       "recipie": {
-        "totalCraftCost": 103,
+        "totalCraftCost": 131,
         "craftCost": [
           {
             "name": "خشب",
@@ -5904,8 +5996,8 @@
             "amount": 1
           },
           {
-            "name": "علبة تونة فارغة",
-            "amount": 2
+            "name": "قطع معدنية",
+            "amount": 30
           }
         ]
       }
@@ -5917,8 +6009,8 @@
           "amount": 60
         },
         {
-          "name": "علبة تونة فارغة",
-          "amount": 2
+          "name": "قطع معدنية",
+          "amount": 18
         },
         {
           "name": "حبل",
@@ -5931,8 +6023,8 @@
           "amount": 40
         },
         {
-          "name": "علبة تونة فارغة",
-          "amount": 1
+          "name": "قطع معدنية",
+          "amount": 12
         },
         {
           "name": "حبل",
@@ -5982,7 +6074,7 @@
     }
   },
   "968019378": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 968019378,
     "name": "خوذة القعقعة",
     "shortname": "clatter.helmet",
@@ -6102,7 +6194,7 @@
     }
   },
   "980333378": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 980333378,
     "name": "معطف جلدي",
     "shortname": "attire.hide.poncho",
@@ -6235,7 +6327,7 @@
     }
   },
   "1052926200": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1052926200,
     "name": "آلة إستخراج المعادن",
     "shortname": "mining.quarry",
@@ -6430,7 +6522,7 @@
     }
   },
   "1081315464": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1081315464,
     "name": "قبعة العش",
     "shortname": "attire.nesthat",
@@ -6659,7 +6751,7 @@
     }
   },
   "1107575710": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1107575710,
     "name": "بدلة عالم القطب الشمالي",
     "shortname": "hazmatsuit_scientist_arctic",
@@ -6697,7 +6789,7 @@
     }
   },
   "1110385766": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1110385766,
     "name": "درع معدني للصدر",
     "shortname": "metal.plate.torso",
@@ -7075,7 +7167,7 @@
     }
   },
   "1159991980": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1159991980,
     "name": "قفل الكتروني",
     "shortname": "lock.code",
@@ -7315,7 +7407,7 @@
     }
   },
   "1181207482": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1181207482,
     "name": "خوذة ثقيلة التصفيح",
     "shortname": "heavy.plate.helmet",
@@ -7451,7 +7543,7 @@
     }
   },
   "1189981699": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1189981699,
     "name": "زي قفص",
     "shortname": "cratecostume",
@@ -7592,7 +7684,7 @@
     }
   },
   "1221063409": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1221063409,
     "name": "باب مُصفح مزدوج",
     "shortname": "door.double.hinged.toptier",
@@ -8031,7 +8123,7 @@
     }
   },
   "1266491000": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1266491000,
     "name": "بدلة مضادة للأشعاع",
     "shortname": "hazmatsuit",
@@ -8401,7 +8493,7 @@
     }
   },
   "1315082560": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1315082560,
     "name": "قناع الثور",
     "shortname": "hat.oxmask",
@@ -8642,7 +8734,7 @@
     }
   },
   "1327005675": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1327005675,
     "name": "جدار جليدي قصير",
     "shortname": "wall.ice.wall",
@@ -8734,7 +8826,7 @@
     }
   },
   "1353298668": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1353298668,
     "name": "باب مُدرَّع",
     "shortname": "door.hinged.toptier",
@@ -8890,7 +8982,7 @@
     }
   },
   "1366282552": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1366282552,
     "name": "قفازات الخيش",
     "shortname": "burlap.gloves",
@@ -8995,7 +9087,7 @@
     }
   },
   "1373240771": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1373240771,
     "name": "غطاء حاجز خشبي",
     "shortname": "barricade.wood.cover",
@@ -9184,7 +9276,7 @@
     "recycleData": {}
   },
   "1382263453": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1382263453,
     "name": "حاجز خشبي شائك",
     "shortname": "barricade.woodwire",
@@ -9248,7 +9340,7 @@
     }
   },
   "1390353317": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1390353317,
     "name": "باب معدني مزدوج",
     "shortname": "door.double.hinged.metal",
@@ -9306,7 +9398,7 @@
     "recycleData": {}
   },
   "1400460850": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1400460850,
     "name": "حقيبة السرج",
     "shortname": "horse.saddlebag",
@@ -9376,7 +9468,7 @@
     }
   },
   "1409529282": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1409529282,
     "name": "رداد الباب",
     "shortname": "door.closer",
@@ -9653,7 +9745,7 @@
     }
   },
   "1451568081": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1451568081,
     "name": "بوابة من الاسلاك الحديدية",
     "shortname": "wall.frame.fence.gate",
@@ -9844,7 +9936,7 @@
     }
   },
   "1491753484": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1491753484,
     "name": "متوسط الجذع فرانكشتاين",
     "shortname": "frankensteins.monster.02.torso",
@@ -9883,7 +9975,7 @@
     "recycleData": {}
   },
   "1516985844": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1516985844,
     "name": "شبكة",
     "shortname": "wall.frame.netting",
@@ -10003,7 +10095,7 @@
   "1523403414": {
     "group": "fun",
     "identifier": 1523403414,
-    "name": "كاسيت - قصير",
+    "name": "شريط - قصير",
     "shortname": "cassette.short",
     "description": "A tape that you can record audio on to using a Cassette Recorder. Stores up to 10s of audio.",
     "craftData": {
@@ -10137,7 +10229,7 @@
     }
   },
   "1525520776": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1525520776,
     "name": "مخطوط بناء",
     "shortname": "building.planner",
@@ -10589,7 +10681,7 @@
     }
   },
   "1559915778": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1559915778,
     "name": "سرج حصان مزدوج",
     "shortname": "horse.saddle.single",
@@ -10697,6 +10789,28 @@
         {
           "name": "قطع معدنية",
           "amount": 80
+        }
+      ]
+    }
+  },
+  "1578317134": {
+    "group": "items",
+    "identifier": 1578317134,
+    "name": "دمية بدلة الحماية من المواد الخطرة",
+    "shortname": "hazmat.plushy",
+    "description": "A plushy of your favourite outfit made by the fabulous people at YouTooz.com",
+    "craftData": {},
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "قماش",
+          "amount": 30
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "قماش",
+          "amount": 20
         }
       ]
     }
@@ -10874,7 +10988,7 @@
     }
   },
   "1601468620": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1601468620,
     "name": "بذلة زرقاء",
     "shortname": "jumpsuit.suit.blue",
@@ -10978,7 +11092,7 @@
     }
   },
   "1608640313": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1608640313,
     "name": "قميص دون اكمام",
     "shortname": "shirt.tanktop",
@@ -11018,7 +11132,7 @@
     }
   },
   "1614528785": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1614528785,
     "name": "ثقيل فرانكشتاين الجذع",
     "shortname": "frankensteins.monster.03.torso",
@@ -11316,7 +11430,7 @@
     }
   },
   "1655650836": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1655650836,
     "name": "حاجز معدني",
     "shortname": "barricade.metal",
@@ -11442,7 +11556,7 @@
     }
   },
   "1659114910": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1659114910,
     "name": "قناع الغاز",
     "shortname": "hat.gas.mask",
@@ -11464,7 +11578,7 @@
     }
   },
   "1659447559": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1659447559,
     "name": "درع حصان خشبي",
     "shortname": "horse.armor.wood",
@@ -11543,7 +11657,7 @@
     "recycleData": {}
   },
   "1675639563": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1675639563,
     "name": "قبعة صوفية",
     "shortname": "hat.beenie",
@@ -11791,7 +11905,7 @@
     "recycleData": {}
   },
   "1714496074": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1714496074,
     "name": "قبعة شمعية",
     "shortname": "hat.candle",
@@ -11852,7 +11966,7 @@
     "recycleData": {}
   },
   "1722154847": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1722154847,
     "name": "سروال جلدي",
     "shortname": "attire.hide.pants",
@@ -11922,7 +12036,7 @@
     }
   },
   "1729120840": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1729120840,
     "name": "باب خشبي",
     "shortname": "door.hinged.wood",
@@ -12075,7 +12189,7 @@
     }
   },
   "1746956556": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1746956556,
     "name": "درع عظمي",
     "shortname": "bone.armor.suit",
@@ -12127,7 +12241,7 @@
     }
   },
   "1751045826": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1751045826,
     "name": "زنط",
     "shortname": "hoodie",
@@ -12387,6 +12501,15 @@
         }
       ]
     }
+  },
+  "1811780502": {
+    "group": "resources",
+    "identifier": 1811780502,
+    "name": "ماء مشعة",
+    "shortname": "water.radioactive",
+    "description": "Glowing water. Consuming will damage your health and irradiate you.",
+    "craftData": {},
+    "recycleData": {}
   },
   "1814288539": {
     "group": "weapons",
@@ -12672,7 +12795,7 @@
     }
   },
   "1850456855": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1850456855,
     "name": "تنورة علامة الطريق",
     "shortname": "roadsign.kilt",
@@ -12766,7 +12889,7 @@
     }
   },
   "1865253052": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1865253052,
     "name": "قناع دراكولا",
     "shortname": "draculamask",
@@ -12891,7 +13014,7 @@
     }
   },
   "1877339384": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1877339384,
     "name": "عمامة خيش",
     "shortname": "burlap.headwrap",
@@ -13290,7 +13413,7 @@
     "identifier": 1911552868,
     "name": "بذور التوت الأسود",
     "shortname": "seed.black.berry",
-    "description": "These black berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "description": "These black berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more berries and faster growth.",
     "craftData": {},
     "recycleData": {}
   },
@@ -13399,7 +13522,7 @@
     }
   },
   "1948067030": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1948067030,
     "name": "سلم سقف متحرك",
     "shortname": "floor.ladder.hatch",
@@ -13797,7 +13920,7 @@
     }
   },
   "1983621560": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1983621560,
     "name": "أرضية شواية مثلثة",
     "shortname": "floor.triangle.grill",
@@ -13837,7 +13960,7 @@
     }
   },
   "1989785143": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1989785143,
     "name": "احذيه حصان عاليه الجوده",
     "shortname": "horse.shoes.advanced",
@@ -13877,7 +14000,7 @@
     }
   },
   "1992974553": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1992974553,
     "name": "سروال خيش",
     "shortname": "burlap.trousers",
@@ -14141,7 +14264,7 @@
     }
   },
   "2041899972": {
-    "group": "build",
+    "group": "construction",
     "identifier": 2041899972,
     "name": "فتحة سلم مثلث",
     "shortname": "floor.triangle.ladder.hatch",
@@ -14215,7 +14338,7 @@
     "recycleData": {}
   },
   "2068884361": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 2068884361,
     "name": "حقيبة ظهر صغيرة",
     "shortname": "smallbackpack",
@@ -14326,6 +14449,70 @@
         {
           "name": "قماش",
           "amount": 8
+        }
+      ]
+    }
+  },
+  "2083256995": {
+    "group": "weapons",
+    "identifier": 2083256995,
+    "name": "سلاح رشاش يدوي",
+    "shortname": "t1_smg",
+    "description": "An extremely basic automatic firearm. Low damage and accuracy.",
+    "craftData": {
+      "yield": 1,
+      "workbench": 1,
+      "craftTime": {
+        "craftTime": {
+          "short": 7,
+          "long": 30
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 206,
+        "craftCost": [
+          {
+            "name": "معدن عالي الجودة",
+            "amount": 5
+          },
+          {
+            "name": "قطع معدنية",
+            "amount": 200
+          },
+          {
+            "name": "زنبرك معدني",
+            "amount": 1
+          }
+        ]
+      }
+    },
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "معدن عالي الجودة",
+          "amount": 3
+        },
+        {
+          "name": "قطع معدنية",
+          "amount": 120
+        },
+        {
+          "name": "زنبرك معدني",
+          "amount": 0.6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "معدن عالي الجودة",
+          "amount": 2
+        },
+        {
+          "name": "قطع معدنية",
+          "amount": 80
+        },
+        {
+          "name": "زنبرك معدني",
+          "amount": 0.4
         }
       ]
     }
@@ -14621,7 +14808,7 @@
     }
   },
   "2126889441": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 2126889441,
     "name": "سانتا بيرد",
     "shortname": "santabeard",
@@ -14923,6 +15110,46 @@
       ]
     }
   },
+  "-1767794021": {
+    "group": "weapons",
+    "identifier": -1767794021,
+    "name": "انضغاط الغاز المفرط",
+    "shortname": "weapon.mod.gascompressionovedrive",
+    "description": "An internal weapon mod which compresses and directs gasses used for cycling the weapon to the barrel, effectively increasing projectile velocity and damage at the expense of cycle rate.",
+    "craftData": {
+      "yield": 1,
+      "workbench": 2,
+      "craftTime": {
+        "craftTime": {
+          "short": 15,
+          "long": 30
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 10,
+        "craftCost": [
+          {
+            "name": "معدن عالي الجودة",
+            "amount": 10
+          }
+        ]
+      }
+    },
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "معدن عالي الجودة",
+          "amount": 6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "معدن عالي الجودة",
+          "amount": 4
+        }
+      ]
+    }
+  },
   "-1214542497": {
     "group": "weapons",
     "identifier": -1214542497,
@@ -14986,6 +15213,82 @@
         },
         {
           "name": "جسد بندقية",
+          "amount": 0.4
+        }
+      ]
+    }
+  },
+  "-92315244": {
+    "group": "weapons",
+    "identifier": -92315244,
+    "name": "مسدس عيار عالي",
+    "shortname": "revolver.hc",
+    "description": "A High Caliber six-shooter.",
+    "craftData": {
+      "yield": 1,
+      "workbench": 2,
+      "craftTime": {
+        "craftTime": {
+          "short": 15,
+          "long": 30
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 12,
+        "craftCost": [
+          {
+            "name": "أنبوب معدني",
+            "amount": 4
+          },
+          {
+            "name": "زنبرك معدني",
+            "amount": 1
+          },
+          {
+            "name": "تروس",
+            "amount": 1
+          },
+          {
+            "name": "معدن عالي الجودة",
+            "amount": 6
+          }
+        ]
+      }
+    },
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "أنبوب معدني",
+          "amount": 3
+        },
+        {
+          "name": "معدن عالي الجودة",
+          "amount": 4
+        },
+        {
+          "name": "زنبرك معدني",
+          "amount": 0.6
+        },
+        {
+          "name": "تروس",
+          "amount": 0.6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "أنبوب معدني",
+          "amount": 2
+        },
+        {
+          "name": "معدن عالي الجودة",
+          "amount": 3
+        },
+        {
+          "name": "زنبرك معدني",
+          "amount": 0.4
+        },
+        {
+          "name": "تروس",
           "amount": 0.4
         }
       ]
@@ -15457,6 +15760,82 @@
         {
           "name": "معدن عالي الجودة",
           "amount": 4
+        }
+      ]
+    }
+  },
+  "-348232115": {
+    "group": "weapons",
+    "identifier": -348232115,
+    "name": "إس كي إس",
+    "shortname": "rifle.sks",
+    "description": "A Military-Grade Semi Automatic Rifle.",
+    "craftData": {
+      "yield": 1,
+      "workbench": 3,
+      "craftTime": {
+        "craftTime": {
+          "short": 30,
+          "long": 30
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 215,
+        "craftCost": [
+          {
+            "name": "جسم سلاح شبه آلي",
+            "amount": 1
+          },
+          {
+            "name": "زنبرك معدني",
+            "amount": 2
+          },
+          {
+            "name": "قطع معدنية",
+            "amount": 200
+          },
+          {
+            "name": "معدن عالي الجودة",
+            "amount": 12
+          }
+        ]
+      }
+    },
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "زنبرك معدني",
+          "amount": 2
+        },
+        {
+          "name": "قطع معدنية",
+          "amount": 120
+        },
+        {
+          "name": "معدن عالي الجودة",
+          "amount": 8
+        },
+        {
+          "name": "جسم سلاح شبه آلي",
+          "amount": 0.6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "زنبرك معدني",
+          "amount": 1
+        },
+        {
+          "name": "قطع معدنية",
+          "amount": 80
+        },
+        {
+          "name": "معدن عالي الجودة",
+          "amount": 5
+        },
+        {
+          "name": "جسم سلاح شبه آلي",
+          "amount": 0.4
         }
       ]
     }
@@ -16035,7 +16414,7 @@
     }
   },
   "-1117626326": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1117626326,
     "name": "سياج من الاسلاك الحديدية",
     "shortname": "wall.frame.fence",
@@ -16075,7 +16454,7 @@
     }
   },
   "-1950721390": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1950721390,
     "name": "حاجز إسمنتي",
     "shortname": "barricade.concrete",
@@ -16115,7 +16494,7 @@
     }
   },
   "-148794216": {
-    "group": "build",
+    "group": "construction",
     "identifier": -148794216,
     "name": "باب المرآب",
     "shortname": "wall.frame.garagedoor",
@@ -16167,7 +16546,7 @@
     }
   },
   "-691113464": {
-    "group": "build",
+    "group": "construction",
     "identifier": -691113464,
     "name": "بوابه حجريه عاليه",
     "shortname": "gates.external.high.stone",
@@ -16182,7 +16561,7 @@
         }
       },
       "recipie": {
-        "totalCraftCost": 3005,
+        "totalCraftCost": 3004,
         "craftCost": [
           {
             "name": "حجارة",
@@ -16190,7 +16569,11 @@
           },
           {
             "name": "تروس",
-            "amount": 5
+            "amount": 3
+          },
+          {
+            "name": "مَعدن",
+            "amount": 1
           }
         ]
       }
@@ -16198,26 +16581,26 @@
     "recycleData": {
       "recycleYieldrad": [
         {
-          "name": "تروس",
-          "amount": 3
+          "name": "مَعدن",
+          "amount": 0.6
         }
       ],
       "recycleYieldsafe": [
         {
-          "name": "تروس",
-          "amount": 2
+          "name": "مَعدن",
+          "amount": 0.4
         }
       ]
     }
   },
   "-967648160": {
-    "group": "build",
+    "group": "construction",
     "identifier": -967648160,
     "name": "جدار حجري عالي",
     "shortname": "wall.external.high.stone",
-    "description": "High External Stone Walls are generally used in the construction of compounds, and, unlike their wooden relatives, are fire-resistant and require explosives to get through unless you use a ladder, though this may prove difficult due to the damage and slow inflicted by the barbed wire on top of these walls. Both these and their wooden equivalents are also commonly used in pvp combat, as they can be carried in stacks of ten for some portable cover.",
+    "description": "High External Stone Walls are generally used in the construction of compounds, and, unlike their wooden relatives, are fire-resistant and require explosives to get through unless you use a ladder, though this may prove difficult due to the damage and slow inflicted by the barbed wire on top of these walls.",
     "craftData": {
-      "yield": 1,
+      "yield": 3,
       "workbench": 2,
       "craftTime": {
         "craftTime": {
@@ -16226,10 +16609,14 @@
         }
       },
       "recipie": {
-        "totalCraftCost": 1500,
+        "totalCraftCost": 4001,
         "craftCost": [
           {
             "name": "حجارة",
+            "amount": 4
+          },
+          {
+            "name": "مَعدن",
             "amount": 1
           }
         ]
@@ -16239,19 +16626,27 @@
       "recycleYieldrad": [
         {
           "name": "حجارة",
-          "amount": 900
+          "amount": 800
+        },
+        {
+          "name": "مَعدن",
+          "amount": 0.2
         }
       ],
       "recycleYieldsafe": [
         {
           "name": "حجارة",
-          "amount": 600
+          "amount": 534
+        },
+        {
+          "name": "مَعدن",
+          "amount": 0.13
         }
       ]
     }
   },
   "-335089230": {
-    "group": "build",
+    "group": "construction",
     "identifier": -335089230,
     "name": "بوابة خشبيه عالية",
     "shortname": "gates.external.high.wood",
@@ -16295,7 +16690,7 @@
     }
   },
   "-985781766": {
-    "group": "build",
+    "group": "construction",
     "identifier": -985781766,
     "name": "ارتفاع جدار الجليد",
     "shortname": "wall.external.high.ice",
@@ -16317,7 +16712,7 @@
     }
   },
   "-850982208": {
-    "group": "build",
+    "group": "construction",
     "identifier": -850982208,
     "name": "قفل بمفتاح",
     "shortname": "lock.key",
@@ -16357,7 +16752,7 @@
     }
   },
   "-1100168350": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1100168350,
     "name": "اداة تجميع مياه كبيرة",
     "shortname": "water.catcher.large",
@@ -16421,7 +16816,7 @@
     }
   },
   "-148229307": {
-    "group": "build",
+    "group": "construction",
     "identifier": -148229307,
     "name": "واجهة متجر معدنية",
     "shortname": "wall.frame.shopfront.metal",
@@ -16461,7 +16856,7 @@
     }
   },
   "-1199897172": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1199897172,
     "name": "تطويق عمودي معدني\n",
     "shortname": "shutter.metal.embrasure.b",
@@ -16501,7 +16896,7 @@
     }
   },
   "-819720157": {
-    "group": "build",
+    "group": "construction",
     "identifier": -819720157,
     "name": "قضبان نوافذ معدنية",
     "shortname": "wall.window.bars.metal",
@@ -16541,7 +16936,7 @@
     }
   },
   "-1199897169": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1199897169,
     "name": "كوه معدنية أفقية",
     "shortname": "shutter.metal.embrasure.a",
@@ -16581,7 +16976,7 @@
     }
   },
   "-956706906": {
-    "group": "build",
+    "group": "construction",
     "identifier": -956706906,
     "name": "بوابة قضبان زنزانة",
     "shortname": "wall.frame.cell.gate",
@@ -16621,7 +17016,7 @@
     }
   },
   "-1429456799": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1429456799,
     "name": "جدار قضبان زنزانة",
     "shortname": "wall.frame.cell",
@@ -16661,7 +17056,7 @@
     }
   },
   "-1130709577": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1130709577,
     "name": "مضخة نفط",
     "shortname": "mining.pumpjack",
@@ -16670,7 +17065,7 @@
     "recycleData": {}
   },
   "-559599960": {
-    "group": "build",
+    "group": "construction",
     "identifier": -559599960,
     "name": "حاجز أكياس من الرمل",
     "shortname": "barricade.sandbags",
@@ -16722,7 +17117,7 @@
     }
   },
   "-2067472972": {
-    "group": "build",
+    "group": "construction",
     "identifier": -2067472972,
     "name": "باب معدني",
     "shortname": "door.hinged.metal",
@@ -16762,7 +17157,7 @@
     }
   },
   "-796583652": {
-    "group": "build",
+    "group": "construction",
     "identifier": -796583652,
     "name": "واجهة متجر",
     "shortname": "wall.frame.shopfront",
@@ -16802,7 +17197,7 @@
     }
   },
   "-132247350": {
-    "group": "build",
+    "group": "construction",
     "identifier": -132247350,
     "name": "اداة تجميع مياه صغيرة",
     "shortname": "water.catcher.small",
@@ -16866,7 +17261,7 @@
     }
   },
   "-1614955425": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1614955425,
     "name": "زجاج مقوى",
     "shortname": "wall.window.glass.reinforced",
@@ -16906,7 +17301,7 @@
     }
   },
   "-97956382": {
-    "group": "build",
+    "group": "construction",
     "identifier": -97956382,
     "name": "تصريح البناء",
     "shortname": "cupboard.tool",
@@ -16946,7 +17341,7 @@
     }
   },
   "-463122489": {
-    "group": "build",
+    "group": "construction",
     "identifier": -463122489,
     "name": "برج المراقبة",
     "shortname": "watchtower.wood",
@@ -16986,7 +17381,7 @@
     }
   },
   "-1336109173": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1336109173,
     "name": "باب خشبي مزدوج",
     "shortname": "door.double.hinged.wood",
@@ -17026,7 +17421,7 @@
     }
   },
   "-1023374709": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1023374709,
     "name": "باب نافذة خشبي",
     "shortname": "shutter.wood.a",
@@ -17066,7 +17461,7 @@
     }
   },
   "-1151332840": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1151332840,
     "name": "أبواب بار الحدود الخشبية",
     "shortname": "door.double.hinged.bardoors",
@@ -17106,7 +17501,7 @@
     }
   },
   "-316250604": {
-    "group": "build",
+    "group": "construction",
     "identifier": -316250604,
     "name": "سلم خشبي",
     "shortname": "ladder.wooden.wall",
@@ -17150,7 +17545,7 @@
     }
   },
   "-1183726687": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1183726687,
     "name": "قضبان نوافذ خشبية",
     "shortname": "wall.window.bars.wood",
@@ -17475,6 +17870,58 @@
         {
           "name": "خشب",
           "amount": 80
+        }
+      ]
+    }
+  },
+  "-1056824343": {
+    "group": "items",
+    "identifier": -1056824343,
+    "name": "مركبة دفع الغوص",
+    "shortname": "skidoo",
+    "description": "A personal underwater propulsion device",
+    "craftData": {
+      "yield": 1,
+      "workbench": 2,
+      "craftTime": {
+        "craftTime": {
+          "short": 15,
+          "long": 30
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 16,
+        "craftCost": [
+          {
+            "name": "مجموعة من أجزاء تكنولوجيا عشوائية.",
+            "amount": 1
+          },
+          {
+            "name": "معدن عالي الجودة",
+            "amount": 15
+          }
+        ]
+      }
+    },
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "معدن عالي الجودة",
+          "amount": 9
+        },
+        {
+          "name": "مجموعة من أجزاء تكنولوجيا عشوائية.",
+          "amount": 0.6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "معدن عالي الجودة",
+          "amount": 6
+        },
+        {
+          "name": "مجموعة من أجزاء تكنولوجيا عشوائية.",
+          "amount": 0.4
         }
       ]
     }
@@ -20003,7 +20450,7 @@
     "recycleData": {}
   },
   "-1215166612": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1215166612,
     "name": "زي برميل",
     "shortname": "barrelcostume",
@@ -20012,7 +20459,7 @@
     "recycleData": {}
   },
   "-470439097": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -470439097,
     "name": "بدلة القطب الشمالي",
     "shortname": "hazmatsuit.arcticsuit",
@@ -20021,7 +20468,7 @@
     "recycleData": {}
   },
   "-702051347": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -702051347,
     "name": "قطعة من القمماش يتم ربطها حول الفم و الانف.",
     "shortname": "mask.bandana",
@@ -20061,7 +20508,7 @@
     }
   },
   "-1622110948": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1622110948,
     "name": "معدات الحرس",
     "shortname": "attire.banditguard",
@@ -20099,7 +20546,7 @@
     }
   },
   "-1022661119": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1022661119,
     "name": "قبعة لعبة البيسبول",
     "shortname": "hat.cap",
@@ -20139,7 +20586,7 @@
     }
   },
   "-1211268013": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1211268013,
     "name": "حذاء حصان اساسي",
     "shortname": "horse.shoes.basic",
@@ -20179,7 +20626,7 @@
     }
   },
   "-1903165497": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1903165497,
     "name": "خوذة عظم",
     "shortname": "deer.skull.mask",
@@ -20231,7 +20678,7 @@
     }
   },
   "-23994173": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -23994173,
     "name": "كبوس (قبعة صوفية)",
     "shortname": "hat.boonie",
@@ -20271,7 +20718,7 @@
     }
   },
   "-1549739227": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1549739227,
     "name": "أحذية",
     "shortname": "shoes.boots",
@@ -20335,7 +20782,7 @@
     }
   },
   "-1004426654": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1004426654,
     "name": "آذان الأرنب",
     "shortname": "attire.bunnyears",
@@ -20357,7 +20804,7 @@
     }
   },
   "-1266045928": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1266045928,
     "name": "الأرنب نيسي",
     "shortname": "attire.bunny.onesie",
@@ -20379,7 +20826,7 @@
     }
   },
   "-761829530": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -761829530,
     "name": "حذاء خيش",
     "shortname": "burlap.shoes",
@@ -20419,7 +20866,7 @@
     }
   },
   "-152332823": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -152332823,
     "name": "زي الدجاجة",
     "shortname": "chicken.costume",
@@ -20471,7 +20918,7 @@
     }
   },
   "-803263829": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -803263829,
     "name": "خوذة من علبة القهوة",
     "shortname": "coffeecan.helmet",
@@ -20535,7 +20982,7 @@
     }
   },
   "-113413047": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -113413047,
     "name": "قناع الغوص",
     "shortname": "diving.mask",
@@ -20557,7 +21004,7 @@
     }
   },
   "-2022172587": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2022172587,
     "name": "خزان الغوص",
     "shortname": "diving.tank",
@@ -20587,7 +21034,7 @@
     }
   },
   "-1323101799": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1323101799,
     "name": "سرج حصان مزدوج",
     "shortname": "horse.saddle.double",
@@ -20609,17 +21056,39 @@
     }
   },
   "-258574361": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -258574361,
     "name": "دراكولا كيب",
     "shortname": "draculacape",
     "description": "A robustly thick outer garment providing ample protection to the wearer.",
-    "craftData": {},
+    "craftData": {
+      "yield": 1,
+      "workbench": 1,
+      "craftTime": {
+        "craftTime": {
+          "short": 7,
+          "long": 30
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 52,
+        "craftCost": [
+          {
+            "name": "قماش",
+            "amount": 50
+          },
+          {
+            "name": "عدة الخياطة",
+            "amount": 2
+          }
+        ]
+      }
+    },
     "recycleData": {
       "recycleYieldrad": [
         {
           "name": "قماش",
-          "amount": 60
+          "amount": 30
         },
         {
           "name": "عدة الخياطة",
@@ -20629,7 +21098,7 @@
       "recycleYieldsafe": [
         {
           "name": "قماش",
-          "amount": 40
+          "amount": 20
         },
         {
           "name": "عدة الخياطة",
@@ -20639,7 +21108,7 @@
     }
   },
   "-22883916": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -22883916,
     "name": "قناع التنين",
     "shortname": "hat.dragonmask",
@@ -20691,7 +21160,7 @@
     }
   },
   "-747743875": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -747743875,
     "name": "بدلة بيض",
     "shortname": "attire.egg.suit",
@@ -20742,8 +21211,30 @@
       ]
     }
   },
+  "-1647389398": {
+    "group": "attire",
+    "identifier": -1647389398,
+    "name": "قناع فرانكشتاين",
+    "shortname": "frankensteinmask",
+    "description": "Frankenstein halloween costume mask which provides decent protection.",
+    "craftData": {},
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "قماش",
+          "amount": 6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "قماش",
+          "amount": 4
+        }
+      ]
+    }
+  },
   "-1000573653": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1000573653,
     "name": "حذاء ضفدع",
     "shortname": "boots.frog",
@@ -20783,7 +21274,7 @@
     }
   },
   "-1043618880": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1043618880,
     "name": "زي الشبح",
     "shortname": "ghostsheet",
@@ -20813,7 +21304,7 @@
     }
   },
   "-558880549": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -558880549,
     "name": "بدلة الزنجبيل",
     "shortname": "gingerbreadsuit",
@@ -20822,7 +21313,7 @@
     "recycleData": {}
   },
   "-690276911": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -690276911,
     "name": "عيون متوهجة",
     "shortname": "gloweyes",
@@ -20831,7 +21322,7 @@
     "recycleData": {}
   },
   "-1569700847": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1569700847,
     "name": "سماعة",
     "shortname": "twitch.headset",
@@ -20871,7 +21362,7 @@
     }
   },
   "-297099594": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -297099594,
     "name": "رئيس فرانكشتاين الثقيل",
     "shortname": "frankensteins.monster.03.head",
@@ -20909,7 +21400,7 @@
     }
   },
   "-2024549027": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2024549027,
     "name": "أرجل فرانكشتاين الثقيلة",
     "shortname": "frankensteins.monster.03.legs",
@@ -20947,7 +21438,7 @@
     }
   },
   "-1102429027": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1102429027,
     "name": "سترة ثقيلة التصفيح",
     "shortname": "heavy.plate.jacket",
@@ -20999,7 +21490,7 @@
     }
   },
   "-1778159885": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1778159885,
     "name": "سروال ثقيل التصفيح",
     "shortname": "heavy.plate.pants",
@@ -21051,7 +21542,7 @@
     }
   },
   "-1772746857": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1772746857,
     "name": "بدلة مضادة للأشعاع مصنوعة من مطاط مقاوم للأشعاع.",
     "shortname": "scientistsuit_heavy",
@@ -21089,7 +21580,7 @@
     }
   },
   "-1773144852": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1773144852,
     "name": "تنورة جلدي",
     "shortname": "attire.hide.skirt",
@@ -21129,7 +21620,7 @@
     }
   },
   "-1997543660": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1997543660,
     "name": "سرج حصان",
     "shortname": "horse.saddle",
@@ -21151,7 +21642,7 @@
     }
   },
   "-1989600732": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1989600732,
     "name": "درع منطاد الهواء ",
     "shortname": "hab.armor",
@@ -21191,7 +21682,7 @@
     }
   },
   "-2012470695": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2012470695,
     "name": "لثام مرتجل",
     "shortname": "mask.balaclava",
@@ -21231,7 +21722,7 @@
     }
   },
   "-1163532624": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1163532624,
     "name": "سترة",
     "shortname": "jacket",
@@ -21283,7 +21774,7 @@
     }
   },
   "-97459906": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -97459906,
     "name": "بدلة مقطوعة",
     "shortname": "jumpsuit.suit",
@@ -21305,7 +21796,7 @@
     }
   },
   "-907422733": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -907422733,
     "name": "حقيبة ظهر كبيرة",
     "shortname": "largebackpack",
@@ -21343,7 +21834,7 @@
     }
   },
   "-134959124": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -134959124,
     "name": "رئيس ضوء فرانكشتاين",
     "shortname": "frankensteins.monster.01.head",
@@ -21373,7 +21864,7 @@
     }
   },
   "-1624770297": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1624770297,
     "name": "ضوء فرانكشتاين الجذع",
     "shortname": "frankensteins.monster.01.torso",
@@ -21403,7 +21894,7 @@
     }
   },
   "-763071910": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -763071910,
     "name": "الحطب هودي",
     "shortname": "lumberjack hoodie",
@@ -21433,7 +21924,7 @@
     }
   },
   "-1732475823": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1732475823,
     "name": "متوسط رأس فرانكشتاين",
     "shortname": "frankensteins.monster.02.head",
@@ -21463,7 +21954,7 @@
     }
   },
   "-194953424": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -194953424,
     "name": "قناع معدني",
     "shortname": "metal.facemask",
@@ -21527,7 +22018,7 @@
     }
   },
   "-1539025626": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1539025626,
     "name": "قبعة عمال مناجم",
     "shortname": "hat.miner",
@@ -21591,7 +22082,7 @@
     }
   },
   "-2047081330": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2047081330,
     "name": "حدث شارب موفمبر",
     "shortname": "movembermoustache",
@@ -21631,7 +22122,7 @@
     }
   },
   "-1518883088": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1518883088,
     "name": "نظارات الرؤية الليلية",
     "shortname": "nightvisiongoggles",
@@ -21683,7 +22174,7 @@
     }
   },
   "-1506417026": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1506417026,
     "name": "بدلة النينجا",
     "shortname": "attire.ninja.suit",
@@ -21735,7 +22226,7 @@
     }
   },
   "-575744869": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -575744869,
     "name": "قبعات حفلة",
     "shortname": "partyhat",
@@ -21744,7 +22235,7 @@
     "recycleData": {}
   },
   "-892718768": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -892718768,
     "name": "غطاء السجين",
     "shortname": "prisonerhood",
@@ -21784,7 +22275,7 @@
     }
   },
   "-986782031": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -986782031,
     "name": "قناع الأرنب",
     "shortname": "hat.rabbitmask",
@@ -21836,7 +22327,7 @@
     }
   },
   "-324675402": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -324675402,
     "name": "قرون الرنّة",
     "shortname": "attire.reindeer.headband",
@@ -21858,7 +22349,7 @@
     }
   },
   "-2002277461": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2002277461,
     "name": "سترة علامة طريق",
     "shortname": "roadsign.jacket",
@@ -21922,7 +22413,7 @@
     }
   },
   "-699558439": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -699558439,
     "name": "قفازات علامة طريق",
     "shortname": "roadsign.gloves",
@@ -21986,7 +22477,7 @@
     }
   },
   "-575483084": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -575483084,
     "name": "قبعة سانتا",
     "shortname": "santahat",
@@ -21995,7 +22486,7 @@
     "recycleData": {}
   },
   "-253079493": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -253079493,
     "name": "بدلة عالم",
     "shortname": "hazmatsuit_scientist_peacekeeper",
@@ -22033,7 +22524,7 @@
     }
   },
   "-2025184684": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2025184684,
     "name": "قميص",
     "shortname": "shirt.collared",
@@ -22073,7 +22564,7 @@
     }
   },
   "-1695367501": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1695367501,
     "name": "سروال قصير",
     "shortname": "pants.shorts",
@@ -22113,7 +22604,7 @@
     }
   },
   "-48090175": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -48090175,
     "name": "سترة سميكة",
     "shortname": "jacket.snow",
@@ -22165,7 +22656,7 @@
     }
   },
   "-842267147": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -842267147,
     "name": "خوذة رجل الثلج",
     "shortname": "attire.snowman.helmet",
@@ -22205,14 +22696,14 @@
     }
   },
   "-1785231475": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1785231475,
     "name": "بدلة جراح",
     "shortname": "halloween.surgeonsuit",
     "description": "This surgeon suit is craftable if you own the item on Steam, and, in terms of ballistic protection, makes a great alternative for the Hazmat Suit due to not requiring a researched blueprint, and having a decent, mid-tier overall body protection in one piece, rather than separate pieces of clothing to cover all areas, for a relatively cheap crafting cost.\n\nIt has no real specialisation, other than a decent radiation protection (which still doesn't compete with the hazmat suit) that allows you to go in most places. Therefore, it's really just the fact it's a cool-looking surgeon suit, and offers fair overall protection.\n\nFor combat purposes, the Surgeon Scrubs positions itself in the mid-tier segment, directly next to armaments such as the Bone Armor kit, Hazmat Suit, and commonly put together clothes sets that lack any specialized pieces of armor.",
     "craftData": {
       "yield": 1,
-      "workbench": 1,
+      "workbench": 3,
       "craftTime": {
         "craftTime": {
           "short": 1,
@@ -22257,7 +22748,7 @@
     }
   },
   "-1108136649": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1108136649,
     "name": "قفاز تكتيكي",
     "shortname": "tactical.gloves",
@@ -22286,8 +22777,39 @@
       ]
     }
   },
+  "-739993590": {
+    "group": "attire",
+    "identifier": -739993590,
+    "name": "علم Twitch Rivals",
+    "shortname": "twitchrivalsflag",
+    "description": "A wearable flag for Twitch Rivals",
+    "craftData": {},
+    "recycleData": {}
+  },
+  "-874908751": {
+    "group": "attire",
+    "identifier": -874908751,
+    "name": "بذلة عمل شخصية غير قابلة للعب بئر الماء",
+    "shortname": "jumpsuit.waterwellnpc",
+    "description": "A green jumpsuit and gasmask worn by the waterwell NPC",
+    "craftData": {},
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "قماش",
+          "amount": 30
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "قماش",
+          "amount": 20
+        }
+      ]
+    }
+  },
   "-1101924344": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1101924344,
     "name": "بذلة مياه",
     "shortname": "diving.wetsuit",
@@ -22309,7 +22831,7 @@
     }
   },
   "-1478212975": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1478212975,
     "name": "غطاء رأس ذئب",
     "shortname": "hat.wolf",
@@ -22361,7 +22883,7 @@
     }
   },
   "-2094954543": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2094954543,
     "name": "خوذة مدرع خشبي",
     "shortname": "wood.armor.helmet",
@@ -23385,7 +23907,7 @@
     "identifier": -2084071424,
     "name": "بذور البطاطس",
     "shortname": "seed.potato",
-    "description": "These potato seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "description": "These potato seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more potatoes and faster growth.",
     "craftData": {},
     "recycleData": {}
   },
@@ -23587,7 +24109,7 @@
     "identifier": -992286106,
     "name": "بذور التوت الأبيض",
     "shortname": "seed.white.berry",
-    "description": "These white berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "description": "These white berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more berries and faster growth.",
     "craftData": {},
     "recycleData": {}
   },
@@ -23596,7 +24118,7 @@
     "identifier": -520133715,
     "name": "بذور التوت الأصفر",
     "shortname": "seed.yellow.berry",
-    "description": "These yellow berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "description": "These yellow berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more berries and faster growth.",
     "craftData": {},
     "recycleData": {}
   },
@@ -23975,7 +24497,7 @@
     "identifier": -1841918730,
     "name": "صاروخ عالي السرعة",
     "shortname": "ammo.rocket.hv",
-    "description": "The High Velocity Rocket is essentially a rocket with much less damage than the standard rocket. However, it is also much cheaper, and as the name suggests it has a higher velocity than the standard rocket, so it could be useful for rocketing targets at extreme range. Because of its lower cost and damage, it is useful for situations where a full rocket would be overkill.",
+    "description": "The High-Velocity Rocket trades damage for a much higher speed and far less drop. The High-Velocity rocket is best used against placeables (mainly turrets), vehicles such as cars and helicopters, and enemy players. It is essentially intended for cases where a rocket would be overkill, or you would need the extra speed. The high-velocity rocket has poor damage against buildables and doors, but is a valuable tool for raiding in the other ways described.",
     "craftData": {
       "yield": 1,
       "workbench": 2,
@@ -24799,7 +25321,7 @@
     "identifier": -888153050,
     "name": "حلوى الهالوين",
     "shortname": "halloween.candy",
-    "description": "Some loose halloween candy Collect 10 to upgrade to a Small Loot Bat!",
+    "description": "Some loose halloween candy Collect 10 to upgrade to a Small Loot Bag!",
     "craftData": {},
     "recycleData": {}
   },
@@ -25625,46 +26147,6 @@
         {
           "name": "خشب",
           "amount": 40
-        }
-      ]
-    }
-  },
-  "-1767794021": {
-    "group": "components",
-    "identifier": -1767794021,
-    "name": "انضغاط الغاز المفرط",
-    "shortname": "weapon.mod.gascompressionovedrive",
-    "description": "An internal weapon mod which compresses and directs gasses used for cycling the weapon to the barrel, effectively increasing projectile velocity and damage at the expense of cycle rate.",
-    "craftData": {
-      "yield": 1,
-      "workbench": 2,
-      "craftTime": {
-        "craftTime": {
-          "short": 15,
-          "long": 30
-        }
-      },
-      "recipie": {
-        "totalCraftCost": 10,
-        "craftCost": [
-          {
-            "name": "معدن عالي الجودة",
-            "amount": 10
-          }
-        ]
-      }
-    },
-    "recycleData": {
-      "recycleYieldrad": [
-        {
-          "name": "معدن عالي الجودة",
-          "amount": 6
-        }
-      ],
-      "recycleYieldsafe": [
-        {
-          "name": "معدن عالي الجودة",
-          "amount": 4
         }
       ]
     }
@@ -28671,7 +29153,7 @@
     "identifier": -20045316,
     "name": "الهاتف المحمول",
     "shortname": "mobilephone",
-    "description": "A mobile phone that lets you place calls from anywhere. Truly cutting edge Cobalt technology. Use [attack] to access the dialler.",
+    "description": "A mobile phone that lets you place calls from anywhere. Truly cutting edge Cobalt technology. Use [attack] to access the dialer.",
     "craftData": {
       "yield": 1,
       "workbench": 1,

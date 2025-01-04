@@ -1,26 +1,4 @@
 {
-  "weapon.mod.8x.scope": {
-    "group": "weapons",
-    "identifier": 174866732,
-    "name": "Mira telescópica 16x",
-    "shortname": "weapon.mod.8x.scope",
-    "description": "The 16x Zoom Scope is a military-grade telescopic sight. Its reticle is a thin cross with bullet-drop guides. Its extreme magnification allows for precise fire over extreme distances, but its narrow field of view makes it impractical for any close quarter engagements or full-auto fire. As it's susceptible to shaking, consider using a Weapon Lasersight or Tactical Gloves in addition to this scope.",
-    "craftData": {},
-    "recycleData": {
-      "recycleYieldrad": [
-        {
-          "name": "Metal de alta calidad",
-          "amount": 48
-        }
-      ],
-      "recycleYieldsafe": [
-        {
-          "name": "Metal de alta calidad",
-          "amount": 32
-        }
-      ]
-    }
-  },
   "weapon.mod.small.scope": {
     "group": "weapons",
     "identifier": 567235583,
@@ -551,7 +529,7 @@
   "smg.2": {
     "group": "weapons",
     "identifier": 1796682209,
-    "name": "Subfusil personalizado",
+    "name": "Sub-fusil personalizado",
     "shortname": "smg.2",
     "description": "The Custom SMG is a quick-firing, low damage submachine gun with moderate recoil. Its moderate spread and low bullet velocity limit the use of the weapon to close and possibly moderate ranges, but its maximum range can be extended through the use of attachments like the Silencer or Weapon Lasersight to increase accuracy. The Custom SMG is the least expensive submachine gun, and fires the quickest out of every weapon in the game. With no movement penalty, like other SMGs, this weapon is most effectively used while on the move.",
     "craftData": {
@@ -571,7 +549,7 @@
             "amount": 8
           },
           {
-            "name": "Cuerpo de subfusil",
+            "name": "Cuerpo de sub-fusil",
             "amount": 1
           },
           {
@@ -588,7 +566,7 @@
           "amount": 5
         },
         {
-          "name": "Cuerpo de subfusil",
+          "name": "Cuerpo de sub-fusil",
           "amount": 0.6
         },
         {
@@ -602,7 +580,7 @@
           "amount": 4
         },
         {
-          "name": "Cuerpo de subfusil",
+          "name": "Cuerpo de sub-fusil",
           "amount": 0.4
         },
         {
@@ -936,6 +914,46 @@
       ]
     }
   },
+  "weapon.mod.gascompressionovedrive": {
+    "group": "weapons",
+    "identifier": -1767794021,
+    "name": "Sobrecarga de compresión de gas",
+    "shortname": "weapon.mod.gascompressionovedrive",
+    "description": "An internal weapon mod which compresses and directs gasses used for cycling the weapon to the barrel, effectively increasing projectile velocity and damage at the expense of cycle rate.",
+    "craftData": {
+      "yield": 1,
+      "workbench": 2,
+      "craftTime": {
+        "craftTime": {
+          "short": 15,
+          "long": 30
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 10,
+        "craftCost": [
+          {
+            "name": "Metal de alta calidad",
+            "amount": 10
+          }
+        ]
+      }
+    },
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Metal de alta calidad",
+          "amount": 6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Metal de alta calidad",
+          "amount": 4
+        }
+      ]
+    }
+  },
   "hmlmg": {
     "group": "weapons",
     "identifier": -1214542497,
@@ -999,6 +1017,146 @@
         },
         {
           "name": "Cuerpo de fusil",
+          "amount": 0.4
+        }
+      ]
+    }
+  },
+  "t1_smg": {
+    "group": "weapons",
+    "identifier": 2083256995,
+    "name": "Sub-fusil casero",
+    "shortname": "t1_smg",
+    "description": "An extremely basic automatic firearm. Low damage and accuracy.",
+    "craftData": {
+      "yield": 1,
+      "workbench": 1,
+      "craftTime": {
+        "craftTime": {
+          "short": 7,
+          "long": 30
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 206,
+        "craftCost": [
+          {
+            "name": "Metal de alta calidad",
+            "amount": 5
+          },
+          {
+            "name": "Fragmentos de metal",
+            "amount": 200
+          },
+          {
+            "name": "Muelle metálico",
+            "amount": 1
+          }
+        ]
+      }
+    },
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Metal de alta calidad",
+          "amount": 3
+        },
+        {
+          "name": "Fragmentos de metal",
+          "amount": 120
+        },
+        {
+          "name": "Muelle metálico",
+          "amount": 0.6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Metal de alta calidad",
+          "amount": 2
+        },
+        {
+          "name": "Fragmentos de metal",
+          "amount": 80
+        },
+        {
+          "name": "Muelle metálico",
+          "amount": 0.4
+        }
+      ]
+    }
+  },
+  "revolver.hc": {
+    "group": "weapons",
+    "identifier": -92315244,
+    "name": "Revolver de alto calibre.",
+    "shortname": "revolver.hc",
+    "description": "A High Caliber six-shooter.",
+    "craftData": {
+      "yield": 1,
+      "workbench": 2,
+      "craftTime": {
+        "craftTime": {
+          "short": 15,
+          "long": 30
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 12,
+        "craftCost": [
+          {
+            "name": "Tubería de metal",
+            "amount": 4
+          },
+          {
+            "name": "Muelle metálico",
+            "amount": 1
+          },
+          {
+            "name": "Engranajes",
+            "amount": 1
+          },
+          {
+            "name": "Metal de alta calidad",
+            "amount": 6
+          }
+        ]
+      }
+    },
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Tubería de metal",
+          "amount": 3
+        },
+        {
+          "name": "Metal de alta calidad",
+          "amount": 4
+        },
+        {
+          "name": "Muelle metálico",
+          "amount": 0.6
+        },
+        {
+          "name": "Engranajes",
+          "amount": 0.6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Tubería de metal",
+          "amount": 2
+        },
+        {
+          "name": "Metal de alta calidad",
+          "amount": 3
+        },
+        {
+          "name": "Muelle metálico",
+          "amount": 0.4
+        },
+        {
+          "name": "Engranajes",
           "amount": 0.4
         }
       ]
@@ -1503,7 +1661,7 @@
             "amount": 15
           },
           {
-            "name": "Cuerpo de subfusil",
+            "name": "Cuerpo de sub-fusil",
             "amount": 1
           },
           {
@@ -1524,7 +1682,7 @@
           "amount": 2
         },
         {
-          "name": "Cuerpo de subfusil",
+          "name": "Cuerpo de sub-fusil",
           "amount": 0.6
         }
       ],
@@ -1538,7 +1696,7 @@
           "amount": 1
         },
         {
-          "name": "Cuerpo de subfusil",
+          "name": "Cuerpo de sub-fusil",
           "amount": 0.4
         }
       ]
@@ -2322,6 +2480,82 @@
       ]
     }
   },
+  "rifle.sks": {
+    "group": "weapons",
+    "identifier": -348232115,
+    "name": "SKS",
+    "shortname": "rifle.sks",
+    "description": "A Military-Grade Semi Automatic Rifle.",
+    "craftData": {
+      "yield": 1,
+      "workbench": 3,
+      "craftTime": {
+        "craftTime": {
+          "short": 30,
+          "long": 30
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 215,
+        "craftCost": [
+          {
+            "name": "Cuerpo semiautomático",
+            "amount": 1
+          },
+          {
+            "name": "Muelle metálico",
+            "amount": 2
+          },
+          {
+            "name": "Fragmentos de metal",
+            "amount": 200
+          },
+          {
+            "name": "Metal de alta calidad",
+            "amount": 12
+          }
+        ]
+      }
+    },
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Muelle metálico",
+          "amount": 2
+        },
+        {
+          "name": "Fragmentos de metal",
+          "amount": 120
+        },
+        {
+          "name": "Metal de alta calidad",
+          "amount": 8
+        },
+        {
+          "name": "Cuerpo semiautomático",
+          "amount": 0.6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Muelle metálico",
+          "amount": 1
+        },
+        {
+          "name": "Fragmentos de metal",
+          "amount": 80
+        },
+        {
+          "name": "Metal de alta calidad",
+          "amount": 5
+        },
+        {
+          "name": "Cuerpo semiautomático",
+          "amount": 0.4
+        }
+      ]
+    }
+  },
   "salvaged.cleaver": {
     "group": "weapons",
     "identifier": -1978999529,
@@ -2854,7 +3088,7 @@
   "smg.thompson": {
     "group": "weapons",
     "identifier": -1758372725,
-    "name": "Subfusil Thompson",
+    "name": "Sub-fusil Thompson",
     "shortname": "smg.thompson",
     "description": "The Thompson provides a mid-range alternative to other submachine guns while still offering close-range firepower. Its high accuracy and damage allow the user to take targets further away than other SMGs.\n\nWith the recent QoL update, the Thompson can now take underbarrel attachments, such as the Flashlight and Laser, marginally buffing it in comparison to the other SMGs.",
     "craftData": {
@@ -2878,7 +3112,7 @@
             "amount": 100
           },
           {
-            "name": "Cuerpo de subfusil",
+            "name": "Cuerpo de sub-fusil",
             "amount": 1
           },
           {
@@ -2899,7 +3133,7 @@
           "amount": 60
         },
         {
-          "name": "Cuerpo de subfusil",
+          "name": "Cuerpo de sub-fusil",
           "amount": 0.6
         },
         {
@@ -2917,7 +3151,7 @@
           "amount": 40
         },
         {
-          "name": "Cuerpo de subfusil",
+          "name": "Cuerpo de sub-fusil",
           "amount": 0.4
         },
         {
@@ -2945,6 +3179,28 @@
         {
           "name": "Madera",
           "amount": 40
+        }
+      ]
+    }
+  },
+  "weapon.mod.8x.scope": {
+    "group": "weapons",
+    "identifier": 174866732,
+    "name": "Variable Zoom Scope",
+    "shortname": "weapon.mod.8x.scope",
+    "description": "The 16x Zoom Scope is a military-grade telescopic sight. Its reticle is a thin cross with bullet-drop guides. Its extreme magnification allows for precise fire over extreme distances, but its narrow field of view makes it impractical for any close quarter engagements or full-auto fire. As it's susceptible to shaking, consider using a Weapon Lasersight or Tactical Gloves in addition to this scope.",
+    "craftData": {},
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Metal de alta calidad",
+          "amount": 48
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Metal de alta calidad",
+          "amount": 32
         }
       ]
     }
@@ -3196,7 +3452,7 @@
     }
   },
   "door.hinged.toptier": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1353298668,
     "name": "Puerta blindada",
     "shortname": "door.hinged.toptier",
@@ -3248,7 +3504,7 @@
     }
   },
   "door.double.hinged.toptier": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1221063409,
     "name": "Puerta doble blindada",
     "shortname": "door.double.hinged.toptier",
@@ -3300,7 +3556,7 @@
     }
   },
   "barricade.woodwire": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1382263453,
     "name": "Barricada de pinchos con espino",
     "shortname": "barricade.woodwire",
@@ -3364,7 +3620,7 @@
     }
   },
   "building.planner": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1525520776,
     "name": "Plano de construcción",
     "shortname": "building.planner",
@@ -3404,7 +3660,7 @@
     }
   },
   "wall.frame.fence": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1117626326,
     "name": "Valla Alambrada",
     "shortname": "wall.frame.fence",
@@ -3444,7 +3700,7 @@
     }
   },
   "wall.frame.fence.gate": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1451568081,
     "name": "Puerta de alambrada",
     "shortname": "wall.frame.fence.gate",
@@ -3484,7 +3740,7 @@
     }
   },
   "lock.code": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1159991980,
     "name": "Cerradura númerica",
     "shortname": "lock.code",
@@ -3524,7 +3780,7 @@
     }
   },
   "barricade.concrete": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1950721390,
     "name": "Barricada de hormigón",
     "shortname": "barricade.concrete",
@@ -3564,7 +3820,7 @@
     }
   },
   "door.closer": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1409529282,
     "name": "Cierrapuertas",
     "shortname": "door.closer",
@@ -3594,7 +3850,7 @@
     }
   },
   "floor.grill": {
-    "group": "build",
+    "group": "construction",
     "identifier": 936496778,
     "name": "Suelo de rejilla",
     "shortname": "floor.grill",
@@ -3634,7 +3890,7 @@
     }
   },
   "floor.triangle.grill": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1983621560,
     "name": "Suelo de rejilla triangular",
     "shortname": "floor.triangle.grill",
@@ -3674,7 +3930,7 @@
     }
   },
   "wall.frame.garagedoor": {
-    "group": "build",
+    "group": "construction",
     "identifier": -148794216,
     "name": "Puerta de garaje",
     "shortname": "wall.frame.garagedoor",
@@ -3726,7 +3982,7 @@
     }
   },
   "gates.external.high.stone": {
-    "group": "build",
+    "group": "construction",
     "identifier": -691113464,
     "name": "Portón exterior de piedra",
     "shortname": "gates.external.high.stone",
@@ -3741,7 +3997,7 @@
         }
       },
       "recipie": {
-        "totalCraftCost": 3005,
+        "totalCraftCost": 3004,
         "craftCost": [
           {
             "name": "Piedras",
@@ -3749,7 +4005,11 @@
           },
           {
             "name": "Engranajes",
-            "amount": 5
+            "amount": 3
+          },
+          {
+            "name": "Chapa metálica",
+            "amount": 1
           }
         ]
       }
@@ -3757,26 +4017,26 @@
     "recycleData": {
       "recycleYieldrad": [
         {
-          "name": "Engranajes",
-          "amount": 3
+          "name": "Chapa metálica",
+          "amount": 0.6
         }
       ],
       "recycleYieldsafe": [
         {
-          "name": "Engranajes",
-          "amount": 2
+          "name": "Chapa metálica",
+          "amount": 0.4
         }
       ]
     }
   },
   "wall.external.high.stone": {
-    "group": "build",
+    "group": "construction",
     "identifier": -967648160,
     "name": "Muro alto exterior de piedra",
     "shortname": "wall.external.high.stone",
-    "description": "High External Stone Walls are generally used in the construction of compounds, and, unlike their wooden relatives, are fire-resistant and require explosives to get through unless you use a ladder, though this may prove difficult due to the damage and slow inflicted by the barbed wire on top of these walls. Both these and their wooden equivalents are also commonly used in pvp combat, as they can be carried in stacks of ten for some portable cover.",
+    "description": "High External Stone Walls are generally used in the construction of compounds, and, unlike their wooden relatives, are fire-resistant and require explosives to get through unless you use a ladder, though this may prove difficult due to the damage and slow inflicted by the barbed wire on top of these walls.",
     "craftData": {
-      "yield": 1,
+      "yield": 3,
       "workbench": 2,
       "craftTime": {
         "craftTime": {
@@ -3785,10 +4045,14 @@
         }
       },
       "recipie": {
-        "totalCraftCost": 1500,
+        "totalCraftCost": 4001,
         "craftCost": [
           {
             "name": "Piedras",
+            "amount": 4
+          },
+          {
+            "name": "Chapa metálica",
             "amount": 1
           }
         ]
@@ -3798,19 +4062,27 @@
       "recycleYieldrad": [
         {
           "name": "Piedras",
-          "amount": 900
+          "amount": 800
+        },
+        {
+          "name": "Chapa metálica",
+          "amount": 0.2
         }
       ],
       "recycleYieldsafe": [
         {
           "name": "Piedras",
-          "amount": 600
+          "amount": 534
+        },
+        {
+          "name": "Chapa metálica",
+          "amount": 0.13
         }
       ]
     }
   },
   "gates.external.high.wood": {
-    "group": "build",
+    "group": "construction",
     "identifier": -335089230,
     "name": "Portón exterior de madera",
     "shortname": "gates.external.high.wood",
@@ -3854,13 +4126,13 @@
     }
   },
   "wall.external.high": {
-    "group": "build",
+    "group": "construction",
     "identifier": 99588025,
     "name": "Muro alto exterior de madera",
     "shortname": "wall.external.high",
     "description": "The High External Wooden Wall is a deployable building object used to wall off an area. The high external is about the height and width of a standard 2x2 wall. The wall also comes with a barbed wire top slowing down and damaging any players that come into contact with it.\n\nHigh externals can be a cheap and effective way to deny entry, however they decay fairly quickly and need to be maintained.\n\nDue to their size High External Walls are often used in combat as deployable cover.",
     "craftData": {
-      "yield": 1,
+      "yield": 3,
       "workbench": 1,
       "craftTime": {
         "craftTime": {
@@ -3869,11 +4141,11 @@
         }
       },
       "recipie": {
-        "totalCraftCost": 1500,
+        "totalCraftCost": 4000,
         "craftCost": [
           {
             "name": "Madera",
-            "amount": 1
+            "amount": 4
           }
         ]
       }
@@ -3882,19 +4154,19 @@
       "recycleYieldrad": [
         {
           "name": "Madera",
-          "amount": 900
+          "amount": 800
         }
       ],
       "recycleYieldsafe": [
         {
           "name": "Madera",
-          "amount": 600
+          "amount": 534
         }
       ]
     }
   },
   "wall.external.high.ice": {
-    "group": "build",
+    "group": "construction",
     "identifier": -985781766,
     "name": "Muro alto de hielo",
     "shortname": "wall.external.high.ice",
@@ -3916,7 +4188,7 @@
     }
   },
   "lock.key": {
-    "group": "build",
+    "group": "construction",
     "identifier": -850982208,
     "name": "Cerradura de llave",
     "shortname": "lock.key",
@@ -3956,7 +4228,7 @@
     }
   },
   "floor.ladder.hatch": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1948067030,
     "name": "Trampilla",
     "shortname": "floor.ladder.hatch",
@@ -4012,7 +4284,7 @@
     }
   },
   "water.catcher.large": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1100168350,
     "name": "Recolector de agua grande",
     "shortname": "water.catcher.large",
@@ -4076,7 +4348,7 @@
     }
   },
   "legacy.shelter.wood": {
-    "group": "build",
+    "group": "construction",
     "identifier": 607400343,
     "name": "Refugio de madera arcaico",
     "shortname": "legacy.shelter.wood",
@@ -4116,7 +4388,7 @@
     }
   },
   "barricade.metal": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1655650836,
     "name": "Barricada de metal",
     "shortname": "barricade.metal",
@@ -4168,7 +4440,7 @@
     }
   },
   "wall.frame.shopfront.metal": {
-    "group": "build",
+    "group": "construction",
     "identifier": -148229307,
     "name": "Escaparate de tienda metálico",
     "shortname": "wall.frame.shopfront.metal",
@@ -4208,7 +4480,7 @@
     }
   },
   "shutter.metal.embrasure.b": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1199897172,
     "name": "Tronera de metal vertical",
     "shortname": "shutter.metal.embrasure.b",
@@ -4248,7 +4520,7 @@
     }
   },
   "wall.window.bars.metal": {
-    "group": "build",
+    "group": "construction",
     "identifier": -819720157,
     "name": "Rejas de metal",
     "shortname": "wall.window.bars.metal",
@@ -4288,7 +4560,7 @@
     }
   },
   "shutter.metal.embrasure.a": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1199897169,
     "name": "Tronera horizontal de metal",
     "shortname": "shutter.metal.embrasure.a",
@@ -4328,7 +4600,7 @@
     }
   },
   "mining.quarry": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1052926200,
     "name": "Cantera",
     "shortname": "mining.quarry",
@@ -4337,7 +4609,7 @@
     "recycleData": {}
   },
   "wall.frame.netting": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1516985844,
     "name": "Red",
     "shortname": "wall.frame.netting",
@@ -4377,7 +4649,7 @@
     }
   },
   "wall.frame.cell.gate": {
-    "group": "build",
+    "group": "construction",
     "identifier": -956706906,
     "name": "Puerta de celda de cárcel",
     "shortname": "wall.frame.cell.gate",
@@ -4417,7 +4689,7 @@
     }
   },
   "wall.frame.cell": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1429456799,
     "name": "Muro de celda de cárcel",
     "shortname": "wall.frame.cell",
@@ -4457,7 +4729,7 @@
     }
   },
   "mining.pumpjack": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1130709577,
     "name": "Bomba de petróleo",
     "shortname": "mining.pumpjack",
@@ -4466,7 +4738,7 @@
     "recycleData": {}
   },
   "wall.window.bars.toptier": {
-    "group": "build",
+    "group": "construction",
     "identifier": 671706427,
     "name": "Ventana de rejas blindada",
     "shortname": "wall.window.bars.toptier",
@@ -4506,7 +4778,7 @@
     }
   },
   "barricade.sandbags": {
-    "group": "build",
+    "group": "construction",
     "identifier": -559599960,
     "name": "Barricada de sacos de arena",
     "shortname": "barricade.sandbags",
@@ -4558,7 +4830,7 @@
     }
   },
   "door.hinged.metal": {
-    "group": "build",
+    "group": "construction",
     "identifier": -2067472972,
     "name": "Puerta de chapa",
     "shortname": "door.hinged.metal",
@@ -4598,7 +4870,7 @@
     }
   },
   "door.double.hinged.metal": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1390353317,
     "name": "Puerta doble de chapa",
     "shortname": "door.double.hinged.metal",
@@ -4638,7 +4910,7 @@
     }
   },
   "wall.frame.shopfront": {
-    "group": "build",
+    "group": "construction",
     "identifier": -796583652,
     "name": "Frente de tienda de madera",
     "shortname": "wall.frame.shopfront",
@@ -4678,7 +4950,7 @@
     }
   },
   "wall.ice.wall": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1327005675,
     "name": "Muro bajo de hielo",
     "shortname": "wall.ice.wall",
@@ -4700,7 +4972,7 @@
     }
   },
   "water.catcher.small": {
-    "group": "build",
+    "group": "construction",
     "identifier": -132247350,
     "name": "Colector de agua pequeño",
     "shortname": "water.catcher.small",
@@ -4764,7 +5036,7 @@
     }
   },
   "barricade.stone": {
-    "group": "build",
+    "group": "construction",
     "identifier": 15388698,
     "name": "Barricada de piedras",
     "shortname": "barricade.stone",
@@ -4804,7 +5076,7 @@
     }
   },
   "wall.window.glass.reinforced": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1614955425,
     "name": "Ventana de cristal reforzado",
     "shortname": "wall.window.glass.reinforced",
@@ -4844,7 +5116,7 @@
     }
   },
   "cupboard.tool": {
-    "group": "build",
+    "group": "construction",
     "identifier": -97956382,
     "name": "Armario de herramientas",
     "shortname": "cupboard.tool",
@@ -4884,7 +5156,7 @@
     }
   },
   "floor.triangle.ladder.hatch": {
-    "group": "build",
+    "group": "construction",
     "identifier": 2041899972,
     "name": "Trampilla triangular",
     "shortname": "floor.triangle.ladder.hatch",
@@ -4940,7 +5212,7 @@
     }
   },
   "watchtower.wood": {
-    "group": "build",
+    "group": "construction",
     "identifier": -463122489,
     "name": "Atalaya",
     "shortname": "watchtower.wood",
@@ -4980,7 +5252,7 @@
     }
   },
   "door.double.hinged.wood": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1336109173,
     "name": "Puerta doble de madera",
     "shortname": "door.double.hinged.wood",
@@ -5020,7 +5292,7 @@
     }
   },
   "shutter.wood.a": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1023374709,
     "name": "Contraventana",
     "shortname": "shutter.wood.a",
@@ -5060,7 +5332,7 @@
     }
   },
   "barricade.wood": {
-    "group": "build",
+    "group": "construction",
     "identifier": 866889860,
     "name": "Barricada de pinchos",
     "shortname": "barricade.wood",
@@ -5112,7 +5384,7 @@
     }
   },
   "barricade.wood.cover": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1373240771,
     "name": "Barricada de madera",
     "shortname": "barricade.wood.cover",
@@ -5152,7 +5424,7 @@
     }
   },
   "door.hinged.wood": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1729120840,
     "name": "Puerta de madera",
     "shortname": "door.hinged.wood",
@@ -5192,7 +5464,7 @@
     }
   },
   "door.double.hinged.bardoors": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1151332840,
     "name": "Puertas de madera de bar del Oeste",
     "shortname": "door.double.hinged.bardoors",
@@ -5232,7 +5504,7 @@
     }
   },
   "ladder.wooden.wall": {
-    "group": "build",
+    "group": "construction",
     "identifier": -316250604,
     "name": "Escalera de mano",
     "shortname": "ladder.wooden.wall",
@@ -5276,7 +5548,7 @@
     }
   },
   "wall.window.bars.wood": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1183726687,
     "name": "Rejas de madera",
     "shortname": "wall.window.bars.wood",
@@ -6033,6 +6305,58 @@
       ]
     }
   },
+  "skidoo": {
+    "group": "items",
+    "identifier": -1056824343,
+    "name": "Vehículo de propulsión para bucear.",
+    "shortname": "skidoo",
+    "description": "A personal underwater propulsion device",
+    "craftData": {
+      "yield": 1,
+      "workbench": 2,
+      "craftTime": {
+        "craftTime": {
+          "short": 15,
+          "long": 30
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 16,
+        "craftCost": [
+          {
+            "name": "Un montón de componentes electrónicos varios.",
+            "amount": 1
+          },
+          {
+            "name": "Metal de alta calidad",
+            "amount": 15
+          }
+        ]
+      }
+    },
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Metal de alta calidad",
+          "amount": 9
+        },
+        {
+          "name": "Un montón de componentes electrónicos varios.",
+          "amount": 0.6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Metal de alta calidad",
+          "amount": 6
+        },
+        {
+          "name": "Un montón de componentes electrónicos varios.",
+          "amount": 0.4
+        }
+      ]
+    }
+  },
   "sign.post.double": {
     "group": "items",
     "identifier": 1521286012,
@@ -6663,6 +6987,28 @@
       ]
     }
   },
+  "hazmat.plushy": {
+    "group": "items",
+    "identifier": 1578317134,
+    "name": "Peluche Hazmat",
+    "shortname": "hazmat.plushy",
+    "description": "A plushy of your favourite outfit made by the fabulous people at YouTooz.com",
+    "craftData": {},
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Tela",
+          "amount": 30
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Tela",
+          "amount": 20
+        }
+      ]
+    }
+  },
   "hazmatyoutooz": {
     "group": "items",
     "identifier": -1696379844,
@@ -6911,6 +7257,36 @@
         {
           "name": "Madera",
           "amount": 100
+        }
+      ]
+    }
+  },
+  "sculpture.ice": {
+    "group": "items",
+    "identifier": 504109620,
+    "name": "Ice Sculpture",
+    "shortname": "sculpture.ice",
+    "description": "An block of ice you can sculpt.",
+    "craftData": {},
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Madera",
+          "amount": 300
+        },
+        {
+          "name": "Fragmentos de metal",
+          "amount": 60
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Madera",
+          "amount": 200
+        },
+        {
+          "name": "Fragmentos de metal",
+          "amount": 40
         }
       ]
     }
@@ -10792,6 +11168,15 @@
     "craftData": {},
     "recycleData": {}
   },
+  "water.radioactive": {
+    "group": "resources",
+    "identifier": 1811780502,
+    "name": "Radioactive Water",
+    "shortname": "water.radioactive",
+    "description": "Glowing water. Consuming will damage your health and irradiate you.",
+    "craftData": {},
+    "recycleData": {}
+  },
   "researchpaper": {
     "group": "resources",
     "identifier": -544317637,
@@ -10912,7 +11297,7 @@
     "recycleData": {}
   },
   "barrelcostume": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1215166612,
     "name": "Disfraz de barril",
     "shortname": "barrelcostume",
@@ -10921,7 +11306,7 @@
     "recycleData": {}
   },
   "hazmatsuit_scientist_arctic": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1107575710,
     "name": "Traje de científico ártico",
     "shortname": "hazmatsuit_scientist_arctic",
@@ -10959,7 +11344,7 @@
     }
   },
   "hazmatsuit.arcticsuit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -470439097,
     "name": "Traje ártico",
     "shortname": "hazmatsuit.arcticsuit",
@@ -10968,7 +11353,7 @@
     "recycleData": {}
   },
   "mask.bandana": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -702051347,
     "name": "Un trozo de tela que se ata alrededor de la cabeza para cubrir la nariz y la boca.",
     "shortname": "mask.bandana",
@@ -11008,7 +11393,7 @@
     }
   },
   "attire.banditguard": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1622110948,
     "name": "Equipación de guardia bandolero",
     "shortname": "attire.banditguard",
@@ -11046,7 +11431,7 @@
     }
   },
   "hat.cap": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1022661119,
     "name": "Gorra de béisbol",
     "shortname": "hat.cap",
@@ -11086,7 +11471,7 @@
     }
   },
   "horse.shoes.basic": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1211268013,
     "name": "Herradura básica",
     "shortname": "horse.shoes.basic",
@@ -11126,7 +11511,7 @@
     }
   },
   "hat.beenie": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1675639563,
     "name": "Gorro de lana",
     "shortname": "hat.beenie",
@@ -11166,7 +11551,7 @@
     }
   },
   "jumpsuit.suit.blue": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1601468620,
     "name": "Mono de trabajo azul",
     "shortname": "jumpsuit.suit.blue",
@@ -11188,7 +11573,7 @@
     }
   },
   "bone.armor.suit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1746956556,
     "name": "Armadura de hueso",
     "shortname": "bone.armor.suit",
@@ -11240,7 +11625,7 @@
     }
   },
   "deer.skull.mask": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1903165497,
     "name": "Casco de hueso",
     "shortname": "deer.skull.mask",
@@ -11292,7 +11677,7 @@
     }
   },
   "hat.boonie": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -23994173,
     "name": "Sombrero militar",
     "shortname": "hat.boonie",
@@ -11332,7 +11717,7 @@
     }
   },
   "shoes.boots": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1549739227,
     "name": "Botas",
     "shortname": "shoes.boots",
@@ -11396,7 +11781,7 @@
     }
   },
   "bucket.helmet": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 850280505,
     "name": "Casco de cubo",
     "shortname": "bucket.helmet",
@@ -11436,7 +11821,7 @@
     }
   },
   "attire.bunnyears": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1004426654,
     "name": "Orejas de conejo",
     "shortname": "attire.bunnyears",
@@ -11458,7 +11843,7 @@
     }
   },
   "hat.bunnyhat": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 23391694,
     "name": "Gorro de conejo",
     "shortname": "hat.bunnyhat",
@@ -11498,7 +11883,7 @@
     }
   },
   "attire.bunny.onesie": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1266045928,
     "name": "Pijama de conejo",
     "shortname": "attire.bunny.onesie",
@@ -11520,7 +11905,7 @@
     }
   },
   "burlap.gloves.new": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 21402876,
     "name": "Guantes de arpillera",
     "shortname": "burlap.gloves.new",
@@ -11560,7 +11945,7 @@
     }
   },
   "burlap.headwrap": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1877339384,
     "name": "Turbante de arpillera",
     "shortname": "burlap.headwrap",
@@ -11600,7 +11985,7 @@
     }
   },
   "burlap.shirt": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 602741290,
     "name": "Camisa de arpillera",
     "shortname": "burlap.shirt",
@@ -11640,7 +12025,7 @@
     }
   },
   "burlap.shoes": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -761829530,
     "name": "Sandalias de arpillera",
     "shortname": "burlap.shoes",
@@ -11680,7 +12065,7 @@
     }
   },
   "burlap.trousers": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1992974553,
     "name": "Pantalones de arpillera",
     "shortname": "burlap.trousers",
@@ -11720,7 +12105,7 @@
     }
   },
   "hat.candle": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1714496074,
     "name": "Gorro de velita",
     "shortname": "hat.candle",
@@ -11772,7 +12157,7 @@
     }
   },
   "movembermoustachecard": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 3380160,
     "name": "Bigote de cartón para Moviembre",
     "shortname": "movembermoustachecard",
@@ -11794,7 +12179,7 @@
     }
   },
   "chicken.costume": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -152332823,
     "name": "Disfraz de pollo",
     "shortname": "chicken.costume",
@@ -11846,7 +12231,7 @@
     }
   },
   "clatter.helmet": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 968019378,
     "name": "Casco de Clatter",
     "shortname": "clatter.helmet",
@@ -11886,7 +12271,7 @@
     }
   },
   "coffeecan.helmet": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -803263829,
     "name": "Casco de lata de café",
     "shortname": "coffeecan.helmet",
@@ -11950,7 +12335,7 @@
     }
   },
   "cratecostume": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1189981699,
     "name": "Disfraz de caja",
     "shortname": "cratecostume",
@@ -11959,7 +12344,7 @@
     "recycleData": {}
   },
   "diving.fins": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 296519935,
     "name": "Aletas de buceo",
     "shortname": "diving.fins",
@@ -11981,7 +12366,7 @@
     }
   },
   "diving.mask": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -113413047,
     "name": "Gafas de buceo",
     "shortname": "diving.mask",
@@ -12003,7 +12388,7 @@
     }
   },
   "diving.tank": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2022172587,
     "name": "Tanque de buceo",
     "shortname": "diving.tank",
@@ -12033,7 +12418,7 @@
     }
   },
   "horse.saddle.double": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1323101799,
     "name": "Montura doble para caballo",
     "shortname": "horse.saddle.double",
@@ -12055,17 +12440,39 @@
     }
   },
   "draculacape": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -258574361,
     "name": "Capa de Drácula",
     "shortname": "draculacape",
     "description": "A robustly thick outer garment providing ample protection to the wearer.",
-    "craftData": {},
+    "craftData": {
+      "yield": 1,
+      "workbench": 1,
+      "craftTime": {
+        "craftTime": {
+          "short": 7,
+          "long": 30
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 52,
+        "craftCost": [
+          {
+            "name": "Tela",
+            "amount": 50
+          },
+          {
+            "name": "Kit de costura",
+            "amount": 2
+          }
+        ]
+      }
+    },
     "recycleData": {
       "recycleYieldrad": [
         {
           "name": "Tela",
-          "amount": 60
+          "amount": 30
         },
         {
           "name": "Kit de costura",
@@ -12075,7 +12482,7 @@
       "recycleYieldsafe": [
         {
           "name": "Tela",
-          "amount": 40
+          "amount": 20
         },
         {
           "name": "Kit de costura",
@@ -12085,7 +12492,7 @@
     }
   },
   "draculamask": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1865253052,
     "name": "Máscara de Drácula",
     "shortname": "draculamask",
@@ -12125,7 +12532,7 @@
     }
   },
   "hat.dragonmask": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -22883916,
     "name": "Máscara del dragón",
     "shortname": "hat.dragonmask",
@@ -12177,7 +12584,7 @@
     }
   },
   "attire.egg.suit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -747743875,
     "name": "Traje de cascarón",
     "shortname": "attire.egg.suit",
@@ -12228,8 +12635,30 @@
       ]
     }
   },
+  "frankensteinmask": {
+    "group": "attire",
+    "identifier": -1647389398,
+    "name": "Máscara de Frankenstein",
+    "shortname": "frankensteinmask",
+    "description": "Frankenstein halloween costume mask which provides decent protection.",
+    "craftData": {},
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Tela",
+          "amount": 6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Tela",
+          "amount": 4
+        }
+      ]
+    }
+  },
   "boots.frog": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1000573653,
     "name": "Botas de rana",
     "shortname": "boots.frog",
@@ -12269,9 +12698,9 @@
     }
   },
   "hat.gas.mask": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1659114910,
-    "name": "Máscara antigás",
+    "name": "Máscara anti-gás",
     "shortname": "hat.gas.mask",
     "description": "A Gas Mask",
     "craftData": {},
@@ -12291,7 +12720,7 @@
     }
   },
   "ghostsheet": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1043618880,
     "name": "Disfraz de fantasma",
     "shortname": "ghostsheet",
@@ -12321,7 +12750,7 @@
     }
   },
   "gingerbreadsuit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -558880549,
     "name": "Traje de pan de jengibre",
     "shortname": "gingerbreadsuit",
@@ -12330,7 +12759,7 @@
     "recycleData": {}
   },
   "gloweyes": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -690276911,
     "name": "Ojos brillantes",
     "shortname": "gloweyes",
@@ -12339,7 +12768,7 @@
     "recycleData": {}
   },
   "hazmatsuit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1266491000,
     "name": "Traje de materiales peligrosos",
     "shortname": "hazmatsuit",
@@ -12403,7 +12832,7 @@
     }
   },
   "twitch.headset": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1569700847,
     "name": "Auriculares",
     "shortname": "twitch.headset",
@@ -12443,7 +12872,7 @@
     }
   },
   "frankensteins.monster.03.head": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -297099594,
     "name": "Cabeza pesada de Frankenstein",
     "shortname": "frankensteins.monster.03.head",
@@ -12481,7 +12910,7 @@
     }
   },
   "frankensteins.monster.03.legs": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2024549027,
     "name": "Piernas pesadas de Frankenstein",
     "shortname": "frankensteins.monster.03.legs",
@@ -12519,7 +12948,7 @@
     }
   },
   "frankensteins.monster.03.torso": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1614528785,
     "name": "Torso pesado de Frankenstein",
     "shortname": "frankensteins.monster.03.torso",
@@ -12557,7 +12986,7 @@
     }
   },
   "heavy.plate.helmet": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1181207482,
     "name": "Yelmo de placas pesadas",
     "shortname": "heavy.plate.helmet",
@@ -12609,7 +13038,7 @@
     }
   },
   "heavy.plate.jacket": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1102429027,
     "name": "Coraza de placas pesadas",
     "shortname": "heavy.plate.jacket",
@@ -12661,7 +13090,7 @@
     }
   },
   "heavy.plate.pants": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1778159885,
     "name": "Grebas de placas pesadas",
     "shortname": "heavy.plate.pants",
@@ -12713,7 +13142,7 @@
     }
   },
   "scientistsuit_heavy": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1772746857,
     "name": "Un traje pesado de protección ante materiales peligrosos hecho con un tipo de goma resistente a la radiación.",
     "shortname": "scientistsuit_heavy",
@@ -12751,7 +13180,7 @@
     }
   },
   "attire.hide.boots": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 794356786,
     "name": "Botas de piel",
     "shortname": "attire.hide.boots",
@@ -12791,7 +13220,7 @@
     }
   },
   "attire.hide.helterneck": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 3222790,
     "name": "Top de piel",
     "shortname": "attire.hide.helterneck",
@@ -12831,7 +13260,7 @@
     }
   },
   "attire.hide.pants": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1722154847,
     "name": "Pantalones de piel",
     "shortname": "attire.hide.pants",
@@ -12871,7 +13300,7 @@
     }
   },
   "attire.hide.poncho": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 980333378,
     "name": "Poncho de piel",
     "shortname": "attire.hide.poncho",
@@ -12911,7 +13340,7 @@
     }
   },
   "attire.hide.skirt": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1773144852,
     "name": "Falda de piel",
     "shortname": "attire.hide.skirt",
@@ -12951,7 +13380,7 @@
     }
   },
   "attire.hide.vest": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 196700171,
     "name": "Chaleco de piel",
     "shortname": "attire.hide.vest",
@@ -12991,7 +13420,7 @@
     }
   },
   "horse.shoes.advanced": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1989785143,
     "name": "Herradura de alta calidad",
     "shortname": "horse.shoes.advanced",
@@ -13031,7 +13460,7 @@
     }
   },
   "hoodie": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1751045826,
     "name": "Sudadera con capucha",
     "shortname": "hoodie",
@@ -13083,7 +13512,7 @@
     }
   },
   "horse.saddle": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1997543660,
     "name": "Silla de montar",
     "shortname": "horse.saddle",
@@ -13105,7 +13534,7 @@
     }
   },
   "hab.armor": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1989600732,
     "name": "Blindaje para globo aerostático",
     "shortname": "hab.armor",
@@ -13145,7 +13574,7 @@
     }
   },
   "mask.balaclava": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2012470695,
     "name": "Pasamontañas improvisado",
     "shortname": "mask.balaclava",
@@ -13185,7 +13614,7 @@
     }
   },
   "jacket": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1163532624,
     "name": "Chaqueta",
     "shortname": "jacket",
@@ -13237,7 +13666,7 @@
     }
   },
   "jumpsuit.suit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -97459906,
     "name": "Mono de trabajo",
     "shortname": "jumpsuit.suit",
@@ -13259,7 +13688,7 @@
     }
   },
   "largebackpack": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -907422733,
     "name": "Mochila grande",
     "shortname": "largebackpack",
@@ -13297,7 +13726,7 @@
     }
   },
   "burlap.gloves": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1366282552,
     "name": "Guantes de arpillera",
     "shortname": "burlap.gloves",
@@ -13349,7 +13778,7 @@
     }
   },
   "frankensteins.monster.01.head": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -134959124,
     "name": "Cabeza ligera de Frankenstein",
     "shortname": "frankensteins.monster.01.head",
@@ -13379,7 +13808,7 @@
     }
   },
   "frankensteins.monster.01.legs": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 106959911,
     "name": "Piernas ligeras de Frankenstein",
     "shortname": "frankensteins.monster.01.legs",
@@ -13409,7 +13838,7 @@
     }
   },
   "frankensteins.monster.01.torso": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1624770297,
     "name": "Torso ligero de Frankenstein",
     "shortname": "frankensteins.monster.01.torso",
@@ -13439,7 +13868,7 @@
     }
   },
   "tshirt.long": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 935692442,
     "name": "Camiseta de manga larga",
     "shortname": "tshirt.long",
@@ -13479,7 +13908,7 @@
     }
   },
   "lumberjack hoodie": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -763071910,
     "name": "Chaqueta de leñador",
     "shortname": "lumberjack hoodie",
@@ -13509,7 +13938,7 @@
     }
   },
   "frankensteins.monster.02.head": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1732475823,
     "name": "Cabeza mediana de Frankenstein",
     "shortname": "frankensteins.monster.02.head",
@@ -13539,7 +13968,7 @@
     }
   },
   "frankensteins.monster.02.legs": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 835042040,
     "name": "Piernas medianas de Frankenstein",
     "shortname": "frankensteins.monster.02.legs",
@@ -13569,7 +13998,7 @@
     }
   },
   "frankensteins.monster.02.torso": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1491753484,
     "name": "Torso mediano de Frankenstein",
     "shortname": "frankensteins.monster.02.torso",
@@ -13599,7 +14028,7 @@
     }
   },
   "metal.plate.torso": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1110385766,
     "name": "Coraza de metal",
     "shortname": "metal.plate.torso",
@@ -13663,7 +14092,7 @@
     }
   },
   "metal.facemask": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -194953424,
     "name": "Máscara de metal",
     "shortname": "metal.facemask",
@@ -13727,7 +14156,7 @@
     }
   },
   "hat.miner": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1539025626,
     "name": "Casco de minero",
     "shortname": "hat.miner",
@@ -13791,7 +14220,7 @@
     }
   },
   "movembermoustache": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2047081330,
     "name": "Bigote para Moviembre",
     "shortname": "movembermoustache",
@@ -13830,8 +14259,30 @@
       ]
     }
   },
+  "mummymask": {
+    "group": "attire",
+    "identifier": 809689733,
+    "name": "Una máscara popular de disfraz de halloween que proporciona una protección decente.",
+    "shortname": "mummymask",
+    "description": "A classic halloween costume mask which provides decent protection.",
+    "craftData": {},
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Tela",
+          "amount": 6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Tela",
+          "amount": 4
+        }
+      ]
+    }
+  },
   "halloween.mummysuit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 277730763,
     "name": "Disfraz de momia",
     "shortname": "halloween.mummysuit",
@@ -13840,7 +14291,7 @@
     "recycleData": {}
   },
   "hazmatsuit_scientist_nvgm": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 86840834,
     "name": "Traje de científico del silo",
     "shortname": "hazmatsuit_scientist_nvgm",
@@ -13878,7 +14329,7 @@
     }
   },
   "attire.nesthat": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1081315464,
     "name": "Gorro de nido",
     "shortname": "attire.nesthat",
@@ -13930,7 +14381,7 @@
     }
   },
   "nightvisiongoggles": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1518883088,
     "name": "Gafas de visión nocturna",
     "shortname": "nightvisiongoggles",
@@ -13982,7 +14433,7 @@
     }
   },
   "attire.ninja.suit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1506417026,
     "name": "Traje de ninja",
     "shortname": "attire.ninja.suit",
@@ -14034,7 +14485,7 @@
     }
   },
   "hat.oxmask": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1315082560,
     "name": "Máscara del buey",
     "shortname": "hat.oxmask",
@@ -14086,7 +14537,7 @@
     }
   },
   "pants": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 237239288,
     "name": "Pantalones",
     "shortname": "pants",
@@ -14138,7 +14589,7 @@
     }
   },
   "parachute": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 602628465,
     "name": "Paracaídas (desplegado)",
     "shortname": "parachute",
@@ -14202,7 +14653,7 @@
     }
   },
   "partyhat": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -575744869,
     "name": "Gorrito de fiesta",
     "shortname": "partyhat",
@@ -14211,7 +14662,7 @@
     "recycleData": {}
   },
   "prisonerhood": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -892718768,
     "name": "Capucha de prisionero",
     "shortname": "prisonerhood",
@@ -14251,7 +14702,7 @@
     }
   },
   "twitchsunglasses": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 20489901,
     "name": "Gafas de sol púrpuras",
     "shortname": "twitchsunglasses",
@@ -14291,7 +14742,7 @@
     }
   },
   "hat.rabbitmask": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -986782031,
     "name": "Máscara del conejo",
     "shortname": "hat.rabbitmask",
@@ -14343,7 +14794,7 @@
     }
   },
   "hat.ratmask": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 271048478,
     "name": "Máscara de la rata",
     "shortname": "hat.ratmask",
@@ -14395,7 +14846,7 @@
     }
   },
   "attire.reindeer.headband": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -324675402,
     "name": "Diadema de reno",
     "shortname": "attire.reindeer.headband",
@@ -14417,7 +14868,7 @@
     }
   },
   "riot.helmet": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 671063303,
     "name": "Casco antidisturbios",
     "shortname": "riot.helmet",
@@ -14469,7 +14920,7 @@
     }
   },
   "roadsign.jacket": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2002277461,
     "name": "Peto de señales de tráfico",
     "shortname": "roadsign.jacket",
@@ -14533,7 +14984,7 @@
     }
   },
   "roadsign.kilt": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1850456855,
     "name": "Falda de señales de tráfico",
     "shortname": "roadsign.kilt",
@@ -14597,7 +15048,7 @@
     }
   },
   "roadsign.gloves": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -699558439,
     "name": "Guantes de señales de tráfico",
     "shortname": "roadsign.gloves",
@@ -14661,7 +15112,7 @@
     }
   },
   "horse.armor.roadsign": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 60528587,
     "name": "Armadura de señales para caballo",
     "shortname": "horse.armor.roadsign",
@@ -14713,7 +15164,7 @@
     }
   },
   "horse.saddlebag": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1400460850,
     "name": "Alforja",
     "shortname": "horse.saddlebag",
@@ -14753,7 +15204,7 @@
     }
   },
   "santabeard": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 2126889441,
     "name": "Barba de Papá Noel",
     "shortname": "santabeard",
@@ -14793,7 +15244,7 @@
     }
   },
   "santahat": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -575483084,
     "name": "Gorro de Papá Noel",
     "shortname": "santahat",
@@ -14802,7 +15253,7 @@
     "recycleData": {}
   },
   "scarecrow.suit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 273951840,
     "name": "Disfraz de espantapájaros",
     "shortname": "scarecrow.suit",
@@ -14811,7 +15262,7 @@
     "recycleData": {}
   },
   "scarecrowhead": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 809942731,
     "name": "Máscara de espantapájaros",
     "shortname": "scarecrowhead",
@@ -14833,7 +15284,7 @@
     }
   },
   "hazmatsuit_scientist_peacekeeper": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -253079493,
     "name": "Traje de científico pacífico",
     "shortname": "hazmatsuit_scientist_peacekeeper",
@@ -14871,7 +15322,7 @@
     }
   },
   "shirt.collared": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2025184684,
     "name": "Camisa",
     "shortname": "shirt.collared",
@@ -14911,7 +15362,7 @@
     }
   },
   "pants.shorts": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1695367501,
     "name": "Pantalones cortos",
     "shortname": "pants.shorts",
@@ -14951,7 +15402,7 @@
     }
   },
   "horse.saddle.single": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1559915778,
     "name": "Montura individual para caballo",
     "shortname": "horse.saddle.single",
@@ -14981,7 +15432,7 @@
     }
   },
   "smallbackpack": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 2068884361,
     "name": "Mochila pequeña",
     "shortname": "smallbackpack",
@@ -15033,7 +15484,7 @@
     }
   },
   "jacket.snow": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -48090175,
     "name": "Abrigo",
     "shortname": "jacket.snow",
@@ -15085,7 +15536,7 @@
     }
   },
   "attire.snowman.helmet": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -842267147,
     "name": "Casco de muñeco de nieve",
     "shortname": "attire.snowman.helmet",
@@ -15125,7 +15576,7 @@
     }
   },
   "sunglasses": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 352321488,
     "name": "Gafas de sol",
     "shortname": "sunglasses",
@@ -15165,14 +15616,14 @@
     }
   },
   "halloween.surgeonsuit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1785231475,
     "name": "Bata de cirujano",
     "shortname": "halloween.surgeonsuit",
     "description": "This surgeon suit is craftable if you own the item on Steam, and, in terms of ballistic protection, makes a great alternative for the Hazmat Suit due to not requiring a researched blueprint, and having a decent, mid-tier overall body protection in one piece, rather than separate pieces of clothing to cover all areas, for a relatively cheap crafting cost.\n\nIt has no real specialisation, other than a decent radiation protection (which still doesn't compete with the hazmat suit) that allows you to go in most places. Therefore, it's really just the fact it's a cool-looking surgeon suit, and offers fair overall protection.\n\nFor combat purposes, the Surgeon Scrubs positions itself in the mid-tier segment, directly next to armaments such as the Bone Armor kit, Hazmat Suit, and commonly put together clothes sets that lack any specialized pieces of armor.",
     "craftData": {
       "yield": 1,
-      "workbench": 1,
+      "workbench": 3,
       "craftTime": {
         "craftTime": {
           "short": 1,
@@ -15217,7 +15668,7 @@
     }
   },
   "tshirt": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 223891266,
     "name": "Camiseta",
     "shortname": "tshirt",
@@ -15257,7 +15708,7 @@
     }
   },
   "tactical.gloves": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1108136649,
     "name": "Guantes tácticos",
     "shortname": "tactical.gloves",
@@ -15287,7 +15738,7 @@
     }
   },
   "shirt.tanktop": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1608640313,
     "name": "Camiseta sin mangas",
     "shortname": "shirt.tanktop",
@@ -15327,7 +15778,7 @@
     }
   },
   "hat.tigermask": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 709206314,
     "name": "Máscara del tigre",
     "shortname": "hat.tigermask",
@@ -15378,8 +15829,39 @@
       ]
     }
   },
+  "twitchrivalsflag": {
+    "group": "attire",
+    "identifier": -739993590,
+    "name": "Twitch Rivals Flag",
+    "shortname": "twitchrivalsflag",
+    "description": "A wearable flag for Twitch Rivals",
+    "craftData": {},
+    "recycleData": {}
+  },
+  "jumpsuit.waterwellnpc": {
+    "group": "attire",
+    "identifier": -874908751,
+    "name": "Waterwell NPC Jumpsuit",
+    "shortname": "jumpsuit.waterwellnpc",
+    "description": "A green jumpsuit and gasmask worn by the waterwell NPC",
+    "craftData": {},
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Tela",
+          "amount": 30
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Tela",
+          "amount": 20
+        }
+      ]
+    }
+  },
   "diving.wetsuit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1101924344,
     "name": "Traje de neopreno",
     "shortname": "diving.wetsuit",
@@ -15401,7 +15883,7 @@
     }
   },
   "hat.wolf": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1478212975,
     "name": "Capucha de lobo",
     "shortname": "hat.wolf",
@@ -15453,7 +15935,7 @@
     }
   },
   "wood.armor.helmet": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2094954543,
     "name": "Casco de madera",
     "shortname": "wood.armor.helmet",
@@ -15505,7 +15987,7 @@
     }
   },
   "wood.armor.pants": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 832133926,
     "name": "Armadura inferior de madera",
     "shortname": "wood.armor.pants",
@@ -15557,7 +16039,7 @@
     }
   },
   "wood.armor.jacket": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 418081930,
     "name": "Armadura superior de madera",
     "shortname": "wood.armor.jacket",
@@ -15609,7 +16091,7 @@
     }
   },
   "horse.armor.wood": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1659447559,
     "name": "Armadura de madera para caballo",
     "shortname": "horse.armor.wood",
@@ -17462,7 +17944,7 @@
     "identifier": 1911552868,
     "name": "Semilla de baya negra",
     "shortname": "seed.black.berry",
-    "description": "These black berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "description": "These black berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more berries and faster growth.",
     "craftData": {},
     "recycleData": {}
   },
@@ -17498,7 +17980,7 @@
     "identifier": 803954639,
     "name": "Semilla de baya azul",
     "shortname": "seed.blue.berry",
-    "description": "These blue berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "description": "These blue berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more berries and faster growth.",
     "craftData": {},
     "recycleData": {}
   },
@@ -17858,7 +18340,7 @@
     "identifier": -2084071424,
     "name": "Semilla de patata",
     "shortname": "seed.potato",
-    "description": "These potato seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "description": "These potato seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more potatoes and faster growth.",
     "craftData": {},
     "recycleData": {}
   },
@@ -18055,7 +18537,7 @@
     "identifier": 830839496,
     "name": "Semilla de baya roja",
     "shortname": "seed.red.berry",
-    "description": "These red berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "description": "These red berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more berries and faster growth.",
     "craftData": {},
     "recycleData": {}
   },
@@ -18203,7 +18685,7 @@
     "identifier": -992286106,
     "name": "Semilla de baya blanca",
     "shortname": "seed.white.berry",
-    "description": "These white berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "description": "These white berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more berries and faster growth.",
     "craftData": {},
     "recycleData": {}
   },
@@ -18239,7 +18721,7 @@
     "identifier": -520133715,
     "name": "Semilla de baya amarilla",
     "shortname": "seed.yellow.berry",
-    "description": "These yellow berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "description": "These yellow berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more berries and faster growth.",
     "craftData": {},
     "recycleData": {}
   },
@@ -18919,7 +19401,7 @@
     "identifier": -1841918730,
     "name": "Misil de alta velocidad",
     "shortname": "ammo.rocket.hv",
-    "description": "The High Velocity Rocket is essentially a rocket with much less damage than the standard rocket. However, it is also much cheaper, and as the name suggests it has a higher velocity than the standard rocket, so it could be useful for rocketing targets at extreme range. Because of its lower cost and damage, it is useful for situations where a full rocket would be overkill.",
+    "description": "The High-Velocity Rocket trades damage for a much higher speed and far less drop. The High-Velocity rocket is best used against placeables (mainly turrets), vehicles such as cars and helicopters, and enemy players. It is essentially intended for cases where a rocket would be overkill, or you would need the extra speed. The high-velocity rocket has poor damage against buildables and doors, but is a valuable tool for raiding in the other ways described.",
     "craftData": {
       "yield": 1,
       "workbench": 2,
@@ -19035,7 +19517,7 @@
     "identifier": 605467368,
     "name": "Munición incendiaria del calibre 5.56",
     "shortname": "ammo.rifle.incendiary",
-    "description": "A variant of the standard 5.56 rifle ammunition. The 5.56 Incendiary round will ignite on impact dealing both bullet and fire damage to a player. The round is however subject to increased bullet drop.",
+    "description": "A variant of the standard 5.56 rifle ammunition. The 5.56 Incendiary round will ignite on impact dealing both bullet and fire damage to a player. The round is however subject to increased bullet drop and lower velocity. This bullet is an especially effective counter to helicopters and vehicles for its cost.",
     "craftData": {
       "yield": 2,
       "workbench": 3,
@@ -19880,7 +20362,7 @@
         }
       },
       "recipie": {
-        "totalCraftCost": 103,
+        "totalCraftCost": 131,
         "craftCost": [
           {
             "name": "Madera",
@@ -19891,8 +20373,8 @@
             "amount": 1
           },
           {
-            "name": "Lata de atún vacía",
-            "amount": 2
+            "name": "Fragmentos de metal",
+            "amount": 30
           }
         ]
       }
@@ -19904,8 +20386,8 @@
           "amount": 60
         },
         {
-          "name": "Lata de atún vacía",
-          "amount": 2
+          "name": "Fragmentos de metal",
+          "amount": 18
         },
         {
           "name": "Cuerda",
@@ -19918,8 +20400,8 @@
           "amount": 40
         },
         {
-          "name": "Lata de atún vacía",
-          "amount": 1
+          "name": "Fragmentos de metal",
+          "amount": 12
         },
         {
           "name": "Cuerda",
@@ -20454,7 +20936,7 @@
     "identifier": -888153050,
     "name": "Dulces de Halloween",
     "shortname": "halloween.candy",
-    "description": "Some loose halloween candy Collect 10 to upgrade to a Small Loot Bat!",
+    "description": "Some loose halloween candy Collect 10 to upgrade to a Small Loot Bag!",
     "craftData": {},
     "recycleData": {}
   },
@@ -20616,7 +21098,7 @@
   "pumpkinbasket": {
     "group": "misc",
     "identifier": 1346158228,
-    "name": "Pumpkin Basket",
+    "name": "Cesto de calabaza",
     "shortname": "pumpkinbasket",
     "description": "A pumpkin basket to help you collect candy much faster during Trick or Treat events with left click. Use right click to throw candy",
     "craftData": {},
@@ -22059,46 +22541,6 @@
       ]
     }
   },
-  "weapon.mod.gascompressionovedrive": {
-    "group": "components",
-    "identifier": -1767794021,
-    "name": "Gas Compression Overdrive",
-    "shortname": "weapon.mod.gascompressionovedrive",
-    "description": "An internal weapon mod which compresses and directs gasses used for cycling the weapon to the barrel, effectively increasing projectile velocity and damage at the expense of cycle rate.",
-    "craftData": {
-      "yield": 1,
-      "workbench": 2,
-      "craftTime": {
-        "craftTime": {
-          "short": 15,
-          "long": 30
-        }
-      },
-      "recipie": {
-        "totalCraftCost": 10,
-        "craftCost": [
-          {
-            "name": "Metal de alta calidad",
-            "amount": 10
-          }
-        ]
-      }
-    },
-    "recycleData": {
-      "recycleYieldrad": [
-        {
-          "name": "Metal de alta calidad",
-          "amount": 6
-        }
-      ],
-      "recycleYieldsafe": [
-        {
-          "name": "Metal de alta calidad",
-          "amount": 4
-        }
-      ]
-    }
-  },
   "gears": {
     "group": "components",
     "identifier": 479143914,
@@ -23297,7 +23739,7 @@
   "smgbody": {
     "group": "components",
     "identifier": 1230323789,
-    "name": "Cuerpo de subfusil",
+    "name": "Cuerpo de sub-fusil",
     "shortname": "smgbody",
     "description": "A rare component which is used for crafting submachine guns. It can only be found in military and elite crates.",
     "craftData": {},
@@ -27460,6 +27902,46 @@
       ]
     }
   },
+  "vehicle.car_radio": {
+    "group": "fun",
+    "identifier": 721798950,
+    "name": "Car Radio",
+    "shortname": "vehicle.car_radio",
+    "description": "A small radio to use in cars. Will only work while the car is turned on.",
+    "craftData": {
+      "yield": 1,
+      "workbench": 1,
+      "craftTime": {
+        "craftTime": {
+          "short": 3,
+          "long": 15
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 120,
+        "craftCost": [
+          {
+            "name": "Fragmentos de metal",
+            "amount": 120
+          }
+        ]
+      }
+    },
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Fragmentos de metal",
+          "amount": 72
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Fragmentos de metal",
+          "amount": 48
+        }
+      ]
+    }
+  },
   "cassette": {
     "group": "fun",
     "identifier": 476066818,
@@ -28313,7 +28795,7 @@
     "identifier": -20045316,
     "name": "Teléfono móvil",
     "shortname": "mobilephone",
-    "description": "A mobile phone that lets you place calls from anywhere. Truly cutting edge Cobalt technology. Use [attack] to access the dialler.",
+    "description": "A mobile phone that lets you place calls from anywhere. Truly cutting edge Cobalt technology. Use [attack] to access the dialer.",
     "craftData": {
       "yield": 1,
       "workbench": 1,

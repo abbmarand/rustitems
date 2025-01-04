@@ -1,26 +1,4 @@
 {
-  "weapon.mod.8x.scope": {
-    "group": "weapons",
-    "identifier": 174866732,
-    "name": "Ống Nhắm 16x",
-    "shortname": "weapon.mod.8x.scope",
-    "description": "The 16x Zoom Scope is a military-grade telescopic sight. Its reticle is a thin cross with bullet-drop guides. Its extreme magnification allows for precise fire over extreme distances, but its narrow field of view makes it impractical for any close quarter engagements or full-auto fire. As it's susceptible to shaking, consider using a Weapon Lasersight or Tactical Gloves in addition to this scope.",
-    "craftData": {},
-    "recycleData": {
-      "recycleYieldrad": [
-        {
-          "name": "Sắt xịn (HQM - High Quality Metal)",
-          "amount": 48
-        }
-      ],
-      "recycleYieldsafe": [
-        {
-          "name": "Sắt xịn (HQM - High Quality Metal)",
-          "amount": 32
-        }
-      ]
-    }
-  },
   "weapon.mod.small.scope": {
     "group": "weapons",
     "identifier": 567235583,
@@ -936,6 +914,46 @@
       ]
     }
   },
+  "weapon.mod.gascompressionovedrive": {
+    "group": "weapons",
+    "identifier": -1767794021,
+    "name": "Phụ Kiện Nén Khí (Gas Compression Overdrive)",
+    "shortname": "weapon.mod.gascompressionovedrive",
+    "description": "An internal weapon mod which compresses and directs gasses used for cycling the weapon to the barrel, effectively increasing projectile velocity and damage at the expense of cycle rate.",
+    "craftData": {
+      "yield": 1,
+      "workbench": 2,
+      "craftTime": {
+        "craftTime": {
+          "short": 15,
+          "long": 30
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 10,
+        "craftCost": [
+          {
+            "name": "Sắt xịn (HQM - High Quality Metal)",
+            "amount": 10
+          }
+        ]
+      }
+    },
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Sắt xịn (HQM - High Quality Metal)",
+          "amount": 6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Sắt xịn (HQM - High Quality Metal)",
+          "amount": 4
+        }
+      ]
+    }
+  },
   "hmlmg": {
     "group": "weapons",
     "identifier": -1214542497,
@@ -999,6 +1017,146 @@
         },
         {
           "name": "Thân Súng Trường (Rifle Body)",
+          "amount": 0.4
+        }
+      ]
+    }
+  },
+  "t1_smg": {
+    "group": "weapons",
+    "identifier": 2083256995,
+    "name": "Súng Tier 1 SMG (Handmade SMG)",
+    "shortname": "t1_smg",
+    "description": "An extremely basic automatic firearm. Low damage and accuracy.",
+    "craftData": {
+      "yield": 1,
+      "workbench": 1,
+      "craftTime": {
+        "craftTime": {
+          "short": 7,
+          "long": 30
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 206,
+        "craftCost": [
+          {
+            "name": "Sắt xịn (HQM - High Quality Metal)",
+            "amount": 5
+          },
+          {
+            "name": "Sắt (Metal Fragments)",
+            "amount": 200
+          },
+          {
+            "name": "Lò Xo (Metal Spring)",
+            "amount": 1
+          }
+        ]
+      }
+    },
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Sắt xịn (HQM - High Quality Metal)",
+          "amount": 3
+        },
+        {
+          "name": "Sắt (Metal Fragments)",
+          "amount": 120
+        },
+        {
+          "name": "Lò Xo (Metal Spring)",
+          "amount": 0.6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Sắt xịn (HQM - High Quality Metal)",
+          "amount": 2
+        },
+        {
+          "name": "Sắt (Metal Fragments)",
+          "amount": 80
+        },
+        {
+          "name": "Lò Xo (Metal Spring)",
+          "amount": 0.4
+        }
+      ]
+    }
+  },
+  "revolver.hc": {
+    "group": "weapons",
+    "identifier": -92315244,
+    "name": "Súng Revolver Siêu Cấp (HCR - High Caliber Revolver)",
+    "shortname": "revolver.hc",
+    "description": "A High Caliber six-shooter.",
+    "craftData": {
+      "yield": 1,
+      "workbench": 2,
+      "craftTime": {
+        "craftTime": {
+          "short": 15,
+          "long": 30
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 12,
+        "craftCost": [
+          {
+            "name": "Ống Kim Loại (Metal Pipe)",
+            "amount": 4
+          },
+          {
+            "name": "Lò Xo (Metal Spring)",
+            "amount": 1
+          },
+          {
+            "name": "Bánh Răng (Gears)",
+            "amount": 1
+          },
+          {
+            "name": "Sắt xịn (HQM - High Quality Metal)",
+            "amount": 6
+          }
+        ]
+      }
+    },
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Ống Kim Loại (Metal Pipe)",
+          "amount": 3
+        },
+        {
+          "name": "Sắt xịn (HQM - High Quality Metal)",
+          "amount": 4
+        },
+        {
+          "name": "Lò Xo (Metal Spring)",
+          "amount": 0.6
+        },
+        {
+          "name": "Bánh Răng (Gears)",
+          "amount": 0.6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Ống Kim Loại (Metal Pipe)",
+          "amount": 2
+        },
+        {
+          "name": "Sắt xịn (HQM - High Quality Metal)",
+          "amount": 3
+        },
+        {
+          "name": "Lò Xo (Metal Spring)",
+          "amount": 0.4
+        },
+        {
+          "name": "Bánh Răng (Gears)",
           "amount": 0.4
         }
       ]
@@ -1651,7 +1809,7 @@
   "military flamethrower": {
     "group": "weapons",
     "identifier": 703057617,
-    "name": "Súng Phun Lửa Quân Sự",
+    "name": "Súng Phun Lửa Quân Sự (Military Flame Thrower)",
     "shortname": "military flamethrower",
     "description": "The Military Flame Thrower is a military grade weapon that can only found in Heavy Scientists as a loot, which means it can’t be craft by players.\nIt has maximum capacity of 150 low-grade fuel, and a high fire rate. It takes more damage and range, area of effect than the handmade Flame Thrower, let it possible to become a weapon to against your enemies in the base.\nThe Military Flame Thrower cause specific damage that ignores the player’s armor and defense, make constant value of damage.",
     "craftData": {},
@@ -1795,7 +1953,7 @@
   "multiplegrenadelauncher": {
     "group": "weapons",
     "identifier": -1123473824,
-    "name": "Súng Phóng Lựu",
+    "name": "Súng Phóng Lựu (Multiple Grenade Launcher)",
     "shortname": "multiplegrenadelauncher",
     "description": "A 40MM six barrel, semi automatic grenade launcher. Explosive, Shotgun and Smoke 40mm grenades can all be loaded into the launcher.",
     "craftData": {},
@@ -2043,7 +2201,7 @@
   "pistol.prototype17": {
     "group": "weapons",
     "identifier": 1914691295,
-    "name": "Lục một bảy (17)",
+    "name": "Lục một bảy (Prototype 17)",
     "shortname": "pistol.prototype17",
     "description": "A burst fire prototype pistol. Burst fire is toggleable by pressing M.",
     "craftData": {},
@@ -2318,6 +2476,82 @@
         {
           "name": "Ống Kim Loại (Metal Pipe)",
           "amount": 2
+        }
+      ]
+    }
+  },
+  "rifle.sks": {
+    "group": "weapons",
+    "identifier": -348232115,
+    "name": "Súng SKS",
+    "shortname": "rifle.sks",
+    "description": "A Military-Grade Semi Automatic Rifle.",
+    "craftData": {
+      "yield": 1,
+      "workbench": 3,
+      "craftTime": {
+        "craftTime": {
+          "short": 30,
+          "long": 30
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 215,
+        "craftCost": [
+          {
+            "name": "Thân Súng Bán Tự Động (Semi Automatic Body)",
+            "amount": 1
+          },
+          {
+            "name": "Lò Xo (Metal Spring)",
+            "amount": 2
+          },
+          {
+            "name": "Sắt (Metal Fragments)",
+            "amount": 200
+          },
+          {
+            "name": "Sắt xịn (HQM - High Quality Metal)",
+            "amount": 12
+          }
+        ]
+      }
+    },
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Lò Xo (Metal Spring)",
+          "amount": 2
+        },
+        {
+          "name": "Sắt (Metal Fragments)",
+          "amount": 120
+        },
+        {
+          "name": "Sắt xịn (HQM - High Quality Metal)",
+          "amount": 8
+        },
+        {
+          "name": "Thân Súng Bán Tự Động (Semi Automatic Body)",
+          "amount": 0.6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Lò Xo (Metal Spring)",
+          "amount": 1
+        },
+        {
+          "name": "Sắt (Metal Fragments)",
+          "amount": 80
+        },
+        {
+          "name": "Sắt xịn (HQM - High Quality Metal)",
+          "amount": 5
+        },
+        {
+          "name": "Thân Súng Bán Tự Động (Semi Automatic Body)",
+          "amount": 0.4
         }
       ]
     }
@@ -2949,6 +3183,28 @@
       ]
     }
   },
+  "weapon.mod.8x.scope": {
+    "group": "weapons",
+    "identifier": 174866732,
+    "name": "Thay Đổi Phạm Vi Thu Phóng",
+    "shortname": "weapon.mod.8x.scope",
+    "description": "The 16x Zoom Scope is a military-grade telescopic sight. Its reticle is a thin cross with bullet-drop guides. Its extreme magnification allows for precise fire over extreme distances, but its narrow field of view makes it impractical for any close quarter engagements or full-auto fire. As it's susceptible to shaking, consider using a Weapon Lasersight or Tactical Gloves in addition to this scope.",
+    "craftData": {},
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Sắt xịn (HQM - High Quality Metal)",
+          "amount": 48
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Sắt xịn (HQM - High Quality Metal)",
+          "amount": 32
+        }
+      ]
+    }
+  },
   "gun.water": {
     "group": "weapons",
     "identifier": 722955039,
@@ -3196,7 +3452,7 @@
     }
   },
   "door.hinged.toptier": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1353298668,
     "name": "Cửa Đơn Xịn (Armored Door)",
     "shortname": "door.hinged.toptier",
@@ -3248,7 +3504,7 @@
     }
   },
   "door.double.hinged.toptier": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1221063409,
     "name": "Cửa Đôi Xịn (Armored Double Door)",
     "shortname": "door.double.hinged.toptier",
@@ -3300,7 +3556,7 @@
     }
   },
   "barricade.woodwire": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1382263453,
     "name": "Rào Gỗ Kẽm Gai (Barbed Wooden Barricade)",
     "shortname": "barricade.woodwire",
@@ -3364,7 +3620,7 @@
     }
   },
   "building.planner": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1525520776,
     "name": "Bản Vẽ Xây Nhà (Building Plan)",
     "shortname": "building.planner",
@@ -3404,7 +3660,7 @@
     }
   },
   "wall.frame.fence": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1117626326,
     "name": "Rào Lưới Thép (Chainlink Fence)",
     "shortname": "wall.frame.fence",
@@ -3444,7 +3700,7 @@
     }
   },
   "wall.frame.fence.gate": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1451568081,
     "name": "Cổng rào dạng lưới (Chainlink Fence Gate)",
     "shortname": "wall.frame.fence.gate",
@@ -3484,7 +3740,7 @@
     }
   },
   "lock.code": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1159991980,
     "name": "Khóa Số (Code Lock)",
     "shortname": "lock.code",
@@ -3524,7 +3780,7 @@
     }
   },
   "barricade.concrete": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1950721390,
     "name": "Rào Bê Tông (Concrete Barricade)",
     "shortname": "barricade.concrete",
@@ -3564,7 +3820,7 @@
     }
   },
   "door.closer": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1409529282,
     "name": "Bộ đóng cửa (Door Closer)",
     "shortname": "door.closer",
@@ -3594,7 +3850,7 @@
     }
   },
   "floor.grill": {
-    "group": "build",
+    "group": "construction",
     "identifier": 936496778,
     "name": "Sàn lưới vuông (Floor grill)",
     "shortname": "floor.grill",
@@ -3634,7 +3890,7 @@
     }
   },
   "floor.triangle.grill": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1983621560,
     "name": "Sàn lưới tam giác (Floor triangle grill)",
     "shortname": "floor.triangle.grill",
@@ -3674,7 +3930,7 @@
     }
   },
   "wall.frame.garagedoor": {
-    "group": "build",
+    "group": "construction",
     "identifier": -148794216,
     "name": "Cửa Cuốn Gara (Garage Door)",
     "shortname": "wall.frame.garagedoor",
@@ -3726,7 +3982,7 @@
     }
   },
   "gates.external.high.stone": {
-    "group": "build",
+    "group": "construction",
     "identifier": -691113464,
     "name": "Cổng Thành Bằng Đá (High External Stone Gate)",
     "shortname": "gates.external.high.stone",
@@ -3741,7 +3997,7 @@
         }
       },
       "recipie": {
-        "totalCraftCost": 3005,
+        "totalCraftCost": 3004,
         "craftCost": [
           {
             "name": "Đá (Stones)",
@@ -3749,7 +4005,11 @@
           },
           {
             "name": "Bánh Răng (Gears)",
-            "amount": 5
+            "amount": 3
+          },
+          {
+            "name": "Tấm Kim Loại (Sheet Metal)",
+            "amount": 1
           }
         ]
       }
@@ -3757,26 +4017,26 @@
     "recycleData": {
       "recycleYieldrad": [
         {
-          "name": "Bánh Răng (Gears)",
-          "amount": 3
+          "name": "Tấm Kim Loại (Sheet Metal)",
+          "amount": 0.6
         }
       ],
       "recycleYieldsafe": [
         {
-          "name": "Bánh Răng (Gears)",
-          "amount": 2
+          "name": "Tấm Kim Loại (Sheet Metal)",
+          "amount": 0.4
         }
       ]
     }
   },
   "wall.external.high.stone": {
-    "group": "build",
+    "group": "construction",
     "identifier": -967648160,
     "name": "Tường Thành Bằng Đá (High External Stone Wall)",
     "shortname": "wall.external.high.stone",
-    "description": "High External Stone Walls are generally used in the construction of compounds, and, unlike their wooden relatives, are fire-resistant and require explosives to get through unless you use a ladder, though this may prove difficult due to the damage and slow inflicted by the barbed wire on top of these walls. Both these and their wooden equivalents are also commonly used in pvp combat, as they can be carried in stacks of ten for some portable cover.",
+    "description": "High External Stone Walls are generally used in the construction of compounds, and, unlike their wooden relatives, are fire-resistant and require explosives to get through unless you use a ladder, though this may prove difficult due to the damage and slow inflicted by the barbed wire on top of these walls.",
     "craftData": {
-      "yield": 1,
+      "yield": 3,
       "workbench": 2,
       "craftTime": {
         "craftTime": {
@@ -3785,10 +4045,14 @@
         }
       },
       "recipie": {
-        "totalCraftCost": 1500,
+        "totalCraftCost": 4001,
         "craftCost": [
           {
             "name": "Đá (Stones)",
+            "amount": 4
+          },
+          {
+            "name": "Tấm Kim Loại (Sheet Metal)",
             "amount": 1
           }
         ]
@@ -3798,19 +4062,27 @@
       "recycleYieldrad": [
         {
           "name": "Đá (Stones)",
-          "amount": 900
+          "amount": 800
+        },
+        {
+          "name": "Tấm Kim Loại (Sheet Metal)",
+          "amount": 0.2
         }
       ],
       "recycleYieldsafe": [
         {
           "name": "Đá (Stones)",
-          "amount": 600
+          "amount": 534
+        },
+        {
+          "name": "Tấm Kim Loại (Sheet Metal)",
+          "amount": 0.13
         }
       ]
     }
   },
   "gates.external.high.wood": {
-    "group": "build",
+    "group": "construction",
     "identifier": -335089230,
     "name": "Cổng Thành Bằng Gỗ (High External Wooden Gate)",
     "shortname": "gates.external.high.wood",
@@ -3854,13 +4126,13 @@
     }
   },
   "wall.external.high": {
-    "group": "build",
+    "group": "construction",
     "identifier": 99588025,
     "name": "Tường Thành Bằng Gỗ (High External Wooden Wall)",
     "shortname": "wall.external.high",
     "description": "The High External Wooden Wall is a deployable building object used to wall off an area. The high external is about the height and width of a standard 2x2 wall. The wall also comes with a barbed wire top slowing down and damaging any players that come into contact with it.\n\nHigh externals can be a cheap and effective way to deny entry, however they decay fairly quickly and need to be maintained.\n\nDue to their size High External Walls are often used in combat as deployable cover.",
     "craftData": {
-      "yield": 1,
+      "yield": 3,
       "workbench": 1,
       "craftTime": {
         "craftTime": {
@@ -3869,11 +4141,11 @@
         }
       },
       "recipie": {
-        "totalCraftCost": 1500,
+        "totalCraftCost": 4000,
         "craftCost": [
           {
             "name": "Gỗ (Wood)",
-            "amount": 1
+            "amount": 4
           }
         ]
       }
@@ -3882,19 +4154,19 @@
       "recycleYieldrad": [
         {
           "name": "Gỗ (Wood)",
-          "amount": 900
+          "amount": 800
         }
       ],
       "recycleYieldsafe": [
         {
           "name": "Gỗ (Wood)",
-          "amount": 600
+          "amount": 534
         }
       ]
     }
   },
   "wall.external.high.ice": {
-    "group": "build",
+    "group": "construction",
     "identifier": -985781766,
     "name": "Tường Băng Cao (High Ice Wall)",
     "shortname": "wall.external.high.ice",
@@ -3916,7 +4188,7 @@
     }
   },
   "lock.key": {
-    "group": "build",
+    "group": "construction",
     "identifier": -850982208,
     "name": "Khóa Chìa (Key Lock)",
     "shortname": "lock.key",
@@ -3956,7 +4228,7 @@
     }
   },
   "floor.ladder.hatch": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1948067030,
     "name": "Cửa Thang Vuông (Ladder Hatch)",
     "shortname": "floor.ladder.hatch",
@@ -4012,7 +4284,7 @@
     }
   },
   "water.catcher.large": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1100168350,
     "name": "Bình Hứng Nước Lớn",
     "shortname": "water.catcher.large",
@@ -4076,7 +4348,7 @@
     }
   },
   "legacy.shelter.wood": {
-    "group": "build",
+    "group": "construction",
     "identifier": 607400343,
     "name": "Nhà lều di sản gỗ (Legacy Wood Shelter)",
     "shortname": "legacy.shelter.wood",
@@ -4116,7 +4388,7 @@
     }
   },
   "barricade.metal": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1655650836,
     "name": "Rào Sắt (Metal Barricade)",
     "shortname": "barricade.metal",
@@ -4168,7 +4440,7 @@
     }
   },
   "wall.frame.shopfront.metal": {
-    "group": "build",
+    "group": "construction",
     "identifier": -148229307,
     "name": "Cửa Shop Sắt (Metal Shop Front)",
     "shortname": "wall.frame.shopfront.metal",
@@ -4208,7 +4480,7 @@
     }
   },
   "shutter.metal.embrasure.b": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1199897172,
     "name": "Cửa Sổ Khe Dọc (Metal Vertical embrasure)",
     "shortname": "shutter.metal.embrasure.b",
@@ -4248,7 +4520,7 @@
     }
   },
   "wall.window.bars.metal": {
-    "group": "build",
+    "group": "construction",
     "identifier": -819720157,
     "name": "Cửa Sổ Sắt (Metal Window Bars)",
     "shortname": "wall.window.bars.metal",
@@ -4288,7 +4560,7 @@
     }
   },
   "shutter.metal.embrasure.a": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1199897169,
     "name": "Cửa Sổ Khe Ngang (Metal horizontal embrasure)",
     "shortname": "shutter.metal.embrasure.a",
@@ -4328,16 +4600,16 @@
     }
   },
   "mining.quarry": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1052926200,
-    "name": "Máy Đào Quặng (Mining Quarry)",
+    "name": "Máy Đào Quặng\n(Mining Quarry)",
     "shortname": "mining.quarry",
     "description": "The Mining Quarry is a machine that requires diesel fuel to run in exchange for stones, sulfur or high quality metal.\n\nThe Mining Quarry is always prioritized to spawn in Procedural Maps, Stone Quarry spawns in Temperate, Sulfur Quarry spawns in Desert and High Quality Metal Quarry spawns in Snow (although the seed might glitch and have them in the wrong biomes).\n\nThe Mining Quarry cannot be locked to a player. However, you can build High External Walls around the Mining Quarry and use auto turrets to stop players from entering the Mining Quarry and stealing your resources.\n\nAs of December 2017, mining quarry is no longer craftable or available as a loot drop. It is only obtainable by admins.\n\nTo place the Mining Quarry, you require Survey Charges. Find a biome that is common in the resources you want to mine. Throw them on a suitable spot (preferably flat ground). If any of the resources (stones, sulfur, high quality metal or crude oil) pops out from the explosion, it means the spot will have the resource for the Mining Quarry to mine (sometimes can be stones with sulfur or high quality metal). Turn 360 degrees to check if the Mining Quarry can be placed. If placed, put diesel fuel inside the blue barrels located at the side of the Mining Quarry and climb to the top and start the engine.",
     "craftData": {},
     "recycleData": {}
   },
   "wall.frame.netting": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1516985844,
     "name": "Lưới Trèo (Netting)",
     "shortname": "wall.frame.netting",
@@ -4377,7 +4649,7 @@
     }
   },
   "wall.frame.cell.gate": {
-    "group": "build",
+    "group": "construction",
     "identifier": -956706906,
     "name": "Cổng Nhà Giam (Prison Cell Gate)",
     "shortname": "wall.frame.cell.gate",
@@ -4417,7 +4689,7 @@
     }
   },
   "wall.frame.cell": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1429456799,
     "name": "Tường Nhà Giam (Prison Cell Wall)",
     "shortname": "wall.frame.cell",
@@ -4457,7 +4729,7 @@
     }
   },
   "mining.pumpjack": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1130709577,
     "name": "Máy Bơm Dầu",
     "shortname": "mining.pumpjack",
@@ -4466,7 +4738,7 @@
     "recycleData": {}
   },
   "wall.window.bars.toptier": {
-    "group": "build",
+    "group": "construction",
     "identifier": 671706427,
     "name": "Cửa Sổ Kính Xịn (Reinforced Glass Window)",
     "shortname": "wall.window.bars.toptier",
@@ -4506,7 +4778,7 @@
     }
   },
   "barricade.sandbags": {
-    "group": "build",
+    "group": "construction",
     "identifier": -559599960,
     "name": "Rào Bao Cát (Sandbag Barricade)",
     "shortname": "barricade.sandbags",
@@ -4558,7 +4830,7 @@
     }
   },
   "door.hinged.metal": {
-    "group": "build",
+    "group": "construction",
     "identifier": -2067472972,
     "name": "Cửa Sắt Đơn (Sheet Metal Door)",
     "shortname": "door.hinged.metal",
@@ -4598,7 +4870,7 @@
     }
   },
   "door.double.hinged.metal": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1390353317,
     "name": "Cửa Sắt Đôi (Sheet Metal Double Door)",
     "shortname": "door.double.hinged.metal",
@@ -4638,7 +4910,7 @@
     }
   },
   "wall.frame.shopfront": {
-    "group": "build",
+    "group": "construction",
     "identifier": -796583652,
     "name": "Cửa Shop Gỗ (Shop Front)",
     "shortname": "wall.frame.shopfront",
@@ -4678,7 +4950,7 @@
     }
   },
   "wall.ice.wall": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1327005675,
     "name": "Tường Băng Thấp",
     "shortname": "wall.ice.wall",
@@ -4700,7 +4972,7 @@
     }
   },
   "water.catcher.small": {
-    "group": "build",
+    "group": "construction",
     "identifier": -132247350,
     "name": "Bình Hứng Nước Nhỏ",
     "shortname": "water.catcher.small",
@@ -4764,7 +5036,7 @@
     }
   },
   "barricade.stone": {
-    "group": "build",
+    "group": "construction",
     "identifier": 15388698,
     "name": "Rào Đá (Stone Barricade)",
     "shortname": "barricade.stone",
@@ -4804,7 +5076,7 @@
     }
   },
   "wall.window.glass.reinforced": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1614955425,
     "name": "Cửa Sổ Kính Cường Lực",
     "shortname": "wall.window.glass.reinforced",
@@ -4844,7 +5116,7 @@
     }
   },
   "cupboard.tool": {
-    "group": "build",
+    "group": "construction",
     "identifier": -97956382,
     "name": "Tủ TC (Tool Cupboard)",
     "shortname": "cupboard.tool",
@@ -4884,7 +5156,7 @@
     }
   },
   "floor.triangle.ladder.hatch": {
-    "group": "build",
+    "group": "construction",
     "identifier": 2041899972,
     "name": "Cửa Thang Tam Giác (Triangle Ladder Hatch)",
     "shortname": "floor.triangle.ladder.hatch",
@@ -4940,7 +5212,7 @@
     }
   },
   "watchtower.wood": {
-    "group": "build",
+    "group": "construction",
     "identifier": -463122489,
     "name": "Tháp Canh (Watch Tower)",
     "shortname": "watchtower.wood",
@@ -4980,7 +5252,7 @@
     }
   },
   "door.double.hinged.wood": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1336109173,
     "name": "Cửa Gỗ Đôi (Wood Double Door)",
     "shortname": "door.double.hinged.wood",
@@ -5020,7 +5292,7 @@
     }
   },
   "shutter.wood.a": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1023374709,
     "name": "Cửa Sổ Gỗ (Wood Shutters)",
     "shortname": "shutter.wood.a",
@@ -5060,7 +5332,7 @@
     }
   },
   "barricade.wood": {
-    "group": "build",
+    "group": "construction",
     "identifier": 866889860,
     "name": "Rào Gỗ (Wooden Barricade)",
     "shortname": "barricade.wood",
@@ -5112,7 +5384,7 @@
     }
   },
   "barricade.wood.cover": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1373240771,
     "name": "Rào Chắn (Wooden Barricade Cover)",
     "shortname": "barricade.wood.cover",
@@ -5152,7 +5424,7 @@
     }
   },
   "door.hinged.wood": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1729120840,
     "name": "Cửa Gỗ Đơn (Wooden Door)",
     "shortname": "door.hinged.wood",
@@ -5192,7 +5464,7 @@
     }
   },
   "door.double.hinged.bardoors": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1151332840,
     "name": "Cửa Gỗ Quán Bar (Wooden Frontier Bar Doors)",
     "shortname": "door.double.hinged.bardoors",
@@ -5232,7 +5504,7 @@
     }
   },
   "ladder.wooden.wall": {
-    "group": "build",
+    "group": "construction",
     "identifier": -316250604,
     "name": "Thang Gỗ (Wooden Ladder)",
     "shortname": "ladder.wooden.wall",
@@ -5276,7 +5548,7 @@
     }
   },
   "wall.window.bars.wood": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1183726687,
     "name": "Cửa Sổ Gỗ (Wooden Window Bars)",
     "shortname": "wall.window.bars.wood",
@@ -6033,6 +6305,58 @@
       ]
     }
   },
+  "skidoo": {
+    "group": "items",
+    "identifier": -1056824343,
+    "name": "Xe Lặn (DPV - Diver Propulsion Vehicle)",
+    "shortname": "skidoo",
+    "description": "A personal underwater propulsion device",
+    "craftData": {
+      "yield": 1,
+      "workbench": 2,
+      "craftTime": {
+        "craftTime": {
+          "short": 15,
+          "long": 30
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 16,
+        "craftCost": [
+          {
+            "name": "Một bộ sưu tập các bộ phận công nghệ ngẫu nhiên.",
+            "amount": 1
+          },
+          {
+            "name": "Sắt xịn (HQM - High Quality Metal)",
+            "amount": 15
+          }
+        ]
+      }
+    },
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Sắt xịn (HQM - High Quality Metal)",
+          "amount": 9
+        },
+        {
+          "name": "Một bộ sưu tập các bộ phận công nghệ ngẫu nhiên.",
+          "amount": 0.6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Sắt xịn (HQM - High Quality Metal)",
+          "amount": 6
+        },
+        {
+          "name": "Một bộ sưu tập các bộ phận công nghệ ngẫu nhiên.",
+          "amount": 0.4
+        }
+      ]
+    }
+  },
   "sign.post.double": {
     "group": "items",
     "identifier": 1521286012,
@@ -6602,7 +6926,7 @@
   "furnace": {
     "group": "items",
     "identifier": -1999722522,
-    "name": "Lò Nung Quặng Nhỏ (Furnace)",
+    "name": "Lò Nung Quặng (Furnace)",
     "shortname": "furnace",
     "description": "The furnace is the cheapest item for smelting metal and sulfur ore.",
     "craftData": {
@@ -6658,6 +6982,28 @@
         },
         {
           "name": "Dầu Vàng (LGF - Low Grade Fuel)",
+          "amount": 20
+        }
+      ]
+    }
+  },
+  "hazmat.plushy": {
+    "group": "items",
+    "identifier": 1578317134,
+    "name": "Bộ Phóng Xạ Nhồi Bông (Hazmat Plushy)",
+    "shortname": "hazmat.plushy",
+    "description": "A plushy of your favourite outfit made by the fabulous people at YouTooz.com",
+    "craftData": {},
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Vải (Cloth)",
+          "amount": 30
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Vải (Cloth)",
           "amount": 20
         }
       ]
@@ -6911,6 +7257,36 @@
         {
           "name": "Gỗ (Wood)",
           "amount": 100
+        }
+      ]
+    }
+  },
+  "sculpture.ice": {
+    "group": "items",
+    "identifier": 504109620,
+    "name": "Băng Điêu Khắc (Ice Sculpture)",
+    "shortname": "sculpture.ice",
+    "description": "An block of ice you can sculpt.",
+    "craftData": {},
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Gỗ (Wood)",
+          "amount": 300
+        },
+        {
+          "name": "Sắt (Metal Fragments)",
+          "amount": 60
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Gỗ (Wood)",
+          "amount": 200
+        },
+        {
+          "name": "Sắt (Metal Fragments)",
+          "amount": 40
         }
       ]
     }
@@ -10792,6 +11168,15 @@
     "craftData": {},
     "recycleData": {}
   },
+  "water.radioactive": {
+    "group": "resources",
+    "identifier": 1811780502,
+    "name": "Nước Phóng Xạ",
+    "shortname": "water.radioactive",
+    "description": "Glowing water. Consuming will damage your health and irradiate you.",
+    "craftData": {},
+    "recycleData": {}
+  },
   "researchpaper": {
     "group": "resources",
     "identifier": -544317637,
@@ -10912,7 +11297,7 @@
     "recycleData": {}
   },
   "barrelcostume": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1215166612,
     "name": "Trang Phục Thùng Phuy",
     "shortname": "barrelcostume",
@@ -10921,7 +11306,7 @@
     "recycleData": {}
   },
   "hazmatsuit_scientist_arctic": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1107575710,
     "name": "Bộ đồ của nhà khoa học Bắc Cực",
     "shortname": "hazmatsuit_scientist_arctic",
@@ -10959,7 +11344,7 @@
     }
   },
   "hazmatsuit.arcticsuit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -470439097,
     "name": "Bộ đồ Bắc Cực (Arctic Suit)",
     "shortname": "hazmatsuit.arcticsuit",
@@ -10968,7 +11353,7 @@
     "recycleData": {}
   },
   "mask.bandana": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -702051347,
     "name": "Một miếng vải vuông được buộc quanh mặt qua mũi và miệng.",
     "shortname": "mask.bandana",
@@ -11008,7 +11393,7 @@
     }
   },
   "attire.banditguard": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1622110948,
     "name": "Bộ Đồ An Ninh Bandit",
     "shortname": "attire.banditguard",
@@ -11046,7 +11431,7 @@
     }
   },
   "hat.cap": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1022661119,
     "name": "Mũ Bóng Chày (Baseball Cap)",
     "shortname": "hat.cap",
@@ -11086,7 +11471,7 @@
     }
   },
   "horse.shoes.basic": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1211268013,
     "name": "Móng Ngựa Thường (Basic Horse Shoes)",
     "shortname": "horse.shoes.basic",
@@ -11126,7 +11511,7 @@
     }
   },
   "hat.beenie": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1675639563,
     "name": "Mũ Len (Beenie Hat)",
     "shortname": "hat.beenie",
@@ -11166,9 +11551,9 @@
     }
   },
   "jumpsuit.suit.blue": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1601468620,
-    "name": "Áo liền quần Xanh Dương",
+    "name": "Áo liền quần Xanh Biển",
     "shortname": "jumpsuit.suit.blue",
     "description": "A Blue Jumpsuit",
     "craftData": {},
@@ -11188,7 +11573,7 @@
     }
   },
   "bone.armor.suit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1746956556,
     "name": "Giáp Xương (Bone Armor)",
     "shortname": "bone.armor.suit",
@@ -11240,7 +11625,7 @@
     }
   },
   "deer.skull.mask": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1903165497,
     "name": "Mũ Xương (Bone Helmet)",
     "shortname": "deer.skull.mask",
@@ -11292,7 +11677,7 @@
     }
   },
   "hat.boonie": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -23994173,
     "name": "Mũ Vành (Boonie Hat)",
     "shortname": "hat.boonie",
@@ -11332,7 +11717,7 @@
     }
   },
   "shoes.boots": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1549739227,
     "name": "Giày (Boots)",
     "shortname": "shoes.boots",
@@ -11396,7 +11781,7 @@
     }
   },
   "bucket.helmet": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 850280505,
     "name": "Mũ Xô Nước (Bucket Helmet)",
     "shortname": "bucket.helmet",
@@ -11436,7 +11821,7 @@
     }
   },
   "attire.bunnyears": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1004426654,
     "name": "Tai Thỏ",
     "shortname": "attire.bunnyears",
@@ -11458,7 +11843,7 @@
     }
   },
   "hat.bunnyhat": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 23391694,
     "name": "Mũ Thỏ ",
     "shortname": "hat.bunnyhat",
@@ -11498,7 +11883,7 @@
     }
   },
   "attire.bunny.onesie": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1266045928,
     "name": "Áo Thỏ",
     "shortname": "attire.bunny.onesie",
@@ -11520,7 +11905,7 @@
     }
   },
   "burlap.gloves.new": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 21402876,
     "name": "Găng Tay Vải (Burlap Gloves)",
     "shortname": "burlap.gloves.new",
@@ -11560,7 +11945,7 @@
     }
   },
   "burlap.headwrap": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1877339384,
     "name": "Mũ Vải (Burlap Headwrap)",
     "shortname": "burlap.headwrap",
@@ -11600,7 +11985,7 @@
     }
   },
   "burlap.shirt": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 602741290,
     "name": "Áo Vải (Burlap Shirt)",
     "shortname": "burlap.shirt",
@@ -11640,7 +12025,7 @@
     }
   },
   "burlap.shoes": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -761829530,
     "name": "Giày Vải (Burlap Shoes)",
     "shortname": "burlap.shoes",
@@ -11680,7 +12065,7 @@
     }
   },
   "burlap.trousers": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1992974553,
     "name": "Quần Vải (Burlap Trousers)",
     "shortname": "burlap.trousers",
@@ -11720,7 +12105,7 @@
     }
   },
   "hat.candle": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1714496074,
     "name": "Mũ Nến (Candle Hat)",
     "shortname": "hat.candle",
@@ -11772,7 +12157,7 @@
     }
   },
   "movembermoustachecard": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 3380160,
     "name": "Bộ Râu Quai Nón",
     "shortname": "movembermoustachecard",
@@ -11794,7 +12179,7 @@
     }
   },
   "chicken.costume": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -152332823,
     "name": "Trang phục gà",
     "shortname": "chicken.costume",
@@ -11846,7 +12231,7 @@
     }
   },
   "clatter.helmet": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 968019378,
     "name": "Mũ Lạch Cạch (Clatter Helmet)",
     "shortname": "clatter.helmet",
@@ -11886,7 +12271,7 @@
     }
   },
   "coffeecan.helmet": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -803263829,
     "name": "Mũ Cấp 2 (Coffe Can Helmet)",
     "shortname": "coffeecan.helmet",
@@ -11950,7 +12335,7 @@
     }
   },
   "cratecostume": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1189981699,
     "name": "Trang Phục Thùng Loot",
     "shortname": "cratecostume",
@@ -11959,7 +12344,7 @@
     "recycleData": {}
   },
   "diving.fins": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 296519935,
     "name": "Chân Vịt (Diving Fins)",
     "shortname": "diving.fins",
@@ -11981,7 +12366,7 @@
     }
   },
   "diving.mask": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -113413047,
     "name": "Kính Lặn (Diving Mask)",
     "shortname": "diving.mask",
@@ -12003,7 +12388,7 @@
     }
   },
   "diving.tank": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2022172587,
     "name": "Bình Lặn (Diving Tank)",
     "shortname": "diving.tank",
@@ -12033,7 +12418,7 @@
     }
   },
   "horse.saddle.double": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1323101799,
     "name": "Yên ngựa đôi",
     "shortname": "horse.saddle.double",
@@ -12055,17 +12440,39 @@
     }
   },
   "draculacape": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -258574361,
     "name": "Áo Choàng Dracula",
     "shortname": "draculacape",
     "description": "A robustly thick outer garment providing ample protection to the wearer.",
-    "craftData": {},
+    "craftData": {
+      "yield": 1,
+      "workbench": 1,
+      "craftTime": {
+        "craftTime": {
+          "short": 7,
+          "long": 30
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 52,
+        "craftCost": [
+          {
+            "name": "Vải (Cloth)",
+            "amount": 50
+          },
+          {
+            "name": "Cuộn Chỉ (Sewing Kit)",
+            "amount": 2
+          }
+        ]
+      }
+    },
     "recycleData": {
       "recycleYieldrad": [
         {
           "name": "Vải (Cloth)",
-          "amount": 60
+          "amount": 30
         },
         {
           "name": "Cuộn Chỉ (Sewing Kit)",
@@ -12075,7 +12482,7 @@
       "recycleYieldsafe": [
         {
           "name": "Vải (Cloth)",
-          "amount": 40
+          "amount": 20
         },
         {
           "name": "Cuộn Chỉ (Sewing Kit)",
@@ -12085,7 +12492,7 @@
     }
   },
   "draculamask": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1865253052,
     "name": "Mặt nạ Dracula",
     "shortname": "draculamask",
@@ -12125,7 +12532,7 @@
     }
   },
   "hat.dragonmask": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -22883916,
     "name": "Mặt Nạ Rồng",
     "shortname": "hat.dragonmask",
@@ -12177,7 +12584,7 @@
     }
   },
   "attire.egg.suit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -747743875,
     "name": "Bộ trứng gà",
     "shortname": "attire.egg.suit",
@@ -12228,8 +12635,30 @@
       ]
     }
   },
+  "frankensteinmask": {
+    "group": "attire",
+    "identifier": -1647389398,
+    "name": "Mặt nạ Frankenstein",
+    "shortname": "frankensteinmask",
+    "description": "Frankenstein halloween costume mask which provides decent protection.",
+    "craftData": {},
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Vải (Cloth)",
+          "amount": 6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Vải (Cloth)",
+          "amount": 4
+        }
+      ]
+    }
+  },
   "boots.frog": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1000573653,
     "name": "Ủng hình ếch",
     "shortname": "boots.frog",
@@ -12269,7 +12698,7 @@
     }
   },
   "hat.gas.mask": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1659114910,
     "name": "Mặt Nạ Phòng Gas",
     "shortname": "hat.gas.mask",
@@ -12291,7 +12720,7 @@
     }
   },
   "ghostsheet": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1043618880,
     "name": "Trang Phục Ma",
     "shortname": "ghostsheet",
@@ -12321,7 +12750,7 @@
     }
   },
   "gingerbreadsuit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -558880549,
     "name": "Bộ đồ bánh gừng",
     "shortname": "gingerbreadsuit",
@@ -12330,7 +12759,7 @@
     "recycleData": {}
   },
   "gloweyes": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -690276911,
     "name": "Mắt Phát Sáng",
     "shortname": "gloweyes",
@@ -12339,7 +12768,7 @@
     "recycleData": {}
   },
   "hazmatsuit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1266491000,
     "name": "Bộ Phóng Xạ (Hazmat Suit)",
     "shortname": "hazmatsuit",
@@ -12403,7 +12832,7 @@
     }
   },
   "twitch.headset": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1569700847,
     "name": "Mũ Tai Nghe",
     "shortname": "twitch.headset",
@@ -12443,7 +12872,7 @@
     }
   },
   "frankensteins.monster.03.head": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -297099594,
     "name": "Đầu Frankenstein nặng",
     "shortname": "frankensteins.monster.03.head",
@@ -12481,7 +12910,7 @@
     }
   },
   "frankensteins.monster.03.legs": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2024549027,
     "name": "Chân Frankenstein nặng",
     "shortname": "frankensteins.monster.03.legs",
@@ -12519,7 +12948,7 @@
     }
   },
   "frankensteins.monster.03.torso": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1614528785,
     "name": "Thân Frankenstein nặng",
     "shortname": "frankensteins.monster.03.torso",
@@ -12557,7 +12986,7 @@
     }
   },
   "heavy.plate.helmet": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1181207482,
     "name": "Mũ Cấp 4 (Heavy Plate Helmet)",
     "shortname": "heavy.plate.helmet",
@@ -12609,7 +13038,7 @@
     }
   },
   "heavy.plate.jacket": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1102429027,
     "name": "Áo Giáp Cấp 4 (Heavy Plate Jacket)",
     "shortname": "heavy.plate.jacket",
@@ -12661,7 +13090,7 @@
     }
   },
   "heavy.plate.pants": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1778159885,
     "name": "Quần Giáp Cấp 4 (Heavy Plate Pants)",
     "shortname": "heavy.plate.pants",
@@ -12713,7 +13142,7 @@
     }
   },
   "scientistsuit_heavy": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1772746857,
     "name": "Một bộ quần áo chống phóng xạ hạng nặng được làm từ cao su chống bức xạ. ",
     "shortname": "scientistsuit_heavy",
@@ -12751,7 +13180,7 @@
     }
   },
   "attire.hide.boots": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 794356786,
     "name": "Giày da (Hide Boots)",
     "shortname": "attire.hide.boots",
@@ -12791,7 +13220,7 @@
     }
   },
   "attire.hide.helterneck": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 3222790,
     "name": "Áo dây da (Hide Halterneck)",
     "shortname": "attire.hide.helterneck",
@@ -12831,7 +13260,7 @@
     }
   },
   "attire.hide.pants": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1722154847,
     "name": "Quần da (Hide Pants)",
     "shortname": "attire.hide.pants",
@@ -12871,7 +13300,7 @@
     }
   },
   "attire.hide.poncho": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 980333378,
     "name": "Áo Khoác Da (Hide Poncho)",
     "shortname": "attire.hide.poncho",
@@ -12911,7 +13340,7 @@
     }
   },
   "attire.hide.skirt": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1773144852,
     "name": "Váy Da (Hide Skirt)",
     "shortname": "attire.hide.skirt",
@@ -12951,7 +13380,7 @@
     }
   },
   "attire.hide.vest": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 196700171,
     "name": "Áo Da (Hide Vest)",
     "shortname": "attire.hide.vest",
@@ -12991,7 +13420,7 @@
     }
   },
   "horse.shoes.advanced": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1989785143,
     "name": "Móng Ngựa Xịn (High Quality Horse Shoes)",
     "shortname": "horse.shoes.advanced",
@@ -13031,7 +13460,7 @@
     }
   },
   "hoodie": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1751045826,
     "name": "Áo Hoodie",
     "shortname": "hoodie",
@@ -13083,7 +13512,7 @@
     }
   },
   "horse.saddle": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1997543660,
     "name": "Yên Ngựa",
     "shortname": "horse.saddle",
@@ -13105,7 +13534,7 @@
     }
   },
   "hab.armor": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1989600732,
     "name": "Giáp khinh khí cầu (Hot Air Balloon Armor)",
     "shortname": "hab.armor",
@@ -13145,7 +13574,7 @@
     }
   },
   "mask.balaclava": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2012470695,
     "name": "Mũ Trùm Kín Mặt (Improvised Balaclava)",
     "shortname": "mask.balaclava",
@@ -13185,7 +13614,7 @@
     }
   },
   "jacket": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1163532624,
     "name": "Áo Khoác Xịn (Jacket)",
     "shortname": "jacket",
@@ -13237,7 +13666,7 @@
     }
   },
   "jumpsuit.suit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -97459906,
     "name": "Áo Liền Quần",
     "shortname": "jumpsuit.suit",
@@ -13259,7 +13688,7 @@
     }
   },
   "largebackpack": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -907422733,
     "name": "Ba lô lớn (Large Backpack)",
     "shortname": "largebackpack",
@@ -13297,7 +13726,7 @@
     }
   },
   "burlap.gloves": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1366282552,
     "name": "Găng Tay Vải (Burlap Gloves)",
     "shortname": "burlap.gloves",
@@ -13349,7 +13778,7 @@
     }
   },
   "frankensteins.monster.01.head": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -134959124,
     "name": "Đầu Frankenstein nhẹ",
     "shortname": "frankensteins.monster.01.head",
@@ -13379,7 +13808,7 @@
     }
   },
   "frankensteins.monster.01.legs": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 106959911,
     "name": "Chân Frankenstein nhẹ",
     "shortname": "frankensteins.monster.01.legs",
@@ -13409,7 +13838,7 @@
     }
   },
   "frankensteins.monster.01.torso": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1624770297,
     "name": "Thân Frankenstein nhẹ",
     "shortname": "frankensteins.monster.01.torso",
@@ -13439,7 +13868,7 @@
     }
   },
   "tshirt.long": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 935692442,
     "name": "Áo Phông Tay Dài (Longsleeve T-Shirt)",
     "shortname": "tshirt.long",
@@ -13479,7 +13908,7 @@
     }
   },
   "lumberjack hoodie": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -763071910,
     "name": "Áo hoodie tiều phu",
     "shortname": "lumberjack hoodie",
@@ -13509,7 +13938,7 @@
     }
   },
   "frankensteins.monster.02.head": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1732475823,
     "name": "Đầu Frankenstein vừa",
     "shortname": "frankensteins.monster.02.head",
@@ -13539,7 +13968,7 @@
     }
   },
   "frankensteins.monster.02.legs": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 835042040,
     "name": "Chân Frankenstein vừa",
     "shortname": "frankensteins.monster.02.legs",
@@ -13569,7 +13998,7 @@
     }
   },
   "frankensteins.monster.02.torso": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1491753484,
     "name": "Thân Frankenstein vừa",
     "shortname": "frankensteins.monster.02.torso",
@@ -13599,7 +14028,7 @@
     }
   },
   "metal.plate.torso": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1110385766,
     "name": "Áo Giáp Cấp 3 (Metal Chest Plate)",
     "shortname": "metal.plate.torso",
@@ -13663,7 +14092,7 @@
     }
   },
   "metal.facemask": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -194953424,
     "name": "Mũ Cấp 3 (Metal Facemask)",
     "shortname": "metal.facemask",
@@ -13727,7 +14156,7 @@
     }
   },
   "hat.miner": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1539025626,
     "name": "Mũ Thợ Mỏ (Miners Hat)",
     "shortname": "hat.miner",
@@ -13791,7 +14220,7 @@
     }
   },
   "movembermoustache": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2047081330,
     "name": "Bộ Râu Ria Mép",
     "shortname": "movembermoustache",
@@ -13830,8 +14259,30 @@
       ]
     }
   },
+  "mummymask": {
+    "group": "attire",
+    "identifier": 809689733,
+    "name": "Một chiếc mặt nạ trang phục Halloween cổ điển mang lại sự bảo vệ tốt.",
+    "shortname": "mummymask",
+    "description": "A classic halloween costume mask which provides decent protection.",
+    "craftData": {},
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Vải (Cloth)",
+          "amount": 6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Vải (Cloth)",
+          "amount": 4
+        }
+      ]
+    }
+  },
   "halloween.mummysuit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 277730763,
     "name": "Bộ Đồ Xác Ướp",
     "shortname": "halloween.mummysuit",
@@ -13840,7 +14291,7 @@
     "recycleData": {}
   },
   "hazmatsuit_scientist_nvgm": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 86840834,
     "name": "Bộ đồ khoa học NVGM",
     "shortname": "hazmatsuit_scientist_nvgm",
@@ -13878,7 +14329,7 @@
     }
   },
   "attire.nesthat": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1081315464,
     "name": "Mũ Tổ Yến",
     "shortname": "attire.nesthat",
@@ -13930,7 +14381,7 @@
     }
   },
   "nightvisiongoggles": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1518883088,
     "name": "Kính Nhìn Đêm (Night Vision Goggles)",
     "shortname": "nightvisiongoggles",
@@ -13982,7 +14433,7 @@
     }
   },
   "attire.ninja.suit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1506417026,
     "name": "Bộ đồ Ninja",
     "shortname": "attire.ninja.suit",
@@ -14034,7 +14485,7 @@
     }
   },
   "hat.oxmask": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1315082560,
     "name": "Mặt Nạ Đầu Trâu",
     "shortname": "hat.oxmask",
@@ -14086,7 +14537,7 @@
     }
   },
   "pants": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 237239288,
     "name": "Quần (Pants)",
     "shortname": "pants",
@@ -14138,7 +14589,7 @@
     }
   },
   "parachute": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 602628465,
     "name": "Dù (Đã triển khai)",
     "shortname": "parachute",
@@ -14202,7 +14653,7 @@
     }
   },
   "partyhat": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -575744869,
     "name": "Mũ Sinh Nhật",
     "shortname": "partyhat",
@@ -14211,9 +14662,9 @@
     "recycleData": {}
   },
   "prisonerhood": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -892718768,
-    "name": "Mũ Tù Nhân",
+    "name": "Mũ Tù Nhân (Prisoner Hood)",
     "shortname": "prisonerhood",
     "description": "A hood for prisoners, restricts vision.",
     "craftData": {
@@ -14251,7 +14702,7 @@
     }
   },
   "twitchsunglasses": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 20489901,
     "name": "Kính Râm Màu Tím",
     "shortname": "twitchsunglasses",
@@ -14291,7 +14742,7 @@
     }
   },
   "hat.rabbitmask": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -986782031,
     "name": "Mặt nạ thỏ",
     "shortname": "hat.rabbitmask",
@@ -14343,7 +14794,7 @@
     }
   },
   "hat.ratmask": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 271048478,
     "name": "Mặt Nạ Chuột",
     "shortname": "hat.ratmask",
@@ -14395,7 +14846,7 @@
     }
   },
   "attire.reindeer.headband": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -324675402,
     "name": "Gạc Tuần Lộc",
     "shortname": "attire.reindeer.headband",
@@ -14417,7 +14868,7 @@
     }
   },
   "riot.helmet": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 671063303,
     "name": "Mũ Chống Bạo Động (Riot Helmet)",
     "shortname": "riot.helmet",
@@ -14469,7 +14920,7 @@
     }
   },
   "roadsign.jacket": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2002277461,
     "name": "Áo Giáp Cấp 2 (Road Sign Jacket)",
     "shortname": "roadsign.jacket",
@@ -14533,7 +14984,7 @@
     }
   },
   "roadsign.kilt": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1850456855,
     "name": "Đai Lưng (Road Sign Kilt)",
     "shortname": "roadsign.kilt",
@@ -14597,7 +15048,7 @@
     }
   },
   "roadsign.gloves": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -699558439,
     "name": "Găng Tay Biển Báo (Roadsign Gloves)",
     "shortname": "roadsign.gloves",
@@ -14661,7 +15112,7 @@
     }
   },
   "horse.armor.roadsign": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 60528587,
     "name": "Giáp Ngựa Sắt (Roadsign Horse Armor)",
     "shortname": "horse.armor.roadsign",
@@ -14713,7 +15164,7 @@
     }
   },
   "horse.saddlebag": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1400460850,
     "name": "Túi Yên (Saddle bag)",
     "shortname": "horse.saddlebag",
@@ -14753,7 +15204,7 @@
     }
   },
   "santabeard": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 2126889441,
     "name": "Râu Ông Già Noel",
     "shortname": "santabeard",
@@ -14793,7 +15244,7 @@
     }
   },
   "santahat": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -575483084,
     "name": "Mũ Ông Già Noel",
     "shortname": "santahat",
@@ -14802,7 +15253,7 @@
     "recycleData": {}
   },
   "scarecrow.suit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 273951840,
     "name": "Bộ Đồ Bù Nhìn",
     "shortname": "scarecrow.suit",
@@ -14811,7 +15262,7 @@
     "recycleData": {}
   },
   "scarecrowhead": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 809942731,
     "name": "Mũ Bù Nhìn",
     "shortname": "scarecrowhead",
@@ -14833,7 +15284,7 @@
     }
   },
   "hazmatsuit_scientist_peacekeeper": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -253079493,
     "name": "Bộ Đồ Nhà Khoa Học",
     "shortname": "hazmatsuit_scientist_peacekeeper",
@@ -14871,7 +15322,7 @@
     }
   },
   "shirt.collared": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2025184684,
     "name": "Áo Sơ Mi (Shirt)",
     "shortname": "shirt.collared",
@@ -14911,7 +15362,7 @@
     }
   },
   "pants.shorts": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1695367501,
     "name": "Quần Lửng (Shorts)",
     "shortname": "pants.shorts",
@@ -14951,7 +15402,7 @@
     }
   },
   "horse.saddle.single": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1559915778,
     "name": "Yên ngựa đơn",
     "shortname": "horse.saddle.single",
@@ -14981,7 +15432,7 @@
     }
   },
   "smallbackpack": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 2068884361,
     "name": "Ba lô nhỏ (Small Backpack)",
     "shortname": "smallbackpack",
@@ -15033,7 +15484,7 @@
     }
   },
   "jacket.snow": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -48090175,
     "name": "Áo Khoác Ấm (Snow Jacket)",
     "shortname": "jacket.snow",
@@ -15085,7 +15536,7 @@
     }
   },
   "attire.snowman.helmet": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -842267147,
     "name": "Mũ Người Tuyết",
     "shortname": "attire.snowman.helmet",
@@ -15125,7 +15576,7 @@
     }
   },
   "sunglasses": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 352321488,
     "name": "Kính Râm",
     "shortname": "sunglasses",
@@ -15165,14 +15616,14 @@
     }
   },
   "halloween.surgeonsuit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1785231475,
     "name": "Bộ Áo Phẫu Thuật",
     "shortname": "halloween.surgeonsuit",
     "description": "This surgeon suit is craftable if you own the item on Steam, and, in terms of ballistic protection, makes a great alternative for the Hazmat Suit due to not requiring a researched blueprint, and having a decent, mid-tier overall body protection in one piece, rather than separate pieces of clothing to cover all areas, for a relatively cheap crafting cost.\n\nIt has no real specialisation, other than a decent radiation protection (which still doesn't compete with the hazmat suit) that allows you to go in most places. Therefore, it's really just the fact it's a cool-looking surgeon suit, and offers fair overall protection.\n\nFor combat purposes, the Surgeon Scrubs positions itself in the mid-tier segment, directly next to armaments such as the Bone Armor kit, Hazmat Suit, and commonly put together clothes sets that lack any specialized pieces of armor.",
     "craftData": {
       "yield": 1,
-      "workbench": 1,
+      "workbench": 3,
       "craftTime": {
         "craftTime": {
           "short": 1,
@@ -15217,7 +15668,7 @@
     }
   },
   "tshirt": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 223891266,
     "name": "Áo Phông (T-Shirt)",
     "shortname": "tshirt",
@@ -15257,7 +15708,7 @@
     }
   },
   "tactical.gloves": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1108136649,
     "name": "Găng Tay Chiến Thuật (Tactical Gloves)",
     "shortname": "tactical.gloves",
@@ -15287,7 +15738,7 @@
     }
   },
   "shirt.tanktop": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1608640313,
     "name": "Áo Ba Lỗ (Tank Top)",
     "shortname": "shirt.tanktop",
@@ -15327,7 +15778,7 @@
     }
   },
   "hat.tigermask": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 709206314,
     "name": "Mặt nạ hổ",
     "shortname": "hat.tigermask",
@@ -15378,8 +15829,39 @@
       ]
     }
   },
+  "twitchrivalsflag": {
+    "group": "attire",
+    "identifier": -739993590,
+    "name": "Lá Cờ Twitch Rivals (Twitch Rivals Flag)",
+    "shortname": "twitchrivalsflag",
+    "description": "A wearable flag for Twitch Rivals",
+    "craftData": {},
+    "recycleData": {}
+  },
+  "jumpsuit.waterwellnpc": {
+    "group": "attire",
+    "identifier": -874908751,
+    "name": "Bộ Đồ Giếng Nước NPC Liền Thân (Waterwell NPC Jumpsuit)",
+    "shortname": "jumpsuit.waterwellnpc",
+    "description": "A green jumpsuit and gasmask worn by the waterwell NPC",
+    "craftData": {},
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Vải (Cloth)",
+          "amount": 30
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Vải (Cloth)",
+          "amount": 20
+        }
+      ]
+    }
+  },
   "diving.wetsuit": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1101924344,
     "name": "Áo Lặn (Wetsuit)",
     "shortname": "diving.wetsuit",
@@ -15401,7 +15883,7 @@
     }
   },
   "hat.wolf": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1478212975,
     "name": "Mũ Sói (Wolf Headdress)",
     "shortname": "hat.wolf",
@@ -15453,7 +15935,7 @@
     }
   },
   "wood.armor.helmet": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2094954543,
     "name": "Mũ Giáp Gỗ (Wood Armor Helmet)",
     "shortname": "wood.armor.helmet",
@@ -15505,7 +15987,7 @@
     }
   },
   "wood.armor.pants": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 832133926,
     "name": "Quần Giáp Gỗ (Wood Armor Pants)",
     "shortname": "wood.armor.pants",
@@ -15557,7 +16039,7 @@
     }
   },
   "wood.armor.jacket": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 418081930,
     "name": "Áo Giáp Gỗ (Wood Chestplate)",
     "shortname": "wood.armor.jacket",
@@ -15609,7 +16091,7 @@
     }
   },
   "horse.armor.wood": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1659447559,
     "name": "Giáp Ngựa Gỗ (Wooden Horse Armor)",
     "shortname": "horse.armor.wood",
@@ -16012,7 +16494,7 @@
   "handcuffs": {
     "group": "tools",
     "identifier": -839576748,
-    "name": "Còng tay",
+    "name": "Còng Tay (Handcuffs)",
     "shortname": "handcuffs",
     "description": "Handcuffs",
     "craftData": {
@@ -17370,7 +17852,7 @@
   "fish.anchovy": {
     "group": "food",
     "identifier": 342438846,
-    "name": "Cá cơm",
+    "name": "Cá Cơm (Anchovy)",
     "shortname": "fish.anchovy",
     "description": "A small bony fish commonly found in large schools.",
     "craftData": {},
@@ -17462,7 +17944,7 @@
     "identifier": 1911552868,
     "name": "Hạt Berry Đen (Black Berry Seed)",
     "shortname": "seed.black.berry",
-    "description": "These black berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "description": "These black berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more berries and faster growth.",
     "craftData": {},
     "recycleData": {}
   },
@@ -17478,7 +17960,7 @@
   "blue.berry": {
     "group": "food",
     "identifier": 1112162468,
-    "name": "Berry Xanh Dương (Blue Berry)",
+    "name": "Berry Xanh Biển (Blue Berry)",
     "shortname": "blue.berry",
     "description": "A blue berry. Can be eaten or used in mixing table recipes to create teas.",
     "craftData": {},
@@ -17487,7 +17969,7 @@
   "clone.blue.berry": {
     "group": "food",
     "identifier": 838831151,
-    "name": "Berry Xanh Dương Nhân Bản (Blue Berry Clone)",
+    "name": "Berry Xanh Biển Nhân Bản (Blue Berry Clone)",
     "shortname": "clone.blue.berry",
     "description": "A clipping of a Blue Berry Plant.",
     "craftData": {},
@@ -17496,16 +17978,16 @@
   "seed.blue.berry": {
     "group": "food",
     "identifier": 803954639,
-    "name": "Hạt Berry Xanh Dương (Blue Berry Seed)",
+    "name": "Hạt Berry Xanh Biển (Blue Berry Seed)",
     "shortname": "seed.blue.berry",
-    "description": "These blue berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "description": "These blue berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more berries and faster growth.",
     "craftData": {},
     "recycleData": {}
   },
   "blueberries": {
     "group": "food",
     "identifier": -586342290,
-    "name": "Những Quả Berry Xanh Dương",
+    "name": "Những Quả Berry Xanh Biển",
     "shortname": "blueberries",
     "description": "A rare food item acquired from food crates (not to be confused with ration boxes) found in monuments randomly. They restore one 1/10th of your health and give a balanced amount hydration and calories. Just like the black raspberries, they are best to be used during combat, additionally as supplements to a medical syringe to greatly improve the healing received.",
     "craftData": {},
@@ -17523,7 +18005,7 @@
   "chicken.burned": {
     "group": "food",
     "identifier": 1973684065,
-    "name": "Thịt Gà Bị Cháy",
+    "name": "Thịt Gà Bị Cháy (Burnt Chicken)",
     "shortname": "chicken.burned",
     "description": "Burnt Chicken is obtained by overcooking Raw Chicken Breast. It is still edible without being harmed.",
     "craftData": {},
@@ -17532,7 +18014,7 @@
   "deermeat.burned": {
     "group": "food",
     "identifier": -78533081,
-    "name": "Thịt Hươu Bị Cháy",
+    "name": "Thịt Hươu Bị Cháy (Burnt Deer Meat)",
     "shortname": "deermeat.burned",
     "description": "Burned Deer Meat Eating it will damage your health.",
     "craftData": {},
@@ -17541,7 +18023,7 @@
   "horsemeat.burned": {
     "group": "food",
     "identifier": 1917703890,
-    "name": "Thịt Ngựa Bị Cháy",
+    "name": "Thịt Ngựa Bị Cháy (Burnt Horse Meat)",
     "shortname": "horsemeat.burned",
     "description": "Burned horse. Eating it will damage your health.",
     "craftData": {},
@@ -17550,7 +18032,7 @@
   "humanmeat.burned": {
     "group": "food",
     "identifier": -682687162,
-    "name": "Thịt Người Bị Cháy",
+    "name": "Thịt Người Bị Cháy (Burnt Human Meat)",
     "shortname": "humanmeat.burned",
     "description": "Burnt Human Meat is made by overcooking Human Meat. It is not recommended to eat due to the high cost in hydration for a negligible boost to hunger. Should be thrown away unless the player is extremely desperate for food, and has access to a large/infinite amount of water.",
     "craftData": {},
@@ -17559,7 +18041,7 @@
   "meat.pork.burned": {
     "group": "food",
     "identifier": 1391703481,
-    "name": "Thịt Lợn Bị Cháy",
+    "name": "Thịt Lợn Bị Cháy (Burnt Pork)",
     "shortname": "meat.pork.burned",
     "description": "This little piggy has been in the oven for too long.",
     "craftData": {},
@@ -17568,7 +18050,7 @@
   "wolfmeat.burned": {
     "group": "food",
     "identifier": 1827479659,
-    "name": "Thịt Sói Bị Cháy",
+    "name": "Thịt Sói Bị Cháy (Burnt Wolf Meat)",
     "shortname": "wolfmeat.burned",
     "description": "Burned Wolf Meat is the product of overcooking meat in a camp fire. Consuming it will damage your health, as with all other burnt meats.",
     "craftData": {},
@@ -17613,7 +18095,7 @@
   "fish.catfish": {
     "group": "food",
     "identifier": -587989372,
-    "name": "Cá cơm",
+    "name": "Cá Cơm (Anchovy)",
     "shortname": "fish.catfish",
     "description": "A large, whiskered fresh water based predator. Eats everything, so you never know what you'll find in it's stomach.",
     "craftData": {},
@@ -17793,7 +18275,7 @@
   "fish.herring": {
     "group": "food",
     "identifier": -1698937385,
-    "name": "Cá trích",
+    "name": "Cá Trích (Herring)",
     "shortname": "fish.herring",
     "description": "A small fish commonly found in a variety of water sources.",
     "craftData": {},
@@ -17820,7 +18302,7 @@
   "fish.orangeroughy": {
     "group": "food",
     "identifier": -1904821376,
-    "name": "Cá tráp cam",
+    "name": "Cá Tráp Cam (Orange Roughy)",
     "shortname": "fish.orangeroughy",
     "description": "A rare fish found in the depths of the ocean. Eats everything, so you never know what you'll find in it's stomach.",
     "craftData": {},
@@ -17858,7 +18340,7 @@
     "identifier": -2084071424,
     "name": "Hạt Khoai Tây (Potato Seed)",
     "shortname": "seed.potato",
-    "description": "These potato seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "description": "These potato seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more potatoes and faster growth.",
     "craftData": {},
     "recycleData": {}
   },
@@ -18055,7 +18537,7 @@
     "identifier": 830839496,
     "name": "Hạt Berry Đỏ (Red Berry Seed)",
     "shortname": "seed.red.berry",
-    "description": "These red berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "description": "These red berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more berries and faster growth.",
     "craftData": {},
     "recycleData": {}
   },
@@ -18098,7 +18580,7 @@
   "fish.troutsmall": {
     "group": "food",
     "identifier": -1878764039,
-    "name": "Cá Hồi Nhỏ",
+    "name": "Cá Hồi Nhỏ (Small Trout)",
     "shortname": "fish.troutsmall",
     "description": "A fish, edible after being gutted and cooked. Obtainable by putting large bait in a fish trap.",
     "craftData": {},
@@ -18203,7 +18685,7 @@
     "identifier": -992286106,
     "name": "Hạt Berry Trắng (White Berry Seed)",
     "shortname": "seed.white.berry",
-    "description": "These white berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "description": "These white berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more berries and faster growth.",
     "craftData": {},
     "recycleData": {}
   },
@@ -18239,7 +18721,7 @@
     "identifier": -520133715,
     "name": "Hạt Berry Vàng (Yellow Berry Seed)",
     "shortname": "seed.yellow.berry",
-    "description": "These yellow berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "description": "These yellow berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more berries and faster growth.",
     "craftData": {},
     "recycleData": {}
   },
@@ -18919,7 +19401,7 @@
     "identifier": -1841918730,
     "name": "Tên Lửa Nhanh (HV Rocket)",
     "shortname": "ammo.rocket.hv",
-    "description": "The High Velocity Rocket is essentially a rocket with much less damage than the standard rocket. However, it is also much cheaper, and as the name suggests it has a higher velocity than the standard rocket, so it could be useful for rocketing targets at extreme range. Because of its lower cost and damage, it is useful for situations where a full rocket would be overkill.",
+    "description": "The High-Velocity Rocket trades damage for a much higher speed and far less drop. The High-Velocity rocket is best used against placeables (mainly turrets), vehicles such as cars and helicopters, and enemy players. It is essentially intended for cases where a rocket would be overkill, or you would need the extra speed. The high-velocity rocket has poor damage against buildables and doors, but is a valuable tool for raiding in the other ways described.",
     "craftData": {
       "yield": 1,
       "workbench": 2,
@@ -19035,7 +19517,7 @@
     "identifier": 605467368,
     "name": "Đạn Cháy 5.56 (Incendiary 5.56 Ammo)",
     "shortname": "ammo.rifle.incendiary",
-    "description": "A variant of the standard 5.56 rifle ammunition. The 5.56 Incendiary round will ignite on impact dealing both bullet and fire damage to a player. The round is however subject to increased bullet drop.",
+    "description": "A variant of the standard 5.56 rifle ammunition. The 5.56 Incendiary round will ignite on impact dealing both bullet and fire damage to a player. The round is however subject to increased bullet drop and lower velocity. This bullet is an especially effective counter to helicopters and vehicles for its cost.",
     "craftData": {
       "yield": 2,
       "workbench": 3,
@@ -19880,7 +20362,7 @@
         }
       },
       "recipie": {
-        "totalCraftCost": 103,
+        "totalCraftCost": 131,
         "craftCost": [
           {
             "name": "Gỗ (Wood)",
@@ -19891,8 +20373,8 @@
             "amount": 1
           },
           {
-            "name": "Hộp Cá Ngừ Rỗng (Empty Tuna Can)",
-            "amount": 2
+            "name": "Sắt (Metal Fragments)",
+            "amount": 30
           }
         ]
       }
@@ -19904,8 +20386,8 @@
           "amount": 60
         },
         {
-          "name": "Hộp Cá Ngừ Rỗng (Empty Tuna Can)",
-          "amount": 2
+          "name": "Sắt (Metal Fragments)",
+          "amount": 18
         },
         {
           "name": "Dây Thừng (Rope)",
@@ -19918,8 +20400,8 @@
           "amount": 40
         },
         {
-          "name": "Hộp Cá Ngừ Rỗng (Empty Tuna Can)",
-          "amount": 1
+          "name": "Sắt (Metal Fragments)",
+          "amount": 12
         },
         {
           "name": "Dây Thừng (Rope)",
@@ -19971,7 +20453,7 @@
   "keycard_blue": {
     "group": "misc",
     "identifier": -484206264,
-    "name": "Thẻ Xanh Dương (Blue Keycard)",
+    "name": "Thẻ Xanh Biển (Blue Keycard)",
     "shortname": "keycard_blue",
     "description": "The Blue Keycard is a game object required in order to access quite a lot of monument puzzles.\nIt can be obtained by fishing and gutting high tier fish or by completing green monument puzzles on Harbors, Satellite Dish or Sewer Branch.\n\nList of monuments that require Blue Keycard to finish monument puzzle:\nAirfield, Arctic Research Base, Military Tunnels, Missile Silo, Oil Rig, Power Plant, Trainyard, Water Treatment and Underwater Labs.\n\nLarge Oil Rig does not require Blue Keycard to access Locked Crate but it grants access to 4 military crates.",
     "craftData": {},
@@ -20454,7 +20936,7 @@
     "identifier": -888153050,
     "name": "Kẹo Halloween",
     "shortname": "halloween.candy",
-    "description": "Some loose halloween candy Collect 10 to upgrade to a Small Loot Bat!",
+    "description": "Some loose halloween candy Collect 10 to upgrade to a Small Loot Bag!",
     "craftData": {},
     "recycleData": {}
   },
@@ -20655,7 +21137,7 @@
   "rustige_egg_b": {
     "group": "misc",
     "identifier": -173268132,
-    "name": "Trứng Phát Nhạc - Xanh Dương",
+    "name": "Trứng Phát Nhạc - Xanh Biển",
     "shortname": "rustige_egg_b",
     "description": "A beautiful hand-crafted egg made of sapphire and white gold. It contains a miniature arrangement of the light house monument and plays a song while open.",
     "craftData": {
@@ -22055,46 +22537,6 @@
         {
           "name": "Gỗ (Wood)",
           "amount": 40
-        }
-      ]
-    }
-  },
-  "weapon.mod.gascompressionovedrive": {
-    "group": "components",
-    "identifier": -1767794021,
-    "name": "Phụ Kiện Nén Khí (Gas Compression Overdrive)",
-    "shortname": "weapon.mod.gascompressionovedrive",
-    "description": "An internal weapon mod which compresses and directs gasses used for cycling the weapon to the barrel, effectively increasing projectile velocity and damage at the expense of cycle rate.",
-    "craftData": {
-      "yield": 1,
-      "workbench": 2,
-      "craftTime": {
-        "craftTime": {
-          "short": 15,
-          "long": 30
-        }
-      },
-      "recipie": {
-        "totalCraftCost": 10,
-        "craftCost": [
-          {
-            "name": "Sắt xịn (HQM - High Quality Metal)",
-            "amount": 10
-          }
-        ]
-      }
-    },
-    "recycleData": {
-      "recycleYieldrad": [
-        {
-          "name": "Sắt xịn (HQM - High Quality Metal)",
-          "amount": 6
-        }
-      ],
-      "recycleYieldsafe": [
-        {
-          "name": "Sắt xịn (HQM - High Quality Metal)",
-          "amount": 4
         }
       ]
     }
@@ -27191,7 +27633,7 @@
   "firework.boomer.blue": {
     "group": "fun",
     "identifier": 1744298439,
-    "name": "Pháo Cối Xanh Dương (Blue Boomer)",
+    "name": "Pháo Cối Xanh Biển (Blue Boomer)",
     "shortname": "firework.boomer.blue",
     "description": "A very large mortar type firework with a blue starburst",
     "craftData": {
@@ -27255,7 +27697,7 @@
   "firework.romancandle.blue": {
     "group": "fun",
     "identifier": -515830359,
-    "name": "Pháo Nến Xanh Dương (Blue Roman Candle)",
+    "name": "Pháo Nến Xanh Biển (Blue Roman Candle)",
     "shortname": "firework.romancandle.blue",
     "description": "A small repeating firework, shoots a series of Blue balls into the air",
     "craftData": {
@@ -27456,6 +27898,46 @@
         {
           "name": "Sắt (Metal Fragments)",
           "amount": 10
+        }
+      ]
+    }
+  },
+  "vehicle.car_radio": {
+    "group": "fun",
+    "identifier": 721798950,
+    "name": "Radio Xe",
+    "shortname": "vehicle.car_radio",
+    "description": "A small radio to use in cars. Will only work while the car is turned on.",
+    "craftData": {
+      "yield": 1,
+      "workbench": 1,
+      "craftTime": {
+        "craftTime": {
+          "short": 3,
+          "long": 15
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 120,
+        "craftCost": [
+          {
+            "name": "Sắt (Metal Fragments)",
+            "amount": 120
+          }
+        ]
+      }
+    },
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Sắt (Metal Fragments)",
+          "amount": 72
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Sắt (Metal Fragments)",
+          "amount": 48
         }
       ]
     }
@@ -28127,7 +28609,7 @@
   "drumkit": {
     "group": "fun",
     "identifier": -1330640246,
-    "name": "Bộ Trống Bãi Rác (Junkyard Drum Kit)",
+    "name": "Bộ Trống Bãi Rác\n(Junkyard Drum Kit)",
     "shortname": "drumkit",
     "description": "An array of pots, pans and buckets that passes as a serviceable Drum Kit. Three cymbals, some Tom Drums and a Kick Drum means you can easily lay down a beat.",
     "craftData": {
@@ -28313,7 +28795,7 @@
     "identifier": -20045316,
     "name": "Điện thoại di động (Mobile Phone)",
     "shortname": "mobilephone",
-    "description": "A mobile phone that lets you place calls from anywhere. Truly cutting edge Cobalt technology. Use [attack] to access the dialler.",
+    "description": "A mobile phone that lets you place calls from anywhere. Truly cutting edge Cobalt technology. Use [attack] to access the dialer.",
     "craftData": {
       "yield": 1,
       "workbench": 1,

@@ -1,6 +1,6 @@
 {
   "3222790": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 3222790,
     "name": "Halterneck av skinn",
     "shortname": "attire.hide.helterneck",
@@ -40,7 +40,7 @@
     }
   },
   "3380160": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 3380160,
     "name": "Kort Movember bart",
     "shortname": "movembermoustachecard",
@@ -126,7 +126,7 @@
     }
   },
   "15388698": {
-    "group": "build",
+    "group": "construction",
     "identifier": 15388698,
     "name": "Steinbarrikade",
     "shortname": "barricade.stone",
@@ -166,7 +166,7 @@
     }
   },
   "20489901": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 20489901,
     "name": "Lilla solbriller",
     "shortname": "twitchsunglasses",
@@ -206,7 +206,7 @@
     }
   },
   "21402876": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 21402876,
     "name": "Striehansker",
     "shortname": "burlap.gloves.new",
@@ -298,7 +298,7 @@
     }
   },
   "23391694": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 23391694,
     "name": "Kaninhatt",
     "shortname": "hat.bunnyhat",
@@ -515,7 +515,7 @@
     }
   },
   "60528587": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 60528587,
     "name": "Hesterustning av veiskilt",
     "shortname": "horse.armor.roadsign",
@@ -615,7 +615,7 @@
     }
   },
   "86840834": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 86840834,
     "name": "NVGM Forsker Drakt",
     "shortname": "hazmatsuit_scientist_nvgm",
@@ -757,13 +757,13 @@
     }
   },
   "99588025": {
-    "group": "build",
+    "group": "construction",
     "identifier": 99588025,
     "name": "Høy ekstern trevegg",
     "shortname": "wall.external.high",
     "description": "The High External Wooden Wall is a deployable building object used to wall off an area. The high external is about the height and width of a standard 2x2 wall. The wall also comes with a barbed wire top slowing down and damaging any players that come into contact with it.\n\nHigh externals can be a cheap and effective way to deny entry, however they decay fairly quickly and need to be maintained.\n\nDue to their size High External Walls are often used in combat as deployable cover.",
     "craftData": {
-      "yield": 1,
+      "yield": 3,
       "workbench": 1,
       "craftTime": {
         "craftTime": {
@@ -772,11 +772,11 @@
         }
       },
       "recipie": {
-        "totalCraftCost": 1500,
+        "totalCraftCost": 4000,
         "craftCost": [
           {
             "name": "Tre",
-            "amount": 1
+            "amount": 4
           }
         ]
       }
@@ -785,19 +785,19 @@
       "recycleYieldrad": [
         {
           "name": "Tre",
-          "amount": 900
+          "amount": 800
         }
       ],
       "recycleYieldsafe": [
         {
           "name": "Tre",
-          "amount": 600
+          "amount": 534
         }
       ]
     }
   },
   "106959911": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 106959911,
     "name": "Lette Frankenstein-bein",
     "shortname": "frankensteins.monster.01.legs",
@@ -1150,7 +1150,7 @@
   "174866732": {
     "group": "weapons",
     "identifier": 174866732,
-    "name": "16x snipersikte",
+    "name": "Variable Zoom Scope",
     "shortname": "weapon.mod.8x.scope",
     "description": "The 16x Zoom Scope is a military-grade telescopic sight. Its reticle is a thin cross with bullet-drop guides. Its extreme magnification allows for precise fire over extreme distances, but its narrow field of view makes it impractical for any close quarter engagements or full-auto fire. As it's susceptible to shaking, consider using a Weapon Lasersight or Tactical Gloves in addition to this scope.",
     "craftData": {},
@@ -1308,7 +1308,7 @@
     }
   },
   "196700171": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 196700171,
     "name": "Skinnvest",
     "shortname": "attire.hide.vest",
@@ -1524,7 +1524,7 @@
     }
   },
   "223891266": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 223891266,
     "name": "T-skjorte",
     "shortname": "tshirt",
@@ -1564,7 +1564,7 @@
     }
   },
   "237239288": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 237239288,
     "name": "Bukser",
     "shortname": "pants",
@@ -1865,7 +1865,7 @@
     }
   },
   "271048478": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 271048478,
     "name": "Rottemaske",
     "shortname": "hat.ratmask",
@@ -1957,7 +1957,7 @@
     }
   },
   "273951840": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 273951840,
     "name": "Fugleskremsel drakt",
     "shortname": "scarecrow.suit",
@@ -1966,7 +1966,7 @@
     "recycleData": {}
   },
   "277730763": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 277730763,
     "name": "Mumidrakt",
     "shortname": "halloween.mummysuit",
@@ -2064,7 +2064,7 @@
     }
   },
   "296519935": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 296519935,
     "name": "Dykkefinner",
     "shortname": "diving.fins",
@@ -2233,7 +2233,7 @@
     "recycleData": {}
   },
   "352321488": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 352321488,
     "name": "Solbriller",
     "shortname": "sunglasses",
@@ -2450,7 +2450,7 @@
     "recycleData": {}
   },
   "418081930": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 418081930,
     "name": "Brystplate av tre",
     "shortname": "wood.armor.jacket",
@@ -2864,6 +2864,36 @@
         {
           "name": "Metallfragmenter",
           "amount": 30
+        }
+      ]
+    }
+  },
+  "504109620": {
+    "group": "items",
+    "identifier": 504109620,
+    "name": "Ice Sculpture",
+    "shortname": "sculpture.ice",
+    "description": "An block of ice you can sculpt.",
+    "craftData": {},
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Tre",
+          "amount": 300
+        },
+        {
+          "name": "Metallfragmenter",
+          "amount": 60
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Tre",
+          "amount": 200
+        },
+        {
+          "name": "Metallfragmenter",
+          "amount": 40
         }
       ]
     }
@@ -3414,7 +3444,7 @@
     }
   },
   "602628465": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 602628465,
     "name": "Fallskjerm (utplassert)",
     "shortname": "parachute",
@@ -3478,7 +3508,7 @@
     }
   },
   "602741290": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 602741290,
     "name": "Strieskjorte",
     "shortname": "burlap.shirt",
@@ -3531,7 +3561,7 @@
     "identifier": 605467368,
     "name": "Brannstiftende 5.56 ammunisjon til gevær",
     "shortname": "ammo.rifle.incendiary",
-    "description": "A variant of the standard 5.56 rifle ammunition. The 5.56 Incendiary round will ignite on impact dealing both bullet and fire damage to a player. The round is however subject to increased bullet drop.",
+    "description": "A variant of the standard 5.56 rifle ammunition. The 5.56 Incendiary round will ignite on impact dealing both bullet and fire damage to a player. The round is however subject to increased bullet drop and lower velocity. This bullet is an especially effective counter to helicopters and vehicles for its cost.",
     "craftData": {
       "yield": 2,
       "workbench": 3,
@@ -3591,7 +3621,7 @@
     }
   },
   "607400343": {
-    "group": "build",
+    "group": "construction",
     "identifier": 607400343,
     "name": "Legacy Treskur",
     "shortname": "legacy.shelter.wood",
@@ -4079,7 +4109,7 @@
     }
   },
   "671063303": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 671063303,
     "name": "Opprørshjelm",
     "shortname": "riot.helmet",
@@ -4131,7 +4161,7 @@
     }
   },
   "671706427": {
-    "group": "build",
+    "group": "construction",
     "identifier": 671706427,
     "name": "Forsterket Glassvindu",
     "shortname": "wall.window.bars.toptier",
@@ -4340,7 +4370,7 @@
     }
   },
   "709206314": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 709206314,
     "name": "Tiger Maske",
     "shortname": "hat.tigermask",
@@ -4387,6 +4417,46 @@
         {
           "name": "Ulveskalle",
           "amount": 0.4
+        }
+      ]
+    }
+  },
+  "721798950": {
+    "group": "fun",
+    "identifier": 721798950,
+    "name": "Car Radio",
+    "shortname": "vehicle.car_radio",
+    "description": "A small radio to use in cars. Will only work while the car is turned on.",
+    "craftData": {
+      "yield": 1,
+      "workbench": 1,
+      "craftTime": {
+        "craftTime": {
+          "short": 3,
+          "long": 15
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 120,
+        "craftCost": [
+          {
+            "name": "Metallfragmenter",
+            "amount": 120
+          }
+        ]
+      }
+    },
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Metallfragmenter",
+          "amount": 72
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Metallfragmenter",
+          "amount": 48
         }
       ]
     }
@@ -4626,7 +4696,7 @@
     }
   },
   "794356786": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 794356786,
     "name": "Skinnstøvler",
     "shortname": "attire.hide.boots",
@@ -4868,7 +4938,7 @@
     "identifier": 803954639,
     "name": "Blå Bær Frø",
     "shortname": "seed.blue.berry",
-    "description": "These blue berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "description": "These blue berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more berries and faster growth.",
     "craftData": {},
     "recycleData": {}
   },
@@ -4894,8 +4964,30 @@
       ]
     }
   },
+  "809689733": {
+    "group": "attire",
+    "identifier": 809689733,
+    "name": "En klassisk halloween kostyme maske som gir grei beskyttelse.",
+    "shortname": "mummymask",
+    "description": "A classic halloween costume mask which provides decent protection.",
+    "craftData": {},
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Tøy",
+          "amount": 6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Tøy",
+          "amount": 4
+        }
+      ]
+    }
+  },
   "809942731": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 809942731,
     "name": "Fugleskremsels innpakking",
     "shortname": "scarecrowhead",
@@ -5046,12 +5138,12 @@
     "identifier": 830839496,
     "name": "Rød Bær Frø",
     "shortname": "seed.red.berry",
-    "description": "These red berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "description": "These red berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more berries and faster growth.",
     "craftData": {},
     "recycleData": {}
   },
   "832133926": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 832133926,
     "name": "Rustningsbukse av tre",
     "shortname": "wood.armor.pants",
@@ -5155,7 +5247,7 @@
     }
   },
   "835042040": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 835042040,
     "name": "Medium Frankenstein-bein",
     "shortname": "frankensteins.monster.02.legs",
@@ -5225,7 +5317,7 @@
     "recycleData": {}
   },
   "850280505": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 850280505,
     "name": "Bøttehjelm",
     "shortname": "bucket.helmet",
@@ -5363,7 +5455,7 @@
     }
   },
   "866889860": {
-    "group": "build",
+    "group": "construction",
     "identifier": 866889860,
     "name": "Trebarrikade",
     "shortname": "barricade.wood",
@@ -5728,7 +5820,7 @@
     }
   },
   "935692442": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 935692442,
     "name": "Langermet t-skjorte",
     "shortname": "tshirt.long",
@@ -5768,7 +5860,7 @@
     }
   },
   "936496778": {
-    "group": "build",
+    "group": "construction",
     "identifier": 936496778,
     "name": "En gulv grill",
     "shortname": "floor.grill",
@@ -5893,7 +5985,7 @@
         }
       },
       "recipie": {
-        "totalCraftCost": 103,
+        "totalCraftCost": 131,
         "craftCost": [
           {
             "name": "Tre",
@@ -5904,8 +5996,8 @@
             "amount": 1
           },
           {
-            "name": "Tom tunfiskboks",
-            "amount": 2
+            "name": "Metallfragmenter",
+            "amount": 30
           }
         ]
       }
@@ -5917,8 +6009,8 @@
           "amount": 60
         },
         {
-          "name": "Tom tunfiskboks",
-          "amount": 2
+          "name": "Metallfragmenter",
+          "amount": 18
         },
         {
           "name": "Tau",
@@ -5931,8 +6023,8 @@
           "amount": 40
         },
         {
-          "name": "Tom tunfiskboks",
-          "amount": 1
+          "name": "Metallfragmenter",
+          "amount": 12
         },
         {
           "name": "Tau",
@@ -5982,7 +6074,7 @@
     }
   },
   "968019378": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 968019378,
     "name": "Clatter Hjelm",
     "shortname": "clatter.helmet",
@@ -6102,7 +6194,7 @@
     }
   },
   "980333378": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 980333378,
     "name": "Skinnponcho",
     "shortname": "attire.hide.poncho",
@@ -6235,7 +6327,7 @@
     }
   },
   "1052926200": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1052926200,
     "name": "Gruvedriftsmaskin",
     "shortname": "mining.quarry",
@@ -6430,7 +6522,7 @@
     }
   },
   "1081315464": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1081315464,
     "name": "Reirhatt",
     "shortname": "attire.nesthat",
@@ -6659,7 +6751,7 @@
     }
   },
   "1107575710": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1107575710,
     "name": "Arktisk Forsker Drakt",
     "shortname": "hazmatsuit_scientist_arctic",
@@ -6697,7 +6789,7 @@
     }
   },
   "1110385766": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1110385766,
     "name": "Brystplate i metall",
     "shortname": "metal.plate.torso",
@@ -7075,7 +7167,7 @@
     }
   },
   "1159991980": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1159991980,
     "name": "Kodelås",
     "shortname": "lock.code",
@@ -7315,7 +7407,7 @@
     }
   },
   "1181207482": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1181207482,
     "name": "Tung platehjelm",
     "shortname": "heavy.plate.helmet",
@@ -7451,7 +7543,7 @@
     }
   },
   "1189981699": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1189981699,
     "name": "kasse kostyme",
     "shortname": "cratecostume",
@@ -7592,7 +7684,7 @@
     }
   },
   "1221063409": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1221063409,
     "name": "Dobbel armert dør",
     "shortname": "door.double.hinged.toptier",
@@ -8031,7 +8123,7 @@
     }
   },
   "1266491000": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1266491000,
     "name": "Hazmat dress",
     "shortname": "hazmatsuit",
@@ -8401,7 +8493,7 @@
     }
   },
   "1315082560": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1315082560,
     "name": "Oksemaske",
     "shortname": "hat.oxmask",
@@ -8642,7 +8734,7 @@
     }
   },
   "1327005675": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1327005675,
     "name": "Kort isvegg",
     "shortname": "wall.ice.wall",
@@ -8734,7 +8826,7 @@
     }
   },
   "1353298668": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1353298668,
     "name": "Pansret dør",
     "shortname": "door.hinged.toptier",
@@ -8890,7 +8982,7 @@
     }
   },
   "1366282552": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1366282552,
     "name": "Striehansker",
     "shortname": "burlap.gloves",
@@ -8995,7 +9087,7 @@
     }
   },
   "1373240771": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1373240771,
     "name": "Barrikade av tre",
     "shortname": "barricade.wood.cover",
@@ -9184,7 +9276,7 @@
     "recycleData": {}
   },
   "1382263453": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1382263453,
     "name": "Barrikade av stokker med piggtråd",
     "shortname": "barricade.woodwire",
@@ -9248,7 +9340,7 @@
     }
   },
   "1390353317": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1390353317,
     "name": "Dobbel blikkmetalldør",
     "shortname": "door.double.hinged.metal",
@@ -9306,7 +9398,7 @@
     "recycleData": {}
   },
   "1400460850": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1400460850,
     "name": "Saltaske",
     "shortname": "horse.saddlebag",
@@ -9376,7 +9468,7 @@
     }
   },
   "1409529282": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1409529282,
     "name": "Dørlukker",
     "shortname": "door.closer",
@@ -9653,7 +9745,7 @@
     }
   },
   "1451568081": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1451568081,
     "name": "Nettinggjerdeport",
     "shortname": "wall.frame.fence.gate",
@@ -9844,7 +9936,7 @@
     }
   },
   "1491753484": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1491753484,
     "name": "Medium Frankenstein-overkropp",
     "shortname": "frankensteins.monster.02.torso",
@@ -9883,7 +9975,7 @@
     "recycleData": {}
   },
   "1516985844": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1516985844,
     "name": "Netting",
     "shortname": "wall.frame.netting",
@@ -10137,7 +10229,7 @@
     }
   },
   "1525520776": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1525520776,
     "name": "Bygningsplan",
     "shortname": "building.planner",
@@ -10589,7 +10681,7 @@
     }
   },
   "1559915778": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1559915778,
     "name": "En Hestesal",
     "shortname": "horse.saddle.single",
@@ -10697,6 +10789,28 @@
         {
           "name": "Metallfragmenter",
           "amount": 80
+        }
+      ]
+    }
+  },
+  "1578317134": {
+    "group": "items",
+    "identifier": 1578317134,
+    "name": "Hazmat Plushy",
+    "shortname": "hazmat.plushy",
+    "description": "A plushy of your favourite outfit made by the fabulous people at YouTooz.com",
+    "craftData": {},
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Tøy",
+          "amount": 30
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Tøy",
+          "amount": 20
         }
       ]
     }
@@ -10874,7 +10988,7 @@
     }
   },
   "1601468620": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1601468620,
     "name": "Blå Overall",
     "shortname": "jumpsuit.suit.blue",
@@ -10978,7 +11092,7 @@
     }
   },
   "1608640313": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1608640313,
     "name": "Singlet",
     "shortname": "shirt.tanktop",
@@ -11018,7 +11132,7 @@
     }
   },
   "1614528785": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1614528785,
     "name": "Tung Frankenstein-overkropp",
     "shortname": "frankensteins.monster.03.torso",
@@ -11316,7 +11430,7 @@
     }
   },
   "1655650836": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1655650836,
     "name": "Metallbarrikade",
     "shortname": "barricade.metal",
@@ -11442,7 +11556,7 @@
     }
   },
   "1659114910": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1659114910,
     "name": "Gassmaske",
     "shortname": "hat.gas.mask",
@@ -11464,7 +11578,7 @@
     }
   },
   "1659447559": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1659447559,
     "name": "Hesterustning av tre",
     "shortname": "horse.armor.wood",
@@ -11543,7 +11657,7 @@
     "recycleData": {}
   },
   "1675639563": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1675639563,
     "name": "Lue",
     "shortname": "hat.beenie",
@@ -11791,7 +11905,7 @@
     "recycleData": {}
   },
   "1714496074": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1714496074,
     "name": "Stearinlyshatt",
     "shortname": "hat.candle",
@@ -11852,7 +11966,7 @@
     "recycleData": {}
   },
   "1722154847": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1722154847,
     "name": "Skinnbukser",
     "shortname": "attire.hide.pants",
@@ -11922,7 +12036,7 @@
     }
   },
   "1729120840": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1729120840,
     "name": "Tredør",
     "shortname": "door.hinged.wood",
@@ -12075,7 +12189,7 @@
     }
   },
   "1746956556": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1746956556,
     "name": "Beinbeskyttelsevest",
     "shortname": "bone.armor.suit",
@@ -12127,7 +12241,7 @@
     }
   },
   "1751045826": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1751045826,
     "name": "Hettegenser",
     "shortname": "hoodie",
@@ -12387,6 +12501,15 @@
         }
       ]
     }
+  },
+  "1811780502": {
+    "group": "resources",
+    "identifier": 1811780502,
+    "name": "Radioactive Water",
+    "shortname": "water.radioactive",
+    "description": "Glowing water. Consuming will damage your health and irradiate you.",
+    "craftData": {},
+    "recycleData": {}
   },
   "1814288539": {
     "group": "weapons",
@@ -12672,7 +12795,7 @@
     }
   },
   "1850456855": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1850456855,
     "name": "Veiskilt kilt",
     "shortname": "roadsign.kilt",
@@ -12766,7 +12889,7 @@
     }
   },
   "1865253052": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1865253052,
     "name": "Drakula Maske",
     "shortname": "draculamask",
@@ -12891,7 +13014,7 @@
     }
   },
   "1877339384": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1877339384,
     "name": "Hodeplagg av strie",
     "shortname": "burlap.headwrap",
@@ -13290,7 +13413,7 @@
     "identifier": 1911552868,
     "name": "Svart Bær Frø",
     "shortname": "seed.black.berry",
-    "description": "These black berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "description": "These black berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more berries and faster growth.",
     "craftData": {},
     "recycleData": {}
   },
@@ -13399,7 +13522,7 @@
     }
   },
   "1948067030": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1948067030,
     "name": "Loftstige",
     "shortname": "floor.ladder.hatch",
@@ -13797,7 +13920,7 @@
     }
   },
   "1983621560": {
-    "group": "build",
+    "group": "construction",
     "identifier": 1983621560,
     "name": "Trekantgulv med gitter",
     "shortname": "floor.triangle.grill",
@@ -13837,7 +13960,7 @@
     }
   },
   "1989785143": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1989785143,
     "name": "Hestesko av høy kvalitet",
     "shortname": "horse.shoes.advanced",
@@ -13877,7 +14000,7 @@
     }
   },
   "1992974553": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 1992974553,
     "name": "Striebukser",
     "shortname": "burlap.trousers",
@@ -14141,7 +14264,7 @@
     }
   },
   "2041899972": {
-    "group": "build",
+    "group": "construction",
     "identifier": 2041899972,
     "name": "Trekantluke",
     "shortname": "floor.triangle.ladder.hatch",
@@ -14215,7 +14338,7 @@
     "recycleData": {}
   },
   "2068884361": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 2068884361,
     "name": "Liten Ryggsekk",
     "shortname": "smallbackpack",
@@ -14326,6 +14449,70 @@
         {
           "name": "Tøy",
           "amount": 8
+        }
+      ]
+    }
+  },
+  "2083256995": {
+    "group": "weapons",
+    "identifier": 2083256995,
+    "name": "Handmade SMG",
+    "shortname": "t1_smg",
+    "description": "An extremely basic automatic firearm. Low damage and accuracy.",
+    "craftData": {
+      "yield": 1,
+      "workbench": 1,
+      "craftTime": {
+        "craftTime": {
+          "short": 7,
+          "long": 30
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 206,
+        "craftCost": [
+          {
+            "name": "Høykvalitets metall",
+            "amount": 5
+          },
+          {
+            "name": "Metallfragmenter",
+            "amount": 200
+          },
+          {
+            "name": "Metallfjær",
+            "amount": 1
+          }
+        ]
+      }
+    },
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Høykvalitets metall",
+          "amount": 3
+        },
+        {
+          "name": "Metallfragmenter",
+          "amount": 120
+        },
+        {
+          "name": "Metallfjær",
+          "amount": 0.6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Høykvalitets metall",
+          "amount": 2
+        },
+        {
+          "name": "Metallfragmenter",
+          "amount": 80
+        },
+        {
+          "name": "Metallfjær",
+          "amount": 0.4
         }
       ]
     }
@@ -14621,7 +14808,7 @@
     }
   },
   "2126889441": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": 2126889441,
     "name": "Julenisse Skjegg",
     "shortname": "santabeard",
@@ -14923,6 +15110,46 @@
       ]
     }
   },
+  "-1767794021": {
+    "group": "weapons",
+    "identifier": -1767794021,
+    "name": "Gas Compression Overdrive",
+    "shortname": "weapon.mod.gascompressionovedrive",
+    "description": "An internal weapon mod which compresses and directs gasses used for cycling the weapon to the barrel, effectively increasing projectile velocity and damage at the expense of cycle rate.",
+    "craftData": {
+      "yield": 1,
+      "workbench": 2,
+      "craftTime": {
+        "craftTime": {
+          "short": 15,
+          "long": 30
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 10,
+        "craftCost": [
+          {
+            "name": "Høykvalitets metall",
+            "amount": 10
+          }
+        ]
+      }
+    },
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Høykvalitets metall",
+          "amount": 6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Høykvalitets metall",
+          "amount": 4
+        }
+      ]
+    }
+  },
   "-1214542497": {
     "group": "weapons",
     "identifier": -1214542497,
@@ -14986,6 +15213,82 @@
         },
         {
           "name": "Riflestokk",
+          "amount": 0.4
+        }
+      ]
+    }
+  },
+  "-92315244": {
+    "group": "weapons",
+    "identifier": -92315244,
+    "name": "Høykaliber revolver",
+    "shortname": "revolver.hc",
+    "description": "A High Caliber six-shooter.",
+    "craftData": {
+      "yield": 1,
+      "workbench": 2,
+      "craftTime": {
+        "craftTime": {
+          "short": 15,
+          "long": 30
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 12,
+        "craftCost": [
+          {
+            "name": "Metallrør",
+            "amount": 4
+          },
+          {
+            "name": "Metallfjær",
+            "amount": 1
+          },
+          {
+            "name": "Tannhjul",
+            "amount": 1
+          },
+          {
+            "name": "Høykvalitets metall",
+            "amount": 6
+          }
+        ]
+      }
+    },
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Metallrør",
+          "amount": 3
+        },
+        {
+          "name": "Høykvalitets metall",
+          "amount": 4
+        },
+        {
+          "name": "Metallfjær",
+          "amount": 0.6
+        },
+        {
+          "name": "Tannhjul",
+          "amount": 0.6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Metallrør",
+          "amount": 2
+        },
+        {
+          "name": "Høykvalitets metall",
+          "amount": 3
+        },
+        {
+          "name": "Metallfjær",
+          "amount": 0.4
+        },
+        {
+          "name": "Tannhjul",
           "amount": 0.4
         }
       ]
@@ -15457,6 +15760,82 @@
         {
           "name": "Høykvalitets metall",
           "amount": 4
+        }
+      ]
+    }
+  },
+  "-348232115": {
+    "group": "weapons",
+    "identifier": -348232115,
+    "name": "SKS",
+    "shortname": "rifle.sks",
+    "description": "A Military-Grade Semi Automatic Rifle.",
+    "craftData": {
+      "yield": 1,
+      "workbench": 3,
+      "craftTime": {
+        "craftTime": {
+          "short": 30,
+          "long": 30
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 215,
+        "craftCost": [
+          {
+            "name": "Halvautomatisk Kropp",
+            "amount": 1
+          },
+          {
+            "name": "Metallfjær",
+            "amount": 2
+          },
+          {
+            "name": "Metallfragmenter",
+            "amount": 200
+          },
+          {
+            "name": "Høykvalitets metall",
+            "amount": 12
+          }
+        ]
+      }
+    },
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Metallfjær",
+          "amount": 2
+        },
+        {
+          "name": "Metallfragmenter",
+          "amount": 120
+        },
+        {
+          "name": "Høykvalitets metall",
+          "amount": 8
+        },
+        {
+          "name": "Halvautomatisk Kropp",
+          "amount": 0.6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Metallfjær",
+          "amount": 1
+        },
+        {
+          "name": "Metallfragmenter",
+          "amount": 80
+        },
+        {
+          "name": "Høykvalitets metall",
+          "amount": 5
+        },
+        {
+          "name": "Halvautomatisk Kropp",
+          "amount": 0.4
         }
       ]
     }
@@ -16035,7 +16414,7 @@
     }
   },
   "-1117626326": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1117626326,
     "name": "Nettinggjerde",
     "shortname": "wall.frame.fence",
@@ -16075,7 +16454,7 @@
     }
   },
   "-1950721390": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1950721390,
     "name": "Betongbarrikade",
     "shortname": "barricade.concrete",
@@ -16115,7 +16494,7 @@
     }
   },
   "-148794216": {
-    "group": "build",
+    "group": "construction",
     "identifier": -148794216,
     "name": "Garasjedør",
     "shortname": "wall.frame.garagedoor",
@@ -16167,7 +16546,7 @@
     }
   },
   "-691113464": {
-    "group": "build",
+    "group": "construction",
     "identifier": -691113464,
     "name": "Høy ekstern stein port",
     "shortname": "gates.external.high.stone",
@@ -16182,7 +16561,7 @@
         }
       },
       "recipie": {
-        "totalCraftCost": 3005,
+        "totalCraftCost": 3004,
         "craftCost": [
           {
             "name": "Steiner",
@@ -16190,7 +16569,11 @@
           },
           {
             "name": "Tannhjul",
-            "amount": 5
+            "amount": 3
+          },
+          {
+            "name": "Metallplater",
+            "amount": 1
           }
         ]
       }
@@ -16198,26 +16581,26 @@
     "recycleData": {
       "recycleYieldrad": [
         {
-          "name": "Tannhjul",
-          "amount": 3
+          "name": "Metallplater",
+          "amount": 0.6
         }
       ],
       "recycleYieldsafe": [
         {
-          "name": "Tannhjul",
-          "amount": 2
+          "name": "Metallplater",
+          "amount": 0.4
         }
       ]
     }
   },
   "-967648160": {
-    "group": "build",
+    "group": "construction",
     "identifier": -967648160,
     "name": "Høy ekstern steinvegg",
     "shortname": "wall.external.high.stone",
-    "description": "High External Stone Walls are generally used in the construction of compounds, and, unlike their wooden relatives, are fire-resistant and require explosives to get through unless you use a ladder, though this may prove difficult due to the damage and slow inflicted by the barbed wire on top of these walls. Both these and their wooden equivalents are also commonly used in pvp combat, as they can be carried in stacks of ten for some portable cover.",
+    "description": "High External Stone Walls are generally used in the construction of compounds, and, unlike their wooden relatives, are fire-resistant and require explosives to get through unless you use a ladder, though this may prove difficult due to the damage and slow inflicted by the barbed wire on top of these walls.",
     "craftData": {
-      "yield": 1,
+      "yield": 3,
       "workbench": 2,
       "craftTime": {
         "craftTime": {
@@ -16226,10 +16609,14 @@
         }
       },
       "recipie": {
-        "totalCraftCost": 1500,
+        "totalCraftCost": 4001,
         "craftCost": [
           {
             "name": "Steiner",
+            "amount": 4
+          },
+          {
+            "name": "Metallplater",
             "amount": 1
           }
         ]
@@ -16239,19 +16626,27 @@
       "recycleYieldrad": [
         {
           "name": "Steiner",
-          "amount": 900
+          "amount": 800
+        },
+        {
+          "name": "Metallplater",
+          "amount": 0.2
         }
       ],
       "recycleYieldsafe": [
         {
           "name": "Steiner",
-          "amount": 600
+          "amount": 534
+        },
+        {
+          "name": "Metallplater",
+          "amount": 0.13
         }
       ]
     }
   },
   "-335089230": {
-    "group": "build",
+    "group": "construction",
     "identifier": -335089230,
     "name": "Høy ekstern tre port",
     "shortname": "gates.external.high.wood",
@@ -16295,7 +16690,7 @@
     }
   },
   "-985781766": {
-    "group": "build",
+    "group": "construction",
     "identifier": -985781766,
     "name": "Høy Isvegg",
     "shortname": "wall.external.high.ice",
@@ -16317,7 +16712,7 @@
     }
   },
   "-850982208": {
-    "group": "build",
+    "group": "construction",
     "identifier": -850982208,
     "name": "Nøkkellås",
     "shortname": "lock.key",
@@ -16357,7 +16752,7 @@
     }
   },
   "-1100168350": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1100168350,
     "name": "Stor vannfanger",
     "shortname": "water.catcher.large",
@@ -16421,7 +16816,7 @@
     }
   },
   "-148229307": {
-    "group": "build",
+    "group": "construction",
     "identifier": -148229307,
     "name": "Metallbutikkfasade",
     "shortname": "wall.frame.shopfront.metal",
@@ -16461,7 +16856,7 @@
     }
   },
   "-1199897172": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1199897172,
     "name": "Vertikal metallembrassyr",
     "shortname": "shutter.metal.embrasure.b",
@@ -16501,7 +16896,7 @@
     }
   },
   "-819720157": {
-    "group": "build",
+    "group": "construction",
     "identifier": -819720157,
     "name": "Metal vindu barer",
     "shortname": "wall.window.bars.metal",
@@ -16541,7 +16936,7 @@
     }
   },
   "-1199897169": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1199897169,
     "name": "Horisontal metallembrassyr",
     "shortname": "shutter.metal.embrasure.a",
@@ -16581,7 +16976,7 @@
     }
   },
   "-956706906": {
-    "group": "build",
+    "group": "construction",
     "identifier": -956706906,
     "name": "Fengselscelleport",
     "shortname": "wall.frame.cell.gate",
@@ -16621,7 +17016,7 @@
     }
   },
   "-1429456799": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1429456799,
     "name": "Fengselscellevegg",
     "shortname": "wall.frame.cell",
@@ -16661,7 +17056,7 @@
     }
   },
   "-1130709577": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1130709577,
     "name": "Pumpejekk",
     "shortname": "mining.pumpjack",
@@ -16670,7 +17065,7 @@
     "recycleData": {}
   },
   "-559599960": {
-    "group": "build",
+    "group": "construction",
     "identifier": -559599960,
     "name": "Sandsekkbarrikade",
     "shortname": "barricade.sandbags",
@@ -16722,7 +17117,7 @@
     }
   },
   "-2067472972": {
-    "group": "build",
+    "group": "construction",
     "identifier": -2067472972,
     "name": "Blikkmetalldør",
     "shortname": "door.hinged.metal",
@@ -16762,7 +17157,7 @@
     }
   },
   "-796583652": {
-    "group": "build",
+    "group": "construction",
     "identifier": -796583652,
     "name": "Kioskvindu",
     "shortname": "wall.frame.shopfront",
@@ -16802,7 +17197,7 @@
     }
   },
   "-132247350": {
-    "group": "build",
+    "group": "construction",
     "identifier": -132247350,
     "name": "Liten vannfanger",
     "shortname": "water.catcher.small",
@@ -16866,7 +17261,7 @@
     }
   },
   "-1614955425": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1614955425,
     "name": "Forsterket Glassvindu",
     "shortname": "wall.window.glass.reinforced",
@@ -16906,7 +17301,7 @@
     }
   },
   "-97956382": {
-    "group": "build",
+    "group": "construction",
     "identifier": -97956382,
     "name": "Verktøyskap",
     "shortname": "cupboard.tool",
@@ -16946,7 +17341,7 @@
     }
   },
   "-463122489": {
-    "group": "build",
+    "group": "construction",
     "identifier": -463122489,
     "name": "Vakttårnet",
     "shortname": "watchtower.wood",
@@ -16986,7 +17381,7 @@
     }
   },
   "-1336109173": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1336109173,
     "name": "Dobbel tredør",
     "shortname": "door.double.hinged.wood",
@@ -17026,7 +17421,7 @@
     }
   },
   "-1023374709": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1023374709,
     "name": "Vinduslem i tre",
     "shortname": "shutter.wood.a",
@@ -17066,7 +17461,7 @@
     }
   },
   "-1151332840": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1151332840,
     "name": "Frontier Bardører i Tre",
     "shortname": "door.double.hinged.bardoors",
@@ -17106,7 +17501,7 @@
     }
   },
   "-316250604": {
-    "group": "build",
+    "group": "construction",
     "identifier": -316250604,
     "name": "Trestige",
     "shortname": "ladder.wooden.wall",
@@ -17150,7 +17545,7 @@
     }
   },
   "-1183726687": {
-    "group": "build",
+    "group": "construction",
     "identifier": -1183726687,
     "name": "Vindubarer av Tre",
     "shortname": "wall.window.bars.wood",
@@ -17475,6 +17870,58 @@
         {
           "name": "Tre",
           "amount": 80
+        }
+      ]
+    }
+  },
+  "-1056824343": {
+    "group": "items",
+    "identifier": -1056824343,
+    "name": "Diver propulsion vehicle",
+    "shortname": "skidoo",
+    "description": "A personal underwater propulsion device",
+    "craftData": {
+      "yield": 1,
+      "workbench": 2,
+      "craftTime": {
+        "craftTime": {
+          "short": 15,
+          "long": 30
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 16,
+        "craftCost": [
+          {
+            "name": "En samling av tilfeldige teknologi deler.",
+            "amount": 1
+          },
+          {
+            "name": "Høykvalitets metall",
+            "amount": 15
+          }
+        ]
+      }
+    },
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Høykvalitets metall",
+          "amount": 9
+        },
+        {
+          "name": "En samling av tilfeldige teknologi deler.",
+          "amount": 0.6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Høykvalitets metall",
+          "amount": 6
+        },
+        {
+          "name": "En samling av tilfeldige teknologi deler.",
+          "amount": 0.4
         }
       ]
     }
@@ -20003,7 +20450,7 @@
     "recycleData": {}
   },
   "-1215166612": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1215166612,
     "name": "Et tønnekostyme",
     "shortname": "barrelcostume",
@@ -20012,7 +20459,7 @@
     "recycleData": {}
   },
   "-470439097": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -470439097,
     "name": "Arktikt Drakt",
     "shortname": "hazmatsuit.arcticsuit",
@@ -20021,7 +20468,7 @@
     "recycleData": {}
   },
   "-702051347": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -702051347,
     "name": "En firkantet klut som er bundet rundt ansiktet over nesen og munnen.",
     "shortname": "mask.bandana",
@@ -20061,7 +20508,7 @@
     }
   },
   "-1622110948": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1622110948,
     "name": "Bandit Guard Gear",
     "shortname": "attire.banditguard",
@@ -20099,7 +20546,7 @@
     }
   },
   "-1022661119": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1022661119,
     "name": "Baseballcaps",
     "shortname": "hat.cap",
@@ -20139,7 +20586,7 @@
     }
   },
   "-1211268013": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1211268013,
     "name": "Standard hestesko",
     "shortname": "horse.shoes.basic",
@@ -20179,7 +20626,7 @@
     }
   },
   "-1903165497": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1903165497,
     "name": "Bein Hjelm",
     "shortname": "deer.skull.mask",
@@ -20231,7 +20678,7 @@
     }
   },
   "-23994173": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -23994173,
     "name": "Boonie Hat",
     "shortname": "hat.boonie",
@@ -20271,7 +20718,7 @@
     }
   },
   "-1549739227": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1549739227,
     "name": "Støvler",
     "shortname": "shoes.boots",
@@ -20335,7 +20782,7 @@
     }
   },
   "-1004426654": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1004426654,
     "name": "Bunnyører",
     "shortname": "attire.bunnyears",
@@ -20357,7 +20804,7 @@
     }
   },
   "-1266045928": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1266045928,
     "name": "Kaninpysj",
     "shortname": "attire.bunny.onesie",
@@ -20379,7 +20826,7 @@
     }
   },
   "-761829530": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -761829530,
     "name": "Striesko",
     "shortname": "burlap.shoes",
@@ -20419,7 +20866,7 @@
     }
   },
   "-152332823": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -152332823,
     "name": "Kyllingkostyme",
     "shortname": "chicken.costume",
@@ -20471,7 +20918,7 @@
     }
   },
   "-803263829": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -803263829,
     "name": "Kaffekannehjelm",
     "shortname": "coffeecan.helmet",
@@ -20535,7 +20982,7 @@
     }
   },
   "-113413047": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -113413047,
     "name": "Dykkermaske",
     "shortname": "diving.mask",
@@ -20557,7 +21004,7 @@
     }
   },
   "-2022172587": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2022172587,
     "name": "Dykking Tank",
     "shortname": "diving.tank",
@@ -20587,7 +21034,7 @@
     }
   },
   "-1323101799": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1323101799,
     "name": "Dobbel Hestesal",
     "shortname": "horse.saddle.double",
@@ -20609,17 +21056,39 @@
     }
   },
   "-258574361": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -258574361,
     "name": "Drakula Kappe",
     "shortname": "draculacape",
     "description": "A robustly thick outer garment providing ample protection to the wearer.",
-    "craftData": {},
+    "craftData": {
+      "yield": 1,
+      "workbench": 1,
+      "craftTime": {
+        "craftTime": {
+          "short": 7,
+          "long": 30
+        }
+      },
+      "recipie": {
+        "totalCraftCost": 52,
+        "craftCost": [
+          {
+            "name": "Tøy",
+            "amount": 50
+          },
+          {
+            "name": "Sy-Kit",
+            "amount": 2
+          }
+        ]
+      }
+    },
     "recycleData": {
       "recycleYieldrad": [
         {
           "name": "Tøy",
-          "amount": 60
+          "amount": 30
         },
         {
           "name": "Sy-Kit",
@@ -20629,7 +21098,7 @@
       "recycleYieldsafe": [
         {
           "name": "Tøy",
-          "amount": 40
+          "amount": 20
         },
         {
           "name": "Sy-Kit",
@@ -20639,7 +21108,7 @@
     }
   },
   "-22883916": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -22883916,
     "name": "Drage maske",
     "shortname": "hat.dragonmask",
@@ -20691,7 +21160,7 @@
     }
   },
   "-747743875": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -747743875,
     "name": "Eggdrakt",
     "shortname": "attire.egg.suit",
@@ -20742,8 +21211,30 @@
       ]
     }
   },
+  "-1647389398": {
+    "group": "attire",
+    "identifier": -1647389398,
+    "name": "Frankenstein Mask",
+    "shortname": "frankensteinmask",
+    "description": "Frankenstein halloween costume mask which provides decent protection.",
+    "craftData": {},
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Tøy",
+          "amount": 6
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Tøy",
+          "amount": 4
+        }
+      ]
+    }
+  },
   "-1000573653": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1000573653,
     "name": "Froskestøvler",
     "shortname": "boots.frog",
@@ -20783,7 +21274,7 @@
     }
   },
   "-1043618880": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1043618880,
     "name": "Spøkelseskostyme",
     "shortname": "ghostsheet",
@@ -20813,7 +21304,7 @@
     }
   },
   "-558880549": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -558880549,
     "name": "Pepperkakedrakt",
     "shortname": "gingerbreadsuit",
@@ -20822,7 +21313,7 @@
     "recycleData": {}
   },
   "-690276911": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -690276911,
     "name": "Glødende øyne",
     "shortname": "gloweyes",
@@ -20831,7 +21322,7 @@
     "recycleData": {}
   },
   "-1569700847": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1569700847,
     "name": "Hodesett",
     "shortname": "twitch.headset",
@@ -20871,7 +21362,7 @@
     }
   },
   "-297099594": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -297099594,
     "name": "Tungt Frankenstein-hode",
     "shortname": "frankensteins.monster.03.head",
@@ -20909,7 +21400,7 @@
     }
   },
   "-2024549027": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2024549027,
     "name": "Tunge Frankenstein-bein",
     "shortname": "frankensteins.monster.03.legs",
@@ -20947,7 +21438,7 @@
     }
   },
   "-1102429027": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1102429027,
     "name": "Tung platejakke",
     "shortname": "heavy.plate.jacket",
@@ -20999,7 +21490,7 @@
     }
   },
   "-1778159885": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1778159885,
     "name": "Tung platebukse",
     "shortname": "heavy.plate.pants",
@@ -21051,7 +21542,7 @@
     }
   },
   "-1772746857": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1772746857,
     "name": "En hazmat dress laget av strålebestandig gummi.",
     "shortname": "scientistsuit_heavy",
@@ -21089,7 +21580,7 @@
     }
   },
   "-1773144852": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1773144852,
     "name": "Lær skjørt",
     "shortname": "attire.hide.skirt",
@@ -21129,7 +21620,7 @@
     }
   },
   "-1997543660": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1997543660,
     "name": "Sal",
     "shortname": "horse.saddle",
@@ -21151,7 +21642,7 @@
     }
   },
   "-1989600732": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1989600732,
     "name": "Varmluftsballongrustning",
     "shortname": "hab.armor",
@@ -21191,7 +21682,7 @@
     }
   },
   "-2012470695": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2012470695,
     "name": "Improvisert balaklava",
     "shortname": "mask.balaclava",
@@ -21231,7 +21722,7 @@
     }
   },
   "-1163532624": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1163532624,
     "name": "Jakke",
     "shortname": "jacket",
@@ -21283,7 +21774,7 @@
     }
   },
   "-97459906": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -97459906,
     "name": "hoppdrakt",
     "shortname": "jumpsuit.suit",
@@ -21305,7 +21796,7 @@
     }
   },
   "-907422733": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -907422733,
     "name": "Stor ryggsekk",
     "shortname": "largebackpack",
@@ -21343,7 +21834,7 @@
     }
   },
   "-134959124": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -134959124,
     "name": "Lett Frankenstein-hode",
     "shortname": "frankensteins.monster.01.head",
@@ -21373,7 +21864,7 @@
     }
   },
   "-1624770297": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1624770297,
     "name": "Lett Frankenstein-overkropp",
     "shortname": "frankensteins.monster.01.torso",
@@ -21403,7 +21894,7 @@
     }
   },
   "-763071910": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -763071910,
     "name": "Tømmerhuggerhettegenser",
     "shortname": "lumberjack hoodie",
@@ -21433,7 +21924,7 @@
     }
   },
   "-1732475823": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1732475823,
     "name": "Medium Frankenstein-hode",
     "shortname": "frankensteins.monster.02.head",
@@ -21463,7 +21954,7 @@
     }
   },
   "-194953424": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -194953424,
     "name": "Metallmaske",
     "shortname": "metal.facemask",
@@ -21527,7 +22018,7 @@
     }
   },
   "-1539025626": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1539025626,
     "name": "Gruvearbeiderhatt",
     "shortname": "hat.miner",
@@ -21591,7 +22082,7 @@
     }
   },
   "-2047081330": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2047081330,
     "name": "Movemberbart\n",
     "shortname": "movembermoustache",
@@ -21631,7 +22122,7 @@
     }
   },
   "-1518883088": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1518883088,
     "name": "Nattsynbriller",
     "shortname": "nightvisiongoggles",
@@ -21683,7 +22174,7 @@
     }
   },
   "-1506417026": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1506417026,
     "name": "Ninja-Drakt",
     "shortname": "attire.ninja.suit",
@@ -21735,7 +22226,7 @@
     }
   },
   "-575744869": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -575744869,
     "name": "Festhatt",
     "shortname": "partyhat",
@@ -21744,7 +22235,7 @@
     "recycleData": {}
   },
   "-892718768": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -892718768,
     "name": "Prisoner Hood",
     "shortname": "prisonerhood",
@@ -21784,7 +22275,7 @@
     }
   },
   "-986782031": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -986782031,
     "name": "Kanin maske",
     "shortname": "hat.rabbitmask",
@@ -21836,7 +22327,7 @@
     }
   },
   "-324675402": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -324675402,
     "name": "Reingevir",
     "shortname": "attire.reindeer.headband",
@@ -21858,7 +22349,7 @@
     }
   },
   "-2002277461": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2002277461,
     "name": "Veiskiltjakke",
     "shortname": "roadsign.jacket",
@@ -21922,7 +22413,7 @@
     }
   },
   "-699558439": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -699558439,
     "name": "Veiskilt hansker",
     "shortname": "roadsign.gloves",
@@ -21986,7 +22477,7 @@
     }
   },
   "-575483084": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -575483084,
     "name": "Nisselue",
     "shortname": "santahat",
@@ -21995,7 +22486,7 @@
     "recycleData": {}
   },
   "-253079493": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -253079493,
     "name": "Forskerdress",
     "shortname": "hazmatsuit_scientist_peacekeeper",
@@ -22033,7 +22524,7 @@
     }
   },
   "-2025184684": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2025184684,
     "name": "Skjorte",
     "shortname": "shirt.collared",
@@ -22073,7 +22564,7 @@
     }
   },
   "-1695367501": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1695367501,
     "name": "Kortbukser",
     "shortname": "pants.shorts",
@@ -22113,7 +22604,7 @@
     }
   },
   "-48090175": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -48090175,
     "name": "Vinterjakke",
     "shortname": "jacket.snow",
@@ -22165,7 +22656,7 @@
     }
   },
   "-842267147": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -842267147,
     "name": "Snømannhjelm",
     "shortname": "attire.snowman.helmet",
@@ -22205,14 +22696,14 @@
     }
   },
   "-1785231475": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1785231475,
     "name": "Kirurg Uniform",
     "shortname": "halloween.surgeonsuit",
     "description": "This surgeon suit is craftable if you own the item on Steam, and, in terms of ballistic protection, makes a great alternative for the Hazmat Suit due to not requiring a researched blueprint, and having a decent, mid-tier overall body protection in one piece, rather than separate pieces of clothing to cover all areas, for a relatively cheap crafting cost.\n\nIt has no real specialisation, other than a decent radiation protection (which still doesn't compete with the hazmat suit) that allows you to go in most places. Therefore, it's really just the fact it's a cool-looking surgeon suit, and offers fair overall protection.\n\nFor combat purposes, the Surgeon Scrubs positions itself in the mid-tier segment, directly next to armaments such as the Bone Armor kit, Hazmat Suit, and commonly put together clothes sets that lack any specialized pieces of armor.",
     "craftData": {
       "yield": 1,
-      "workbench": 1,
+      "workbench": 3,
       "craftTime": {
         "craftTime": {
           "short": 1,
@@ -22257,7 +22748,7 @@
     }
   },
   "-1108136649": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1108136649,
     "name": "Taktiske Hansker",
     "shortname": "tactical.gloves",
@@ -22286,8 +22777,39 @@
       ]
     }
   },
+  "-739993590": {
+    "group": "attire",
+    "identifier": -739993590,
+    "name": "Twitch Rivals Flag",
+    "shortname": "twitchrivalsflag",
+    "description": "A wearable flag for Twitch Rivals",
+    "craftData": {},
+    "recycleData": {}
+  },
+  "-874908751": {
+    "group": "attire",
+    "identifier": -874908751,
+    "name": "Waterwell NPC Jumpsuit",
+    "shortname": "jumpsuit.waterwellnpc",
+    "description": "A green jumpsuit and gasmask worn by the waterwell NPC",
+    "craftData": {},
+    "recycleData": {
+      "recycleYieldrad": [
+        {
+          "name": "Tøy",
+          "amount": 30
+        }
+      ],
+      "recycleYieldsafe": [
+        {
+          "name": "Tøy",
+          "amount": 20
+        }
+      ]
+    }
+  },
   "-1101924344": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1101924344,
     "name": "Våtdrakt",
     "shortname": "diving.wetsuit",
@@ -22309,7 +22831,7 @@
     }
   },
   "-1478212975": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -1478212975,
     "name": "Ulvhodeplagg",
     "shortname": "hat.wolf",
@@ -22361,7 +22883,7 @@
     }
   },
   "-2094954543": {
-    "group": "clothing",
+    "group": "attire",
     "identifier": -2094954543,
     "name": "Trehjelm",
     "shortname": "wood.armor.helmet",
@@ -23385,7 +23907,7 @@
     "identifier": -2084071424,
     "name": "Potetfrø",
     "shortname": "seed.potato",
-    "description": "These potato seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "description": "These potato seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more potatoes and faster growth.",
     "craftData": {},
     "recycleData": {}
   },
@@ -23587,7 +24109,7 @@
     "identifier": -992286106,
     "name": "Hvit Bær Frø",
     "shortname": "seed.white.berry",
-    "description": "These white berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "description": "These white berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more berries and faster growth.",
     "craftData": {},
     "recycleData": {}
   },
@@ -23596,7 +24118,7 @@
     "identifier": -520133715,
     "name": "Gule bærfrø",
     "shortname": "seed.yellow.berry",
-    "description": "These yellow berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "description": "These yellow berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more berries and faster growth.",
     "craftData": {},
     "recycleData": {}
   },
@@ -23975,7 +24497,7 @@
     "identifier": -1841918730,
     "name": "Høyhastighetsrakett",
     "shortname": "ammo.rocket.hv",
-    "description": "The High Velocity Rocket is essentially a rocket with much less damage than the standard rocket. However, it is also much cheaper, and as the name suggests it has a higher velocity than the standard rocket, so it could be useful for rocketing targets at extreme range. Because of its lower cost and damage, it is useful for situations where a full rocket would be overkill.",
+    "description": "The High-Velocity Rocket trades damage for a much higher speed and far less drop. The High-Velocity rocket is best used against placeables (mainly turrets), vehicles such as cars and helicopters, and enemy players. It is essentially intended for cases where a rocket would be overkill, or you would need the extra speed. The high-velocity rocket has poor damage against buildables and doors, but is a valuable tool for raiding in the other ways described.",
     "craftData": {
       "yield": 1,
       "workbench": 2,
@@ -24799,7 +25321,7 @@
     "identifier": -888153050,
     "name": "Halloween Godteri",
     "shortname": "halloween.candy",
-    "description": "Some loose halloween candy Collect 10 to upgrade to a Small Loot Bat!",
+    "description": "Some loose halloween candy Collect 10 to upgrade to a Small Loot Bag!",
     "craftData": {},
     "recycleData": {}
   },
@@ -25625,46 +26147,6 @@
         {
           "name": "Tre",
           "amount": 40
-        }
-      ]
-    }
-  },
-  "-1767794021": {
-    "group": "components",
-    "identifier": -1767794021,
-    "name": "Gas Compression Overdrive",
-    "shortname": "weapon.mod.gascompressionovedrive",
-    "description": "An internal weapon mod which compresses and directs gasses used for cycling the weapon to the barrel, effectively increasing projectile velocity and damage at the expense of cycle rate.",
-    "craftData": {
-      "yield": 1,
-      "workbench": 2,
-      "craftTime": {
-        "craftTime": {
-          "short": 15,
-          "long": 30
-        }
-      },
-      "recipie": {
-        "totalCraftCost": 10,
-        "craftCost": [
-          {
-            "name": "Høykvalitets metall",
-            "amount": 10
-          }
-        ]
-      }
-    },
-    "recycleData": {
-      "recycleYieldrad": [
-        {
-          "name": "Høykvalitets metall",
-          "amount": 6
-        }
-      ],
-      "recycleYieldsafe": [
-        {
-          "name": "Høykvalitets metall",
-          "amount": 4
         }
       ]
     }
@@ -28195,7 +28677,7 @@
   "-912398867": {
     "group": "fun",
     "identifier": -912398867,
-    "name": "Cassette - Middels",
+    "name": "Kassett - Middels",
     "shortname": "cassette.medium",
     "description": "A tape that you can record audio on to using a Cassette Recorder. Stores up to 20s of audio.",
     "craftData": {
@@ -28671,7 +29153,7 @@
     "identifier": -20045316,
     "name": "Mobiltelefon",
     "shortname": "mobilephone",
-    "description": "A mobile phone that lets you place calls from anywhere. Truly cutting edge Cobalt technology. Use [attack] to access the dialler.",
+    "description": "A mobile phone that lets you place calls from anywhere. Truly cutting edge Cobalt technology. Use [attack] to access the dialer.",
     "craftData": {
       "yield": 1,
       "workbench": 1,
